@@ -13,13 +13,13 @@
       },
       {
         "id": 3,
-        "name": "Client Libraries & SDKs (Front-End)",
+        "name": "Client Libraries & SDKs",
         "description": "Libraries and frameworks for building dApp UIs, connecting wallets, and managing client-side contract interaction."
       },
       {
         "id": 4,
-        "name": "Data, Analytics & Tracing",
-        "description": "Tools for reading, indexing, monitoring, and visualizing on-chain data and state changes."
+        "name": "Oracles, Data, & Analytics",
+        "description": "Tools for reading, indexing, monitoring, and visualizing onchain data and state changes."
       },
       {
         "id": 5,
@@ -35,6 +35,11 @@
         "id": 7,
         "name": "Education & Community Resources",
         "description": "Learning platforms, security guidelines, and open standards for better developer collaboration."
+      },
+      {
+        "id": 8,
+        "name": "Agent Tooling",
+        "description": "MCP servers, agent skills, and tools that enable agentic workflows to interact with Ethereum."
       }
     ]
   },
