@@ -41,8 +41,8 @@ async function loadJson(path) {
 }
 
 const ROOT = resolve(process.cwd());
-const RESULTS_PATH = resolve(ROOT, "output", "results.json");
-const TAXONOMY_PATH = resolve(ROOT, "output", "taxonomy.json");
+const RESULTS_PATH = resolve(ROOT, "catalog", "resources.json");
+const TAXONOMY_PATH = resolve(ROOT, "catalog", "taxonomy.json");
 
 const taxonomy = await loadJson(TAXONOMY_PATH);
 const results = await loadJson(RESULTS_PATH);
@@ -61,18 +61,75 @@ const categoryDefs = taxonomy?.categories?.definitions;
 if (!Array.isArray(categoryDefs)) {
   fail(`taxonomy.categories.definitions must be an array in ${TAXONOMY_PATH}`);
 }
-const allowedCategories = new Set(
-  (categoryDefs || [])
-    .map((c) => (c && typeof c === "object" ? c.name : null))
-    .filter(isNonEmptyString)
-);
+
+const seenCategoryIds = new Set();
+const seenCategoryNames = new Set();
+const seenSubcategoryIds = new Set();
+const subcategoryToParent = new Map();
+const validCategoryNameOrId = new Set();
+
+for (let i = 0; i < (categoryDefs || []).length; i++) {
+  const cat = categoryDefs[i];
+  const where = `taxonomy.categories.definitions[${i}]`;
+
+  if (!cat || typeof cat !== "object") {
+    fail(`${where} must be an object`);
+    continue;
+  }
+
+  if (!isNonEmptyString(cat.id)) {
+    fail(`${where}.id must be a non-empty string`);
+    continue;
+  }
+  if (seenCategoryIds.has(cat.id)) {
+    fail(`${where}.id is duplicated: "${cat.id}"`);
+  }
+  seenCategoryIds.add(cat.id);
+
+  if (!isNonEmptyString(cat.name)) {
+    fail(`${where}.name must be a non-empty string`);
+    continue;
+  }
+  if (seenCategoryNames.has(cat.name)) {
+    fail(`${where}.name is duplicated: "${cat.name}"`);
+  }
+  seenCategoryNames.add(cat.name);
+
+  validCategoryNameOrId.add(cat.id);
+  validCategoryNameOrId.add(cat.name);
+
+  if (!Array.isArray(cat.subcategories) || cat.subcategories.length < 1) {
+    fail(`${where}.subcategories must be a non-empty array`);
+    continue;
+  }
+
+  for (let j = 0; j < cat.subcategories.length; j++) {
+    const sub = cat.subcategories[j];
+    const subWhere = `${where}.subcategories[${j}]`;
+    if (!sub || typeof sub !== "object") {
+      fail(`${subWhere} must be an object`);
+      continue;
+    }
+    if (!isNonEmptyString(sub.id)) {
+      fail(`${subWhere}.id must be a non-empty string`);
+      continue;
+    }
+    if (!isNonEmptyString(sub.name)) {
+      fail(`${subWhere}.name must be a non-empty string`);
+    }
+    if (seenSubcategoryIds.has(sub.id)) {
+      fail(`${subWhere}.id is duplicated across taxonomy: "${sub.id}"`);
+      continue;
+    }
+    seenSubcategoryIds.add(sub.id);
+    subcategoryToParent.set(sub.id, { id: cat.id, name: cat.name });
+  }
+}
 
 if (!Array.isArray(results)) {
   fail(`results.json must be an array at ${RESULTS_PATH}`);
   process.exit(process.exitCode || 1);
 }
-
-const seenIds = new Set();
 
 for (let i = 0; i < results.length; i++) {
   const entry = results[i];
@@ -81,16 +138,6 @@ for (let i = 0; i < results.length; i++) {
   if (!entry || typeof entry !== "object") {
     fail(`${where} must be an object`);
     continue;
-  }
-
-  // id
-  if (!isNonEmptyString(entry.id)) {
-    fail(`${where}.id must be a non-empty string`);
-  } else {
-    if (seenIds.has(entry.id)) {
-      fail(`${where}.id is duplicated: "${entry.id}"`);
-    }
-    seenIds.add(entry.id);
   }
 
   // name
@@ -109,15 +156,39 @@ for (let i = 0; i < results.length; i++) {
   }
 
   // repos
-  if (!Array.isArray(entry.repos) || entry.repos.length < 1) {
-    fail(`${where}.repos must be a non-empty array`);
-  } else {
-    for (let r = 0; r < entry.repos.length; r++) {
-      const repoUrl = entry.repos[r];
-      if (!isValidHttpUrl(repoUrl)) {
-        fail(`${where}.repos[${r}] must be a valid http(s) URL`);
+  if (entry.repos !== undefined && entry.repos !== null) {
+    if (!Array.isArray(entry.repos)) {
+      fail(`${where}.repos must be an array if present`);
+    } else {
+      for (let r = 0; r < entry.repos.length; r++) {
+        const repoUrl = entry.repos[r];
+        if (!isValidHttpUrl(repoUrl)) {
+          fail(`${where}.repos[${r}] must be a valid http(s) URL`);
+        }
       }
     }
+  }
+
+  // packages
+  if (entry.packages !== undefined && entry.packages !== null) {
+    if (!Array.isArray(entry.packages)) {
+      fail(`${where}.packages must be an array if present`);
+    } else {
+      for (let p = 0; p < entry.packages.length; p++) {
+        const packageUrl = entry.packages[p];
+        if (!isValidHttpUrl(packageUrl)) {
+          fail(`${where}.packages[${p}] must be a valid http(s) URL`);
+        }
+      }
+    }
+  }
+
+  // At least one discoverability/source link is required.
+  const hasWebsite = isNonEmptyString(entry.website);
+  const hasRepos = Array.isArray(entry.repos) && entry.repos.length > 0;
+  const hasPackages = Array.isArray(entry.packages) && entry.packages.length > 0;
+  if (!hasWebsite && !hasRepos && !hasPackages) {
+    fail(`${where} must include at least one of website, repos, or packages`);
   }
 
   // tags
@@ -136,11 +207,33 @@ for (let i = 0; i < results.length; i++) {
     }
   }
 
-  // category
-  if (!isNonEmptyString(entry.category)) {
-    fail(`${where}.category must be a non-empty string`);
-  } else if (!allowedCategories.has(entry.category)) {
-    fail(`${where}.category "${entry.category}" does not match any taxonomy category name`);
+  // subcategory_id
+  if (!isNonEmptyString(entry.subcategory_id)) {
+    fail(`${where}.subcategory_id must be a non-empty string`);
+  } else if (!subcategoryToParent.has(entry.subcategory_id)) {
+    fail(
+      `${where}.subcategory_id "${entry.subcategory_id}" does not match any taxonomy subcategory id`
+    );
+  }
+
+  // optional legacy category consistency check
+  if (entry.category !== undefined && entry.category !== null) {
+    if (!isNonEmptyString(entry.category)) {
+      fail(`${where}.category must be a non-empty string if present`);
+    } else if (!validCategoryNameOrId.has(entry.category)) {
+      fail(`${where}.category "${entry.category}" does not match any taxonomy category id/name`);
+    } else if (isNonEmptyString(entry.subcategory_id)) {
+      const inferredParent = subcategoryToParent.get(entry.subcategory_id);
+      if (
+        inferredParent &&
+        entry.category !== inferredParent.id &&
+        entry.category !== inferredParent.name
+      ) {
+        fail(
+          `${where}.category "${entry.category}" conflicts with inferred parent "${inferredParent.id}" ("${inferredParent.name}") for subcategory_id "${entry.subcategory_id}"`
+        );
+      }
+    }
   }
 }
 

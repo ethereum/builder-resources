@@ -8,8 +8,8 @@ body:
       value: |
         Thanks for the suggestion!
 
-        - If you want to contribute a PR, you can also directly edit `output/results.json`.
-        - To see which tags and categories exist, check `output/taxonomy.json`.
+        - If you want to contribute a PR, you can also directly edit `catalog/resources.json`.
+        - To see which tags and categories exist, check `catalog/taxonomy.json`.
 
   - type: markdown
     attributes:
@@ -33,7 +33,7 @@ body:
   - type: input
     id: website
     attributes:
-      label: Website URL (optional)
+      label: Website URL
       placeholder: https://example.com
 
   - type: input
@@ -65,21 +65,25 @@ body:
   - type: textarea
     id: repos
     attributes:
-      label: GitHub repo or NPM package URL(s)
-      description: Provide at least one repo or NPM package URL. One per line is fine.
+      label: Repository URL(s)
+      description: Provide source code repository URLs (for example, GitHub). One per line is fine.
       placeholder: |
         https://github.com/org/repo
         https://github.com/org/another-repo
+  - type: textarea
+    id: packages
+    attributes:
+      label: Package URL(s)
+      description: Provide package registry URLs (for example, npm). One per line is fine.
+      placeholder: |
         https://www.npmjs.com/package/package-name
         https://www.npmjs.com/package/another-package-name
-    validations:
-      required: true
 
   - type: textarea
     id: tags
     attributes:
       label: Tags
-      description: List tag slugs (kebab-case). Use tags from `output/taxonomy.json`. If you think a new tag is needed, propose it here.
+      description: List tag slugs (kebab-case). Use tags from `catalog/taxonomy.json`. If you think a new tag is needed, propose it here.
       placeholder: |
         foundry
         security
@@ -91,7 +95,7 @@ body:
     id: category
     attributes:
       label: Category
-      description: Must match a category name from `output/taxonomy.json`.
+      description: Must match a category name from `catalog/taxonomy.json`.
     validations:
       required: true
 
@@ -100,7 +104,7 @@ body:
     attributes:
       label: Confirmations
       options:
-        - label: I checked `output/taxonomy.json` for existing tags and categories
+        - label: I checked `catalog/taxonomy.json` for existing tags and categories
           required: true
-        - label: I provided at least one GitHub repo or NPM package URL
+        - label: I included at least one of website, repository URL(s), or package URL(s)
           required: true

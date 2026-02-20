@@ -3,15 +3,15 @@ name: Validate results.json
 on:
   pull_request:
     paths:
-      - "output/results.json"
-      - "output/taxonomy.json"
+      - "catalog/resources.json"
+      - "catalog/taxonomy.json"
       - "scripts/validate-results.mjs"
   push:
     branches:
       - main
     paths:
-      - "output/results.json"
-      - "output/taxonomy.json"
+      - "catalog/resources.json"
+      - "catalog/taxonomy.json"
       - "scripts/validate-results.mjs"
 
 jobs:

@@ -1,26 +1,17 @@
 name: Update a project
 description: Request updates to an existing project entry
-title: "Update project: <name or id>"
+title: "Update project: <name>"
 labels: ["project"]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this form to update an existing entry in `output/results.json`.
-
-        Tip: include the project's `id` if you can find it in `output/results.json`.
-
-  - type: input
-    id: project_id
-    attributes:
-      label: Project id (preferred)
-      description: Copy from `output/results.json` (e.g. `manually-added:some-project`)
-      placeholder: manually-added:some-project
+        Use this form to update an existing entry in `catalog/resources.json`.
 
   - type: input
     id: project_name
     attributes:
-      label: Project name (if id unknown)
+      label: Project name
 
   - type: input
     id: repo_url
@@ -56,6 +47,7 @@ body:
         - label: Name
         - label: Description
         - label: Repos
+        - label: Packages
         - label: Website / social links
         - label: Tags
         - label: Category
@@ -67,7 +59,7 @@ body:
     id: requested_changes
     attributes:
       label: Requested changes
-      description: Include the new values you want, and (if helpful) the current values you're replacing.
+      description: Include the new values you want, and (if helpful) the current values you're replacing. Entries must keep at least one of website, repos, or packages.
       placeholder: |
         - Description: update to "..."\n
         - Tags: add `security`, remove `cli`\n
@@ -80,5 +72,5 @@ body:
     attributes:
       label: Confirmations
       options:
-        - label: I checked `output/taxonomy.json` for valid tags and categories (if changing them)
+        - label: I checked `catalog/taxonomy.json` for valid tags and categories (if changing them)
           required: true

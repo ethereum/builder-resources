@@ -1,6 +1,6 @@
 # Developer Tooling
 
-This repo is a curated collection of **developer tooling options for building on Ethereum**. It stores resource entries in `output/results.json` and a shared tag/category taxonomy in `output/taxonomy.json`.
+This repo is a curated collection of **developer tooling options for building on Ethereum**. It stores resource entries in `catalog/resources.json` and a shared tag/category taxonomy in `catalog/taxonomy.json`.
 
 ## Contributing
 
@@ -9,7 +9,7 @@ Please **open an issue first**:
 - Use **“Update a resource”** to request changes to an existing entry
 
 If you want to submit a PR, you can:
-- **Edit `output/results.json` directly**, and consult `output/taxonomy.json` for valid tags + categories.
+- **Edit `catalog/resources.json` directly**, and consult `catalog/taxonomy.json` for valid tags + categories.
 
 ## Tagging help: use the included skill with your agent of choice
 
@@ -18,7 +18,7 @@ This repo includes an agent skill to help you pick good tags and format the JSON
 - Skill: `.github/skills/add-resource-with-tags/SKILL.md`
 
 While using an agent, ask something like:
-- “Use the `add-resource-with-tags` skill to add a new resource to `output/results.json`.”
+- “Use the `add-resource-with-tags` skill to add a new resource to `catalog/resources.json`.”
 
 ## Validity Checking
 
@@ -36,8 +36,8 @@ npm run validate:results
 ```
 
 - **What the validator enforces**
-  - **JSON is valid**: `output/results.json` must parse and be an array; `output/taxonomy.json` must parse.
+  - **JSON is valid**: `catalog/resources.json` must parse and be an array; `catalog/taxonomy.json` must parse.
   - **Unique IDs**: every `results[i].id` must be a non-empty string and **unique** across the file.
   - **Repos required**: every entry must have `repos` with at least one valid `http(s)` URL.
-  - **Tags must exist**: every `tags[]` value must be present in `output/taxonomy.json` `tags`.
-  - **Categories must match**: if `category` is set, it must match a category name in `output/taxonomy.json`.
+  - **Tags must exist**: every `tags[]` value must be present in `catalog/taxonomy.json` `tags`.
+  - **Categories must match**: if `category` is set, it must match a category name in `catalog/taxonomy.json`.

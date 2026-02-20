@@ -1,0 +1,267 @@
+{
+  "categories": {
+    "definitions": [
+      {
+        "id": "contract-tooling",
+        "name": "Contract Tooling",
+        "description": "Tools for writing, debugging, and deploying smart contract systems.",
+        "subcategories": [
+          {
+            "id": "contract-frameworks",
+            "name": "Contract Frameworks",
+            "description": "Frameworks and compilers for contract development."
+          },
+          {
+            "id": "debugging-inspection",
+            "name": "Debugging & Inspection",
+            "description": "Tracing, debugging, and contract inspection tooling."
+          },
+          {
+            "id": "deployment-devops",
+            "name": "Deployment & DevOps",
+            "description": "Deployment automation and operational workflows."
+          },
+          {
+            "id": "solidity-libraries-utilities",
+            "name": "Solidity Libraries & Utilities",
+            "description": "Reusable Solidity utilities and smart contract helper libraries."
+          },
+          {
+            "id": "zk-circuits-privacy",
+            "name": "ZK Circuits & Privacy",
+            "description": "Zero-knowledge circuit tooling and privacy-oriented contract components."
+          }
+        ]
+      },
+      {
+        "id": "security-testing",
+        "name": "Security & Testing",
+        "description": "Security analysis, testing, and correctness tooling for Ethereum systems.",
+        "subcategories": [
+          {
+            "id": "static-analysis",
+            "name": "Static Analysis",
+            "description": "Automated code and vulnerability analysis."
+          },
+          {
+            "id": "fuzz-property-testing",
+            "name": "Fuzz/Property Testing",
+            "description": "Fuzzing and property-based testing tools."
+          },
+          {
+            "id": "formal-verification",
+            "name": "Formal Verification",
+            "description": "Mathematical and symbolic verification tools."
+          }
+        ]
+      },
+      {
+        "id": "app-integration",
+        "name": "App Integration",
+        "description": "Client-side and integration tooling for app and wallet experiences.",
+        "subcategories": [
+          {
+            "id": "core-sdks-libraries",
+            "name": "Core SDKs/Libraries",
+            "description": "Ethereum client libraries and language SDKs."
+          },
+          {
+            "id": "frontend-integration-tooling",
+            "name": "Frontend/Integration Tooling",
+            "description": "UI kits and integration-focused developer tools."
+          },
+          {
+            "id": "wallet-integration-auth",
+            "name": "Wallet Integration & Auth",
+            "description": "Wallet connectors and authentication tooling."
+          },
+          {
+            "id": "aa-tx-orchestration",
+            "name": "Account Abstraction & Tx Orchestration",
+            "description": "Account abstraction, bundling, and transaction orchestration tooling."
+          },
+          {
+            "id": "payments-defi-integration",
+            "name": "Payments & DeFi Integration",
+            "description": "Payments rails, DeFi protocol integrations, and transaction flow SDKs."
+          },
+          {
+            "id": "governance-dao-tooling",
+            "name": "Governance & DAO Tooling",
+            "description": "Governance frameworks, voting integrations, and DAO developer tooling."
+          }
+        ]
+      },
+      {
+        "id": "network-infrastructure",
+        "name": "Network Infrastructure",
+        "description": "Network, data, oracle, and interoperability infrastructure for Ethereum applications.",
+        "subcategories": [
+          {
+            "id": "rpc-node-infrastructure",
+            "name": "RPC/Node Infrastructure",
+            "description": "RPC services, full nodes, and supporting infrastructure."
+          },
+          {
+            "id": "indexing-data-apis",
+            "name": "Indexing & Data APIs",
+            "description": "Event indexing and data access APIs for apps and analytics."
+          },
+          {
+            "id": "analytics-monitoring",
+            "name": "Analytics & Monitoring",
+            "description": "Onchain analytics, dashboards, and production monitoring tools."
+          },
+          {
+            "id": "oracles-external-data",
+            "name": "Oracles & External Data",
+            "description": "Oracle networks and external data feed infrastructure."
+          },
+          {
+            "id": "cross-chain-infrastructure",
+            "name": "Cross-Chain Infrastructure",
+            "description": "Bridging and cross-chain interoperability infrastructure."
+          },
+          {
+            "id": "storage-ipfs",
+            "name": "Storage & IPFS",
+            "description": "Decentralized storage networks, IPFS tooling, and persistence layers."
+          }
+        ]
+      },
+      {
+        "id": "agent-tooling",
+        "name": "Agent Tooling",
+        "description": "Tooling for building, integrating, and operating autonomous agents in Ethereum workflows.",
+        "subcategories": [
+          {
+            "id": "mcp-servers",
+            "name": "MCP Servers",
+            "description": "Model Context Protocol servers exposing Ethereum data and actions to agents."
+          },
+          {
+            "id": "agent-skills",
+            "name": "Agent Skills",
+            "description": "Reusable agent capabilities, prompts, and task modules for Ethereum workflows."
+          },
+          {
+            "id": "agent-workflows-automation",
+            "name": "Agent Workflows & Automation",
+            "description": "Automation frameworks and orchestration patterns for multi-step agent execution."
+          }
+        ]
+      },
+      {
+        "id": "education-standards",
+        "name": "Education & Standards",
+        "description": "Educational resources and standards references for Ethereum developers.",
+        "subcategories": [
+          {
+            "id": "courses-tutorials",
+            "name": "Courses & Tutorials",
+            "description": "Structured learning resources, workshops, and tutorial tracks."
+          },
+          {
+            "id": "standards-specifications",
+            "name": "Standards & Specifications",
+            "description": "EIPs, ontologies, and standards-focused references and explorers."
+          }
+        ]
+      }
+    ]
+  },
+  "tags": [
+    "abi-encoding",
+    "account-abstraction",
+    "agent-skills",
+    "analytics",
+    "api",
+    "authentication",
+    "block-explorer",
+    "bundler",
+    "censorship-resistant",
+    "chains",
+    "cli",
+    "code-analysis",
+    "code-coverage",
+    "code-quality",
+    "community-driven",
+    "compiler",
+    "continuous-integration",
+    "contract-deployment",
+    "contract-interaction",
+    "contract-management",
+    "contract-verification",
+    "cross-chain",
+    "debugging-tools",
+    "defi",
+    "developer-experience",
+    "devops",
+    "dex-aggregator",
+    "docker",
+    "education",
+    "encryption",
+    "erc721",
+    "event-logging",
+    "farcaster",
+    "formal-verification",
+    "foundry",
+    "frontend",
+    "fuzz-testing",
+    "game-development",
+    "gas-efficient",
+    "gas-optimization",
+    "github-actions",
+    "gossipsub",
+    "governance",
+    "hardhat",
+    "indexing",
+    "interactive-tools",
+    "json-rpc",
+    "layer-2",
+    "libp2p",
+    "mcp-server",
+    "merkle-trees",
+    "modular-accounts",
+    "multi-chain",
+    "multicall",
+    "natural-language-processing",
+    "networking",
+    "nextjs",
+    "oracle",
+    "peer-to-peer",
+    "performance-optimization",
+    "privacy-focused",
+    "proxy-contracts",
+    "react",
+    "react-app",
+    "real-time-data",
+    "runtime-verification",
+    "scalability",
+    "sdk",
+    "security",
+    "solidity",
+    "solidity-development",
+    "standards-and-specifications",
+    "static-analysis",
+    "storage-layout",
+    "support",
+    "symbolic-execution",
+    "tailwind-css",
+    "test-automation",
+    "testing",
+    "transaction-decoding",
+    "transaction-management",
+    "transaction-optimization",
+    "transaction-signing",
+    "truffle",
+    "type-safe",
+    "upgradeable-contracts",
+    "user-experience",
+    "verification",
+    "visualization",
+    "vscode-extension",
+    "vyper",
+    "wallet"
+  ]
+}

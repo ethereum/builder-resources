@@ -3,10 +3,10 @@
 Use this repo guidance when working in this repository.
 
 ## Repository purpose
-This repo is a curated collection of **developer tooling options for building on Ethereum**. Projects live in `output/results.json`, and tags/categories are defined in `output/taxonomy.json`.
+This repo is a curated collection of **developer tooling options for building on Ethereum**. Resources live in `catalog/resources.json`, and the categories, subcategories and tag taxonomy is defined in `catalog/taxonomy.json`.
 
 ## Skills
-There is a skill for adding new resources located in .github/skills/add-resource-with-tags that you should always use when adding projects.
+There is a skill for adding new resources located in `.cursor/skills/add-resource-with-tags/SKILL.md` that you should always use when adding projects.
 
 ## Validity Checking
 Commits are expected to keep the data files valid and consistent with the taxonomy.
