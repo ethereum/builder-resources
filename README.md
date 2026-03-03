@@ -1,4 +1,4 @@
-# Developer Tooling
+# Builder Resources
 
 This repo is a curated collection of **developer tooling options for building on Ethereum**. It stores resource entries in `catalog/resources.json` and a shared tag/category taxonomy in `catalog/taxonomy.json`.
 
