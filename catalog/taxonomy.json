@@ -4,7 +4,7 @@
       {
         "id": "contract-tooling",
         "name": "Contract Tooling",
-        "description": "Tools for writing, debugging, and deploying smart contract systems.",
+        "description": "Tools for writing and deploying smart contract systems.",
         "subcategories": [
           {
             "id": "contract-frameworks",
@@ -12,19 +12,14 @@
             "description": "Frameworks and compilers for contract development."
           },
           {
-            "id": "debugging-inspection",
-            "name": "Debugging & Inspection",
-            "description": "Tracing, debugging, and contract inspection tooling."
-          },
-          {
             "id": "deployment-devops",
             "name": "Deployment & DevOps",
             "description": "Deployment automation and operational workflows."
           },
           {
-            "id": "solidity-libraries-utilities",
-            "name": "Solidity Libraries & Utilities",
-            "description": "Reusable Solidity utilities and smart contract helper libraries."
+            "id": "smart-contract-libraries-utilities",
+            "name": "Smart Contract Libraries & Utilities",
+            "description": "Reusable smart contract utilities and helper libraries."
           },
           {
             "id": "zk-circuits-privacy",
@@ -39,9 +34,9 @@
         "description": "Security analysis, testing, and correctness tooling for Ethereum systems.",
         "subcategories": [
           {
-            "id": "static-analysis",
-            "name": "Static Analysis",
-            "description": "Automated code and vulnerability analysis."
+            "id": "debugging-inspection",
+            "name": "Debugging & Inspection",
+            "description": "Tracing, debugging, and contract inspection tooling."
           },
           {
             "id": "fuzz-property-testing",
@@ -215,6 +210,7 @@
     "gossipsub",
     "governance",
     "hardhat",
+    "identity",
     "indexing",
     "interactive-tools",
     "json-rpc",
@@ -245,7 +241,6 @@
     "standards-and-specifications",
     "static-analysis",
     "storage-layout",
-    "support",
     "symbolic-execution",
     "tailwind-css",
     "test-automation",
