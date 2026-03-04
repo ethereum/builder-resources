@@ -4140,6 +4140,25 @@
     "subcategory_id": "mcp-servers"
   },
   {
+    "name": "Pashov Audit Group Skills",
+    "description": "Claude Code skills for Solidity security and development. solidity-auditor provides fast (typically under 5 min) security feedback on Solidity changes while you develop. Works with Claude Code CLI, VS Code Claude extension, and Cursor.",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/pashov/skills"
+    ],
+    "tags": [
+      "agent-skills",
+      "security",
+      "solidity",
+      "static-analysis"
+    ],
+    "llmstext": "",
+    "subcategory_id": "agent-skills"
+  },
+  {
     "name": "Trail of Bits Skills Marketplace",
     "description": "A Claude Code plugin marketplace from Trail of Bits providing skills to enhance AI-assisted security analysis, testing, and development workflows.",
     "website": null,
