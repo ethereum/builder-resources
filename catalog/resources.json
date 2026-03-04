@@ -3240,6 +3240,25 @@
     ]
   },
   {
+    "name": "Self Protocol",
+    "description": "Privacy-first, open-source identity protocol using zero-knowledge proofs for secure verification. Enables Sybil resistance and selective disclosure via passport attestations. Use cases: airdrop protection, humanity checks, quadratic funding, wallet recovery. QRCode SDK, Mobile SDK, and contract integration.",
+    "website": "https://self.xyz/",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/selfxyz/self"
+    ],
+    "tags": [
+      "identity",
+      "privacy-focused",
+      "sdk",
+      "verification"
+    ],
+    "llmstext": "",
+    "subcategory_id": "zk-circuits-privacy"
+  },
+  {
     "name": "Decent.xyz",
     "description": "Decent enables cross-chain swaps and 1-click transactions with any token across chains. ",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/1ede3a09-1878-4852-a564-f86f4f49b9fc.png",
@@ -4159,7 +4178,7 @@
     "subcategory_id": "agent-skills"
   },
   {
-    "name": "ETHSKILLS",
+    "name": "ETHSkills",
     "description": "Structured Ethereum knowledge for AI agents — end-to-end guides from dApp idea to production. Skills cover wallets, L2s, standards, tools, DeFi, security, testing, indexing, and frontend UX. Fetch via URL, curl, or Claude plugin. No install required.",
     "website": "https://ethskills.com/",
     "thumbnail_url": "https://ethskills.com/favicon.svg",
