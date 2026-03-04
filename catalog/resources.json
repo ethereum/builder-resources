@@ -5,14 +5,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9d83fea6-88b8-4985-b0e9-4a675be218df.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/763ce438-66da-4384-a634-9108e26a63a4.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/mcpdotdirect/evm-mcp-server"
-    ],
-    "tags": [
-      "mcp-server",
-      "cli",
-      "transaction-management"
-    ],
+    "repos": ["https://github.com/mcpdotdirect/evm-mcp-server"],
+    "tags": ["mcp-server", "cli", "transaction-management"],
     "website": "https://mcp.direct",
     "llmstext": "",
     "subcategory_id": "mcp-servers"
@@ -23,13 +17,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/c0c216e0-29b0-4330-9b4f-9addc53c56d3.png",
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/mhw0/libethc"
-    ],
-    "tags": [
-      "transaction-signing",
-      "abi-encoding"
-    ],
+    "repos": ["https://github.com/mhw0/libethc"],
+    "tags": ["transaction-signing", "abi-encoding"],
     "website": "https://mhw0.github.io/libethc/",
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries"
@@ -40,13 +29,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/8eb6f205-cdaf-4ca2-8f9c-228183d42ede.png",
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/polareth/evmstate"
-    ],
-    "tags": [
-      "analytics",
-      "storage-layout"
-    ],
+    "repos": ["https://github.com/polareth/evmstate"],
+    "tags": ["analytics", "storage-layout"],
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries"
   },
@@ -56,15 +40,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9bcf0bba-0978-47ab-b553-c58778a00775.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/8605a173-9360-4914-a1ac-41ac54c076c7.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/ngmisl/etherml"
-    ],
-    "tags": [
-      "cli",
-      "wallet",
-      "security",
-      "encryption"
-    ],
+    "repos": ["https://github.com/ngmisl/etherml"],
+    "tags": ["cli", "wallet", "security", "encryption"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "wallet-integration-auth"
@@ -75,13 +52,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/f049eb6e-e7f5-4730-b0a2-e02a57ae2707.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e0686fc6-7ee1-4543-b0fc-1285320b9462.png",
     "twitter": "https://x.com/tevmtools",
-    "repos": [
-      "https://github.com/evmts/tevm-monorepo"
-    ],
-    "tags": [
-      "frontend",
-      "user-experience"
-    ],
+    "repos": ["https://github.com/evmts/tevm-monorepo"],
+    "tags": ["frontend", "user-experience"],
     "website": "https://node.tevm.sh",
     "llmstext": "https://node.tevm.sh/llms.txt",
     "subcategory_id": "rpc-node-infrastructure"
@@ -92,13 +64,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/17f44321-04a1-49d8-8702-1c154fa6c560.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/a4f2569e-59a0-4265-8976-6e61beacde96.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/KENILSHAHH/superSDK"
-    ],
-    "tags": [
-      "cross-chain",
-      "sdk"
-    ],
+    "repos": ["https://github.com/KENILSHAHH/superSDK"],
+    "tags": ["cross-chain", "sdk"],
     "website": "https://superbeam.gitbook.io/superbeam",
     "llmstext": "https://superbeam.gitbook.io/superbeam/llms.txt",
     "subcategory_id": "cross-chain-infrastructure"
@@ -118,11 +85,7 @@
       "https://github.com/open-rpc/spec",
       "https://github.com/open-rpc/meta-schema"
     ],
-    "tags": [
-      "json-rpc",
-      "cli",
-      "standards-and-specifications"
-    ],
+    "tags": ["json-rpc", "cli", "standards-and-specifications"],
     "website": "https://open-rpc.org",
     "llmstext": "",
     "subcategory_id": "standards-specifications"
@@ -140,10 +103,7 @@
       "https://github.com/0xBloctopus/chainlink-node-package",
       "https://github.com/0xBloctopus/layerzero-package"
     ],
-    "tags": [
-      "cross-chain",
-      "docker"
-    ],
+    "tags": ["cross-chain", "docker"],
     "website": "https://www.bloctopus.io",
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
@@ -158,9 +118,7 @@
       "https://github.com/alloy-rs/op-alloy",
       "https://github.com/alloy-rs/alloy"
     ],
-    "tags": [
-      "json-rpc"
-    ],
+    "tags": ["json-rpc"],
     "website": "https://alloy.rs/",
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
@@ -171,15 +129,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/e6a6dd9b-4ace-4187-8408-0e5729bb0265.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/eee0738d-3735-42c8-8802-93b22a041803.png",
     "twitter": "x.com/rv_inc",
-    "repos": [
-      "https://github.com/runtimeverification/ercx-tests"
-    ],
-    "tags": [
-      "foundry",
-      "security",
-      "erc721",
-      "runtime-verification"
-    ],
+    "repos": ["https://github.com/runtimeverification/ercx-tests"],
+    "tags": ["foundry", "security", "erc721", "runtime-verification"],
     "website": "ercx.runtimeverification.com",
     "llmstext": "",
     "subcategory_id": "formal-verification"
@@ -196,10 +147,7 @@
       "https://github.com/EnsoBuild/sdk-ts",
       "https://github.com/EnsoBuild/shortcuts-widget"
     ],
-    "tags": [
-      "cross-chain",
-      "transaction-optimization"
-    ],
+    "tags": ["cross-chain", "transaction-optimization"],
     "website": "enso.build",
     "llmstext": "",
     "subcategory_id": "frontend-integration-tooling"
@@ -210,12 +158,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/peterferguson/react-native-passkeys"
-    ],
-    "tags": [
-      "authentication"
-    ],
+    "repos": ["https://github.com/peterferguson/react-native-passkeys"],
+    "tags": ["authentication"],
     "llmstext": "",
     "subcategory_id": "wallet-integration-auth"
   },
@@ -225,9 +169,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/1fdf287a-8ec4-4e15-a81d-1e63b902662b.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/5b622e91-2107-4d63-87b7-9aeb42d55d86.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/ethernautdao/ethernaut-cli"
-    ],
+    "repos": ["https://github.com/ethernautdao/ethernaut-cli"],
     "tags": [
       "cli",
       "hardhat",
@@ -244,13 +186,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/eth-brownie/brownie"
-    ],
-    "tags": [
-      "cli",
-      "debugging-tools"
-    ],
+    "repos": ["https://github.com/eth-brownie/brownie"],
+    "tags": ["cli", "debugging-tools"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "contract-frameworks"
@@ -261,12 +198,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/b2bd0510-b0d6-436e-a126-de05026e9418.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/dde6090a-600a-418b-be38-5ea73111c407.png",
     "twitter": "https://x.com/daimopay",
-    "repos": [
-      "https://github.com/daimo-eth/pay"
-    ],
-    "tags": [
-      "cross-chain"
-    ],
+    "repos": ["https://github.com/daimo-eth/pay"],
+    "tags": ["cross-chain"],
     "website": "https://pay.daimo.com/",
     "llmstext": "https://pay.daimo.com/llms.txt",
     "subcategory_id": "cross-chain-infrastructure"
@@ -277,12 +210,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/30fb3451-049c-4904-a109-d3c06004a731.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/09a998c5-5217-4937-b2c8-d994e5cfe1c7.png",
     "twitter": "https://x.com/nftscan_com",
-    "repos": [
-      "https://github.com/nftscan-official/nftscan-api-js-sdk"
-    ],
-    "tags": [
-      "erc721"
-    ],
+    "repos": ["https://github.com/nftscan-official/nftscan-api-js-sdk"],
+    "tags": ["erc721"],
     "website": "https://www.nftscan.com/",
     "llmstext": "",
     "subcategory_id": "analytics-monitoring"
@@ -293,9 +222,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/aab1bec1-5b08-4727-a5c2-f8d0dfbe0ed9.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/0204f6f1-2d6a-443b-bd9e-afb88c23f2e3.png",
     "twitter": "https://x.com/rv_inc",
-    "repos": [
-      "https://github.com/runtimeverification/evm-semantics"
-    ],
+    "repos": ["https://github.com/runtimeverification/evm-semantics"],
     "tags": [
       "security",
       "education",
@@ -315,9 +242,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/66656b6d-5f9d-46f6-b8f0-67eb23ce9db9.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/f22dd5f4-39c2-46d4-b701-85355469df9c.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/foundry-rs/foundry"
-    ],
+    "repos": ["https://github.com/foundry-rs/foundry"],
     "tags": [
       "cli",
       "foundry",
@@ -337,14 +262,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/6c0103eb-14e1-4578-831b-d5e85c017831.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/cec480f1-b828-424a-ae01-9984ebdc2eb5.png",
     "twitter": "https://x.com/KurtosisTech",
-    "repos": [
-      "https://github.com/kurtosis-tech/kurtosis"
-    ],
-    "tags": [
-      "docker",
-      "cli",
-      "testing"
-    ],
+    "repos": ["https://github.com/kurtosis-tech/kurtosis"],
+    "tags": ["docker", "cli", "testing"],
     "website": "https://www.kurtosis.com",
     "llmstext": "",
     "subcategory_id": "deployment-devops"
@@ -355,9 +274,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/c9083120-f920-426d-a33c-37ad6f5b3c3f.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/62d53176-085e-4084-9112-f05f62b536db.png",
     "twitter": "https://x.com/etherspot",
-    "repos": [
-      "https://github.com/etherspot/skandha"
-    ],
+    "repos": ["https://github.com/etherspot/skandha"],
     "tags": [
       "bundler",
       "transaction-management",
@@ -374,13 +291,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/bc82b1d5-dad6-496a-af01-475797e53e34.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/75c707be-ff55-41d7-9ef0-7cfcdef536ea.png",
     "twitter": "https://x.com/erpc",
-    "repos": [
-      "https://github.com/erpc/erpc"
-    ],
-    "tags": [
-      "frontend",
-      "indexing"
-    ],
+    "repos": ["https://github.com/erpc/erpc"],
+    "tags": ["frontend", "indexing"],
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
   },
@@ -390,14 +302,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/09a4acff-98eb-4c73-925e-7403d7678163.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/9b428229-b1e5-4f3a-b7f9-d312566a5fcd.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/miguelmota/go-ethereum-hdwallet"
-    ],
-    "tags": [
-      "wallet",
-      "transaction-signing",
-      "cli"
-    ],
+    "repos": ["https://github.com/miguelmota/go-ethereum-hdwallet"],
+    "tags": ["wallet", "transaction-signing", "cli"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "wallet-integration-auth"
@@ -408,15 +314,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/92c30ad3-b419-4f74-a24c-08bdff63059b.png",
     "banner_url": null,
     "twitter": "",
-    "repos": [
-      "https://github.com/PraneshASP/foundry-mcp-server"
-    ],
-    "tags": [
-      "cli",
-      "foundry",
-      "mcp-server",
-      "solidity-development"
-    ],
+    "repos": ["https://github.com/PraneshASP/foundry-mcp-server"],
+    "tags": ["cli", "foundry", "mcp-server", "solidity-development"],
     "llmstext": "",
     "subcategory_id": "mcp-servers"
   },
@@ -450,13 +349,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/0e3be68b-be6b-4833-b0ed-b53dc89a8d22.png",
     "banner_url": null,
     "twitter": "https://x.com/prettiersol",
-    "repos": [
-      "https://github.com/prettier-solidity/prettier-plugin-solidity"
-    ],
-    "tags": [
-      "solidity",
-      "code-quality"
-    ],
+    "repos": ["https://github.com/prettier-solidity/prettier-plugin-solidity"],
+    "tags": ["solidity", "code-quality"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
@@ -467,15 +361,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/eebeffeb-5b4e-4e8f-a8d9-09718da38b40.png",
     "banner_url": null,
     "twitter": "https://x.com/trailofbits",
-    "repos": [
-      "https://github.com/crytic/properties"
-    ],
-    "tags": [
-      "security",
-      "erc721",
-      "fuzz-testing",
-      "solidity"
-    ],
+    "repos": ["https://github.com/crytic/properties"],
+    "tags": ["security", "erc721", "fuzz-testing", "solidity"],
     "llmstext": "",
     "subcategory_id": "fuzz-property-testing"
   },
@@ -485,13 +372,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/de442005-7eb7-45d9-9d69-c1f1548e855f.png",
     "banner_url": null,
     "twitter": "https://x.com/trailofbits",
-    "repos": [
-      "https://github.com/crytic/solc-select"
-    ],
-    "tags": [
-      "cli",
-      "solidity"
-    ],
+    "repos": ["https://github.com/crytic/solc-select"],
+    "tags": ["cli", "solidity"],
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
   },
@@ -501,15 +383,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/69e9b03e-47d3-4770-8415-3ae65da044a4.png",
     "banner_url": null,
     "twitter": "https://x.com/trailofbits",
-    "repos": [
-      "https://github.com/crytic/medusa"
-    ],
-    "tags": [
-      "security",
-      "governance",
-      "analytics",
-      "fuzz-testing"
-    ],
+    "repos": ["https://github.com/crytic/medusa"],
+    "tags": ["security", "governance", "analytics", "fuzz-testing"],
     "llmstext": "",
     "subcategory_id": "fuzz-property-testing"
   },
@@ -519,9 +394,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/27ad6768-163c-4cc3-bd3e-ba8fd3ef5f50.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/1276f443-c160-4db0-ab75-33e3e01e3a47.png",
     "twitter": "https://x.com/trailofbits",
-    "repos": [
-      "https://github.com/crytic/slither"
-    ],
+    "repos": ["https://github.com/crytic/slither"],
     "tags": [
       "security",
       "static-analysis",
@@ -539,14 +412,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/alt-research/SolidityGuard"
-    ],
-    "tags": [
-      "security",
-      "solidity",
-      "static-analysis"
-    ],
+    "repos": ["https://github.com/alt-research/SolidityGuard"],
+    "tags": ["security", "solidity", "static-analysis"],
     "llmstext": "",
     "subcategory_id": "fuzz-property-testing"
   },
@@ -556,14 +423,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/3ac79cce-16e1-4a59-9557-ee1f85793674.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/616a8719-4bc1-4e7d-b50e-d56e45019f0b.png",
     "twitter": "https://twitter.com/ethdebug",
-    "repos": [
-      "https://github.com/ethdebug/format"
-    ],
-    "tags": [
-      "education",
-      "debugging-tools",
-      "type-safe"
-    ],
+    "repos": ["https://github.com/ethdebug/format"],
+    "tags": ["education", "debugging-tools", "type-safe"],
     "website": "https://ethdebug.github.io/format/",
     "llmstext": "",
     "subcategory_id": "standards-specifications"
@@ -574,13 +435,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/4756e689-18df-4d2f-aea1-abdf6547ee51.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/7ad77d50-64a1-43a4-a494-e49db0974dde.png",
     "twitter": "https://x.com/wakeuplabs",
-    "repos": [
-      "https://github.com/wakeuplabs-io/op-ruaas"
-    ],
-    "tags": [
-      "cli",
-      "scalability"
-    ],
+    "repos": ["https://github.com/wakeuplabs-io/op-ruaas"],
+    "tags": ["cli", "scalability"],
     "website": "https://www.wakeuplabs.io/",
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
@@ -591,15 +447,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/47b18b46-5440-406c-8e07-bfcf27f8aa6e.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/a80d7697-6c6f-4f71-bfc1-7576b933dad4.png",
     "twitter": "https://x.com/stereumdev",
-    "repos": [
-      "https://github.com/stereum-dev/ethereum-node"
-    ],
-    "tags": [
-      "cli",
-      "docker",
-      "api",
-      "privacy-focused"
-    ],
+    "repos": ["https://github.com/stereum-dev/ethereum-node"],
+    "tags": ["cli", "docker", "api", "privacy-focused"],
     "website": "https://stereum.com",
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
@@ -610,13 +459,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/Rubilmax/viem-tracer"
-    ],
-    "tags": [
-      "cli",
-      "debugging-tools"
-    ],
+    "repos": ["https://github.com/Rubilmax/viem-tracer"],
+    "tags": ["cli", "debugging-tools"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "debugging-inspection"
@@ -627,14 +471,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/Rubilmax/executooor"
-    ],
-    "tags": [
-      "defi",
-      "contract-deployment",
-      "transaction-optimization"
-    ],
+    "repos": ["https://github.com/Rubilmax/executooor"],
+    "tags": ["defi", "contract-deployment", "transaction-optimization"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "aa-tx-orchestration"
@@ -645,14 +483,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/43a31c8a-308e-4956-a4f4-ba61a1280c7b.png",
     "banner_url": null,
     "twitter": "https://x.com/EthStorage",
-    "repos": [
-      "https://github.com/zhiqiangxu/opup"
-    ],
-    "tags": [
-      "cli",
-      "docker",
-      "contract-management"
-    ],
+    "repos": ["https://github.com/zhiqiangxu/opup"],
+    "tags": ["cli", "docker", "contract-management"],
     "website": "https://ethstorage.io/",
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
@@ -663,13 +495,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9379802f-3bc8-4e72-a0ad-f4a267ef4d42.png",
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/memester-xyz/surl"
-    ],
-    "tags": [
-      "solidity",
-      "foundry"
-    ],
+    "repos": ["https://github.com/memester-xyz/surl"],
+    "tags": ["solidity", "foundry"],
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
   },
@@ -679,13 +506,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/joshstevens19/evmc"
-    ],
-    "tags": [
-      "cli",
-      "contract-verification"
-    ],
+    "repos": ["https://github.com/joshstevens19/evmc"],
+    "tags": ["cli", "contract-verification"],
     "llmstext": "",
     "subcategory_id": "debugging-inspection"
   },
@@ -695,15 +517,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/joshstevens19/simple-uniswap-sdk"
-    ],
-    "tags": [
-      "defi",
-      "sdk",
-      "multicall",
-      "user-experience"
-    ],
+    "repos": ["https://github.com/joshstevens19/simple-uniswap-sdk"],
+    "tags": ["defi", "sdk", "multicall", "user-experience"],
     "llmstext": "",
     "subcategory_id": "payments-defi-integration"
   },
@@ -713,13 +528,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/b852c74f-a247-40dd-8299-90b8c7499c8c.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/bb135bd2-a2b6-46b1-b327-e3c8033f2f4b.png",
     "twitter": "https://x.com/3loop_io",
-    "repos": [
-      "https://github.com/3loop/loop-decoder"
-    ],
-    "tags": [
-      "transaction-decoding",
-      "user-experience"
-    ],
+    "repos": ["https://github.com/3loop/loop-decoder"],
+    "tags": ["transaction-decoding", "user-experience"],
     "website": "https://loop-decoder-web.vercel.app/",
     "llmstext": "",
     "subcategory_id": "wallet-integration-auth"
@@ -734,11 +544,7 @@
       "https://github.com/dl-solarity/hardhat-zkit",
       "https://github.com/dl-solarity/solidity-lib"
     ],
-    "tags": [
-      "hardhat",
-      "education",
-      "solidity"
-    ],
+    "tags": ["hardhat", "education", "solidity"],
     "website": "https://solarity.dev/",
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
@@ -749,9 +555,7 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/Rubilmax/foundry-gas-diff"
-    ],
+    "repos": ["https://github.com/Rubilmax/foundry-gas-diff"],
     "tags": [
       "foundry",
       "cli",
@@ -770,9 +574,7 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/Rubilmax/foundry-storage-check"
-    ],
+    "repos": ["https://github.com/Rubilmax/foundry-storage-check"],
     "tags": [
       "foundry",
       "cli",
@@ -792,9 +594,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/1e11eb35-ddb5-4385-bf18-2231ce727db9.png",
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/PraneshASP/vscode-solidity-inspector"
-    ],
+    "repos": ["https://github.com/PraneshASP/vscode-solidity-inspector"],
     "tags": [
       "foundry",
       "vscode-extension",
@@ -811,14 +611,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/50bfdcb2-8355-4480-b530-df8cdc97e3da.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e2df36a1-d787-4875-a156-ffba6dcd0b5f.png",
     "twitter": "https://x.com/derivexyz",
-    "repos": [
-      "https://github.com/derivexyz/cockpit"
-    ],
-    "tags": [
-      "defi",
-      "docker",
-      "cli"
-    ],
+    "repos": ["https://github.com/derivexyz/cockpit"],
+    "tags": ["defi", "docker", "cli"],
     "website": "https://www.derive.xyz/",
     "llmstext": "",
     "subcategory_id": "wallet-integration-auth"
@@ -829,13 +623,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/69edd7f3-606d-4191-b7c8-28e41246b2d0.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/b753d4c0-96c7-4b36-b70e-e2785f9006bd.png",
     "twitter": "https://x.com/derivexyz",
-    "repos": [
-      "https://github.com/derivexyz/op-geth"
-    ],
-    "tags": [
-      "defi",
-      "gas-optimization"
-    ],
+    "repos": ["https://github.com/derivexyz/op-geth"],
+    "tags": ["defi", "gas-optimization"],
     "website": "https://www.derive.xyz/",
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
@@ -846,9 +635,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/b62d6708-d690-41e7-b574-4c8d6c728610.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/fd66f5d9-996c-4b69-8c0d-d7b4d9a2dc91.png",
     "twitter": "https://x.com/BrahmaFi",
-    "repos": [
-      "https://github.com/Brahma-fi/console-kit"
-    ],
+    "repos": ["https://github.com/Brahma-fi/console-kit"],
     "tags": [
       "transaction-management",
       "developer-experience",
@@ -864,15 +651,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/6c522dd8-66e1-441b-b54c-156886a50dd1.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/9cca66f9-2eef-4e2b-bc3c-515f52312848.png",
     "twitter": "https://x.com/CyfrinUpdraft",
-    "repos": [
-      "https://github.com/Cyfrin/Updraft"
-    ],
-    "tags": [
-      "education",
-      "defi",
-      "solidity-development",
-      "community-driven"
-    ],
+    "repos": ["https://github.com/Cyfrin/Updraft"],
+    "tags": ["education", "defi", "solidity-development", "community-driven"],
     "website": "https://www.cyfrin.io/updraft",
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
@@ -888,11 +668,7 @@
       "https://github.com/paulmillr/noble-hashes",
       "https://github.com/paulmillr/noble-ciphers"
     ],
-    "tags": [
-      "wallet",
-      "security",
-      "encryption"
-    ],
+    "tags": ["wallet", "security", "encryption"],
     "website": "https://paulmillr.com/noble/",
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries"
@@ -903,14 +679,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": "https://x.com/meldsun0",
-    "repos": [
-      "https://github.com/meldsun0/utp"
-    ],
-    "tags": [
-      "networking",
-      "peer-to-peer",
-      "real-time-data"
-    ],
+    "repos": ["https://github.com/meldsun0/utp"],
+    "tags": ["networking", "peer-to-peer", "real-time-data"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
@@ -924,11 +694,7 @@
     "repos": [
       "https://github.com/openfort-xyz/mobile-wallet-protocol-unity-client"
     ],
-    "tags": [
-      "wallet",
-      "game-development",
-      "user-experience"
-    ],
+    "tags": ["wallet", "game-development", "user-experience"],
     "llmstext": "",
     "subcategory_id": "wallet-integration-auth"
   },
@@ -961,14 +727,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/646cd1db-23b4-4328-8a7c-6c58358a73e1.png",
     "banner_url": null,
     "twitter": "https://x.com/alchemy",
-    "repos": [
-      "https://github.com/alchemyplatform/light-account"
-    ],
-    "tags": [
-      "wallet",
-      "account-abstraction",
-      "solidity"
-    ],
+    "repos": ["https://github.com/alchemyplatform/light-account"],
+    "tags": ["wallet", "account-abstraction", "solidity"],
     "website": "https://www.alchemy.com/",
     "llmstext": "",
     "subcategory_id": "aa-tx-orchestration"
@@ -983,9 +743,7 @@
       "https://github.com/RathFinance/tachyon-account",
       "https://github.com/RathFinance/tachyon-forwarder"
     ],
-    "tags": [
-      "performance-optimization"
-    ],
+    "tags": ["performance-optimization"],
     "website": "https://rath.fi/",
     "llmstext": "",
     "subcategory_id": "aa-tx-orchestration"
@@ -996,15 +754,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9e4b845e-5d97-4c91-a67e-94aab4a07a24.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/d2d38c2e-ba3a-4338-84fb-f78873866813.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/metacraft-labs/codetracer"
-    ],
-    "tags": [
-      "cli",
-      "education",
-      "event-logging",
-      "performance-optimization"
-    ],
+    "repos": ["https://github.com/metacraft-labs/codetracer"],
+    "tags": ["cli", "education", "event-logging", "performance-optimization"],
     "website": "https://www.codetracer.com",
     "llmstext": "",
     "subcategory_id": "debugging-inspection"
@@ -1015,16 +766,10 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9a276191-f180-425f-96b5-c51e12ef35c2.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/c3df0213-1859-4bde-abbb-80a949304062.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/apoorvlathey/evm-rpcs-list"
-    ],
-    "tags": [
-      "chains"
-    ],
+    "repos": ["https://github.com/apoorvlathey/evm-rpcs-list"],
+    "tags": ["chains"],
     "website": null,
-    "packages": [
-      "https://www.npmjs.com/package/evm-rpcs-list"
-    ],
+    "packages": ["https://www.npmjs.com/package/evm-rpcs-list"],
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
   },
@@ -1034,9 +779,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/61e344ec-18c4-4a72-9d97-40c1d8f112b1.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/d2dbff0b-870e-4ef7-8cb2-4661de764405.png",
     "twitter": "https://x.com/EIPTools",
-    "repos": [
-      "https://github.com/EIPTools/eip-tools"
-    ],
+    "repos": ["https://github.com/EIPTools/eip-tools"],
     "tags": [
       "analytics",
       "visualization",
@@ -1053,18 +796,10 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/ed6e47cb-2456-42fb-ad28-8e23cef7f18c.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/ca1ea496-ccaa-4393-86b6-d14fc1e9c8f7.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/swiss-knife-xyz/forge-stack-tracer"
-    ],
-    "tags": [
-      "cli",
-      "foundry",
-      "testing"
-    ],
+    "repos": ["https://github.com/swiss-knife-xyz/forge-stack-tracer"],
+    "tags": ["cli", "foundry", "testing"],
     "website": null,
-    "packages": [
-      "https://www.npmjs.com/package/forge-stack-tracer"
-    ],
+    "packages": ["https://www.npmjs.com/package/forge-stack-tracer"],
     "llmstext": "",
     "subcategory_id": "debugging-inspection"
   },
@@ -1074,9 +809,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/1eba0c98-3ab5-4bce-b365-607e76aa8778.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e07ffbf7-525f-4fd4-b5fd-bec83fd940eb.png",
     "twitter": "https://x.com/swissknifexyz",
-    "repos": [
-      "https://github.com/swiss-knife-xyz/swiss-knife"
-    ],
+    "repos": ["https://github.com/swiss-knife-xyz/swiss-knife"],
     "tags": [
       "frontend",
       "analytics",
@@ -1099,11 +832,7 @@
       "https://github.com/impersonator-eth/impersonator",
       "https://github.com/impersonator-eth/impersonator-extension"
     ],
-    "tags": [
-      "wallet",
-      "user-experience",
-      "react-app"
-    ],
+    "tags": ["wallet", "user-experience", "react-app"],
     "website": "https://impersonator.xyz/",
     "llmstext": "",
     "subcategory_id": "frontend-integration-tooling"
@@ -1114,15 +843,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/0835fe6c-4d7d-4d2b-9f76-00fe91acd72b.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/3acbc145-3b84-44d7-b62b-7a39b5f0ac7e.png",
     "twitter": "https://x.com/DiffuseFi",
-    "repos": [
-      "https://github.com/Diffuse-fi/datafeed-cli"
-    ],
-    "tags": [
-      "defi",
-      "real-time-data",
-      "cli",
-      "verification"
-    ],
+    "repos": ["https://github.com/Diffuse-fi/datafeed-cli"],
+    "tags": ["defi", "real-time-data", "cli", "verification"],
     "website": "diffuse.fi",
     "llmstext": "",
     "subcategory_id": "oracles-external-data"
@@ -1133,14 +855,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/83588cc2-f155-4b2c-8ff1-1347f2113c4d.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/bbb0dc26-29e0-42f6-a114-196bd042d3f8.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/BuidlGuidl/abi.ninja"
-    ],
-    "tags": [
-      "frontend",
-      "contract-interaction",
-      "proxy-contracts"
-    ],
+    "repos": ["https://github.com/BuidlGuidl/abi.ninja"],
+    "tags": ["frontend", "contract-interaction", "proxy-contracts"],
     "website": "https://abi.ninja/",
     "llmstext": "",
     "subcategory_id": "debugging-inspection"
@@ -1155,9 +871,7 @@
       "https://github.com/probe-lab/website",
       "https://github.com/dennis-tra/nebula"
     ],
-    "tags": [
-      "analytics"
-    ],
+    "tags": ["analytics"],
     "llmstext": "",
     "subcategory_id": "analytics-monitoring"
   },
@@ -1178,11 +892,7 @@
       "https://github.com/ipfs/helia-delegated-routing-v1-http-api",
       "https://github.com/ipfs/js-stores"
     ],
-    "tags": [
-      "peer-to-peer",
-      "censorship-resistant",
-      "cli"
-    ],
+    "tags": ["peer-to-peer", "censorship-resistant", "cli"],
     "llmstext": "",
     "subcategory_id": "storage-ipfs"
   },
@@ -1192,14 +902,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/gelatodigital/relay-sdk"
-    ],
-    "tags": [
-      "security",
-      "sdk",
-      "transaction-management"
-    ],
+    "repos": ["https://github.com/gelatodigital/relay-sdk"],
+    "tags": ["security", "sdk", "transaction-management"],
     "website": "https://www.gelato.network/relay",
     "llmstext": "",
     "subcategory_id": "aa-tx-orchestration"
@@ -1210,13 +914,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/3d382dad-0b66-475d-a13c-43fddf27d5cc.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/635c79ee-de4c-431e-8ce8-cb47fedb91ce.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/gelatodigital/automate-sdk"
-    ],
-    "tags": [
-      "sdk",
-      "contract-interaction"
-    ],
+    "repos": ["https://github.com/gelatodigital/automate-sdk"],
+    "tags": ["sdk", "contract-interaction"],
     "website": "https://www.gelato.network/web3-functions",
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries"
@@ -1249,9 +948,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/fcae3c08-8e11-40f9-a738-4a8e3c5f59d7.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/013ad3c8-5ddc-47ed-aff1-8476d46e30b6.png",
     "twitter": "https://x.com/vaariance",
-    "repos": [
-      "https://github.com/vaariance/variance-dart"
-    ],
+    "repos": ["https://github.com/vaariance/variance-dart"],
     "tags": [
       "wallet",
       "education",
@@ -1268,12 +965,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/a98b7fe6-9d08-49e4-b764-5470e14ea3aa.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/997e2275-906b-4535-b414-59f4bd648196.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/merkletreejs/merkletreejs"
-    ],
-    "tags": [
-      "merkle-trees"
-    ],
+    "repos": ["https://github.com/merkletreejs/merkletreejs"],
+    "tags": ["merkle-trees"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries"
@@ -1284,9 +977,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/06419654-6022-400a-9670-82ca6e0225fe.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/5aba83e1-a4f2-453c-9e64-9884d0e628d6.png",
     "twitter": "https://x.com/openzeppelin",
-    "repos": [
-      "https://github.com/OpenZeppelin/ethernaut"
-    ],
+    "repos": ["https://github.com/OpenZeppelin/ethernaut"],
     "tags": [
       "education",
       "security",
@@ -1308,11 +999,7 @@
       "https://github.com/DexKit/open-nft-marketplace",
       "https://github.com/DexKit/dexkit-monorepo"
     ],
-    "tags": [
-      "frontend",
-      "react",
-      "nextjs"
-    ],
+    "tags": ["frontend", "react", "nextjs"],
     "website": "http://dexkit.com",
     "llmstext": "https://dexkit.com/llms.txt",
     "subcategory_id": "frontend-integration-tooling"
@@ -1323,16 +1010,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/578db712-b499-4084-a729-99d90ee55c7f.png",
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/Cyfrin/foundry-devops"
-    ],
-    "tags": [
-      "foundry",
-      "cli",
-      "devops",
-      "solidity",
-      "contract-deployment"
-    ],
+    "repos": ["https://github.com/Cyfrin/foundry-devops"],
+    "tags": ["foundry", "cli", "devops", "solidity", "contract-deployment"],
     "website": "",
     "llmstext": "",
     "subcategory_id": "deployment-devops"
@@ -1343,15 +1022,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/527c8bbb-c361-4521-afbf-4396cecd1e3b.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/dc6b5afb-2335-484a-91f5-6673bf62237a.png",
     "twitter": "https://x.com/PaulRberg",
-    "repos": [
-      "https://github.com/PaulRBerg/prb-math"
-    ],
-    "tags": [
-      "solidity",
-      "gas-efficient",
-      "developer-experience",
-      "foundry"
-    ],
+    "repos": ["https://github.com/PaulRBerg/prb-math"],
+    "tags": ["solidity", "gas-efficient", "developer-experience", "foundry"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
@@ -1383,13 +1055,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/2a0e6716-cdf5-4a27-9912-5e520ccd68e1.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/fca44e15-1ce7-422d-b22f-2f1df4f4923c.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/Nerd3Lab/superUI"
-    ],
-    "tags": [
-      "frontend",
-      "contract-management"
-    ],
+    "repos": ["https://github.com/Nerd3Lab/superUI"],
+    "tags": ["frontend", "contract-management"],
     "website": "Superui.app",
     "llmstext": "",
     "subcategory_id": "deployment-devops"
@@ -1400,15 +1067,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9cf8d92d-5549-4321-b675-c25256860183.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/20eb90df-0dd5-41fb-a3ce-f90cf3822492.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/solodit/solodit_content"
-    ],
-    "tags": [
-      "security",
-      "education",
-      "analytics",
-      "community-driven"
-    ],
+    "repos": ["https://github.com/solodit/solodit_content"],
+    "tags": ["security", "education", "analytics", "community-driven"],
     "website": "https://solodit.cyfrin.io/",
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
@@ -1419,14 +1079,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/392d496a-b4b8-464c-bf6e-fcee8146a75f.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/3fd3093d-6a52-44bb-a73b-cf9d6f8cae03.png",
     "twitter": "https://x.com/Verifereum/",
-    "repos": [
-      "https://github.com/verifereum/verifereum"
-    ],
-    "tags": [
-      "security",
-      "education",
-      "formal-verification"
-    ],
+    "repos": ["https://github.com/verifereum/verifereum"],
+    "tags": ["security", "education", "formal-verification"],
     "website": "https://www.verifereum.org/",
     "llmstext": "",
     "subcategory_id": "formal-verification"
@@ -1437,13 +1091,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/35374f7e-a430-4726-b5f0-ef52e2b5115a.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/ba692e10-9ffd-4406-b6e7-5010ad20b2d2.png",
     "twitter": "https://x.com/TitanLayer",
-    "repos": [
-      "https://github.com/TitanLayer/contracts"
-    ],
-    "tags": [
-      "cross-chain",
-      "security"
-    ],
+    "repos": ["https://github.com/TitanLayer/contracts"],
+    "tags": ["cross-chain", "security"],
     "website": "https://titanlayer.xyz/",
     "llmstext": "",
     "subcategory_id": "cross-chain-infrastructure"
@@ -1462,13 +1111,7 @@
       "https://github.com/scaffold-eth/scaffoldeth.io",
       "https://github.com/scaffold-eth/scaffold-eth-2"
     ],
-    "tags": [
-      "frontend",
-      "nextjs",
-      "hardhat",
-      "foundry",
-      "cli"
-    ],
+    "tags": ["frontend", "nextjs", "hardhat", "foundry", "cli"],
     "llmstext": "https://docs.scaffoldeth.io/llms-full.txt",
     "subcategory_id": "contract-frameworks"
   },
@@ -1478,12 +1121,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/532d50f9-524d-4934-b77a-8c85d0145bcf.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/a1272743-7b81-4aef-a8fd-f2fe70122b01.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/zwergdev/rainbowkit-theme-generator"
-    ],
-    "tags": [
-      "frontend"
-    ],
+    "repos": ["https://github.com/zwergdev/rainbowkit-theme-generator"],
+    "tags": ["frontend"],
     "website": "https://rainbowkit-theme.com/",
     "llmstext": "",
     "subcategory_id": "frontend-integration-tooling"
@@ -1494,15 +1133,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/4043de65-2657-4c0f-91e6-3d5aea14dc33.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/faafa9b3-2151-4cd7-a9f3-e9c1853e8874.png",
     "twitter": "https://x.com/wevm_dev",
-    "repos": [
-      "https://github.com/wevm/wagmi"
-    ],
-    "tags": [
-      "react",
-      "wallet",
-      "transaction-signing",
-      "community-driven"
-    ],
+    "repos": ["https://github.com/wevm/wagmi"],
+    "tags": ["react", "wallet", "transaction-signing", "community-driven"],
     "website": "https://wagmi.sh",
     "llmstext": "https://wagmi.sh/llms.txt",
     "subcategory_id": "frontend-integration-tooling"
@@ -1513,9 +1145,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/8a93267a-39e3-42c9-976f-225753bb43f3.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/cc6944d5-ceb0-416d-9e3c-befb89ef7578.png",
     "twitter": "https://x.com/protofire",
-    "repos": [
-      "https://github.com/protofire/solhint"
-    ],
+    "repos": ["https://github.com/protofire/solhint"],
     "tags": [
       "security",
       "education",
@@ -1532,13 +1162,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/2e9723d3-7b53-473c-b93c-87b2c7a72055.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/801bbd29-77ab-4050-b175-f853aa9704ed.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/vyperlang/titanoboa"
-    ],
-    "tags": [
-      "vyper",
-      "debugging-tools"
-    ],
+    "repos": ["https://github.com/vyperlang/titanoboa"],
+    "tags": ["vyper", "debugging-tools"],
     "website": "https://titanoboa.readthedocs.io/en/latest/",
     "llmstext": "",
     "subcategory_id": "fuzz-property-testing"
@@ -1549,9 +1174,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/55a1fffb-dcd9-448b-8e34-9fb4b09a72f7.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/a0e75c22-8aff-4176-af81-6c03208c1bd3.png",
     "twitter": "https://x.com/otterscan",
-    "repos": [
-      "https://github.com/otterscan/otterscan"
-    ],
+    "repos": ["https://github.com/otterscan/otterscan"],
     "tags": [
       "docker",
       "block-explorer",
@@ -1571,16 +1194,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/89c06746-f49f-4a30-9843-80b431053f13.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/5ec5b8ee-5389-4201-8191-4a84e37f1291.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/Cyfrin/moccasin"
-    ],
-    "tags": [
-      "education",
-      "vyper",
-      "devops",
-      "cli",
-      "encryption"
-    ],
+    "repos": ["https://github.com/Cyfrin/moccasin"],
+    "tags": ["education", "vyper", "devops", "cli", "encryption"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "contract-frameworks"
@@ -1591,13 +1206,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/ca4f6cbd-5b97-4c22-9e27-446b9e4cd2ff.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/120ab790-4407-4342-b7af-e562cf3a9c8c.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/pcaversaccio/create2deployer"
-    ],
-    "tags": [
-      "solidity",
-      "contract-deployment"
-    ],
+    "repos": ["https://github.com/pcaversaccio/create2deployer"],
+    "tags": ["solidity", "contract-deployment"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "deployment-devops"
@@ -1608,9 +1218,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/ce1dd7d2-ed08-45f9-adf0-1934ae5dc396.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/4942518f-9987-4d03-9504-a7494fce0021.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/pcaversaccio/xdeployer"
-    ],
+    "repos": ["https://github.com/pcaversaccio/xdeployer"],
     "tags": [
       "hardhat",
       "cross-chain",
@@ -1657,13 +1265,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/006b0fd3-9e23-4192-98d6-08e561da809e.png",
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/juanfranblanco/vscode-solidity"
-    ],
-    "tags": [
-      "education",
-      "solidity"
-    ],
+    "repos": ["https://github.com/juanfranblanco/vscode-solidity"],
+    "tags": ["education", "solidity"],
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
   },
@@ -1673,14 +1276,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/f8d776ab-ca70-42ee-9e41-d4f709cd6fd4.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/459bdd5e-60a5-49ca-88b8-d4537ebfec16.png",
     "twitter": "@ricmoo",
-    "repos": [
-      "https://github.com/ethers-io/ethers.js"
-    ],
-    "tags": [
-      "frontend",
-      "json-rpc",
-      "contract-interaction"
-    ],
+    "repos": ["https://github.com/ethers-io/ethers.js"],
+    "tags": ["frontend", "json-rpc", "contract-interaction"],
     "website": "https://ethers.org",
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries"
@@ -1691,9 +1288,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/bd692393-7f1a-4b91-9887-73f7c3250233.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/dcbdf6ac-f898-4dac-b9d0-087b8d289f4b.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/sc-forks/solidity-coverage"
-    ],
+    "repos": ["https://github.com/sc-forks/solidity-coverage"],
     "tags": [
       "hardhat",
       "analytics",
@@ -1711,15 +1306,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/8b8c4fda-3240-41c6-ab52-43a137e665a8.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/0b8f272e-b319-4744-959e-dbc36996ba31.png",
     "twitter": "https://x.com/adraffy",
-    "repos": [
-      "https://github.com/adraffy/blocksmith.js"
-    ],
-    "tags": [
-      "cli",
-      "foundry",
-      "cross-chain",
-      "contract-deployment"
-    ],
+    "repos": ["https://github.com/adraffy/blocksmith.js"],
+    "tags": ["cli", "foundry", "cross-chain", "contract-deployment"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "fuzz-property-testing"
@@ -1759,13 +1347,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/3113c4b6-4e29-420c-95f8-2ae4f6098089.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/c08d15e7-41fd-41a7-9c04-b1e10b0c1f26.png",
     "twitter": "https://x.com/blockscoutcom",
-    "repos": [
-      "https://github.com/blockscout/blockscout"
-    ],
-    "tags": [
-      "block-explorer",
-      "chains"
-    ],
+    "repos": ["https://github.com/blockscout/blockscout"],
+    "tags": ["block-explorer", "chains"],
     "website": "http://www.blockscout.com",
     "llmstext": "",
     "subcategory_id": "analytics-monitoring"
@@ -1819,9 +1402,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/abe6dc50-0732-419b-a64c-463814247f78.png",
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/shazow/callthis"
-    ],
+    "repos": ["https://github.com/shazow/callthis"],
     "tags": [
       "frontend",
       "wallet",
@@ -1838,9 +1419,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/104d6957-65bc-4d15-a5f9-2afd75482347.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/c120c166-68a8-4e9b-a159-b1f9e74ff105.png",
     "twitter": "https://twitter.com/candidelabs",
-    "repos": [
-      "https://github.com/candidelabs/candide-contracts"
-    ],
+    "repos": ["https://github.com/candidelabs/candide-contracts"],
     "tags": [
       "wallet",
       "governance",
@@ -1858,14 +1437,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/69b08a09-8fd5-498a-beef-67ad29cf01b5.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/75a0886a-d3a0-4595-a539-64a8a83eae3a.png",
     "twitter": "https://twitter.com/candidelabs",
-    "repos": [
-      "https://github.com/candidelabs/abstractionkit"
-    ],
-    "tags": [
-      "wallet",
-      "education",
-      "account-abstraction"
-    ],
+    "repos": ["https://github.com/candidelabs/abstractionkit"],
+    "tags": ["wallet", "education", "account-abstraction"],
     "llmstext": "",
     "subcategory_id": "aa-tx-orchestration"
   },
@@ -1875,13 +1448,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/8b14d1e8-d2ef-4670-83da-76368cbd50af.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/7ce75cc0-17f9-457a-b456-0232b9647d96.png",
     "twitter": "https://x.com/usecannon",
-    "repos": [
-      "https://github.com/usecannon/cannon"
-    ],
-    "tags": [
-      "cli",
-      "chains"
-    ],
+    "repos": ["https://github.com/usecannon/cannon"],
+    "tags": ["cli", "chains"],
     "website": "https://usecannon.com",
     "llmstext": "",
     "subcategory_id": "deployment-devops"
@@ -1913,9 +1481,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/2161762e-cdb8-41be-978b-3581df50d5a4.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/ca2f1444-6a4f-41f2-91d4-f8059f652ccc.png",
     "twitter": "https://twitter.com/RATi_MOn",
-    "repos": [
-      "https://github.com/Ratimon/solid-grinder"
-    ],
+    "repos": ["https://github.com/Ratimon/solid-grinder"],
     "tags": [
       "cli",
       "layer-2",
@@ -1933,12 +1499,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/joshstevens19/ethereum-multicall"
-    ],
-    "tags": [
-      "multicall"
-    ],
+    "repos": ["https://github.com/joshstevens19/ethereum-multicall"],
+    "tags": ["multicall"],
     "llmstext": "",
     "subcategory_id": "aa-tx-orchestration"
   },
@@ -1948,13 +1510,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/d21bd2f0-91b0-4e80-9e33-b1c21501a4e8.png",
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/joshstevens19/ethereum-bloom-filters"
-    ],
-    "tags": [
-      "performance-optimization",
-      "event-logging"
-    ],
+    "repos": ["https://github.com/joshstevens19/ethereum-bloom-filters"],
+    "tags": ["performance-optimization", "event-logging"],
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries"
   },
@@ -1964,13 +1521,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/366c4940-78cc-4119-958b-b93f3c9a5845.png",
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/joshstevens19/rindexer"
-    ],
-    "tags": [
-      "indexing",
-      "cli"
-    ],
+    "repos": ["https://github.com/joshstevens19/rindexer"],
+    "tags": ["indexing", "cli"],
     "website": "https://rindexer.xyz/",
     "llmstext": "",
     "subcategory_id": "indexing-data-apis"
@@ -1981,15 +1533,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/4686b986-8bb5-4ab0-a13b-c020291b20c2.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/2ac896b0-1b09-40bf-a5db-7baef34ead58.png",
     "twitter": "https://twitter.com/candidelabs",
-    "repos": [
-      "https://github.com/candidelabs/voltaire"
-    ],
-    "tags": [
-      "wallet",
-      "account-abstraction",
-      "bundler",
-      "user-experience"
-    ],
+    "repos": ["https://github.com/candidelabs/voltaire"],
+    "tags": ["wallet", "account-abstraction", "bundler", "user-experience"],
     "website": "https://www.candide.dev/bundler",
     "llmstext": "",
     "subcategory_id": "aa-tx-orchestration"
@@ -2026,12 +1571,7 @@
       "https://github.com/remix-project-org/remix-challenges",
       "https://github.com/remix-project-org/remix-rewards-ui"
     ],
-    "tags": [
-      "education",
-      "frontend",
-      "cross-chain",
-      "solidity"
-    ],
+    "tags": ["education", "frontend", "cross-chain", "solidity"],
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
   },
@@ -2041,16 +1581,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/d818a88f-eb12-4c4e-b1be-46f8284fd5d4.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/8d4a3113-5b39-472e-9a60-57451db585fb.png",
     "twitter": "https://x.com/BAbraham_92/",
-    "repos": [
-      "https://github.com/collinsadi/diamonds"
-    ],
-    "tags": [
-      "cli",
-      "hardhat",
-      "foundry",
-      "erc721",
-      "upgradeable-contracts"
-    ],
+    "repos": ["https://github.com/collinsadi/diamonds"],
+    "tags": ["cli", "hardhat", "foundry", "erc721", "upgradeable-contracts"],
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
   },
@@ -2082,12 +1614,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/63e11af2-345b-4977-b6da-dcaf387df081.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/6e45f230-2ef2-43f1-ab9d-b95e2ac0f15e.png",
     "twitter": "https://x.com/shazow",
-    "repos": [
-      "https://github.com/shazow/whatsabi"
-    ],
-    "tags": [
-      "abi-encoding"
-    ],
+    "repos": ["https://github.com/shazow/whatsabi"],
+    "tags": ["abi-encoding"],
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
   },
@@ -2097,15 +1625,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/7e5161c3-ab8c-44e9-97b9-a957fa9cb7a2.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/2985ee59-7f46-4626-93f4-fd91de426cd2.png",
     "twitter": "twitter.com/alchemy",
-    "repos": [
-      "https://github.com/alchemyplatform/rundler"
-    ],
-    "tags": [
-      "docker",
-      "bundler",
-      "account-abstraction",
-      "multi-chain"
-    ],
+    "repos": ["https://github.com/alchemyplatform/rundler"],
+    "tags": ["docker", "bundler", "account-abstraction", "multi-chain"],
     "website": "www.alchemy.com",
     "llmstext": "",
     "subcategory_id": "aa-tx-orchestration"
@@ -2116,9 +1637,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/73d7f842-6eb3-4a74-89df-176b8a69e4c2.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/b5a6613d-fb1f-439c-ba1e-e0fcd42c99b5.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/alexfertel/bulloak"
-    ],
+    "repos": ["https://github.com/alexfertel/bulloak"],
     "tags": [
       "cli",
       "solidity",
@@ -2138,9 +1657,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/e1983235-58da-4c36-86eb-63e593554d7e.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/467a5d29-ee97-4610-8923-18346cbc3a4e.png",
     "twitter": "https://x.com/0xRaiden_",
-    "repos": [
-      "https://github.com/Raiden1411/zabi"
-    ],
+    "repos": ["https://github.com/Raiden1411/zabi"],
     "tags": [
       "cross-chain",
       "json-rpc",
@@ -2158,12 +1675,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/afd98fa3-7bf7-45a5-9d07-0f1dbea2ba61.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/aa144789-e6d6-4af4-9634-7956915bfc8a.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/CollinsMunene/abiexplorer"
-    ],
-    "tags": [
-      "contract-interaction"
-    ],
+    "repos": ["https://github.com/CollinsMunene/abiexplorer"],
+    "tags": ["contract-interaction"],
     "website": "https://abiexplorer.devligence.com/",
     "llmstext": "",
     "subcategory_id": "frontend-integration-tooling"
@@ -2174,13 +1687,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/b2e8b33c-2f72-4854-b549-ea8ea9468eca.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/b473d908-de6b-45f1-9b19-a3027ef207fc.png",
     "twitter": "https://x.com/web3privacy",
-    "repos": [
-      "https://github.com/web3privacy/privacy-builder-pack"
-    ],
-    "tags": [
-      "education",
-      "encryption"
-    ],
+    "repos": ["https://github.com/web3privacy/privacy-builder-pack"],
+    "tags": ["education", "encryption"],
     "website": "https://build.web3privacy.info",
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
@@ -2191,12 +1699,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/153bea66-bef0-481d-bb29-2882eb0e6edb.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/1809a100-d320-47f2-8144-94343ef5ea40.png",
     "twitter": "https://x.com/web3privacy",
-    "repos": [
-      "https://github.com/web3privacy/cypherpunkacademy"
-    ],
-    "tags": [
-      "education"
-    ],
+    "repos": ["https://github.com/web3privacy/cypherpunkacademy"],
+    "tags": ["education"],
     "website": "https://academy.web3privacy.info/",
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
@@ -2211,11 +1715,7 @@
       "https://github.com/web3privacy/explorer-app",
       "https://github.com/web3privacy/explorer-data"
     ],
-    "tags": [
-      "education",
-      "analytics",
-      "community-driven"
-    ],
+    "tags": ["education", "analytics", "community-driven"],
     "website": "https://explorer.web3privacy.info/",
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
@@ -2226,14 +1726,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/fae7d370-79b6-48b2-9d69-785cd2edb573.png",
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/qingfengzxr/gdscript-web3"
-    ],
-    "tags": [
-      "sdk",
-      "contract-interaction",
-      "game-development"
-    ],
+    "repos": ["https://github.com/qingfengzxr/gdscript-web3"],
+    "tags": ["sdk", "contract-interaction", "game-development"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries"
@@ -2244,9 +1738,7 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/Nethereum/Nethereum"
-    ],
+    "repos": ["https://github.com/Nethereum/Nethereum"],
     "tags": [
       "cross-chain",
       "wallet",
@@ -2263,9 +1755,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/8da31052-61ab-40c2-a9b6-18b0dd37824e.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e46839dc-55fb-45c5-8c47-d3282749cedb.png",
     "twitter": "https://x.com/ponder_sh",
-    "repos": [
-      "https://github.com/ponder-sh/ponder"
-    ],
+    "repos": ["https://github.com/ponder-sh/ponder"],
     "tags": [
       "indexing",
       "developer-experience",
@@ -2285,13 +1775,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/401a6212-fc2a-4b46-8a96-52f597c82467.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/18896241-e29b-4497-9d12-e27ea0045830.png",
     "twitter": "https://x.com/zsystmd",
-    "repos": [
-      "https://github.com/zsystm/solizard"
-    ],
-    "tags": [
-      "cli",
-      "contract-interaction"
-    ],
+    "repos": ["https://github.com/zsystm/solizard"],
+    "tags": ["cli", "contract-interaction"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "debugging-inspection"
@@ -2302,9 +1787,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/b540988e-6db1-47de-84a4-bebe987ef595.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/283678d8-970a-44ee-ba90-419f5359aac5.png",
     "twitter": "https://x.com/w3gptai",
-    "repos": [
-      "https://github.com/markeljan/web3gpt"
-    ],
+    "repos": ["https://github.com/markeljan/web3gpt"],
     "tags": [
       "education",
       "cli",
@@ -2328,10 +1811,7 @@
       "https://github.com/ethereum/eth-abi",
       "https://github.com/ethereum/eth-account"
     ],
-    "tags": [
-      "transaction-signing",
-      "community-driven"
-    ],
+    "tags": ["transaction-signing", "community-driven"],
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries"
   },
@@ -2341,14 +1821,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/088c8fd2-0f5c-48b2-b3b7-94c72c70cba9.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/1818ec80-87d0-4da1-a485-3ef2a43fadfb.png",
     "twitter": "https://x.com/jiffyscan",
-    "repos": [
-      "https://github.com/jiffy-labs/jiffyscan-frontend"
-    ],
-    "tags": [
-      "account-abstraction",
-      "block-explorer",
-      "analytics"
-    ],
+    "repos": ["https://github.com/jiffy-labs/jiffyscan-frontend"],
+    "tags": ["account-abstraction", "block-explorer", "analytics"],
     "website": "https://www.jiffyscan.xyz/",
     "llmstext": "",
     "subcategory_id": "analytics-monitoring"
@@ -2382,12 +1856,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9b6b9753-121c-4c3f-9a39-c2c48b5cf149.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/0d1302f3-d1e0-4fe1-a10e-592b36cb139b.png",
     "twitter": "zinkonx",
-    "repos": [
-      "https://github.com/zink-lang/zink"
-    ],
-    "tags": [
-      "education"
-    ],
+    "repos": ["https://github.com/zink-lang/zink"],
+    "tags": ["education"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
@@ -2398,14 +1868,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/10cc25d9-eb1f-43f2-8126-7927acb952c2.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/d6450ca3-f77e-40cf-8799-c61244ab93e3.png",
     "twitter": "https://x.com/DistriButler",
-    "repos": [
-      "https://github.com/sifaw23/distributler"
-    ],
-    "tags": [
-      "defi",
-      "wallet",
-      "nextjs"
-    ],
+    "repos": ["https://github.com/sifaw23/distributler"],
+    "tags": ["defi", "wallet", "nextjs"],
     "website": "https://distributler.com/",
     "llmstext": "",
     "subcategory_id": "frontend-integration-tooling"
@@ -2416,13 +1880,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/aa1c84f1-cd10-420c-a730-576e9e1ca7fd.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e5f2c4cb-fb66-4473-973c-1d98a51065a0.png",
     "twitter": "https://x.com/gnsps",
-    "repos": [
-      "https://github.com/GNSPS/solidity-bytes-utils"
-    ],
-    "tags": [
-      "solidity",
-      "truffle"
-    ],
+    "repos": ["https://github.com/GNSPS/solidity-bytes-utils"],
+    "tags": ["solidity", "truffle"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
@@ -2438,13 +1897,7 @@
       "https://github.com/thirdweb-dev/js",
       "https://github.com/thirdweb-dev/contracts"
     ],
-    "tags": [
-      "frontend",
-      "cross-chain",
-      "api",
-      "chains",
-      "real-time-data"
-    ],
+    "tags": ["frontend", "cross-chain", "api", "chains", "real-time-data"],
     "website": "https://www.linkedin.com/company/third-web/",
     "llmstext": "",
     "subcategory_id": "wallet-integration-auth"
@@ -2455,9 +1908,7 @@
     "thumbnail_url": "https://cdn.charmverse.io/user-content/2d6a8f50-45c2-4658-a66a-74eca1149aa3/102ec612-ed55-4da8-b9fb-0bb3f5447e84/Ackee-Blockchain-Security-logo.jpg",
     "banner_url": "https://cdn.charmverse.io/user-content/2d6a8f50-45c2-4658-a66a-74eca1149aa3/f1984493-d1a1-424e-afc1-36e1fc33f573/Ackee-Blockchain-Twitter-Banner.jpeg",
     "twitter": "ackeeblockchain",
-    "repos": [
-      "https://github.com/Ackee-Blockchain/solidity-for-vscode"
-    ],
+    "repos": ["https://github.com/Ackee-Blockchain/solidity-for-vscode"],
     "tags": [
       "education",
       "security",
@@ -2475,14 +1926,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/4aa97110-63e2-4703-a3f5-e42bdebceaee.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/50e95639-885c-4657-8141-4a3357fd732e.png",
     "twitter": "andrei0x309",
-    "repos": [
-      "https://github.com/andrei0x309/clear-wallet"
-    ],
-    "tags": [
-      "wallet",
-      "frontend",
-      "privacy-focused"
-    ],
+    "repos": ["https://github.com/andrei0x309/clear-wallet"],
+    "tags": ["wallet", "frontend", "privacy-focused"],
     "website": "https://clear-wallet.flashsoft.eu/",
     "llmstext": "",
     "subcategory_id": "wallet-integration-auth"
@@ -2498,10 +1943,7 @@
       "https://github.com/snapshot-labs/sx-monorepo",
       "https://github.com/snapshot-labs/sx-evm"
     ],
-    "tags": [
-      "governance",
-      "cross-chain"
-    ],
+    "tags": ["governance", "cross-chain"],
     "llmstext": "",
     "subcategory_id": "governance-dao-tooling"
   },
@@ -2511,16 +1953,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/05ac5706-2a13-4325-8333-183a730e7797.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/f733c3ee-3819-40f8-9ee8-b94416a770d9.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/ethereum/fe"
-    ],
-    "tags": [
-      "cli",
-      "education",
-      "compiler",
-      "code-analysis",
-      "type-safe"
-    ],
+    "repos": ["https://github.com/ethereum/fe"],
+    "tags": ["cli", "education", "compiler", "code-analysis", "type-safe"],
     "website": "fe-lang.org",
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
@@ -2531,16 +1965,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/f219ada1-9d7d-4d1c-8a90-ea1b09eda31f.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/3d5c829b-3fc4-4dcd-995d-978aceca64dc.png",
     "twitter": "https://twitter.com/sourcifyeth",
-    "repos": [
-      "https://github.com/ethereum/sourcify"
-    ],
-    "tags": [
-      "solidity",
-      "vyper",
-      "api",
-      "cli",
-      "type-safe"
-    ],
+    "repos": ["https://github.com/ethereum/sourcify"],
+    "tags": ["solidity", "vyper", "api", "cli", "type-safe"],
     "website": "https://sourcify.dev",
     "llmstext": "",
     "subcategory_id": "analytics-monitoring"
@@ -2551,14 +1977,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/a73d46f5-87ba-4204-88eb-7ce51ab055de.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/ffb2a694-74be-48f3-897d-96034c088b3a.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/upnodedev/signer-proxy"
-    ],
-    "tags": [
-      "security",
-      "docker",
-      "transaction-signing"
-    ],
+    "repos": ["https://github.com/upnodedev/signer-proxy"],
+    "tags": ["security", "docker", "transaction-signing"],
     "llmstext": "",
     "subcategory_id": "deployment-devops"
   },
@@ -2574,9 +1994,7 @@
       "https://github.com/ApeWorX/ape-optimism",
       "https://github.com/ApeWorX/ape-base"
     ],
-    "tags": [
-      "cli"
-    ],
+    "tags": ["cli"],
     "llmstext": "",
     "subcategory_id": "contract-frameworks"
   },
@@ -2596,11 +2014,7 @@
       "https://github.com/upnodedev/opstack-bridge-indexer",
       "https://github.com/upnodedev/opstack-bridge-indexer-v2"
     ],
-    "tags": [
-      "cli",
-      "docker",
-      "devops"
-    ],
+    "tags": ["cli", "docker", "devops"],
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
   },
@@ -2610,15 +2024,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/90c0de0c-cc0e-4959-afb7-a78ae4c9d674.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e1d59a51-3f6f-4642-bc88-553026d2d067.png",
     "twitter": "@yiannisbot",
-    "repos": [
-      "https://github.com/probe-lab/hermes"
-    ],
-    "tags": [
-      "governance",
-      "gossipsub",
-      "libp2p",
-      "cli"
-    ],
+    "repos": ["https://github.com/probe-lab/hermes"],
+    "tags": ["governance", "gossipsub", "libp2p", "cli"],
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
   },
@@ -2636,9 +2043,7 @@
       "https://github.com/curvegrid/hardhat-multibaas-plugin",
       "https://github.com/curvegrid/"
     ],
-    "tags": [
-      "defi"
-    ],
+    "tags": ["defi"],
     "llmstext": "",
     "subcategory_id": "frontend-integration-tooling"
   },
@@ -2652,12 +2057,7 @@
       "https://github.com/Ratimon/redprint-forge",
       "https://github.com/Ratimon/redprint-wizard"
     ],
-    "tags": [
-      "education",
-      "frontend",
-      "solidity",
-      "type-safe"
-    ],
+    "tags": ["education", "frontend", "solidity", "type-safe"],
     "website": "https://redprint.ninja/",
     "llmstext": "",
     "subcategory_id": "deployment-devops"
@@ -2668,13 +2068,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/6878f254-b99f-47ad-8cf8-7f6cd1601300.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/8f285391-e69f-40f3-aa14-1456fbb92440.png",
     "twitter": "https://x.com/nodeguardians",
-    "repos": [
-      "https://github.com/Nodeguardians/optimism"
-    ],
-    "tags": [
-      "education",
-      "solidity"
-    ],
+    "repos": ["https://github.com/Nodeguardians/optimism"],
+    "tags": ["education", "solidity"],
     "website": "https://nodeguardians.io/",
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
@@ -2689,12 +2084,7 @@
       "https://github.com/ethereum/solidity",
       "https://github.com/ethereum/solc-js"
     ],
-    "tags": [
-      "education",
-      "solidity",
-      "compiler",
-      "cli"
-    ],
+    "tags": ["education", "solidity", "compiler", "cli"],
     "website": "https://soliditylang.org/",
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
@@ -2705,12 +2095,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/3a1343aa-8bb3-4f30-abc0-6ba02dd3787a.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/7c1ee7ff-ad46-4b74-a941-48cc7ddc2dbe.png",
     "twitter": "https://x.com/0xBlockhead",
-    "repos": [
-      "https://github.com/darrylyeo/blockhead"
-    ],
-    "tags": [
-      "block-explorer"
-    ],
+    "repos": ["https://github.com/darrylyeo/blockhead"],
+    "tags": ["block-explorer"],
     "website": "https://blockhead.info",
     "llmstext": "",
     "subcategory_id": "analytics-monitoring"
@@ -2721,13 +2107,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/352a5108-5f07-4765-a43d-7ba0b4b27054.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/01e43966-8955-4584-b45d-84645a97dc5d.png",
     "twitter": "@sigp_io",
-    "repos": [
-      "https://github.com/libp2p/rust-libp2p"
-    ],
-    "tags": [
-      "peer-to-peer",
-      "libp2p"
-    ],
+    "repos": ["https://github.com/libp2p/rust-libp2p"],
+    "tags": ["peer-to-peer", "libp2p"],
     "website": "https://sigmaprime.io",
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries"
@@ -2744,12 +2125,7 @@
       "https://github.com/Blobscan/blobscan",
       "https://github.com/Blobscan/blobscan-infra"
     ],
-    "tags": [
-      "analytics",
-      "docker",
-      "frontend",
-      "visualization"
-    ],
+    "tags": ["analytics", "docker", "frontend", "visualization"],
     "website": "https://blobscan.com/",
     "llmstext": "",
     "subcategory_id": "analytics-monitoring"
@@ -2760,13 +2136,8 @@
     "thumbnail_url": "https://cdn.charmverse.io/user-content/e3eb66db-408b-4e21-bc69-c2927fd15b32/552ea203-8cee-4111-9a61-82fd3da74367/ok.png",
     "banner_url": "https://cdn.charmverse.io/user-content/e3eb66db-408b-4e21-bc69-c2927fd15b32/874ceabb-8637-48ef-935d-747218d514fc/opstackkit-cover.jpg",
     "twitter": "opstackkit",
-    "repos": [
-      "https://github.com/opstack-kit/opstack-kit"
-    ],
-    "tags": [
-      "cli",
-      "cross-chain"
-    ],
+    "repos": ["https://github.com/opstack-kit/opstack-kit"],
+    "tags": ["cli", "cross-chain"],
     "llmstext": "",
     "subcategory_id": "contract-frameworks"
   },
@@ -2776,14 +2147,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/11d09c62-9356-40b2-9cd2-06b98f816bfb.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/826fafd9-28a8-49f8-9d07-0e5e57880f20.png",
     "twitter": "https://x.com/ipshipyard",
-    "repos": [
-      "https://github.com/libp2p/js-libp2p"
-    ],
-    "tags": [
-      "libp2p",
-      "encryption",
-      "gossipsub"
-    ],
+    "repos": ["https://github.com/libp2p/js-libp2p"],
+    "tags": ["libp2p", "encryption", "gossipsub"],
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
   },
@@ -2793,9 +2158,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/277d8353-44c4-4e16-a2bd-2dfb3fb9e65f.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/4c70ca4a-8b38-47ee-97d0-2a64a63700f8.png",
     "twitter": "https://x.com/ipshipyard",
-    "repos": [
-      "https://github.com/libp2p/go-libp2p"
-    ],
+    "repos": ["https://github.com/libp2p/go-libp2p"],
     "tags": [
       "governance",
       "libp2p",
@@ -2814,9 +2177,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/0c66d95b-8f82-45a2-87a8-77205bf90a96.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/dcb9e7e2-4619-4382-af31-a5c9a75e703f.png",
     "twitter": "https://x.com/CyfrinAudits",
-    "repos": [
-      "https://github.com/Cyfrin/aderyn"
-    ],
+    "repos": ["https://github.com/Cyfrin/aderyn"],
     "tags": [
       "cli",
       "security",
@@ -2869,12 +2230,7 @@
       "https://github.com/Pfed-prog/EVMExplorer-Uniswap",
       "https://github.com/Pfed-prog/EVMExplorer-Utility"
     ],
-    "tags": [
-      "analytics",
-      "governance",
-      "chains",
-      "visualization"
-    ],
+    "tags": ["analytics", "governance", "chains", "visualization"],
     "website": "https://evmexplorer.com/",
     "llmstext": "",
     "subcategory_id": "analytics-monitoring"
@@ -2885,15 +2241,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/d7cf4059-4f9c-48aa-a37a-df2f8c81933c.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/020d34f6-e8bb-43b5-8508-7935d2b00583.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/ethereum/hevm"
-    ],
-    "tags": [
-      "cli",
-      "foundry",
-      "security",
-      "symbolic-execution"
-    ],
+    "repos": ["https://github.com/ethereum/hevm"],
+    "tags": ["cli", "foundry", "security", "symbolic-execution"],
     "llmstext": "",
     "subcategory_id": "fuzz-property-testing"
   },
@@ -2925,9 +2274,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/a08fa912-3bc7-4957-9a64-5b10bc13397e.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/16e8a1cb-69b1-4098-8c40-fd25a5a29b8f.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/ethereum/act"
-    ],
+    "repos": ["https://github.com/ethereum/act"],
     "tags": [
       "education",
       "analytics",
@@ -2943,13 +2290,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/90d877db-39f3-4b3c-bb8e-90f26e734254.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/6e5a0785-93ce-438a-af3d-d81460919f57.png",
     "twitter": "",
-    "repos": [
-      "https://github.com/Aymen-Tirchi/op-stack-deployer"
-    ],
-    "tags": [
-      "cli",
-      "foundry"
-    ],
+    "repos": ["https://github.com/Aymen-Tirchi/op-stack-deployer"],
+    "tags": ["cli", "foundry"],
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
   },
@@ -2959,12 +2301,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/57aeca37-e53b-4bcb-b161-0608d09e5c62.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/786c9752-af70-4856-9be0-38f4141769d2.png",
     "twitter": "https://x.com/rakitadragan",
-    "repos": [
-      "https://github.com/bluealloy/revm"
-    ],
-    "tags": [
-      "community-driven"
-    ],
+    "repos": ["https://github.com/bluealloy/revm"],
+    "tags": ["community-driven"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries"
@@ -2975,9 +2313,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/171f60c2-1e3e-4b0a-998e-4015a7f468f7.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/64c06023-a910-4646-ba3e-81baa2d935dc.png",
     "twitter": "https://x.com/wevm_dev",
-    "repos": [
-      "https://github.com/wevm/viem"
-    ],
+    "repos": ["https://github.com/wevm/viem"],
     "tags": [
       "json-rpc",
       "type-safe",
@@ -2994,16 +2330,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/0e726459-df1e-4cea-bddb-25399f88acea.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/0615ef25-edbb-4b19-934d-79614daf8040.png",
     "twitter": "https://twitter.com/optimizoor",
-    "repos": [
-      "https://github.com/Vectorized/solady"
-    ],
-    "tags": [
-      "education",
-      "solidity",
-      "gas-optimization",
-      "foundry",
-      "hardhat"
-    ],
+    "repos": ["https://github.com/Vectorized/solady"],
+    "tags": ["education", "solidity", "gas-optimization", "foundry", "hardhat"],
     "website": "https://solady.org",
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
@@ -3014,20 +2342,12 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/08754b7b-75c3-436b-ad66-bdf4b4261895.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/a3c56a18-2e9d-4a19-ba54-892bfa062884.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/cgewecke/hardhat-gas-reporter"
-    ],
-    "tags": [
-      "analytics",
-      "hardhat",
-      "test-automation"
-    ],
+    "repos": ["https://github.com/cgewecke/hardhat-gas-reporter"],
+    "tags": ["analytics", "hardhat", "test-automation"],
     "website": null,
     "llmstext": "",
     "subcategory_id": "deployment-devops",
-    "packages": [
-      "https://www.npmjs.com/package/hardhat-gas-reporter"
-    ]
+    "packages": ["https://www.npmjs.com/package/hardhat-gas-reporter"]
   },
   {
     "name": "Vyper",
@@ -3035,13 +2355,8 @@
     "thumbnail_url": "https://cdn.charmverse.io/user-content/5302de23-eae6-4cda-97aa-25fefd829726/9aa6f15f-e32a-4bca-a40a-5b1e1122babb/2024-06-11_23-25.png",
     "banner_url": "https://cdn.charmverse.io/user-content/5302de23-eae6-4cda-97aa-25fefd829726/6c137923-55fc-4dc9-9424-5dad59f82ab4/vyper-optimism.png",
     "twitter": "https://x.com/vyperlang?lang=en",
-    "repos": [
-      "https://github.com/vyperlang/vyper"
-    ],
-    "tags": [
-      "compiler",
-      "devops"
-    ],
+    "repos": ["https://github.com/vyperlang/vyper"],
+    "tags": ["compiler", "devops"],
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
   },
@@ -3055,11 +2370,7 @@
       "https://github.com/pcaversaccio/createx/releases/tag/v1.0.0",
       "https://github.com/pcaversaccio/createx"
     ],
-    "tags": [
-      "cli",
-      "contract-deployment",
-      "solidity"
-    ],
+    "tags": ["cli", "contract-deployment", "solidity"],
     "llmstext": "",
     "subcategory_id": "deployment-devops"
   },
@@ -3069,20 +2380,11 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/baed8e76-d872-4218-9648-9bb5700dabc9.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e205286d-1799-4d72-992a-a8ebe394c59b.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/pcaversaccio/snekmate"
-    ],
-    "tags": [
-      "defi",
-      "vyper",
-      "erc721",
-      "foundry"
-    ],
+    "repos": ["https://github.com/pcaversaccio/snekmate"],
+    "tags": ["defi", "vyper", "erc721", "foundry"],
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities",
-    "packages": [
-      "https://www.npmjs.com/package/snekmate"
-    ]
+    "packages": ["https://www.npmjs.com/package/snekmate"]
   },
   {
     "name": "Blockflow",
@@ -3090,12 +2392,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/dbe12049-50ea-4cfb-b3f0-8def50ea7b07.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/191beaf8-e92f-42be-ab94-2305d12da9a4.png",
     "twitter": "https://x.com/BlockflowLabs",
-    "repos": [
-      "https://github.com/blockflowlabs/cli-examples"
-    ],
-    "tags": [
-      "cli"
-    ],
+    "repos": ["https://github.com/blockflowlabs/cli-examples"],
+    "tags": ["cli"],
     "website": "https://www.blockflow.network/",
     "llmstext": "",
     "subcategory_id": "indexing-data-apis",
@@ -3116,12 +2414,7 @@
       "https://github.com/bonadocs/cli",
       "https://github.com/bonadocs/protocol-registry-web"
     ],
-    "tags": [
-      "cli",
-      "frontend",
-      "education",
-      "solidity-development"
-    ],
+    "tags": ["cli", "frontend", "education", "solidity-development"],
     "website": "bonadocs.com",
     "llmstext": "",
     "subcategory_id": "frontend-integration-tooling",
@@ -3139,13 +2432,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/3083ccee-79a8-4ff2-b017-9ecb52d13cbf.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/b29f1ab3-b4cf-4255-839e-e7a418e78b80.png",
     "twitter": "https://x.com/StargateFinance",
-    "repos": [
-      "https://github.com/stargate-protocol/stargate"
-    ],
-    "tags": [
-      "cross-chain",
-      "defi"
-    ],
+    "repos": ["https://github.com/stargate-protocol/stargate"],
+    "tags": ["cross-chain", "defi"],
     "website": "https://stargate.finance/",
     "llmstext": "",
     "subcategory_id": "cross-chain-infrastructure"
@@ -3160,15 +2448,11 @@
       "https://github.com/Steemhunt/mint.club-v2-contract",
       "https://github.com/Steemhunt/mint.club-v2-sdk"
     ],
-    "tags": [
-      "erc721"
-    ],
+    "tags": ["erc721"],
     "website": "https://mint.club",
     "llmstext": "",
     "subcategory_id": "frontend-integration-tooling",
-    "packages": [
-      "https://www.npmjs.com/package/mint.club-v2-sdk"
-    ]
+    "packages": ["https://www.npmjs.com/package/mint.club-v2-sdk"]
   },
   {
     "name": "LlamaPay",
@@ -3180,10 +2464,7 @@
       "https://github.com/llamasubs/contracts",
       "https://github.com/LlamaPay/llamapay"
     ],
-    "tags": [
-      "defi",
-      "gas-efficient"
-    ],
+    "tags": ["defi", "gas-efficient"],
     "website": "https://llamapay.io/",
     "llmstext": "",
     "subcategory_id": "payments-defi-integration"
@@ -3212,9 +2493,7 @@
     "website": "https://zk.email",
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy",
-    "packages": [
-      "https://www.npmjs.com/package/@zk-email/contracts"
-    ]
+    "packages": ["https://www.npmjs.com/package/@zk-email/contracts"]
   },
   {
     "name": "zkTLS/ TLSNotary",
@@ -3223,13 +2502,8 @@
     "thumbnail_url": "https://tlsnotary.org/img/logo/tlsn-logo-blue.svg",
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/tlsnotary/tlsn"
-    ],
-    "tags": [
-      "privacy-focused",
-      "verification"
-    ],
+    "repos": ["https://github.com/tlsnotary/tlsn"],
+    "tags": ["privacy-focused", "verification"],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy"
   },
@@ -3240,9 +2514,7 @@
     "thumbnail_url": "https://docs.zkpassport.id/img/logo.png",
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/zkpassport/zkpassport-packages"
-    ],
+    "repos": ["https://github.com/zkpassport/zkpassport-packages"],
     "tags": [
       "identity",
       "privacy-focused",
@@ -3252,9 +2524,7 @@
     ],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy",
-    "packages": [
-      "https://www.npmjs.com/package/@zkpassport/sdk"
-    ]
+    "packages": ["https://www.npmjs.com/package/@zkpassport/sdk"]
   },
   {
     "name": "Self Protocol",
@@ -3263,15 +2533,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/selfxyz/self"
-    ],
-    "tags": [
-      "identity",
-      "privacy-focused",
-      "sdk",
-      "verification"
-    ],
+    "repos": ["https://github.com/selfxyz/self"],
+    "tags": ["identity", "privacy-focused", "sdk", "verification"],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy"
   },
@@ -3339,11 +2602,7 @@
       "https://github.com/gitcoinco/id-staking-v2-app",
       "https://github.com/gitcoinco/passport-scorer"
     ],
-    "tags": [
-      "analytics",
-      "gas-efficient",
-      "identity"
-    ],
+    "tags": ["analytics", "gas-efficient", "identity"],
     "llmstext": "",
     "subcategory_id": "wallet-integration-auth"
   },
@@ -3353,16 +2612,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/3ab14d32-3c0e-4262-a17c-9a328dded4bc.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/c87cd7ac-5627-4db9-9483-a61e4743d2f0.png",
     "twitter": "https://x.com/SeamlessFi",
-    "repos": [
-      "https://github.com/seamless-protocol/governance"
-    ],
-    "tags": [
-      "defi",
-      "governance",
-      "foundry",
-      "contract-management",
-      "cli"
-    ],
+    "repos": ["https://github.com/seamless-protocol/governance"],
+    "tags": ["defi", "governance", "foundry", "contract-management", "cli"],
     "website": "https://seamlessprotocol.com",
     "llmstext": "",
     "subcategory_id": "payments-defi-integration"
@@ -3373,14 +2624,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/3f5f2b44-9650-483a-b5cf-1e66163bddae.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/41a3c848-54ca-4b30-8fa1-e82a70b18935.png",
     "twitter": "https://x.com/L2_Pass",
-    "repos": [
-      "https://github.com/L2PASS/contracts"
-    ],
-    "tags": [
-      "cross-chain",
-      "wallet",
-      "multi-chain"
-    ],
+    "repos": ["https://github.com/L2PASS/contracts"],
+    "tags": ["cross-chain", "wallet", "multi-chain"],
     "website": "https://l2pass.com/",
     "llmstext": "",
     "subcategory_id": "cross-chain-infrastructure"
@@ -3395,11 +2640,7 @@
       "https://github.com/ethereum-attestation-service/eas-contracts",
       "https://github.com/ethereum-attestation-service/eas-sdk"
     ],
-    "tags": [
-      "identity",
-      "verification",
-      "sdk"
-    ],
+    "tags": ["identity", "verification", "sdk"],
     "llmstext": "",
     "subcategory_id": "wallet-integration-auth",
     "packages": [
@@ -3440,12 +2681,7 @@
       "https://github.com/Hats-Protocol/passthrough-modules",
       "https://github.com/Hats-Protocol/sdk-v1-core"
     ],
-    "tags": [
-      "governance",
-      "solidity",
-      "foundry",
-      "proxy-contracts"
-    ],
+    "tags": ["governance", "solidity", "foundry", "proxy-contracts"],
     "website": "https://hatsprotocol.xyz",
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities",
@@ -3463,15 +2699,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/46d3935b-5719-4c9f-ae9b-d7f255f4c120.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/5082f8c7-b61a-4ac7-b829-e51fa15fdfc4.png",
     "twitter": "https://x.com/OpenOceanGlobal",
-    "repos": [
-      "https://github.com/openocean-finance/OpenOceanExchangeV2"
-    ],
-    "tags": [
-      "defi",
-      "cross-chain",
-      "dex-aggregator",
-      "multi-chain"
-    ],
+    "repos": ["https://github.com/openocean-finance/OpenOceanExchangeV2"],
+    "tags": ["defi", "cross-chain", "dex-aggregator", "multi-chain"],
     "website": "https://openocean.finance/",
     "llmstext": "",
     "subcategory_id": "cross-chain-infrastructure",
@@ -3511,13 +2740,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/582dd2ed-214a-4289-9423-35b64c318cb2.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/407396e3-b660-4615-a35d-eae333379d44.png",
     "twitter": "https://x.com/routerprotocol",
-    "repos": [
-      "https://github.com/router-protocol/router-contracts"
-    ],
-    "tags": [
-      "cross-chain",
-      "scalability"
-    ],
+    "repos": ["https://github.com/router-protocol/router-contracts"],
+    "tags": ["cross-chain", "scalability"],
     "llmstext": "",
     "subcategory_id": "cross-chain-infrastructure",
     "packages": [
@@ -3532,13 +2756,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/ff816d35-de0c-4768-af2c-d2c187dab1c1.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/87f46f2a-632b-441c-b762-fe104617d4b6.png",
     "twitter": "https://x.com/prtyDAO",
-    "repos": [
-      "https://github.com/PartyDAO/party-protocol"
-    ],
-    "tags": [
-      "wallet",
-      "governance"
-    ],
+    "repos": ["https://github.com/PartyDAO/party-protocol"],
+    "tags": ["wallet", "governance"],
     "llmstext": "",
     "subcategory_id": "governance-dao-tooling"
   },
@@ -3559,12 +2778,7 @@
       "https://github.com/velodrome-finance/superchain-contracts",
       "https://github.com/velodrome-finance/superchain-slipstream"
     ],
-    "tags": [
-      "defi",
-      "docker",
-      "foundry",
-      "contract-verification"
-    ],
+    "tags": ["defi", "docker", "foundry", "contract-verification"],
     "website": "https://velodrome.finance",
     "llmstext": "",
     "subcategory_id": "payments-defi-integration"
@@ -3587,11 +2801,7 @@
       "https://github.com/0xSplits/splits-swapper",
       "https://github.com/0xSplits/splits-sdk"
     ],
-    "tags": [
-      "transaction-management",
-      "wallet",
-      "developer-experience"
-    ],
+    "tags": ["transaction-management", "wallet", "developer-experience"],
     "website": "https://splits.org/",
     "llmstext": "",
     "subcategory_id": "payments-defi-integration",
@@ -3607,9 +2817,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/8362181e-8e95-40d4-bf8d-234f3edaca4c.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/2a702168-545c-42ec-a85f-3149a9227597.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/Vectorized/multicaller"
-    ],
+    "repos": ["https://github.com/Vectorized/multicaller"],
     "tags": [
       "multicall",
       "solidity",
@@ -3622,9 +2830,7 @@
     "website": null,
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries",
-    "packages": [
-      "https://www.npmjs.com/package/multicaller"
-    ]
+    "packages": ["https://www.npmjs.com/package/multicaller"]
   },
   {
     "name": "deBridge",
@@ -3639,11 +2845,7 @@
       "https://github.com/debridge-finance/dln-contracts",
       "https://github.com/debridge-finance/debridge-contracts-v1"
     ],
-    "tags": [
-      "cross-chain",
-      "defi",
-      "transaction-optimization"
-    ],
+    "tags": ["cross-chain", "defi", "transaction-optimization"],
     "website": "https://debridge.finance/",
     "llmstext": "",
     "subcategory_id": "cross-chain-infrastructure",
@@ -3707,9 +2909,7 @@
     "website": "https://openfort.xyz",
     "llmstext": "",
     "subcategory_id": "aa-tx-orchestration",
-    "packages": [
-      "https://www.npmjs.com/package/@openfort/openfort-js"
-    ]
+    "packages": ["https://www.npmjs.com/package/@openfort/openfort-js"]
   },
   {
     "name": "Aragon OSx",
@@ -3717,21 +2917,12 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/fe98ffd7-a327-4500-9391-5926dc7a8256.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/b9fed2cb-1767-436f-a605-65af61934cf1.png",
     "twitter": "https://x.com/AragonProject",
-    "repos": [
-      "https://github.com/aragon/app",
-      "https://github.com/aragon/osx"
-    ],
-    "tags": [
-      "governance",
-      "solidity",
-      "contract-management"
-    ],
+    "repos": ["https://github.com/aragon/app", "https://github.com/aragon/osx"],
+    "tags": ["governance", "solidity", "contract-management"],
     "website": "https://aragon.org/",
     "llmstext": "",
     "subcategory_id": "governance-dao-tooling",
-    "packages": [
-      "https://www.npmjs.com/package/@aragon/ods"
-    ]
+    "packages": ["https://www.npmjs.com/package/@aragon/ods"]
   },
   {
     "name": "Etherspot",
@@ -3765,15 +2956,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/230e8ac2-cea9-4cab-8b4f-8fd58ec6553e.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/a2dce749-56d7-44d7-a9cc-ffc08255e0f2.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/framesjs/frames.js"
-    ],
-    "tags": [
-      "frontend",
-      "farcaster",
-      "react",
-      "nextjs"
-    ],
+    "repos": ["https://github.com/framesjs/frames.js"],
+    "tags": ["frontend", "farcaster", "react", "nextjs"],
     "website": "https://www.framesjs.org",
     "llmstext": "",
     "subcategory_id": "frontend-integration-tooling"
@@ -3784,16 +2968,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/dcd0600f-d9bf-439e-9915-5922ea8e9655.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/031491b9-252c-4b9d-b450-16f3443184d9.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/Aave"
-    ],
-    "tags": [
-      "defi",
-      "governance",
-      "foundry",
-      "cli",
-      "contract-deployment"
-    ],
+    "repos": ["https://github.com/Aave"],
+    "tags": ["defi", "governance", "foundry", "cli", "contract-deployment"],
     "llmstext": "",
     "subcategory_id": "payments-defi-integration"
   },
@@ -3807,12 +2983,7 @@
       "https://github.com/BuidlGuidl/SpeedRunEthereum-v2",
       "https://github.com/scaffold-eth/se-2-challenges"
     ],
-    "tags": [
-      "education",
-      "solidity",
-      "contract-deployment",
-      "frontend"
-    ],
+    "tags": ["education", "solidity", "contract-deployment", "frontend"],
     "website": "https://speedrunethereum.com/",
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
@@ -3830,11 +3001,7 @@
       "https://github.com/ethpm/ethpm.js",
       "https://github.com/ethpm/py-ethpm"
     ],
-    "tags": [
-      "cli",
-      "solidity",
-      "contract-management"
-    ],
+    "tags": ["cli", "solidity", "contract-management"],
     "llmstext": "",
     "subcategory_id": "contract-frameworks"
   },
@@ -3845,14 +3012,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/meliopolis/governance-paymaster"
-    ],
-    "tags": [
-      "account-abstraction",
-      "developer-experience",
-      "governance"
-    ],
+    "repos": ["https://github.com/meliopolis/governance-paymaster"],
+    "tags": ["account-abstraction", "developer-experience", "governance"],
     "llmstext": "",
     "subcategory_id": "aa-tx-orchestration"
   },
@@ -3863,13 +3024,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/saifalkatout/FeAlloc"
-    ],
-    "tags": [
-      "compiler",
-      "performance-optimization"
-    ],
+    "repos": ["https://github.com/saifalkatout/FeAlloc"],
+    "tags": ["compiler", "performance-optimization"],
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
   },
@@ -3880,13 +3036,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": "https://x.com/0xProofOfLearn",
-    "repos": [
-      "https://github.com/solide-project/solide"
-    ],
-    "tags": [
-      "solidity",
-      "developer-experience"
-    ],
+    "repos": ["https://github.com/solide-project/solide"],
+    "tags": ["solidity", "developer-experience"],
     "llmstext": "",
     "subcategory_id": "contract-frameworks"
   },
@@ -3897,9 +3048,7 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/wallet-test-framework/framework"
-    ],
+    "repos": ["https://github.com/wallet-test-framework/framework"],
     "tags": [
       "testing",
       "wallet",
@@ -3917,15 +3066,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/edb-rs/edb"
-    ],
-    "tags": [
-      "solidity",
-      "debugging-tools",
-      "developer-experience",
-      "testing"
-    ],
+    "repos": ["https://github.com/edb-rs/edb"],
+    "tags": ["solidity", "debugging-tools", "developer-experience", "testing"],
     "llmstext": "",
     "subcategory_id": "debugging-inspection"
   },
@@ -3936,9 +3078,7 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/walnuthq/walnut"
-    ],
+    "repos": ["https://github.com/walnuthq/walnut"],
     "tags": [
       "debugging-tools",
       "developer-experience",
@@ -3955,9 +3095,7 @@
     "thumbnail_url": null,
     "banner_url": "https://framerusercontent.com/assets/5mR0In8TgnrDGVmhFuLEHtvz9d8.png",
     "twitter": "https://x.com/Reservoir0x",
-    "repos": [
-      "https://github.com/txtx/txtx"
-    ],
+    "repos": ["https://github.com/txtx/txtx"],
     "tags": [
       "devops",
       "contract-management",
@@ -3974,13 +3112,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/orbitdb/orbitdb"
-    ],
-    "tags": [
-      "peer-to-peer",
-      "censorship-resistant"
-    ],
+    "repos": ["https://github.com/orbitdb/orbitdb"],
+    "tags": ["peer-to-peer", "censorship-resistant"],
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
   },
@@ -3991,13 +3124,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/prototypo/ethereum-eips-ontology"
-    ],
-    "tags": [
-      "education",
-      "standards-and-specifications"
-    ],
+    "repos": ["https://github.com/prototypo/ethereum-eips-ontology"],
+    "tags": ["education", "standards-and-specifications"],
     "llmstext": "",
     "subcategory_id": "standards-specifications"
   },
@@ -4008,12 +3136,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/EthWorks/ethereum.rb"
-    ],
-    "tags": [
-      "sdk"
-    ],
+    "repos": ["https://github.com/EthWorks/ethereum.rb"],
+    "tags": ["sdk"],
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries"
   },
@@ -4024,12 +3148,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/cryspen/hax"
-    ],
-    "tags": [
-      "formal-verification"
-    ],
+    "repos": ["https://github.com/cryspen/hax"],
+    "tags": ["formal-verification"],
     "llmstext": "",
     "subcategory_id": "formal-verification"
   },
@@ -4040,9 +3160,7 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/eth-infinitism/aa-mkdocs"
-    ],
+    "repos": ["https://github.com/eth-infinitism/aa-mkdocs"],
     "tags": [
       "account-abstraction",
       "education",
@@ -4058,14 +3176,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/intellij-solidity/intellij-solidity"
-    ],
-    "tags": [
-      "solidity",
-      "developer-experience",
-      "code-quality"
-    ],
+    "repos": ["https://github.com/intellij-solidity/intellij-solidity"],
+    "tags": ["solidity", "developer-experience", "code-quality"],
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
   },
@@ -4076,14 +3188,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/w3hc/w3pk"
-    ],
-    "tags": [
-      "wallet",
-      "sdk",
-      "privacy-focused"
-    ],
+    "repos": ["https://github.com/w3hc/w3pk"],
+    "tags": ["wallet", "sdk", "privacy-focused"],
     "llmstext": "",
     "subcategory_id": "wallet-integration-auth"
   },
@@ -4094,13 +3200,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/trailofbits/testing-handbook"
-    ],
-    "tags": [
-      "testing",
-      "education"
-    ],
+    "repos": ["https://github.com/trailofbits/testing-handbook"],
+    "tags": ["testing", "education"],
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
   },
@@ -4111,13 +3212,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/0xKoda/eth-mcp"
-    ],
-    "tags": [
-      "mcp-server",
-      "contract-verification"
-    ],
+    "repos": ["https://github.com/0xKoda/eth-mcp"],
+    "tags": ["mcp-server", "contract-verification"],
     "llmstext": "",
     "subcategory_id": "mcp-servers"
   },
@@ -4128,14 +3224,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/crazyrabbitLTC/mcp-etherscan-server"
-    ],
-    "tags": [
-      "mcp-server",
-      "analytics",
-      "block-explorer"
-    ],
+    "repos": ["https://github.com/crazyrabbitLTC/mcp-etherscan-server"],
+    "tags": ["mcp-server", "analytics", "block-explorer"],
     "llmstext": "",
     "subcategory_id": "mcp-servers"
   },
@@ -4146,15 +3236,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/pashov/skills"
-    ],
-    "tags": [
-      "agent-skills",
-      "security",
-      "solidity",
-      "static-analysis"
-    ],
+    "repos": ["https://github.com/pashov/skills"],
+    "tags": ["security", "solidity", "static-analysis"],
     "llmstext": "",
     "subcategory_id": "agent-skills"
   },
@@ -4165,14 +3248,68 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/trailofbits/skills"
-    ],
-    "tags": [
-      "security",
-      "testing",
-      "agent-skills"
-    ],
+    "repos": ["https://github.com/trailofbits/skills"],
+    "tags": ["security", "testing", "agent-skills"],
+    "llmstext": "",
+    "subcategory_id": "agent-skills"
+  },
+  {
+    "name": "Cyfrin solskill",
+    "description": "Claude plugin with Solidity development standards for production-grade code. More thorough on testing, code quality, and smart contract sensitivity. Install via Cyfrin marketplace. By Patrick Collins and the Cyfrin team.",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": ["https://github.com/Cyfrin/solskill"],
+    "tags": ["code-quality", "security", "solidity", "testing"],
+    "llmstext": "",
+    "subcategory_id": "agent-skills"
+  },
+  {
+    "name": "SCV Scan",
+    "description": "Claude Code skill that scans Solidity codebases for security vulnerabilities using 36 unique vulnerability types. Four-phase audit: load cheatsheet, syntactic and semantic codebase sweep, deep validation with reference files, and report. References from smart-contract-vulnerabilities.",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": ["https://github.com/kadenzipfel/scv-scan"],
+    "tags": ["security", "solidity", "static-analysis"],
+    "llmstext": "",
+    "subcategory_id": "agent-skills"
+  },
+  {
+    "name": "QuillShield Security Skills",
+    "description": "AI agent skills for smart contract security auditing. Ten plugins covering reentrancy, oracle/flash loan, proxy/upgrade, state invariants, semantic guards, and more. QuillShield methodology for vulnerabilities traditional static analysis misses. Works with Claude and Cursor.",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": ["https://github.com/quillai-network/qs_skills"],
+    "tags": ["security", "solidity", "static-analysis"],
+    "llmstext": "",
+    "subcategory_id": "agent-skills"
+  },
+  {
+    "name": "sc-auditor",
+    "description": "Smart contract security auditor for Claude Code and Codex CLI. Integrates Slither, Aderyn, Cyfrin checklist, and Solodit findings. Map-Hunt-Attack methodology with four MCP tools for static analysis and findings search.",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": ["https://github.com/Archethect/sc-auditor"],
+    "tags": ["mcp-server", "security", "solidity", "static-analysis"],
+    "llmstext": "",
+    "subcategory_id": "agent-skills"
+  },
+  {
+    "name": "HackenProof Triage Skill",
+    "description": "Reusable triage skill for HackenProof bug bounty report handling. Verifies commit/version scope, submission scope, checks duplicates, and validates submissions to decide state, severity, and comments. For Codex and Claude.",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": ["https://github.com/hackenproof-public/skills"],
+    "tags": ["security", "testing"],
     "llmstext": "",
     "subcategory_id": "agent-skills"
   },
@@ -4183,15 +3320,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/trailofbits/slither-mcp"
-    ],
-    "tags": [
-      "mcp-server",
-      "security",
-      "solidity",
-      "static-analysis"
-    ],
+    "repos": ["https://github.com/trailofbits/slither-mcp"],
+    "tags": ["mcp-server", "security", "solidity", "static-analysis"],
     "llmstext": "",
     "subcategory_id": "mcp-servers"
   },
@@ -4202,14 +3332,8 @@
     "thumbnail_url": null,
     "banner_url": "https://ethwingman.com/ethwingman.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/austintgriffith/ethereum-wingman"
-    ],
-    "tags": [
-      "education",
-      "interactive-tools",
-      "agent-skills"
-    ],
+    "repos": ["https://github.com/austintgriffith/ethereum-wingman"],
+    "tags": ["education", "interactive-tools", "agent-skills"],
     "llmstext": "",
     "subcategory_id": "agent-skills"
   },
@@ -4220,14 +3344,8 @@
     "thumbnail_url": "https://ethskills.com/favicon.svg",
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/austintgriffith/ethskills"
-    ],
-    "tags": [
-      "agent-skills",
-      "developer-experience",
-      "education"
-    ],
+    "repos": ["https://github.com/austintgriffith/ethskills"],
+    "tags": ["developer-experience", "education"],
     "llmstext": "https://ethskills.com/SKILL.md",
     "subcategory_id": "agent-skills"
   },
@@ -4238,13 +3356,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/raulk/eth-protocol-expert"
-    ],
-    "tags": [
-      "developer-experience",
-      "standards-and-specifications"
-    ],
+    "repos": ["https://github.com/raulk/eth-protocol-expert"],
+    "tags": ["developer-experience", "standards-and-specifications"],
     "llmstext": "",
     "subcategory_id": "other-ai-resources"
   },
@@ -4255,13 +3368,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/uniswap/uniswap-ai"
-    ],
-    "tags": [
-      "agent-skills",
-      "defi"
-    ],
+    "repos": ["https://github.com/uniswap/uniswap-ai"],
+    "tags": ["defi"],
     "llmstext": null,
     "subcategory_id": "agent-skills"
   },
@@ -4272,15 +3380,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/austintgriffith/eth-mcp"
-    ],
-    "tags": [
-      "mcp-server",
-      "solidity",
-      "contract-deployment",
-      "foundry"
-    ],
+    "repos": ["https://github.com/austintgriffith/eth-mcp"],
+    "tags": ["mcp-server", "solidity", "contract-deployment", "foundry"],
     "llmstext": "",
     "subcategory_id": "mcp-servers"
   },
@@ -4291,9 +3392,7 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": "https://twitter.com/tevmtools",
-    "repos": [
-      "https://github.com/evmts/voltaire"
-    ],
+    "repos": ["https://github.com/evmts/voltaire"],
     "tags": [
       "type-safe",
       "json-rpc",
@@ -4310,19 +3409,11 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": "https://x.com/quicknode",
-    "repos": [
-      "https://github.com/quiknode-labs/qn-mcp"
-    ],
-    "tags": [
-      "mcp-server",
-      "api",
-      "real-time-data"
-    ],
+    "repos": ["https://github.com/quiknode-labs/qn-mcp"],
+    "tags": ["mcp-server", "api", "real-time-data"],
     "llmstext": null,
     "subcategory_id": "mcp-servers",
-    "packages": [
-      "https://www.npmjs.com/package/@quicknode/mcp"
-    ]
+    "packages": ["https://www.npmjs.com/package/@quicknode/mcp"]
   },
   {
     "name": "Ethereum MCP",
@@ -4331,13 +3422,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/b17z/ethereum-mcp"
-    ],
-    "tags": [
-      "mcp-server",
-      "standards-and-specifications"
-    ],
+    "repos": ["https://github.com/b17z/ethereum-mcp"],
+    "tags": ["mcp-server", "standards-and-specifications"],
     "llmstext": null,
     "subcategory_id": "mcp-servers"
   },
@@ -4348,14 +3434,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/blockscout/mcp-server"
-    ],
-    "tags": [
-      "mcp-server",
-      "block-explorer",
-      "analytics"
-    ],
+    "repos": ["https://github.com/blockscout/mcp-server"],
+    "tags": ["mcp-server", "block-explorer", "analytics"],
     "llmstext": null,
     "subcategory_id": "mcp-servers"
   },
@@ -4366,20 +3446,11 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/ensdomains/docs"
-    ],
-    "tags": [
-      "cross-chain",
-      "identity",
-      "sdk",
-      "standards-and-specifications"
-    ],
+    "repos": ["https://github.com/ensdomains/docs"],
+    "tags": ["cross-chain", "identity", "sdk", "standards-and-specifications"],
     "llmstext": "",
     "subcategory_id": "wallet-integration-auth",
-    "packages": [
-      "https://www.npmjs.com/package/@ensdomains/ensjs"
-    ]
+    "packages": ["https://www.npmjs.com/package/@ensdomains/ensjs"]
   },
   {
     "name": "ENS MCP Server",
@@ -4388,19 +3459,11 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/justaname-id/ens-mcp-server"
-    ],
-    "tags": [
-      "mcp-server",
-      "developer-experience",
-      "identity"
-    ],
+    "repos": ["https://github.com/justaname-id/ens-mcp-server"],
+    "tags": ["mcp-server", "developer-experience", "identity"],
     "llmstext": null,
     "subcategory_id": "mcp-servers",
-    "packages": [
-      "https://www.npmjs.com/package/mcp-server-ens"
-    ]
+    "packages": ["https://www.npmjs.com/package/mcp-server-ens"]
   },
   {
     "name": "@slicekit/erc8128",
@@ -4409,19 +3472,11 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/slice-so/erc8128"
-    ],
-    "tags": [
-      "authentication",
-      "sdk",
-      "standards-and-specifications"
-    ],
+    "repos": ["https://github.com/slice-so/erc8128"],
+    "tags": ["authentication", "sdk", "standards-and-specifications"],
     "llmstext": "https://erc8128.slice.so/llms.txt",
     "subcategory_id": "wallet-integration-auth",
-    "packages": [
-      "https://www.npmjs.com/package/@slicekit/erc8128"
-    ]
+    "packages": ["https://www.npmjs.com/package/@slicekit/erc8128"]
   },
   {
     "name": "SIWA",
@@ -4430,19 +3485,11 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": "https://x.com/builders_garden",
-    "repos": [
-      "https://github.com/builders-garden/siwa"
-    ],
-    "tags": [
-      "authentication",
-      "agent-skills",
-      "sdk"
-    ],
+    "repos": ["https://github.com/builders-garden/siwa"],
+    "tags": ["authentication", "sdk"],
     "llmstext": "https://siwa.id/skill.md",
     "subcategory_id": "agent-skills",
-    "packages": [
-      "https://www.npmjs.com/package/@buildersgarden/siwa"
-    ]
+    "packages": ["https://www.npmjs.com/package/@buildersgarden/siwa"]
   },
   {
     "name": "AgentHub by Allium",
@@ -4461,9 +3508,7 @@
     ],
     "llmstext": "https://agents.allium.so/skills/skill.md",
     "subcategory_id": "mcp-servers",
-    "packages": [
-      "https://www.npmjs.com/package/@allium-labs/mcp"
-    ]
+    "packages": ["https://www.npmjs.com/package/@allium-labs/mcp"]
   },
   {
     "name": "Ethereum MCP (ETHCF)",
@@ -4472,9 +3517,7 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/ETHCF/ethereum-mcp"
-    ],
+    "repos": ["https://github.com/ETHCF/ethereum-mcp"],
     "tags": [
       "mcp-server",
       "analytics",
@@ -4489,14 +3532,8 @@
     "name": "Chainlink",
     "description": "Chainlink decentralized oracle networks provide tamper-proof inputs, outputs, and computations to support advanced smart contracts on any blockchain.",
     "website": "https://chain.link/",
-    "repos": [
-      "https://github.com/smartcontractkit/chainlink"
-    ],
-    "tags": [
-      "oracle",
-      "real-time-data",
-      "multi-chain"
-    ],
+    "repos": ["https://github.com/smartcontractkit/chainlink"],
+    "tags": ["oracle", "real-time-data", "multi-chain"],
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -4506,15 +3543,8 @@
     "name": "RedStone Oracles",
     "description": "RedStone is a decentralized modular oracle that provides gas-optimized data feeds. It specializes in offering price feeds for emerging assets, such as liquid staking tokens (LSTs), liquid restaking tokens (LRTs), and Bitcoin staking derivatives.",
     "website": "https://redstone.finance/",
-    "repos": [
-      "https://github.com/redstone-finance/redstone-oracles-monorepo"
-    ],
-    "tags": [
-      "oracle",
-      "real-time-data",
-      "gas-optimization",
-      "multi-chain"
-    ],
+    "repos": ["https://github.com/redstone-finance/redstone-oracles-monorepo"],
+    "tags": ["oracle", "real-time-data", "gas-optimization", "multi-chain"],
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -4524,14 +3554,8 @@
     "name": "Chronicle",
     "description": "Chronicle overcomes the current limitations of transferring data onchain by developing truly scalable, cost-efficient, decentralized, and verifiable oracles.",
     "website": "https://chroniclelabs.org/",
-    "repos": [
-      "https://github.com/chronicleprotocol/scribe"
-    ],
-    "tags": [
-      "oracle",
-      "scalability",
-      "real-time-data"
-    ],
+    "repos": ["https://github.com/chronicleprotocol/scribe"],
+    "tags": ["oracle", "scalability", "real-time-data"],
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -4541,14 +3565,8 @@
     "name": "Witnet",
     "description": "Witnet is a permissionless, decentralized, and censorship-resistant oracle helping smart contracts to react to real world events with strong crypto-economic guarantees.",
     "website": "https://witnet.io/",
-    "repos": [
-      "https://github.com/witnet/witnet-rust"
-    ],
-    "tags": [
-      "oracle",
-      "censorship-resistant",
-      "real-time-data"
-    ],
+    "repos": ["https://github.com/witnet/witnet-rust"],
+    "tags": ["oracle", "censorship-resistant", "real-time-data"],
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -4558,14 +3576,8 @@
     "name": "UMA Oracle",
     "description": "UMA's optimistic oracle allows smart contracts to quickly receive any kind of data for different applications, including insurance, financial derivatives, and prediction markets.",
     "website": "https://uma.xyz",
-    "repos": [
-      "https://github.com/UMAprotocol/protocol"
-    ],
-    "tags": [
-      "oracle",
-      "defi",
-      "real-time-data"
-    ],
+    "repos": ["https://github.com/UMAprotocol/protocol"],
+    "tags": ["oracle", "defi", "real-time-data"],
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -4575,13 +3587,8 @@
     "name": "Tellor",
     "description": "Tellor is a transparent and permissionless oracle protocol for your smart contract to easily get any data whenever it needs it.",
     "website": "https://tellor.io/",
-    "repos": [
-      "https://github.com/tellor-io/UsingTellorLayer"
-    ],
-    "tags": [
-      "oracle",
-      "real-time-data"
-    ],
+    "repos": ["https://github.com/tellor-io/UsingTellorLayer"],
+    "tags": ["oracle", "real-time-data"],
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -4591,15 +3598,8 @@
     "name": "Band Protocol",
     "description": "Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.",
     "website": "https://bandprotocol.com/",
-    "repos": [
-      "https://github.com/bandprotocol/chain"
-    ],
-    "tags": [
-      "oracle",
-      "cross-chain",
-      "real-time-data",
-      "api"
-    ],
+    "repos": ["https://github.com/bandprotocol/chain"],
+    "tags": ["oracle", "cross-chain", "real-time-data", "api"],
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -4609,14 +3609,8 @@
     "name": "Pyth Network",
     "description": "The Pyth network is a first-party financial oracle network designed to publish continuous real-world data onchain in a tamper-resistant, decentralized, and self-sustainable environment.",
     "website": "https://pyth.network/",
-    "repos": [
-      "https://github.com/pyth-network/pyth-crosschain"
-    ],
-    "tags": [
-      "oracle",
-      "real-time-data",
-      "multi-chain"
-    ],
+    "repos": ["https://github.com/pyth-network/pyth-crosschain"],
+    "tags": ["oracle", "real-time-data", "multi-chain"],
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -4626,15 +3620,8 @@
     "name": "API3 DAO",
     "description": "API3 DAO is delivering first-party oracle solutions that deliver greater source transparency, security and scalability in a decentralized solution for smart contracts.",
     "website": "https://api3.org/",
-    "repos": [
-      "https://github.com/api3dao/airnode"
-    ],
-    "tags": [
-      "oracle",
-      "api",
-      "real-time-data",
-      "scalability"
-    ],
+    "repos": ["https://github.com/api3dao/airnode"],
+    "tags": ["oracle", "api", "real-time-data", "scalability"],
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -4644,15 +3631,8 @@
     "name": "Gas Network",
     "description": "A distributed oracle platform providing real-time gas price data across blockchain. By bringing data from leading gas price data providers onchain, Gas Network is helping to drive interoperability. Gas Network supports data for over 35 chains, including Ethereum Mainnet and many leading L2s.",
     "website": "https://gas.network/",
-    "repos": [
-      "https://github.com/blocknative/gas-agent"
-    ],
-    "tags": [
-      "oracle",
-      "real-time-data",
-      "multi-chain",
-      "gas-optimization"
-    ],
+    "repos": ["https://github.com/blocknative/gas-agent"],
+    "tags": ["oracle", "real-time-data", "multi-chain", "gas-optimization"],
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -4665,14 +3645,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/iden3/circom"
-    ],
-    "tags": [
-      "compiler",
-      "cli",
-      "privacy-focused"
-    ],
+    "repos": ["https://github.com/iden3/circom"],
+    "tags": ["compiler", "cli", "privacy-focused"],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy"
   },
@@ -4683,14 +3657,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/iden3/snarkjs"
-    ],
-    "tags": [
-      "cli",
-      "developer-experience",
-      "privacy-focused"
-    ],
+    "repos": ["https://github.com/iden3/snarkjs"],
+    "tags": ["cli", "developer-experience", "privacy-focused"],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy"
   },
@@ -4701,14 +3669,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/noir-lang/noir"
-    ],
-    "tags": [
-      "compiler",
-      "developer-experience",
-      "privacy-focused"
-    ],
+    "repos": ["https://github.com/noir-lang/noir"],
+    "tags": ["compiler", "developer-experience", "privacy-focused"],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy"
   },
@@ -4719,14 +3681,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/zcash/halo2"
-    ],
-    "tags": [
-      "privacy-focused",
-      "scalability",
-      "developer-experience"
-    ],
+    "repos": ["https://github.com/zcash/halo2"],
+    "tags": ["privacy-focused", "scalability", "developer-experience"],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy"
   },
@@ -4737,14 +3693,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/Zokrates/ZoKrates"
-    ],
-    "tags": [
-      "compiler",
-      "cli",
-      "privacy-focused"
-    ],
+    "repos": ["https://github.com/Zokrates/ZoKrates"],
+    "tags": ["compiler", "cli", "privacy-focused"],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy"
   },
@@ -4755,15 +3705,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/semaphore-protocol/semaphore"
-    ],
-    "tags": [
-      "privacy-focused",
-      "authentication",
-      "identity",
-      "merkle-trees"
-    ],
+    "repos": ["https://github.com/semaphore-protocol/semaphore"],
+    "tags": ["privacy-focused", "authentication", "identity", "merkle-trees"],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy"
   },
@@ -4774,14 +3717,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/privacy-scaling-explorations/maci"
-    ],
-    "tags": [
-      "privacy-focused",
-      "governance",
-      "scalability"
-    ],
+    "repos": ["https://github.com/privacy-scaling-explorations/maci"],
+    "tags": ["privacy-focused", "governance", "scalability"],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy"
   },
@@ -4792,14 +3729,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/AztecProtocol/aztec-packages"
-    ],
-    "tags": [
-      "layer-2",
-      "privacy-focused",
-      "scalability"
-    ],
+    "repos": ["https://github.com/AztecProtocol/aztec-packages"],
+    "tags": ["layer-2", "privacy-focused", "scalability"],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy"
   },
@@ -4815,11 +3746,7 @@
       "https://github.com/Railgun-Community/cookbook",
       "https://github.com/Railgun-Community/wallet"
     ],
-    "tags": [
-      "privacy-focused",
-      "encryption",
-      "defi"
-    ],
+    "tags": ["privacy-focused", "encryption", "defi"],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy"
   },
@@ -4830,13 +3757,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/coordinape/coordinape"
-    ],
-    "tags": [
-      "governance",
-      "community-driven"
-    ],
+    "repos": ["https://github.com/coordinape/coordinape"],
+    "tags": ["governance", "community-driven"],
     "llmstext": "",
     "subcategory_id": "governance-dao-tooling"
   },
@@ -4851,10 +3773,7 @@
       "https://github.com/withtally/tally-api-quickstart",
       "https://github.com/withtally/Tutorial-Deploy-Governance"
     ],
-    "tags": [
-      "governance",
-      "api"
-    ],
+    "tags": ["governance", "api"],
     "llmstext": "",
     "subcategory_id": "governance-dao-tooling"
   },
@@ -4869,10 +3788,7 @@
       "https://github.com/jbx-protocol/juice-contracts-v3",
       "https://github.com/jbx-protocol/juice-interface"
     ],
-    "tags": [
-      "governance",
-      "defi"
-    ],
+    "tags": ["governance", "defi"],
     "llmstext": "",
     "subcategory_id": "governance-dao-tooling"
   },
@@ -4883,13 +3799,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/HausDAO/monorepo"
-    ],
-    "tags": [
-      "governance",
-      "community-driven"
-    ],
+    "repos": ["https://github.com/HausDAO/monorepo"],
+    "tags": ["governance", "community-driven"],
     "llmstext": "",
     "subcategory_id": "governance-dao-tooling"
   },
@@ -4900,15 +3811,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/alchemyplatform/alchemy-sdk-js"
-    ],
-    "tags": [
-      "api",
-      "json-rpc",
-      "sdk",
-      "multi-chain"
-    ],
+    "repos": ["https://github.com/alchemyplatform/alchemy-sdk-js"],
+    "tags": ["api", "json-rpc", "sdk", "multi-chain"],
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
   },
@@ -4919,15 +3823,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/INFURA/infura"
-    ],
-    "tags": [
-      "api",
-      "json-rpc",
-      "developer-experience",
-      "multi-chain"
-    ],
+    "repos": ["https://github.com/INFURA/infura"],
+    "tags": ["api", "json-rpc", "developer-experience", "multi-chain"],
     "llmstext": "",
     "subcategory_id": "rpc-node-infrastructure"
   },
@@ -4939,11 +3836,7 @@
     "banner_url": null,
     "twitter": null,
     "repos": [],
-    "tags": [
-      "analytics",
-      "block-explorer",
-      "developer-experience"
-    ],
+    "tags": ["analytics", "block-explorer", "developer-experience"],
     "llmstext": "",
     "subcategory_id": "analytics-monitoring"
   },
@@ -4955,11 +3848,7 @@
     "banner_url": null,
     "twitter": null,
     "repos": [],
-    "tags": [
-      "block-explorer",
-      "api",
-      "contract-verification"
-    ],
+    "tags": ["block-explorer", "api", "contract-verification"],
     "llmstext": "",
     "subcategory_id": "analytics-monitoring"
   },
@@ -4971,11 +3860,7 @@
     "banner_url": null,
     "twitter": null,
     "repos": [],
-    "tags": [
-      "natural-language-processing",
-      "developer-experience",
-      "api"
-    ],
+    "tags": ["natural-language-processing", "developer-experience", "api"],
     "llmstext": "",
     "subcategory_id": "other-ai-resources"
   },
@@ -4987,10 +3872,7 @@
     "banner_url": null,
     "twitter": null,
     "repos": [],
-    "tags": [
-      "education",
-      "solidity"
-    ],
+    "tags": ["education", "solidity"],
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
   },
@@ -5001,14 +3883,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/buidlguidl/ctf.buidlguidl.com"
-    ],
-    "tags": [
-      "education",
-      "security",
-      "solidity"
-    ],
+    "repos": ["https://github.com/buidlguidl/ctf.buidlguidl.com"],
+    "tags": ["education", "security", "solidity"],
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
   },
@@ -5019,9 +3895,7 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/transmissions11/solmate"
-    ],
+    "repos": ["https://github.com/transmissions11/solmate"],
     "tags": [
       "solidity",
       "gas-efficient",
@@ -5038,14 +3912,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/RareSkills/Solidity-Exercises"
-    ],
-    "tags": [
-      "education",
-      "solidity",
-      "security"
-    ],
+    "repos": ["https://github.com/RareSkills/Solidity-Exercises"],
+    "tags": ["education", "solidity", "security"],
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
   },
@@ -5056,14 +3924,8 @@
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
-    "repos": [
-      "https://github.com/OpenZeppelin/damn-vulnerable-defi"
-    ],
-    "tags": [
-      "education",
-      "security",
-      "defi"
-    ],
+    "repos": ["https://github.com/OpenZeppelin/damn-vulnerable-defi"],
+    "tags": ["education", "security", "defi"],
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
   }
