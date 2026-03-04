@@ -140,9 +140,9 @@
             "description": "Reusable agent capabilities, prompts, and task modules for Ethereum workflows."
           },
           {
-            "id": "agent-workflows-automation",
-            "name": "Agent Workflows & Automation",
-            "description": "Automation frameworks and orchestration patterns for multi-step agent execution."
+            "id": "other-ai-resources",
+            "name": "Other AI Resources",
+            "description": "Other AI resources that are not skills or MCP servers."
           }
         ]
       },

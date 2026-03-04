@@ -2313,7 +2313,7 @@
       "solidity"
     ],
     "llmstext": "",
-    "subcategory_id": "agent-workflows-automation"
+    "subcategory_id": "other-ai-resources"
   },
   {
     "name": "web3.py",
@@ -3215,6 +3215,23 @@
     "packages": [
       "https://www.npmjs.com/package/@zk-email/contracts"
     ]
+  },
+  {
+    "name": "zkTLS/ TLSNotary",
+    "description": "Open-source protocol that verifies the authenticity of TLS data while preserving privacy. Uses secure Multi-Party Computation (MPC) so a Verifier can authenticate the TLS transcript without revealing the complete data. Enables privacy-preserving data portability and selective disclosure. Ethereum Foundation PSE project.",
+    "website": "https://tlsnotary.org/",
+    "thumbnail_url": "https://tlsnotary.org/img/logo/tlsn-logo-blue.svg",
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/tlsnotary/tlsn"
+    ],
+    "tags": [
+      "privacy-focused",
+      "verification"
+    ],
+    "llmstext": "",
+    "subcategory_id": "zk-circuits-privacy"
   },
   {
     "name": "ZKPassport",
@@ -4210,7 +4227,7 @@
       "standards-and-specifications"
     ],
     "llmstext": "",
-    "subcategory_id": "agent-workflows-automation"
+    "subcategory_id": "other-ai-resources"
   },
   {
     "name": "uniswap-ai",
@@ -4941,7 +4958,7 @@
       "api"
     ],
     "llmstext": "",
-    "subcategory_id": "courses-tutorials"
+    "subcategory_id": "other-ai-resources"
   },
   {
     "name": "Alchemy University",
