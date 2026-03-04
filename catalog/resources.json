@@ -3403,6 +3403,18 @@
     "subcategory_id": "core-sdks-libraries"
   },
   {
+    "name": "Zerion API MCP Server",
+    "description": "MCP server giving AI tools direct access to Zerion's real-time crypto data. Portfolio, transactions, PnL, DeFi positions, token prices, NFTs, and gas prices. Works with Claude.ai, Claude Code, and Cursor. Connect via URL: https://developers.zerion.io/mcp.",
+    "website": "https://developers.zerion.io/reference/building-with-ai",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [],
+    "tags": ["mcp-server", "analytics", "api", "defi", "real-time-data"],
+    "llmstext": "https://developers.zerion.io/llms.txt",
+    "subcategory_id": "mcp-servers"
+  },
+  {
     "name": "QuickNode MCP Server",
     "description": "QuickNode MCP Server brings the power of QuickNode's blockchain infrastructure directly to your AI assistant.",
     "website": "https://quicknode.com/",
