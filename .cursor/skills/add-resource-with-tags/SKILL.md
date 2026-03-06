@@ -8,7 +8,7 @@ description: Guides contributors through adding or updating a tool/resource in c
 ## Inputs to collect (ask for anything missing)
 - Resource name
 - 1-3 sentence description
-- Website URL (optional)
+- Website URL (optional - do not add a repository url as a website url)
 - Twitter/X URL (optional)
 - Square thumbnail icon URL (optional)
 - Wide banner URL (optional)

@@ -3250,6 +3250,18 @@
     "subcategory_id": "agent-skills"
   },
   {
+    "name": "OpenZeppelin Skills",
+    "description": "Agent skills for secure smart contract development with OpenZeppelin Contracts libraries, including setup and upgrade workflows for Solidity and other ecosystems.",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": ["https://github.com/OpenZeppelin/openzeppelin-skills"],
+    "tags": ["agent-skills", "security", "solidity-development", "upgradeable-contracts"],
+    "llmstext": "",
+    "subcategory_id": "agent-skills"
+  },
+  {
     "name": "Cyfrin solskill",
     "description": "Claude plugin with Solidity development standards for production-grade code. More thorough on testing, code quality, and smart contract sensitivity. Install via Cyfrin marketplace. By Patrick Collins and the Cyfrin team.",
     "website": null,
