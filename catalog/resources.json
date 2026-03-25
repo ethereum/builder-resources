@@ -1104,16 +1104,16 @@
     "banner_url": "https://storage.googleapis.com/op-atlas/8b032214-48dc-4f13-b8fa-21324d9c9030.png",
     "twitter": "https://x.com/ScaffoldETH",
     "repos": [
+      "https://github.com/scaffold-eth/scaffold-eth-2",
       "https://github.com/scaffold-eth/create-eth-extensions",
-      "https://github.com/scaffold-eth/burner-connector",
-      "https://github.com/scaffold-eth/se-2-docs",
-      "https://github.com/scaffold-eth/create-eth",
-      "https://github.com/scaffold-eth/scaffoldeth.io",
-      "https://github.com/scaffold-eth/scaffold-eth-2"
+      "https://github.com/scaffold-eth/se-2-docs"
     ],
     "tags": ["frontend", "nextjs", "hardhat", "foundry", "cli"],
     "llmstext": "https://docs.scaffoldeth.io/llms-full.txt",
-    "subcategory_id": "contract-frameworks"
+    "subcategory_id": "contract-frameworks",
+    "packages": [
+      "https://www.npmjs.com/package/create-eth"
+    ]
   },
   {
     "name": "RainbowKit Theme Generator",
@@ -2367,7 +2367,6 @@
     "banner_url": "https://storage.googleapis.com/op-atlas/a508253b-4224-4c48-8519-3fefcf39fc2f.png",
     "twitter": null,
     "repos": [
-      "https://github.com/pcaversaccio/createx/releases/tag/v1.0.0",
       "https://github.com/pcaversaccio/createx"
     ],
     "tags": ["cli", "contract-deployment", "solidity"],
@@ -3335,7 +3334,7 @@
   },
   {
     "name": "Ethereum Wingman",
-    "description": "A comprehensive Ethereum development tutor and guide built as an Agent Skill. Teaches smart contract development through SpeedRun Ethereum challenges, Scaffold-ETH tooling, and security best practices.",
+    "description": "A comprehensive Ethereum development tutor and guide built as an Agent Skill. Teaches smart contract development through Speedrun Ethereum challenges, Scaffold-ETH tooling, and security best practices.",
     "website": "https://ethwingman.com/",
     "thumbnail_url": null,
     "banner_url": "https://ethwingman.com/ethwingman.png",
