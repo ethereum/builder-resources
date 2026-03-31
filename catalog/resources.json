@@ -1604,7 +1604,7 @@
       "runtime-verification",
       "formal-verification"
     ],
-    "website": "simbolik.runtimeverification.com",
+    "website": "https://www.simbolik.dev/",
     "llmstext": "",
     "subcategory_id": "debugging-inspection"
   },
@@ -4139,5 +4139,17 @@
     ],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy"
+  },
+  {
+    "name": "EthUX Design",
+    "description": "A community-sourced map of Ethereum UX pain points with solution checklists, adoption tracking, and real user evidence from 32,000+ reports.",
+    "thumbnail_url": "https://ethux.design/favicon.svg",
+    "banner_url": null,
+    "twitter": null,
+    "repos": ["https://github.com/konopkja/ethux-design"],
+    "tags": ["user-experience", "education", "agent-skills"],
+    "website": "https://ethux.design",
+    "llmstext": "",
+    "subcategory_id": "courses-tutorials"
   }
 ]
