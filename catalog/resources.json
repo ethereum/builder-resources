@@ -4151,5 +4151,29 @@
     "website": "https://ethux.design",
     "llmstext": "",
     "subcategory_id": "courses-tutorials"
+  },
+  {
+    "name": "Solar",
+    "description": "Blazingly fast, modular Solidity compiler written in Rust by Paradigm. Designed as a contributor-friendly compiler stack for faster builds and better diagnostics.",
+    "website": null,
+    "thumbnail_url": "https://github.com/paradigmxyz.png",
+    "banner_url": null,
+    "twitter": null,
+    "repos": ["https://github.com/paradigmxyz/solar"],
+    "tags": ["compiler", "solidity", "performance-optimization", "cli"],
+    "llmstext": "",
+    "subcategory_id": "smart-contract-libraries-utilities"
+  },
+  {
+    "name": "solx",
+    "description": "A gas-efficient Solidity compiler for Ethereum powered by LLVM from the ZKsync team and collaborators. Works as a drop-in replacement for solc in workflows like Foundry and Hardhat.",
+    "website": "https://solx.zksync.io/",
+    "thumbnail_url": "https://solx.zksync.io/favicon.png",
+    "banner_url": null,
+    "twitter": null,
+    "repos": ["https://github.com/NomicFoundation/solx"],
+    "tags": ["compiler", "solidity", "gas-optimization", "foundry", "hardhat"],
+    "llmstext": "",
+    "subcategory_id": "smart-contract-libraries-utilities"
   }
 ]

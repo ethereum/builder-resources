@@ -11,7 +11,7 @@ description: Guides contributors through adding or updating a tool/resource in c
 - Website URL (optional - do not add a repository url as a website url)
 - Twitter/X URL (optional)
 - Square thumbnail icon URL (optional)
-- Wide banner URL (optional)
+- Wide banner URL (optional - never use opengraph images as banner images)
 - Repository URL(s), e.g. GitHub (optional)
 - Package URL(s), e.g. npm (optional)
 - llmstext URL (optional)
