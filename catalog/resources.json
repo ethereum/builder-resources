@@ -4149,7 +4149,7 @@
     "repos": ["https://github.com/konopkja/ethux-design"],
     "tags": ["user-experience", "education", "agent-skills"],
     "website": "https://ethux.design",
-    "llmstext": "",
+    "llmstext": "https://ethux.design/SKILL.md",
     "subcategory_id": "courses-tutorials"
   },
   {
