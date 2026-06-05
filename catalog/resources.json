@@ -1835,8 +1835,8 @@
   {
     "name": "Ackee",
     "description": "Ackee is a blockchain security shop you hire for audits, tooling support, and training when you need hands-on review of Solidity systems and surrounding infrastructure.",
-    "thumbnail_url": "https://cdn.charmverse.io/user-content/2d6a8f50-45c2-4658-a66a-74eca1149aa3/102ec612-ed55-4da8-b9fb-0bb3f5447e84/Ackee-Blockchain-Security-logo.jpg",
-    "banner_url": "https://cdn.charmverse.io/user-content/2d6a8f50-45c2-4658-a66a-74eca1149aa3/f1984493-d1a1-424e-afc1-36e1fc33f573/Ackee-Blockchain-Twitter-Banner.jpeg",
+    "thumbnail_url": null,
+    "banner_url": null,
     "twitter": "ackeeblockchain",
     "repos": ["https://github.com/Ackee-Blockchain/solidity-for-vscode"],
     "tags": [
@@ -1930,8 +1930,8 @@
   {
     "name": "Curvegrid MultiBaas",
     "description": "Curvegrid MultiBaas is a hosted control plane with REST APIs for deploying and operating multi-chain EVM backends when you want managed keys, indexing hooks, and dashboards without building all ops in-house.",
-    "thumbnail_url": "https://cdn.charmverse.io/user-content/cae02d37-eadb-4a01-a063-d72588a78203/a6dfa7b6-3b1c-4ff3-b5e5-f82624024c5e/Icon-(Color).svg",
-    "banner_url": "https://cdn.charmverse.io/user-content/cae02d37-eadb-4a01-a063-d72588a78203/3151e0b3-b99e-4da6-9fdf-e98c3e985c22/Curvegrid-Banner-(1).png",
+    "thumbnail_url": null,
+    "banner_url": null,
     "twitter": "https://x.com/curvegridinc",
     "repos": [
       "https://github.com/curvegrid/multibaas-sdk-go",
@@ -2031,8 +2031,8 @@
   {
     "name": "Opstack Kit",
     "description": "opstack-kit scaffolds Superchain-aware frontends and scripts with bridging helpers, CustomGasToken flows, and OP Stack CLI tasks baked into the starter.",
-    "thumbnail_url": "https://cdn.charmverse.io/user-content/e3eb66db-408b-4e21-bc69-c2927fd15b32/552ea203-8cee-4111-9a61-82fd3da74367/ok.png",
-    "banner_url": "https://cdn.charmverse.io/user-content/e3eb66db-408b-4e21-bc69-c2927fd15b32/874ceabb-8637-48ef-935d-747218d514fc/opstackkit-cover.jpg",
+    "thumbnail_url": null,
+    "banner_url": null,
     "twitter": "opstackkit",
     "repos": ["https://github.com/opstack-kit/opstack-kit"],
     "tags": ["cli", "cross-chain"],
@@ -2222,8 +2222,8 @@
   {
     "name": "Vyper",
     "description": "Pythonic Smart Contract Language for the EVM",
-    "thumbnail_url": "https://cdn.charmverse.io/user-content/5302de23-eae6-4cda-97aa-25fefd829726/9aa6f15f-e32a-4bca-a40a-5b1e1122babb/2024-06-11_23-25.png",
-    "banner_url": "https://cdn.charmverse.io/user-content/5302de23-eae6-4cda-97aa-25fefd829726/6c137923-55fc-4dc9-9424-5dad59f82ab4/vyper-optimism.png",
+    "thumbnail_url": null,
+    "banner_url": null,
     "twitter": "https://x.com/vyperlang?lang=en",
     "repos": ["https://github.com/vyperlang/vyper"],
     "tags": ["compiler", "devops"],
