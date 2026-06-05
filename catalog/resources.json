@@ -60,7 +60,7 @@
   },
   {
     "name": "Superbeam",
-    "description": "SuperBeam is an open-source typescript SDK on top of Superchain ecosystem. Superbeam is a single api you would ever need to transact across superchain. \n\nSuperBeam enables developers to interact with superchain interop enabled chains and protocols with less friction and without worrying about asset fragmentation across chains. It includes features like - Aggregated Balance, Asset Sweeping, Contract interactions and much more",
+    "description": "Use Superbeam when you are building on the Superchain and want one TypeScript client for cross-chain balances, sweeps, and contract calls instead of wiring each OP Stack deployment by hand.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/17f44321-04a1-49d8-8702-1c154fa6c560.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/a4f2569e-59a0-4265-8976-6e61beacde96.png",
     "twitter": null,
@@ -72,7 +72,7 @@
   },
   {
     "name": "OpenRPC",
-    "description": "OpenRPC is an Apache-licensed, open standard for describing JSON-RPC APIs, analogous to how OpenAPI/Swagger works for REST APIs. Our project provides a comprehensive, free-to-use toolkit that enables developers to generate clear, machine-readable specifications. This drastically simplifies the development, testing, validation, and documentation workflow for anyone building on or interacting with Ethereum and L2 client APIs.\n\nFor over six years, OpenRPC has been a foundational tool in the ecosystem. It has been instrumental for leading projects including the Ethereum Foundation (for execution-apis), MetaMask, Chainlink, Filecoin, Celestia, and Starknet in publishing well-defined and accessible API specifications.",
+    "description": "OpenRPC is JSON-RPC schema tooling and generators in the spirit of OpenAPI: you describe RPC surfaces once, then ship typed clients, docs, and tests for Ethereum and L2 JSON-RPC stacks.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/6e5db839-6c5b-4b51-902f-5dc45afd7ea9.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/6d09c3cd-91ff-4035-a736-7fcd9e68f98c.png",
     "twitter": "https://x.com/open_rpc",
@@ -125,7 +125,7 @@
   },
   {
     "name": "ERCx: Token Test Library",
-    "description": "Runtime Verification is a leading formal verification company specializing in blockchain security and smart contract correctness. We've developed ERCx, the most comprehensive open-source testing library for ERC token standards, featuring over 500 individual tests across ERC-20, ERC-721, ERC-1155, and ERC-4626 implementations.\nERCx directly empowers Superchain builders by providing production-ready test suites that verify both standard compliance and security properties. Our library offers zero-configuration testing for deployed contracts via Foundry fork testing, plus simple integration for pre-deployment source code validation. With three testing tiers: Standard (EIP compliance), Security (vulnerability detection), and Features (implementation validation), developers can ship token contracts with confidence, knowing they've been thoroughly vetted against real-world attack vectors and edge cases.",
+    "description": "ERCx is a comprehensive open-source testing library for ERC token standards, featuring over 500 individual tests across ERC-20, ERC-721, ERC-1155, and ERC-4626 implementations.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/e6a6dd9b-4ace-4187-8408-0e5729bb0265.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/eee0738d-3735-42c8-8802-93b22a041803.png",
     "twitter": "x.com/rv_inc",
@@ -133,7 +133,7 @@
     "tags": ["foundry", "security", "erc721", "runtime-verification"],
     "website": "ercx.runtimeverification.com",
     "llmstext": "",
-    "subcategory_id": "formal-verification"
+    "subcategory_id": "fuzz-property-testing"
   },
   {
     "name": "Enso Build",
@@ -154,7 +154,7 @@
   },
   {
     "name": "React Native Passkeys",
-    "description": "React Native Passkeys is a TypeScript library that provides a unified API for creating and authenticating with passkeys across Web, Android, and iOS.\n\nThe API mirrors the WebAuthn standard, making it easier for React Native developers to leverage existing documentation, tools, and backend infrastructure, abstracting away platform-specific complexities. \n\nWith over 250k downloads it is utilised by teams like Privy, Coinbase, Safe, ZeroDev, Ephemera, OneKey & more.",
+    "description": "React Native Passkeys exposes one WebAuthn-shaped passkey API across iOS, Android, and Web targets so you can reuse existing auth backends while shipping native mobile wallet or consumer apps.",
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -165,7 +165,7 @@
   },
   {
     "name": "Ethernaut CLI",
-    "description": "A universal Ethereum swiss army knife with an AI duck taped onto it.\n\nA CLI for non-technical users, trying to bridge the gap between graphical UIs and CLIs.\n\nA framework for rapid tool building; integrate a new tool in a matter of hours.\n\nAn extensible framework composed of hardhat plugins.",
+    "description": "Ethernaut CLI is a Hardhat-based command toolbox from EthernautDAO with optional AI helpers for common Ethereum tasks when you prefer terminals over GUIs.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/1fdf287a-8ec4-4e15-a81d-1e63b902662b.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/5b622e91-2107-4d63-87b7-9aeb42d55d86.png",
     "twitter": null,
@@ -218,7 +218,7 @@
   },
   {
     "name": "K Semantics of the Ethereum Virtual Machine (EVM)",
-    "description": "We are Runtime Verification, a research and development company building rigorous tools to ensure the safety and correctness of critical systems. Our team has developed KEVM, the most complete and battle-tested formal semantics of the Ethereum Virtual Machine (EVM), written in the K Framework.\n\nKEVM is not just a specification, it is an executable specification that can be used to symbolically reason about smart contracts, run conformance tests, analyze gas usage, debug programs, and formally verify correctness properties. It passes the full Ethereum test suite and is used to verify high-value contracts, including ERC20 tokens in both Solidity and Vyper.",
+    "description": "KEVM is the K-framework executable semantics of the EVM: point it at bytecode when you need conformance-checked execution, symbolic exploration, gas reasoning, or proofs that track Ethereum's rules closely.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/aab1bec1-5b08-4727-a5c2-f8d0dfbe0ed9.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/0204f6f1-2d6a-443b-bd9e-afb88c23f2e3.png",
     "twitter": "https://x.com/rv_inc",
@@ -238,7 +238,7 @@
   },
   {
     "name": "Foundry",
-    "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.\n\nIt is a smart contract development toolchain that manages your dependencies, compiles your project, runs tests, deploys, and lets you interact with the chain from the command-line and via Solidity scripts.",
+    "description": "Foundry is a fast, portable Rust toolchain for Ethereum smart contract engineering that manages dependencies, compiles Solidity, runs fuzz and unit tests, deploys contracts, and drives scripted chain interaction from the terminal or Solidity automation scripts.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/66656b6d-5f9d-46f6-b8f0-67eb23ce9db9.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/f22dd5f4-39c2-46d4-b701-85355469df9c.png",
     "twitter": null,
@@ -258,7 +258,7 @@
   },
   {
     "name": "Kurtosis",
-    "description": "Kurtosis is a developer platform purpose-built to streamline the development, testing, and debugging of Web3 and blockchain-based distributed systems. It provides programmable environments that mirror real-world networks, making it easier to build and iterate on decentralized infrastructure. Think docker compose, for blockchain systems.",
+    "description": "Kurtosis packages reproducible multi-service devnets so you can spin up realistic Ethereum or rollup stacks for integration tests faster than hand-maintained compose files.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/6c0103eb-14e1-4578-831b-d5e85c017831.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/cec480f1-b828-424a-ae01-9984ebdc2eb5.png",
     "twitter": "https://x.com/KurtosisTech",
@@ -270,7 +270,7 @@
   },
   {
     "name": "Skandha ERC-4337 Bundler",
-    "description": "Etherspot's developer-friendly TypeScript ERC-4337 bundler that enhances transaction management, optimizes gas costs, and improves the overall efficiency of blockchain interactions. It supports Shared Mempool and provides built-in MEV protection. \n\nEtherspot is pioneering the ERC-4337 shared mempool innovation, which is already live on Optimism.",
+    "description": "Skandha is Etherspot's TypeScript ERC-4337 bundler that optimizes user operation submission, gas accounting, and mempool routing with optional MEV protections and shared mempool compatibility, and Etherspot runs that shared mempool stack in production.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/c9083120-f920-426d-a33c-37ad6f5b3c3f.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/62d53176-085e-4084-9112-f05f62b536db.png",
     "twitter": "https://x.com/etherspot",
@@ -287,7 +287,7 @@
   },
   {
     "name": "eRPC",
-    "description": "eRPC is a fault-tolerant EVM RPC proxy and permanent caching solution. It is built with read-heavy use-cases in mind such as data indexing and high-load frontend usage. It is designed to lower costs through local caching, enhance reliability during provider outages, and improve visibility into RPC usage across teams and third-party providers.",
+    "description": "eRPC sits in front of your RPC providers to add caching, failover, and routing tuned for read-heavy workloads like dashboards, indexers, and multi-tenant backends.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/bc82b1d5-dad6-496a-af01-475797e53e34.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/75c707be-ff55-41d7-9ef0-7cfcdef536ea.png",
     "twitter": "https://x.com/erpc",
@@ -321,7 +321,7 @@
   },
   {
     "name": "miniapp starters",
-    "description": "miniapp starters is a set of open-source starter templates designed to make it easier to build Farcaster miniapps, with support for Worldcoin integrations as well.\n\nMiniapp Starters came out of our own journey building miniapps. Along the way, we found ourselves creating common patterns and components repeatedly, so we decided to turn that work into a set of reusable, community-friendly templates. Now, anyone can kickstart their own miniapp projects without reinventing the wheel.",
+    "description": "miniapp starters are Builders Garden templates for Farcaster mini apps (with optional Worldcoin hooks) so you can fork a working layout instead of rebuilding auth and frames plumbing.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/d5818777-1f8b-40bd-885e-22a892d7f7f7.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e0127983-0358-42cb-95f7-396d8a86346a.png",
     "twitter": "https://x.com/builders_garden",
@@ -390,7 +390,7 @@
   },
   {
     "name": "Slither",
-    "description": "Slither is a Solidity and Vyper static analysis framework written in Python3. \n\nIt runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses. Slither enables developers to find vulnerabilities, enhance their code comprehension, and quickly prototype custom analyses.\n\nSlither has been used for many years by both security engineers and developers to secure their smart contracts.\n\n Slither has 90+ detectors, and works on both Solidity and Vyper. In addition it provides printers, helping to review quickly features of contracts. It's python API can also be used to leverage its inbuilt analysis for custom needs.",
+    "description": "Slither is Trail of Bits' Python static analysis engine for Solidity and Vyper: run it in CI to fire detectors, print structural views of contracts, or script custom checks over whole codebases.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/27ad6768-163c-4cc3-bd3e-ba8fd3ef5f50.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/1276f443-c160-4db0-ab75-33e3e01e3a47.png",
     "twitter": "https://x.com/trailofbits",
@@ -419,7 +419,7 @@
   },
   {
     "name": "ethdebug",
-    "description": "Debugging deployed smart contracts today relies on guesswork. No EVM-language compiler emits enough structured debug data. As a result, debuggers must reverse-engineer arcane details of high-level language internals-a brittle, inaccurate, and hard-to-maintain process. This slows development, impedes audits, and obscures contract behavior.\n\nThe ethdebug format is a proposed standard for debugging metadata. It's language-agnostic, tool-friendly, and designed to map EVM execution back to source locations, control flow, data structures, and developer intent. The goal is to enable reliable debugging of deployed contracts-without requiring compiler internals or custom builds.\n\nThe format is still in development. Implementations are currently underway in solc and in multiple existing debuggers. The focus is on interoperability, minimal overhead, and incremental adoption.\n\nethdebug is part of the Argot Collective, a new organization spinning out from the Ethereum Foundation.",
+    "description": "ethdebug proposes a compiler-emitted debug metadata format so debuggers can map EVM execution back to source without reverse-engineering compiler internals; solc and several debuggers are prototyping support.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/3ac79cce-16e1-4a59-9557-ee1f85793674.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/616a8719-4bc1-4e7d-b50e-d56e45019f0b.png",
     "twitter": "https://twitter.com/ethdebug",
@@ -430,20 +430,8 @@
     "subcategory_id": "standards-specifications"
   },
   {
-    "name": "WakeUp Labs | Rollup-as-a-Service for the OP Stack",
-    "description": "We are WakeUp Labs, a software development company focused on building open-source infrastructure for the Ethereum ecosystem and the Superchain. Our team has been working closely with the OP Stack to deliver a fully open and modular Rollup-as-a-Service (RaaS) solution.\n\nOur RaaS tooling simplifies the deployment, management, and customization of rollups on Optimism. It includes a CLI, a web console, and deployment pipelines designed to empower developers and protocols to launch their own rollups quickly and securely-without needing to manage DevOps or low-level infra.\n\nWe believe the future of Ethereum scalability lies in modular rollups, and we're building the tools to make that future accessible to everyone.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/4756e689-18df-4d2f-aea1-abdf6547ee51.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/7ad77d50-64a1-43a4-a494-e49db0974dde.png",
-    "twitter": "https://x.com/wakeuplabs",
-    "repos": ["https://github.com/wakeuplabs-io/op-ruaas"],
-    "tags": ["cli", "scalability"],
-    "website": "https://www.wakeuplabs.io/",
-    "llmstext": "",
-    "subcategory_id": "rpc-node-infrastructure"
-  },
-  {
     "name": "Stereum",
-    "description": "Stereum is dedicated to advancing Ethereum through open-source and open development. Our commitment lies in reducing technical barriers, supporting decentralization, and enhancing security within the Ethereum(EVM) ecosystem.\nWe integrated Optimism as an Integration into our Node Setup and Maintenance Gui based tool. Everybody is now able to spin up an Optimism node connected to a Ethereum node within minutes. Enabling low infratech people to access multilayer architectures completly by themselves, decentralized, 100% free, 100% untracked, 100% auto updated. \nAfter everytthing is synced you now are able to access \n1)your own RPC endpoint \n2)your onw data api \n3) your own websockets \nboth Ethereum and Opitimism. \nAs we would love to integrate further Optimistic rollups into our software we would be honoured and feel apreaciated if you would grant us a grant ",
+    "description": "Stereum is a GUI-driven installer for syncing Ethereum and Optimism nodes locally and exposing your own JSON-RPC and websocket endpoints once blocks are current.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/47b18b46-5440-406c-8e07-bfcf27f8aa6e.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/a80d7697-6c6f-4f71-bfc1-7576b933dad4.png",
     "twitter": "https://x.com/stereumdev",
@@ -455,7 +443,7 @@
   },
   {
     "name": "viem-tracer",
-    "description": "Debug transactions via traces by automatically decoding them with the help of openchain.xyz!\n\n- Automatically append traces to error messages of failed eth_estimateGas and eth_sendTransaction RPC requests.\n- Add support for debug_traceCall to a Viem client with correct types!",
+    "description": "viem-tracer augments a Viem client so failed eth_estimateGas and eth_sendTransaction calls automatically include human-readable trace output decoded with sourcify.dev, and it adds typed helpers around debug_traceCall so developers can inspect execution without leaving their existing RPC stack.",
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -467,7 +455,7 @@
   },
   {
     "name": "executooor",
-    "description": "Ethereum's environment evolves fast. So fast that you can't keep up writing and deploying a new contract everytime you want to do something atomically onchain (not mentioning you also have to approve this freshly deployed contract to spend your favorite ERC20/ERC721!).\n\nWelcome the Executor contract:\n\nCalculate whatever you need to submit your execution\nChain calls / delegatecalls as needed to execute whatever you want to execute atomically onchain (using viem and/or ethers-v6!)\nOptionally prepend any ERC20/ERC721 approval via a third-party bundling service (such as Flashbots)\nSubmit your execution transaction (or bundle)\nFor MEV out there: tip the bundler\nYou can even atomically populate your chain of calls if it depends on some state change! For example, you can skim ERC20 tokens after an execution by simply requesting the balance left onchain and replacing it in the onchain call.",
+    "description": "executooor centers on a reusable executor contract pattern so scripts can chain delegate calls, token approvals, and atomic onchain steps through viem or ethers without redeploying bespoke routers each time.",
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -476,18 +464,6 @@
     "website": null,
     "llmstext": "",
     "subcategory_id": "aa-tx-orchestration"
-  },
-  {
-    "name": "opup",
-    "description": "[`opup`](https://github.com/zhiqiangxu/opup) is a one-stop installation tool for OP Stack. It has been used to deploy multiple L2 networks for Quarkchain, with the latest being available at: [Quarkchain Explorer](https://explorer.beta.testnet.l2.quarkchain.io/) .",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/43a31c8a-308e-4956-a4f4-ba61a1280c7b.png",
-    "banner_url": null,
-    "twitter": "https://x.com/EthStorage",
-    "repos": ["https://github.com/zhiqiangxu/opup"],
-    "tags": ["cli", "docker", "contract-management"],
-    "website": "https://ethstorage.io/",
-    "llmstext": "",
-    "subcategory_id": "rpc-node-infrastructure"
   },
   {
     "name": "Surl",
@@ -524,7 +500,7 @@
   },
   {
     "name": "Loop Decoder",
-    "description": "Loop Decoder is a TypeScript library with minimal external dependencies that transforms blockchain data into a human-readable format.\n\nKey Features:\n- Works in any JavaScript environment\n- Minimal external dependencies - you only need an RPC; everything else can be fetched from your own storage\n- Highly customizable - we don't force you to use a specific API or storage; instead, we provide data loaders",
+    "description": "Loop Decoder is a TypeScript library with minimal external dependencies that transforms blockchain data into a human-readable format.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/b852c74f-a247-40dd-8299-90b8c7499c8c.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/bb135bd2-a2b6-46b1-b327-e3c8033f2f4b.png",
     "twitter": "https://x.com/3loop_io",
@@ -570,7 +546,7 @@
   },
   {
     "name": "foundry-storage-check",
-    "description": "- Protect your Smart Contract Proxy from storage collisions upon upgrading, by running this action in a CI on each of your Pull Requests!\n- Feel safe when extending your storage layout by trusting this action to check that extended layout is zero-ed out on-chain!",
+    "description": "foundry-storage-check is a GitHub Action for Foundry projects that runs on every pull request to ensure upgradeable proxy storage layouts stay collision-safe and that newly appended storage slots are zero-initialized onchain before merges ship.",
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -590,7 +566,7 @@
   },
   {
     "name": "VSCode Solidity Inspector ",
-    "description": "This is a VSCode extension offering utilities for solidity smart-contract development. \n\nSome features:\n- Storage layout viz.\n- Inline highlighting in code editor for unused imports.\n- Generate and view - Foundry deployment report in a clean and concise table format.\n- Syntax highlighting of for .tree files.\n- Generate foundry test stub using bulloak's scaffold command.\n- Auto-complete path suggestions for importing files and dependencies (with forge remappings support).\n- Contract code size decorator.\n\nMore cool utilities planned to be released. ",
+    "description": "VSCode Solidity Inspector bundles practical Solidity utilities in VS Code: storage layout views, import hygiene hints, Foundry deployment summaries, Bulloak test stubs, remappings-aware imports, and code-size hints.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/1e11eb35-ddb5-4385-bf18-2231ce727db9.png",
     "banner_url": null,
     "twitter": null,
@@ -607,7 +583,7 @@
   },
   {
     "name": "Derive Exchange SDK and Vault Executors",
-    "description": "Derive's market making library provides a Client / SDK for Derive Exchange, types, automated trading algorithms, vault executors, and more. This Client SDK is open sourced and generalizable for use in market making and algo trading on hybrid orderbooks across the Superchain!\n\nDerive is one of the first op-stack rollups delivering trustless, on-chain portfolio margin for options, spot and perpetual futures as well as structured products and fixed/floating rate lending markets. Derive has cleared over $15B in notional volume and has +$100M TVL",
+    "description": "This SDK gives you typed clients, vault helpers, and automation primitives for building market-making or execution bots on Derive's hybrid order books.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/50bfdcb2-8355-4480-b530-df8cdc97e3da.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e2df36a1-d787-4875-a156-ffba6dcd0b5f.png",
     "twitter": "https://x.com/derivexyz",
@@ -619,7 +595,7 @@
   },
   {
     "name": "Black Scholes library/compiler - go and rust ",
-    "description": "Derive is one of the first op-stack rollups delivering trustless, on-chain portfolio margin for options, spot and perpetual futures as well as structured products and fixed/floating rate lending markets. Derive has cleared over $15B in notional volume and has +$100M TVL\n\nDerive's Black Scholes library/compiler into go and rust, research and testing in this area has led to 1 Black Scholes equation using ~300 gas while native EVM would be ~10K gas for a 30X more efficient computation of pricing and risk of any options related logic. ",
+    "description": "These libraries package Derive-tuned Black-Scholes pricing and risk math in Go and Rust so onchain risk modules can reuse heavily optimized implementations tied to Derive's margin stack.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/69edd7f3-606d-4191-b7c8-28e41246b2d0.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/b753d4c0-96c7-4b36-b70e-e2785f9006bd.png",
     "twitter": "https://x.com/derivexyz",
@@ -647,7 +623,7 @@
   },
   {
     "name": "Updraft",
-    "description": "What is Cyfrin Updraft?\nCyfrin Updraft is the leading blockchain development and smart contract security education platform, offering over 100+ hours of hands-on courses that enable aspiring and experienced smart contract developers to level up their skills. Designed and taught by CEO Patrick Collins alongside industry-leading educators and researchers, our platform provides high-quality, free educational content, hands-on coding experiences, and industry-recognized Cyfrin Updraft Certifications, which verify developers' expertise in Solidity, Vyper, DeFi, and smart contract security.\n\nUpdraft has educated millions of developers globally, equipping them with the skills necessary to build secure and scalable decentralized applications. \n\nKey Metrics:\n220K+ Updraft community members\n1M+ Monthly impressions\n60K+ Monthly active developers\n15K+ Monthly new students\nTrusted by developers from top Web3 companies and protocols\n\nWhat are the Issues with the Existing Web3 Landscape?\nDespite the rapid growth of Web3, developers face several challenges:\n- Lack of accessible, high-quality education: Most resources are either too theoretical or fragmented, making it difficult for developers to gain practical experience.\n- Security vulnerabilities: Many developers lack the knowledge to build secure smart contracts, leading to exploits and hacks that result in millions in losses.\n- High entry barriers for Web2 developers: The transition from traditional development to Web3 remains complex due to unfamiliarity with blockchain infrastructure and tooling.\n- Limited developer retention: Many developers struggle to find long-term engagement opportunities within blockchain ecosystems. \n- No standardized skill validation: Without recognized certifications, it is difficult for developers to showcase their expertise, limiting their career opportunities.\n- Lack of security best practices: Without proper training and certification, developers may unknowingly introduce vulnerabilities, increasing the risk of hacks.\n\nHow Is Cyfrin Updraft Fixing the Issue?\nCyfrin Updraft addresses these challenges by providing:\n- Comprehensive blockchain development education: Covering Solidity, Vyper, Foundry, infrastructure, security best practices, and more.\n- Project-based learning: Developers gain hands-on experience by building and deploying real-world applications.\n- Security-first approach: Courses emphasize smart contract security, audit methodologies, and best practices to prevent exploits.\n- Developer tooling and ecosystem integrations: We create open-source tools and frameworks that enhance developer efficiency and security.\n- Bridging Web2 and Web3: Providing structured learning paths to onboard Web2 developers into the Ethereum ecosystem.\n- Completely free access: Updraft courses are entirely free, ensuring that any developer, regardless of financial constraints, can access high-quality education and build the skills needed to succeed in Web3.\n- Validation of Skills: Certifications provide a standardized way to verify a developer's expertise, helping them stand out in a competitive job market.\n\nWho is Cyfrin Updraft For?\n+ Aspiring Web3 Developers - For newcomers eager to break into blockchain development, Cyfrin Updraft provides a structured and accessible learning path. Our courses start with fundamental concepts, gradually building up to advanced smart contract development, security topics, full stack development, infrastructure development and advanced DeFi dApp development . With hands-on coding exercises, real-world project deployments, and Cyfrin Updraft Certifications, aspiring developers can establish themselves in the industry, build secure and scalable dApp, and demonstrate their skills to potential employers.\n+ Experienced Web3 Engineers - For developers already working in the Web3 space, Cyfrin Updraft serves as a hub for continuous learning and skill enhancement. Advanced courses on smart contract security, DeFi mechanisms, and protocol architecture help engineers stay ahead of industry trends. Our Cyfrin Updraft Certifications validate expertise in Solidity, Vyper, and security best practices, distinguishing top engineers in a competitive job market. \n+ Web2 Developers - Traditional software engineers looking to transition into blockchain development often struggle with understanding decentralized technologies and smart contract principles. Cyfrin Updraft bridges this gap by providing a structured, Web2-friendly onboarding experience. Our courses explain blockchain fundamentals in a way that resonates with Web2 developers, drawing parallels between familiar programming concepts and smart contract development. For example, we've developed a Vyper Smart Contract Development course specifically to support onboarding Web2 developers, ensuring they gain hands-on experience with secure and efficient smart contract programming. This approach aligns with Updraft's mission to scale Web3 adoption by equipping developers with the knowledge and tools they need to seamlessly transition into the decentralized ecosystem.\n+ Protocol and dApp Teams - Organizations need skilled developers who understand smart contract security, scalability, and best practices. Cyfrin Updraft helps protocol teams and dApp builders by providing a reliable pipeline of trained, certified engineers. Through Cyfrin Updraft Certifications, hiring teams can verify a candidate's expertise, reducing onboarding time and improving the quality of development within their projects. Additionally, protocols can collaborate with Cyfrin Updraft to develop custom training programs, ensuring their developer communities are well-versed in their technology stack.\n\nWhat is the Roadmap for Cyfrin Updraft?\nQ1 2025: Courses & Foundational Expansion\n1. Launch a Full Stack Development Course\nThis course will provide a comprehensive learning experience for developers looking to build dApps from the ground up.\nThe course covers modern frontend frameworks (React, Next.js, Svelte), Web3 libraries (ethers.js, viem, wagmi), and backend infrastructure (site hosting, event indexing, caching strategies). \nDevelopers will build real-world projects, including a basic Ethereum dApp, a decentralized NFT marketplace, and an advanced DeFi interface with account abstraction.\n2. Launch Curve Cryptoswap Course\nA deep dive into the mechanics of Curve Finance's automated market maker (AMM) designed for stablecoin swaps.\nThe course will explore the math supporting Curve Cryptoswap's AMM, how liquidity is concentrated, and how the AMM decides to repeg the pool's liquidity at a different price.\nDevelopers will progress through AMM function calls, state variables, swapping tokens, adding and removing liquidity, and price-repegging. The learning is supported at every stage with quizzes and exercises.\n3. Launch Uniswap V3 Course\nThis course will focus on Uniswap V3's concentrated liquidity model, fee tiers, and capital efficiency improvements.\nAn advanced DeFi developer course designed to enable developers to build Uniswap V3-based protocols\nThe course covers Uniswap V3 math and concentrated liquidity, progressing through swaps and the factory contract, the fee algorithms, and the TWAP price oracle.\n4. Launch SSCD+ (Smart Contract Security & Development) Certifications\nSSCD+ Certification is the premier certification for Solidity developers, recognized by industry-leading protocols and university organizations. This certification validates developers' expertise in writing, testing, deploying, and troubleshooting Solidity smart contracts.\nKey skills that developers will be tested include proficiency in Solidity development, application of industry best practices, smart contract security expertise, mastery of industry-standard development tools, protocol-specific knowledge, blockchain DevOps skills\n\nQ2 2025: Advanced Security & Infrastructure Expansion\n1. Launch an Updraft Ambassador Program\nThe program will empower university students and community leaders to advocate for Web3 and Cyfrin Updraft, engage developers, host workshops and hackathons on campuses and in developer communities.\nAmbassadors will receive early access to Updraft certifications and mentorship from the Updraft team.\nThrough Updraft's ecosystem, students will gain practical experience in blockchain education, networking opportunities, and potential internships or job placements.\n2. Blockchain and Smart Contract Curriculum for Universities\nUpdraft will collaborate with top universities to integrate blockchain and smart contract development courses into academic curriculums.\nThis will include customized coursework, hands-on projects, and guest lectures from Web3 industry leaders.\nUniversities will be able to provide blockchain education at scale, helping bridge the gap between traditional computer science education and Web3 development.\n3. Launch a Jobs Board\nThe Updraft Jobs Board will connect certified developers with leading Web3 companies and protocols.\nDevelopers who complete Updraft's courses and certifications will have access to job listings and hiring opportunities.\nEmployers will be able to filter candidates based on certifications and project experience, making the hiring process more efficient.\n4. Launch Vyper and Smart Contract Security+ Certification Program\nVyper+ Certification is a specialized certification focused on smart contract development using Vype. This program will cover Vyper syntax, best practices, contract patterns, and optimization techniques, ensuring developers can build secure and efficient Vyper-based applications.\nSmart Contract Security+ Certification is a security-focused certification that validates a developer's ability to audit and secure smart contracts written in Solidity. This program will cover common vulnerabilities, formal verification, attack vectors, auditing methodologies, and best practices.\n\nQ3 2025: Developer Engagement & Retention\n1. Launch an Infrastructure Development Course\nThis course will focus on blockchain infrastructure, node operations, and MEV-related optimizations.\nDevelopers will learn how to build and run their own validators, set up RPC nodes, and optimize blockchain indexing. They will also gain a deep understanding of key Web3 infrastructure components, explore Layer 2 architecture, build custom L2 solutions, and evaluate infrastructure architecture trade-offs.\n2. Launch Live Cohort Learning Model\nCyfrin Updraft will introduce 8-week intensive live cohorts, where students will work through the curriculum alongside mentors, teaching assistants, and AI-driven learning support.\nEach cohort will focus on hands-on, project-based learning, ensuring participants gain practical experience building and securing Web3 applications.\nBy the end of the cohort, students will earn Updraft certifications and have portfolio-ready projects to showcase their skills.\n\nQ4 2025: Web2 to Web3 Expansion & Industry Integration\n1. Expand Integration with Enterprise Use Cases\nUpdraft will develop tailored educational programs for enterprise developers, helping businesses adopt blockchain technology.\nThis will involve customized workshops, tooling integration guides, and real-world enterprise case studies.\nThe goal is to bridge the gap between traditional Web2 development and Web3 innovation, making it easier for institutional developers to enter the space.\n",
+    "description": "Updraft is Cyfrin's free, hands-on curriculum for Solidity, security, Foundry, and DeFi: use it when you want structured exercises and certifications before shipping high-risk contracts.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/6c522dd8-66e1-441b-b54c-156886a50dd1.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/9cca66f9-2eef-4e2b-bc3c-515f52312848.png",
     "twitter": "https://x.com/CyfrinUpdraft",
@@ -659,7 +635,7 @@
   },
   {
     "name": "noble cryptography",
-    "description": "noble cryptography is a high-security, easily auditable set of contained cryptographic libraries with following features:\n\n- Zero or minimal dependencies\n- Highly readable TypeScript / JS code\n- PGP-signed releases and transparent NPM builds\n\nnoble cryptography is used in most modern JS wallets, including Metamask, Rabby, Rainbow, various SDKs, and others. Essentially it empowers a huge share of ecosystem.",
+    "description": "noble cryptography is a family of minimal-dependency TypeScript cryptographic libraries that prioritize readable source, signed releases, and transparent npm builds, and they underpin most modern JavaScript wallets including MetaMask, Rabby, Rainbow, and many SDKs across the ecosystem.",
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": "https://x.com/paulmillr",
@@ -762,7 +738,7 @@
   },
   {
     "name": "evm-rpcs-list",
-    "description": "Easy to use package with List of EVM chains & their RPCs in one place. Sourced from chainlist.org.\n\nUsage:\n`npm i evm-rpcs-list`\n`import networksList from \"evm-rpcs-list\";`",
+    "description": "evm-rpcs-list is a small npm package that bundles chain metadata and public RPC endpoints for many EVM networks sourced from chainlist.org so scripts can import a single JSON map instead of hardcoding endpoints.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9a276191-f180-425f-96b5-c51e12ef35c2.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/c3df0213-1859-4bde-abbb-80a949304062.png",
     "twitter": null,
@@ -775,7 +751,7 @@
   },
   {
     "name": "EIP.Tools",
-    "description": "Explore all EIPs, ERCs, RIPs and CAIPs at one place! Even indexes the EIPs in WIP status that have PRs open.\n\n- Search Functionality against all Improvement Proposals by No. or Title\n- EIP_GPT to summarize & get a gist of each Proposal\n- 3D Graph to visualize the interconnected nature of all the EIPs/ERCs\n- See Trending EIPs on the homepage\n- Bookmark and share your list of Improvement Proposals with others\n- EIP of the Day: learn about a random EIP/ERC each day",
+    "description": "EIP.Tools is a browser explorer for EIPs, ERCs, RIPs, and CAIPs with search, summaries, trending views, and a relationship graph when you need to skim how standards connect.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/61e344ec-18c4-4a72-9d97-40c1d8f112b1.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/d2dbff0b-870e-4ef7-8cb2-4661de764405.png",
     "twitter": "https://x.com/EIPTools",
@@ -792,7 +768,7 @@
   },
   {
     "name": "forge-stack-tracer",
-    "description": "CLI tool that converts your Foundry test output into interactive stack traces!\n\n Powered by Swiss-Knife.xyz Calldata Decoder to decode even the unverified contracts!\n\nUsage:\nSimply pipe the forge tests result into fst.\n```forge test --mt test_case -vvvv | fst```",
+    "description": "forge-stack-tracer pipes verbose Foundry test output through Swiss-Knife decoding so failing tests return interactive stack traces instead of opaque hex.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/ed6e47cb-2456-42fb-ad28-8e23cef7f18c.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/ca1ea496-ccaa-4393-86b6-d14fc1e9c8f7.png",
     "twitter": null,
@@ -805,7 +781,7 @@
   },
   {
     "name": "Swiss-Knife.xyz",
-    "description": "Swiss-Knife aggregates all the useful EVM tools in one place to ease developer experience while they are debugging or building new stuff.\n\nList of Tools:\n1. Explorer: Quickly view any address/ens or transaction across a variety explorers, in just a click!\n2. Calldata: Decode any calldata, and view the parameters in a human-readable format, even without having the contract ABI.\n3. Transact: Send custom bytes calldata to transact with any contract, or leave the address blank to deploy a new contract.\n4. Converter: All the essential unit converters on one-page. Convert between:\n  i. Ether, wei & gwei\n  ii. Hexadecimal, decimal & binary\n  iii. String or hex to keccack256 hash & 4 bytes selector\n  iv. Hex to 32 bytes left-padded & right-padded values\n5. Constants: Have frequently used constants at your fingertips, like Zero Address, Max Uint256, etc.\n6. Epoch-Converter: Grab unix timestamp, get timestamp x minutes/hours/days in the future, or convert timestamp to human-readable format.\n7. Storage-Slots: Query EIP-1967 slots or custom storage slot value of any contract.\n8. Uniswap: Calculator to convert UniswapV3 tick to price for any token pair addresses.\n9. Character Counter: Count the length of the input string. Also allows to select on the input text to only get the character count for the selection.\n10. Contract Address: Determine the contract address which will get deployed by an address at a particular nonce",
+    "description": "Swiss-Knife aggregates all the useful EVM tools in one place to ease developer experience while they are debugging or building new stuff.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/1eba0c98-3ab5-4bce-b365-607e76aa8778.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e07ffbf7-525f-4fd4-b5fd-bec83fd940eb.png",
     "twitter": "https://x.com/swissknifexyz",
@@ -824,7 +800,7 @@
   },
   {
     "name": "Impersonator.xyz",
-    "description": "Log-in to dapps as any address via WalletConnect, iFrame or Browser Extension. Impersonator works without private-keys.\n\n- Developers:\n- They can test how their dapp would respond for users with various token balances\n- Grab the transaction calldata being generated by dapps and simulate it via tenderly",
+    "description": "Impersonator.xyz lets developers connect to dapps through WalletConnect, an iframe shim, or a browser extension while masquerading as any address without holding private keys, which is ideal for QA teams that need to preview balances, capture calldata for Tenderly simulations, or regression-test wallet flows safely.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/5e04e1b5-a4b2-4755-89cf-6a155eff4aab.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/0417f6b7-6016-4141-8a9e-7b47a29a3a1f.png",
     "twitter": null,
@@ -839,7 +815,7 @@
   },
   {
     "name": "Diffuse Data Feeds",
-    "description": "Diffuse's Price Feed Oracles offer a next-generation solution for accessing real-time, verifiable pricing data on any EVM-compatible L1 or L2 blockchain. \n\nBuilt on Diffuse's zkServerless protocol, this product redefines how price data is delivered by ensuring high-speed, trustless, and cryptographically secure updates for decentralized finance (DeFi) applications and beyond.",
+    "description": "Diffuse Data Feeds deliver verifiable, low-latency price streams to any EVM L1 or L2 by combining Diffuse's zkServerless proving layer with oracle infrastructure tuned for DeFi workloads that need trustworthy updates without trusted third-party operators.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/0835fe6c-4d7d-4d2b-9f76-00fe91acd72b.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/3acbc145-3b84-44d7-b62b-7a39b5f0ac7e.png",
     "twitter": "https://x.com/DiffuseFi",
@@ -851,7 +827,7 @@
   },
   {
     "name": "Abi Ninja",
-    "description": "**ABI Ninja provides an intuitive frontend for contracts from the most popular EVM networks, currently supporting:**\n\n- **Verified contracts**: Fetch contract ABIs and source code directly using Etherscan's API.\n- **Unverified contracts**: Two different options are available:\n\n  1. Provide the ABI and the contract address.\n  2. Decompile using heimdall-rs.\n\n- **Proxy contracts**: Autodetects most popular proxy patterns, and allows to read and write as proxy.\n\n**It includes some nice features like:**\n\n- (mainnet!) ENS resolution on address inputs.\n- Shareable URLs with cool dynamic unfurl.\n- Show TX results.\n- Friendly UI even for complex data structures, now with dark mode!\n- Custom and Local Chains Support: Add or remove networks from a large selection, manually configure custom chains, or debug local contracts on chain ID 31337 (localhost).",
+    "description": "Abi Ninja is a browser UI for calling contracts with known ABIs, pasted ABIs, or decompiled bytecode, with proxy-aware reads across many networks including your locally running Hardhat or Anvil node.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/83588cc2-f155-4b2c-8ff1-1347f2113c4d.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/bbb0dc26-29e0-42f6-a114-196bd042d3f8.png",
     "twitter": null,
@@ -863,7 +839,7 @@
   },
   {
     "name": "Crawling the Ethereum P2P network with Nebula",
-    "description": "The ProbeLab team has developed advanced crawl tooling to gather important information on the structure of Ethereum's P2P network. The results are published weekly on Mondays at: https://probelab.io and report results for the previous week. The primary tool used to extract these results is the well-known and widely-used Nebula crawler.",
+    "description": "ProbeLab's Nebula crawler snapshots Ethereum's execution-layer peer graph each week; use the published metrics when you are tuning discovery, connectivity, or client defaults.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/b48a5502-4473-4614-966a-c8581279a95b.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/b6aa707f-e3bd-43ea-965f-aef868ce0c6d.png",
     "twitter": "@yiannisbot",
@@ -877,7 +853,7 @@
   },
   {
     "name": "IPFS",
-    "description": "IPFS (InterPlanetary File System) is a peer-to-peer protocol designed to make the web faster, more open, and more resilient. By using content-addressed storage rather than location-based references, IPFS removes the need for centralized servers and allows files to be distributed and retrieved from multiple nodes around the world. This approach lowers hosting costs, improves data availability, and reduces censorship, laying the groundwork for a more secure and permanent global information network.\n\nIPFS is used in a variety of applications. While some users interact with IPFS via imported libraries in their projects, a large amount of usage comes via IPFS' HTTP Gateway API which allows users to self-host, use extensions like IPFS companion, or publicly run gateways (whether paid ones run by companies like Filebase, Pinata, etc. or the public goods services at ipfs.io and dweb.link).\n\nIPFS is a system for moving data across decentralized networks, with >11M weekly users and 250K public p2p nodes. Highlights:\n\n1. Off-chain storage. IPFS provides verifiable, off-chain storage, often used to reduce on-chain needs in Ethereum & Optimism. Examples: TrueBlocks (local IPFS-based index for EVM chains, built with grants from OP & EF), Snapshot (IPFS-based off-chain voting).\n\n2. Go-to distribution network for fully decentralized third-party app frontends (for gaming, DeFi, & more). We run gateway services that serve 900M requests/wk, and added native IPFS support to browsers like Chromium & Brave.\n\n3. NFT metadata gold standard. Over 115M NFTs are stored on IPFS, including leading platforms OpenSea (which supports Optimism NFTs), Rarible, and Zora.",
+    "description": "IPFS is content-addressed peer storage for NFT metadata, governance payloads, dapp frontends, and other assets you want off-chain but verifiable-linked from Ethereum or rollups.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/fca3aa6c-bdd5-4632-ae64-37b886d50a65.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/35658254-c8b6-4562-9690-db91f187a7ff.png",
     "twitter": "https://x.com/ipshipyard",
@@ -898,7 +874,7 @@
   },
   {
     "name": "Gelato Relay SDK",
-    "description": "Gelato Relay SDK offers a convenient suite of functions in order to interact with the Gelato Relay API. Gelato Relay API is a service that allows users and developers to get transactions validated fast, reliably and securely, without having to deal with the low-level complexities of blockchains. As requests are submitted to Gelato Relay, a network of decentralised Gelato Executors will execute and get the transactions validated as soon as possible. EIP-712 signatures enforce the integrity of data, while gas fee payments can be handled in any of our supported payment methods. In this way, developers can rely on Gelato's battle-tested blockchain infrastructure improving the UX, costs, security and liveness of their Web3 systems.",
+    "description": "Gelato Relay SDK wraps Gelato's relayers so frontends can submit meta-transactions, sponsored gas flows, or scheduled calls without operating your own bundler fleet.",
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -944,7 +920,7 @@
   },
   {
     "name": "Variance_dart",
-    "description": "Core Technology Development\n\nvariance_dart: Developed a comprehensive dart package enabling passwordless dApps with passkey support, reaching v0.1.9 with over 500+ weekly downloads.\n\nWeb3_signer: Created a companion package supporting EIP-1271 message signing with multiple authentication methods (passkeys, HD wallets, private keys), processing over 200+ signatures weekly.\n\nENS Normalize: Implemented the full ENSIP-15 standard in Dart. Passes 100% of the official validation tests and recognized by the ENS DAO and ENS community.\n\nIndustry Recognition & Integration\n\nENS Community Recognition: Featured in ENS DAO newsletter.\n\nDeveloper Adoption: Achieved 13+ GitHub stars and 5+ forks across repositories, with an active contributors.\n\nSDK Reliability: Maintaining 99.9% uptime with average response time under 50ms for core SDK functions\n\nStrategic Partnerships\n\nVoltage Finance (Fuseio) Integration: Powered account abstraction for their new decentralized wallet, enabling 50,000+ users to perform gasless transactions and reducing user onboarding friction by 73%\n\nLearnWay Collaboration: Implemented education-focused blockchain tools serving 2000+ students and gamers eliminating gas fees for 4 key educational interactions:\n\nClaim sign-in bonuses \nStart/join quiz sessions \nAward distributions\nReduced failed transactions by 96% compared to traditional wallet interactions\nLearnWay used to be a web2 application driving incentivized learning for the blockchain. They choose Variance to transition to the Lisk blockchain.\n\nAdditional Technical Achievements\n\nTransaction Optimization: Reduced gas consumption by 43% through batched transactions and advanced bundling techniques.\n\nCross-Chain Support: Extended functionality to 6 major EVM-compatible chains, including Ethereum, Polygon, Arbitrum, Optimism, and Base.\n\nMobile Integration: Developed native mobile SDKs for iOS and Android, reducing integration time from 2 weeks to 3 days\n\nBusiness Impact\n\nUser Onboarding: Partners using Variance tools have seen 68% higher user retention compared to traditional Web3 onboarding.\n\nTransaction Success: Improved transaction success rates from industry average of 87% to 99.3% through intelligent gas estimation and retry mechanisms.\n\nEnterprise Adoption: Secured 2 enterprise-level implementations, including a financial institution leveraging account abstraction for treasury management.\nExtended functionality to mobile platforms with native integrations for hardware features like NFC\nBuilt infrastructure supporting cross-chain operations through custom bridge solutions\n",
+    "description": "Variance_dart is a Dart SDK stack for passkey-first wallets, EIP-1271 signing flows, and ENSIP-15 normalization when you are shipping Flutter or mobile clients against EVM chains.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/fcae3c08-8e11-40f9-a738-4a8e3c5f59d7.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/013ad3c8-5ddc-47ed-aff1-8476d46e30b6.png",
     "twitter": "https://x.com/vaariance",
@@ -973,7 +949,7 @@
   },
   {
     "name": "The Ethernaut",
-    "description": "The Ethernaut is a community-driven capture-the-flag wargame that challenges developers of all levels to break smart contracts while learning common Solidity vulnerabilities. Maintained by OpenZeppelin, each level provides a gamified experience where a smart contract must be hacked' to progress. It is 100% open-source, with all levels contributed by players.\n\nIn 2024, we have continued expanding the game, adding four new advanced levels-HigherOrder, Stake, Impersonator, and Magic Animal Carousel-which explore current vulnerabilities in smart contract development. These levels introduce challenges related to low-level EVM programming, staking vulnerabilities, signature verification exploits, and bitwise manipulation attacks, pushing players to deepen their understanding of Ethereum security.\n\nBeyond new levels, we have also redesigned the UI, added support for multiple networks, and expanded language translations to make the game more accessible to a global audience.\n\nWe believe that The Ethernaut is an essential training tool for developers across the Ethereum ecosystem, including those building on the Optimism network. By continually evolving the game with new challenges and features, we strive to make smart contract security education engaging, practical, and accessible to everyone.",
+    "description": "The Ethernaut is OpenZeppelin's browser capture-the-flag: each level is a broken contract you exploit to learn common Solidity vulnerabilities hands-on.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/06419654-6022-400a-9670-82ca6e0225fe.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/5aba83e1-a4f2-453c-9e64-9884d0e628d6.png",
     "twitter": "https://x.com/openzeppelin",
@@ -1030,7 +1006,7 @@
   },
   {
     "name": "Ethernal",
-    "description": "Ethernal is an open source block explorer for evm chains.\nSpinning up a fully customised explorer only takes a couple of seconds, either through the UI or the API.\nIt includes a faucet UI, a dex UI, and can be customised to cater to network specificities, like custom 3rd party libraries, or custom contract & transaction post processing.\nIt also includes advanced token & network analytics, contract verification, nft galleries, etc..",
+    "description": "Ethernal is an open-source block explorer you can self-host for any EVM chain, with APIs and UI hooks for faucets, DEX widgets, custom post-processing, NFT galleries, and verification flows.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9ced93ba-a5ac-4d04-a054-2963c41e8dc6.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/c141df7d-78ea-48c9-81b1-325fa5a33bc4.png",
     "twitter": "https://x.com/tryethernal",
@@ -1063,7 +1039,7 @@
   },
   {
     "name": "Solodit",
-    "description": "What is it?\nSolodit is an open-source, community-driven platform dedicated to improving web3 security. It aggregates over 8,000 smart contract vulnerability reports, bug bounty opportunities, and security audits from top firms like Cyfrin, OpenZeppelin and Trail of Bits, alongside contributions from individual researchers. Solodit not only aggregates this information but also makes it actionable, equipping developers and auditors with tools to prevent exploits and enhance the safety of dapps.\n\nWhy is it needed?\nThe web3 ecosystem is plagued by billions of dollars in losses due to security breaches in smart contracts and protocols. Despite the availability of security knowledge, it is fragmented across various platforms and reports, making it inaccessible to most developers and security teams. There are several problems that Solodit solves:\n\nKnowledge Gap: Many teams deploy smart contracts without understanding past vulnerabilities, leading to repeat incidents.\nInefficiencies: Developers and auditors spend valuable time searching disparate sources for security insights.\nEconomic Impact: Preventable exploits undermine trust in web3, stalling adoption and investment.\n\nBy aggregating and structuring security data, Solodit enables proactive vulnerability management and risk mitigation in the Web3 ecosystem.\n\nHow is it unique?\nComprehensive Coverage: Aggregates findings from leading auditors and platforms, offering unmatched insights into vulnerabilities and bug bounties.\nActionable Insights: Goes beyond archiving reports by providing advanced search tools and tagging systems to contextualise risks and solutions.\nCommunity-Driven Enhancements: Facilitates collaboration via ratings, tagging, and leaderboards that recognise top contributors, fostering a thriving security community.\nEducational Resource: This site serves as a learning hub for developers and auditors, providing real-world case studies on blockchain security.\n\nSolodit is a multipurpose tool designed to:\nMitigate Risk: Helps developers avoid known vulnerabilities, reducing the likelihood of exploits.\nPromote Proactive Security: Enables protocols to adopt preventive measures by studying historical vulnerabilities.\nStreamline Bug Bounties: Simplifies participation in bounty programs, encouraging more ethical hackers to contribute to ecosystem security.\nFoster Skill Development: Supports auditors in honing their skills and staying updated on emerging threats.\nSupport Decision-Making: Assists protocols in evaluating auditors via its leaderboard, promoting accountability and quality audits.\n\nWho is it for?\nDevelopers: Seeking to secure their smart contracts and understand vulnerability trends.\nAuditors: Looking to access a comprehensive repository of findings and showcase their expertise.\nWhitehat Hackers: Interested in participating in bug bounty programs and contributing to web3 security.\nProtocol P&E teams: Aiming to assess risks and prevent costly exploits.\nEducators and Researchers: Teaching or studying blockchain security with real-world examples, e.g. Cyfrin Updraft. \n\nStill to come:\nUI/UX redesign\nPower Aderyn, static analysis support",
+    "description": "Solodit is an open-source, community-driven platform dedicated to improving web3 security. It aggregates over 8,000 smart contract vulnerability reports, bug bounty opportunities, and security audits from top firms like Cyfrin, OpenZeppelin and Trail of Bits, alongside contributions from individual researchers. Solodit not only aggregates this information but also makes it actionable, equipping developers and auditors with tools to prevent exploits and enhance the safety of dapps.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9cf8d92d-5549-4321-b675-c25256860183.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/20eb90df-0dd5-41fb-a3ce-f90cf3822492.png",
     "twitter": null,
@@ -1075,7 +1051,7 @@
   },
   {
     "name": "Verifereum",
-    "description": "Verifereum is an open-source project bringing mathematical rigor to Ethereum smart contract verification using the HOL4 theorem prover. The project is building tools to prove the correctness of smart contracts and eliminate entire classes of vulnerabilities. With billions of dollars secured by smart contracts, Verifereum aims to provide the strongest formal verification security guarantees possible for the Ethereum ecosystem.",
+    "description": "Verifereum connects Ethereum smart contracts to HOL4-backed theorem proving so you can aim at very strong correctness claims when automated SMT approaches are not enough.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/392d496a-b4b8-464c-bf6e-fcee8146a75f.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/3fd3093d-6a52-44bb-a73b-cf9d6f8cae03.png",
     "twitter": "https://x.com/Verifereum/",
@@ -1087,7 +1063,7 @@
   },
   {
     "name": "Titan Layer",
-    "description": "Introduction-\n\nThe exponential growth of blockchain networks has led to a fragmented ecosystem, with limited interoperability between chains. Users and developers face significant challenges when transferring assets or deploying contracts across multiple chains. Titan Layer addresses these issues by offering an easy-to-use, secure, and scalable platform that fosters cross-chain connectivity. With a focus on user experience and interoperability, Titan Layer aims to drive blockchain adoption and foster activity across networks.\n\nChallenges in Cross-Chain Interoperability\n\nFragmented Ecosystem: Users must navigate multiple wallets and bridges, leading to complexity and errors.\n\nSecurity Risks: Many existing bridges are vulnerable to hacks and exploits.\n\nScalability Issues: High gas fees and slow transaction times hinder seamless cross-chain transactions.\n\nLimited User Experience: Current solutions are often technical and unfriendly to non-technical users.\n\n\nTitan Layer's Solution-\n\nTitan Layer solves these challenges by:\n\nSimplified Bridging: A one-stop solution for transferring assets across chains with minimal steps.\n\nContract Deployer: An intuitive tool that allows users to easily deploy and interact with contracts across multiple chains.\n\nHyperlane Integration: We leverage Hyperlane for secure, decentralized ERC20 token bridging.\n\nUser-Centric Design: A streamlined user interface designed to cater to both beginners and advanced users.\n\n\nKey Features-\n\nMulti-Chain Support: Titan Layer supports major networks such as Arbitrum, Optimism, Polygon, Base, BSC, and Mantle.\n\nCustomizable Connectivity: Users can choose which chains to connect for a tailored experience.\n\nSecurity First: Robust security measures, including audits and encryption, to protect users' assets.\n\nEasy Deployment: One-click smart contract deployment across multiple chains, reducing technical barriers.\n\nReal-Time Monitoring: Dashboard for tracking transactions, bridging status, and contract interactions.\n\n\nUse Cases-\n\nDevelopers: Effortlessly deploy and interact with contracts across multiple chains.\n\nTraders: Seamlessly transfer assets across chains to capitalize on arbitrage or market opportunities.\n\nProjects: Launch multi-chain dApps with ease, expanding their reach and user base.",
+    "description": "Titan Layer is a cross-chain operations console with Hyperlane-based bridging helpers and deployment shortcuts across major L2s when you are moving assets or contracts between networks.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/35374f7e-a430-4726-b5f0-ef52e2b5115a.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/ba692e10-9ffd-4406-b6e7-5010ad20b2d2.png",
     "twitter": "https://x.com/TitanLayer",
@@ -1099,7 +1075,7 @@
   },
   {
     "name": "Scaffold-ETH 2",
-    "description": "Scaffold-ETH 2 is an open-source toolkit for building decentralized applications on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.\n\nIt's a new version of scaffold-eth with its core functionality.\n\n- Built using NextJS, RainbowKit, Hardhat, Foundry, Wagmi, Viem, and Typescript.\n- Contract Hot Reload: Your frontend auto-adapts to your smart contract as you edit it.\n- Custom hooks: Collection of React hooks wrapper around wagmi to simplify interactions with smart contracts with typescript autocompletion.\n- Components: Collection of common web3 components to quickly build your frontend.\n- Burner Wallet & Local Faucet: Quickly test your application with a burner wallet and local faucet.\n- Integration with Wallet Providers: Connect to different wallet providers and interact with the Ethereum network.\n- Extensions: Modular add-ons that provide additional functionality or serve as starter-kits for specific features.",
+    "description": "Scaffold-ETH 2 is a Next.js plus Hardhat or Foundry starter with wallet hooks, hot contract reload, local faucet utilities, and extension modules for full-stack dapp deployment.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/f8efb7c2-8fb3-4988-8511-ae6e826b687f.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/8b032214-48dc-4f13-b8fa-21324d9c9030.png",
     "twitter": "https://x.com/ScaffoldETH",
@@ -1111,9 +1087,7 @@
     "tags": ["frontend", "nextjs", "hardhat", "foundry", "cli"],
     "llmstext": "https://docs.scaffoldeth.io/llms-full.txt",
     "subcategory_id": "contract-frameworks",
-    "packages": [
-      "https://www.npmjs.com/package/create-eth"
-    ]
+    "packages": ["https://www.npmjs.com/package/create-eth"]
   },
   {
     "name": "RainbowKit Theme Generator",
@@ -1129,7 +1103,7 @@
   },
   {
     "name": "Wagmi: Reactive primitives for Ethereum apps ",
-    "description": "Wagmi is the industry standard for building apps on Ethereum. Wagmi has deep integrations with modern web frameworks, like React.js and Vue.js, and makes it easy to connect wallets, sign messages, send transactions, and read/write on-chain data. With over 1.2M monthly downloads, Wagmi is used in production by most of the industry and is at the core of apps, like Uniswap, Optimism, Polymarket, Stripe, Zora, and Farcaster.",
+    "description": "Wagmi is a React hook layer on top of Viem for reading, writing, and caching Ethereum state in frontends without rebuilding wallet plumbing each project.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/4043de65-2657-4c0f-91e6-3d5aea14dc33.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/faafa9b3-2151-4cd7-a9f3-e9c1853e8874.png",
     "twitter": "https://x.com/wevm_dev",
@@ -1141,7 +1115,7 @@
   },
   {
     "name": "Solhint",
-    "description": "SOLHINT is the most used Solidity linter in web3 space. A tool that helps solidity devs to write standardized smart contracts code, taking care of code quality, order, readability, style guides, preventing known bugs, and giving security alerts. It is an extremely popular open source tool within Ethereum community. Our grant application aims to fund a small dedicated team of technical and marketing professionals to increase community engagement into proposing new rules, report bugs, discuss possible updates, etc.",
+    "description": "Solhint is a Solidity linter you wire into editors or CI to enforce style rules and catch footgun patterns early.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/8a93267a-39e3-42c9-976f-225753bb43f3.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/cc6944d5-ceb0-416d-9e3c-befb89ef7578.png",
     "twitter": "https://x.com/protofire",
@@ -1158,7 +1132,7 @@
   },
   {
     "name": "Titanoboa",
-    "description": "Titanoboa is a Vyper interpreter and testing framework that provides a modern, integrated development experience for Vyper smart contracts. It enables developers to test and debug Vyper contracts directly within Python, offering features like pretty tracebacks, forking, debugging capabilities, pytest integration and out-of-the box fuzzing. Beyond its standalone capabilities, Titanoboa serves as the foundation for other popular testing frameworks like Ape and Moccasin, and is a core piece of infrastructure for the Vyper ecosystem.",
+    "description": "Titanoboa is an interactive Vyper interpreter and test harness for fast feedback loops when you are experimenting with contracts outside a full Foundry loop.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/2e9723d3-7b53-473c-b93c-87b2c7a72055.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/801bbd29-77ab-4050-b175-f853aa9704ed.png",
     "twitter": null,
@@ -1190,7 +1164,7 @@
   },
   {
     "name": "Moccasin",
-    "description": "Moccasin is a python-based Vyper smart contract development, deployment, and testing framework.\n\nWhy is it needed?\nThe Web3 Python ecosystem has been overshadowed by the Rust and Javascript ecosystems, which is a crucial misstep when all financial and AI developers use Python. Walk into any asset manager or hedge fund and ask the portfolio managers or traders what they are using, and the answer is Python. We need a fast and modern tool for Python exploration. \n\nVyper adds to smart contract language diversity, which is as important as having client diversity from the blockchain infrastructure. If one has a critical bug, we minimize the downside by having different languages.\n\nHow is it unique?\nMoccasin is the fastest Python framework and, for Vyper smart contracts, even outpaces Foundry in some instances. It achieves this speed by being built on the lightning-fast Titanoboa tool.\n\nYou can see a quick benchmark of compile time for Vyper contracts across popular frameworks like Apeworx and Foundry.\nhttps://github.com/Cyfrin/Moccasin/blob/main/docs/source/_static/stats-default.png?raw=true\n\nWhat can it do?\nEncrypt keys\nRun tests\nUnderstand deployment contexts\nAnd ideally work with the growing number of non-EVM compatible chains (ie, ZKsync, Scroll, etc)\nRun fuzzing campaigns\n\nMoccasin is a new tool, but due to its speed and developer friendliness, we expect to see its adoption skyrocket in the Python community.\nWhat really sets Moccasin apart, other than being the fastest and most developer-friendly Python tooling for Viper, is that developers can now script and perform DevOps in the user-friendly language Python.\n\nWhat is our roadmap?\nYou can see a list of 0.4.0 roadmap items (and other priority items) for Moccasin including:\nbetter multi-sig & hardware wallet integration\nin-line debugger\nSolidity support\nMedusa fuzzing\nbuillt-in halmos or HEVM support\n\nWho is it for?\nPython developers. According to the Stack Overflow 2024 survey, python is the #1 programming language for new developers.\nSo, Moccasin is for new developers.\nAccording to Upwork, Python is the #1 language for people working in AI.\nSo, Moccasin is for AI developers.\nAccording to Columbia Engineering, python is the #1 language for fintech.\nSo, Moccasin is for financial developers, including DeFi.\nThis tool is meant for both new and advanced developers - a tool that is easy to pick up and powerful enough for professional applications. (edited) \n\nWith this tool, we want to start bridging the gap between web2 and web3 developers and encourage builders to move into our industry. Allowing developers to use multiple languages and to grow the adoption of the Sueprchain.  \n",
+    "description": "Moccasin is Cyfrin's Python-first workflow on Titanoboa for testing, fuzzing, and deploying Vyper written smart contracts.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/89c06746-f49f-4a30-9843-80b431053f13.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/5ec5b8ee-5389-4201-8191-4a84e37f1291.png",
     "twitter": null,
@@ -1202,7 +1176,7 @@
   },
   {
     "name": "Create2Deployer",
-    "description": "Create2Deployer is a factory smart contract designed to make easier and safer usage of the `CREATE2` EVM opcode. Create2Deployer is a preinstall on the OP Stack: https://specs.optimism.io/protocol/preinstalls.html#create2deployer.",
+    "description": "Create2Deployer is a minimal factory contract from pcaversaccio that wraps the CREATE2 opcode with safety checks so teams can deploy counterfactual contracts at deterministic addresses.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/ca4f6cbd-5b97-4c22-9e27-446b9e4cd2ff.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/120ab790-4407-4342-b7af-e562cf3a9c8c.png",
     "twitter": null,
@@ -1261,7 +1235,7 @@
   },
   {
     "name": "Vscode Solidity Extension",
-    "description": "Solidity support for Visual Studio code\nVersion Downloads Installs Rating\n\nSolidity is the language used in Ethereum to create smart contracts, this extension provides:\n\nSyntax highlighting\nSnippets\nCompilation of the current contract (Press F1 Solidity : Compile Current Solidity Contract), or F5\nCompilation of all the contracts (Press F1 Solidity : Compile all Solidity Contracts), or Ctrl + F5 or Cmd + F5\nCode completion for all contracts / libraries in the current file and all referenced imports\nGoto definition\nFind all references in project\nHover information\nCode actions / quick fixes (change compiler, format address, add sdpx license.. )\nMono repo support (identifies the project by finding the files: remappings.txt, foundry.toml, brownie-config.yaml, truffle-config.js, hardhat.config.js, hardhat.config.ts)\nDefault project structure (solidity files needs to be in the src/ directory, and libraries in the lib/ directory). Libraries will follow the same structure.\nCompilation supporting EIP82 (dappfile and dependency packages)\nSupport for different solidity versions (Remote and local)\nDownload source code and Abi from Etherscan\nCode generation using Nethereum, it includes currently the default template for Nethereum service, dtos generation. (Open 'contractName.json' after compilation from the bin folder. Press F1 and press Solidity: Code generate from compilation output..) Auto generation of Nethereum files on compilation\nLinting using Solhint or Ethlint\nIt is also available as a standalone LSP",
+    "description": "Juan Blanco's VS Code Solidity extension adds syntax highlighting, compile commands, hover metadata, quick fixes, monorepo detection, optional Nethereum codegen, lint integration, and an LSP server.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/006b0fd3-9e23-4192-98d6-08e561da809e.png",
     "banner_url": null,
     "twitter": null,
@@ -1272,7 +1246,7 @@
   },
   {
     "name": "Ethers.js",
-    "description": "Ethers.js is a simple, compact and complete JavaScript (via TypeScript) library for interacting with Ethereum and related blockchains.\n\nIt is currently used in a very large number of Blockchain projects, including everything from block explorers to wallets (like MetaMask) and is downloaded over 7.1 million times per month (as of this writing). It is also one of the top 500 projects (by dependants) on NPM.\n\nIt was written and is maintained by me, RicMoo (Richard Moore), a random developer from Canada that is passionate about open-source and dedicates most his waking-time (and some sleeping-time) to it.\n\nHack the Planet! :)",
+    "description": "Ethers.js is a compact TypeScript library for scripts, wallets, and services that need predictable JSON-RPC, ABI encoding, and signing helpers in Node or the browser.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/f8d776ab-ca70-42ee-9e41-d4f709cd6fd4.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/459bdd5e-60a5-49ca-88b8-d4537ebfec16.png",
     "twitter": "@ricmoo",
@@ -1302,7 +1276,7 @@
   },
   {
     "name": "blocksmith.js",
-    "description": "blocksmith.js is a minimal Javascript testing framework for Ethereum contract development using foundry-rs and ethers.  It is a lightweight wrapper around forge and anvil, so you can script Foundry however you want.  It is primarily designed for developing cross-chain applications that cannot be tested inside of a single EVM instance.",
+    "description": "blocksmith.js is a thin JavaScript harness around forge and anvil for scripting multi-chain or multi-instance Foundry tests when a single local EVM is not enough.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/8b8c4fda-3240-41c6-ab52-43a137e665a8.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/0b8f272e-b319-4744-959e-dbc36996ba31.png",
     "twitter": "https://x.com/adraffy",
@@ -1378,7 +1352,7 @@
   },
   {
     "name": "Synpress",
-    "description": "Synpress is an end-to-end testing framework for web applications based on Cypress.io and Playwright, with support for MetaMask. It is a pioneering tool in web3 end-to-end testing with the potential to evolve into a decentralized network of test runners and continuous integration providers in the future. Synpress is easy to use, fully tested, and includes features such as MetaMask support, headless mode, integrated video recording, and many more. It is also blazingly-fast and extensible, with the ability to add custom commands and plugins. Synpress is already used by many open-source repositories.",
+    "description": "Synpress layers Playwright with Ethereum-aware browser automation so you can end-to-end test dapps, including wallet popups and chain switches, in CI.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/abf0fa5e-15f2-4963-bd73-d84d0bd4c307.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/0d9aecc0-dcf4-4ee0-9e6c-12d9b62325ea.png",
     "twitter": "https://x.com/Synpress_",
@@ -1398,7 +1372,7 @@
   },
   {
     "name": "Callthis",
-    "description": "Callthis is a better transaction builder:\n- Generate an interface for any contract, even if it's unverified. (Powered by WhatsABI)\n- Build a transaction and save it as a link that can be shared and executed later.\n- Works with any EVM chain, with WalletConnect or Safe Wallets or browser-injected providers.\n- Address fields automatically resolved with ENS.\n- Supports complex contract inputs with tuples, arrays, etc.\n- No backend services required, grab the source and run it locally for privacy and censorship-resistance!\n- Permissively licensed under MIT, use it in your products.",
+    "description": "Callthis builds shareable transaction links with inferred interfaces so you can stage calldata on any EVM chain, resolve ENS fields, and execute through WalletConnect, Safe, or injected wallets without a hosted backend.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/abe6dc50-0732-419b-a64c-463814247f78.png",
     "banner_url": null,
     "twitter": null,
@@ -1415,7 +1389,7 @@
   },
   {
     "name": "Candide's Smart Account Contracts",
-    "description": "Candide offers open-source smart contracts designed for teams that are pushing the boundaries of Ethereum UX with Account Abstraction. Our contracts includes a formally verified and audited Social Recovery module, a Paymaster contract for gas sponsorship, and a BLS Account contract. These solutions are trusted by high-profile projects like Safe, Worldcoin, and many others.",
+    "description": "Candide publishes audited open contracts for social recovery, paymasters, and BLS-style accounts that you can study or integrate when pushing advanced account-abstraction UX.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/104d6957-65bc-4d15-a5f9-2afd75482347.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/c120c166-68a8-4e9b-a159-b1f9e74ff105.png",
     "twitter": "https://twitter.com/candidelabs",
@@ -1433,7 +1407,7 @@
   },
   {
     "name": "AbstractionKit | Account Abstraction Library",
-    "description": "AbstractionKit is TypeScript Interface designed for Ethereum Account Abstraction. It simplifies the standard's complexities and provides a robust foundation for developing smart wallet applications. AbstractionKit is used in conjunction with libraries like Ethers, viem, and wagmi. It remains service-agnostic, offering compatibility with any Node, Bundler, or Paymaster provider. Key features include Passkeys Login, Gas Sponsorship and Social Recovery. AbstractionKit is used by smart wallets that are breaking new ground in Ethereum UX, such as Morpher, Unit-e, BackPack, JOIN, and many others.",
+    "description": "AbstractionKit is a TypeScript helper library for wiring ERC-4337 flows-user operations, paymasters, and bundler calls-without implementing the wire protocol from scratch.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/69b08a09-8fd5-498a-beef-67ad29cf01b5.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/75a0886a-d3a0-4595-a539-64a8a83eae3a.png",
     "twitter": "https://twitter.com/candidelabs",
@@ -1453,27 +1427,6 @@
     "website": "https://usecannon.com",
     "llmstext": "",
     "subcategory_id": "deployment-devops"
-  },
-  {
-    "name": "Superfuse",
-    "description": "Superfuse, is a toolchain and knowledge hub to build cross-chain contracts in Superchain Ecosystem. It includes:\n\n1) Superfuse wizard: It is a code generator/ interactive developer playground to develop a part of smart contract/deploy script/ test suites out of components from cross-chain specification. Select kind of contract that you want (eg. ERC7802, SuperchainERC20, and ERC20Votes).\n\n\n2) suerfuse-forge: a developer-friendly framework/library in solidity to build a variations of cross-chain contracts in superchain Ecosystem",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/6038b69f-0ca7-478f-a55f-002f00e3b7e7.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/d96837af-ba2e-44d1-9e6d-ad9b30a06c3e.png",
-    "twitter": "https://twitter.com/RATi_MOn",
-    "repos": [
-      "https://github.com/Ratimon/superfuse-wizard",
-      "https://github.com/Ratimon/superfuse-forge"
-    ],
-    "tags": [
-      "cross-chain",
-      "frontend",
-      "solidity",
-      "interactive-tools",
-      "foundry"
-    ],
-    "website": "https://superfuse.ninja/",
-    "llmstext": "",
-    "subcategory_id": "cross-chain-infrastructure"
   },
   {
     "name": "solid-grinder",
@@ -1517,7 +1470,7 @@
   },
   {
     "name": "rindexer",
-    "description": "rindexer is an opensource powerful, high-speed indexing toolset developed in Rust, designed for compatibility with any EVM chain. This tool allows you to index chain events using a simple YAML file, requiring no additional coding. For more advanced needs, the rindexer provides foundations and advanced capabilities to build whatever you want. It's highly extendable, enabling you to construct indexing pipelines with ease and focus exclusively on the logic. rindexer out the box also gives you a GraphQL API to query the data you have indexed instantly.",
+    "description": "rindexer is an app-focused indexer framework with GraphQL and Postgres ergonomics when you need reliable chain-to-API pipelines without bespoke ETL glue.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/366c4940-78cc-4119-958b-b93f3c9a5845.png",
     "banner_url": null,
     "twitter": null,
@@ -1529,7 +1482,7 @@
   },
   {
     "name": "Voltaire | Account Abstraction Bundler",
-    "description": "Voltaire Bundler is a core infrastructure component for Ethereum Account Abstraction designed to extend Ethereum nodes. It facilitates the inclusion of smart account transactions - known as UserOperations -via an alternative peer-to-peer mempool, without requiring any protocol changes. Voltaire is relied in production by Smart Wallets pushing new grounds for Ethereum UX like JOIN, BackPack, El-Dorado, Unit-e, Morpher and and many others. Voltaire is built and maintained by Candide, a small independent team that has been redefining Ethereum user experiences since 2022.",
+    "description": "Voltaire is an ERC-4337 bundler implementation you can run when you need configurable user-operation relaying for account-abstraction wallets.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/4686b986-8bb5-4ab0-a13b-c020291b20c2.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/2ac896b0-1b09-40bf-a5db-7baef34ead58.png",
     "twitter": "https://twitter.com/candidelabs",
@@ -1541,7 +1494,7 @@
   },
   {
     "name": "EvmTools",
-    "description": "Evmtools (previously zkblock) started as a boilerplate for developing zk dapps using circom (groth and plonk). But since the inception, it has grown to include variety tools required to develop zk and web3 dapps. These tools help during development of variety of dapps inlcuding zk-snarks based dapps, whitelisting contracts, contracts using EIP-712 signatures such Aave credit delegation, custom signatures, raw transaction decoder, determining contract addresses, understand on-chain slot structure etc.\n\nThe goal of evmtools is to help users to debug, build and ship web3 apps. Since, the inception we have included several features to make evmtools useful for development.\n\nWe have built whole suite of (20+) tools for developers. These tools help developers to test and debug during development. Some of the tools include-\n\nUniswap V4 Hooks tools\nMerkle Tree Generator (using secure openzeppelin libraries, provides easy debugging for whitelisting)\nEVM Transaction Decoder\nBit Manipulation, masking etc\nGeneral Utility tools\nGas converter, byte conversion, hex conversion etc.\nEpoch Converter\nGenerate burner addresses\nChecksum Formatter\n\nAll tools are available in an extension as well. ",
+    "description": "EvmTools bundles browser and extension utilities-decoders, merkle helpers, converters, and similar small tools-for day-to-day smart contract debugging in one place.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/c82ddf3d-3586-4552-85ce-8e9f5da907d5.png",
     "banner_url": null,
     "twitter": "https://x.com/evmtools_xyz",
@@ -1576,19 +1529,20 @@
     "subcategory_id": "courses-tutorials"
   },
   {
-    "name": "Diamondscaffold: Simplifying EIP-2535 Diamond Architecture Development",
-    "description": "Diamondscaffold is a CLI tool designed to streamline the development of EIP-2535 diamond structures. Supporting both Hardhat and Foundry, it provides ready-to-use templates for ERC20, ERC721, and a default Diamond structure, allowing developers to efficiently scaffold modular smart contracts. With JavaScript/TypeScript compatibility, automated dependency installation, and an intuitive setup process, Diamondscaffold accelerates project deployment while ensuring flexibility and scalability. By making diamond contract architecture more accessible, this tool fosters innovation within the Ethereum and Optimism ecosystems, empowering developers to build robust, upgradeable, and efficient smart contracts.",
+    "name": "Diamondscaffold",
+    "description": "Diamondscaffold is a CLI tool designed to scaffold EIP-2535 diamond projects with an opinionated layout and scripts, making it faster to stand up modular upgradeable proxies.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/d818a88f-eb12-4c4e-b1be-46f8284fd5d4.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/8d4a3113-5b39-472e-9a60-57451db585fb.png",
     "twitter": "https://x.com/BAbraham_92/",
     "repos": ["https://github.com/collinsadi/diamonds"],
     "tags": ["cli", "hardhat", "foundry", "erc721", "upgradeable-contracts"],
+    "website": "https://diamonds.collinsadi.xyz/",
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
   },
   {
     "name": "Simbolik - Solidity Debugger",
-    "description": "Simbolik is a powerful Solidity debugger that combines traditional breakpoint debugging with symbolic execution, enabling developers to explore every possible execution path and uncover vulnerabilities with precision.\n\nAvailable as a VSCode extension, Simbolik integrates seamlessly into existing workflows, offering breakpoint-style debugging, Solidity and EVM-level inspection, and formal verification capabilities. Adopted by organizations like Lido, Optimism, Ethereum Foundation, and others, Simbolik helps Superchain builders write more secure and reliable smart contracts.",
+    "description": "Simbolik is a powerful Solidity debugger that combines traditional breakpoint debugging with symbolic execution, enabling developers to explore every possible execution path and uncover vulnerabilities with precision. Available as a VSCode extension, Simbolik integrates seamlessly into existing workflows, offering breakpoint-style debugging, Solidity and EVM-level inspection, and formal verification capabilities.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/d2f26755-6a96-4cf7-917e-6ebeced29a15.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/8d0da35d-0369-4bf8-a577-60ce33236078.png",
     "twitter": "https://x.com/rv_inc",
@@ -1610,7 +1564,7 @@
   },
   {
     "name": "WhatsABI",
-    "description": "Extract ABI (and more) from Ethereum contract bytecode, even without source code.\n\nWhatsABI is a public good for making EVM bytecode more useful and usable on all EVM-based chains.\n\nThe guiding purpose for WhatsABI is to improve decentralization, transparency, and user safety by reducing our dependence on proprietary centralized frontends for EVM contracts. \n\nWhatsABI a permissively-licensed TypeScript library that is perfect for building better contract explorers, transaction builders, smarter wallets, and for doing security research. It is designed to be small, fast, and easily embedded in wallets or runnable locally with any provider. Some things WhatsABI can do: Return selectors from bytecode, look up function signatures from selectors, provide helpers for looking up ABI and signatures from public databases (like Sourcify, Etherscan, Blockscout, OpenChain, 4Byte), resolve onchain proxies (including inspecting available diamond facets!), loading contract metadata, and more.  \n\nWhatsABI is already powering many popular projects like: Otterscan, Sourcify, Rivet, Ondora, Thirdweb, and more coming soon as we collaborate on integrations upstream.",
+    "description": "WhatsABI recovers selectors, proxies, and partial ABIs from bytecode alone-use it in wallets, explorers, or local tools when verified source is missing but you still need calldata decoding.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/63e11af2-345b-4977-b6da-dcaf387df081.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/6e45f230-2ef2-43f1-ab9d-b95e2ac0f15e.png",
     "twitter": "https://x.com/shazow",
@@ -1621,13 +1575,13 @@
   },
   {
     "name": "Rundler",
-    "description": "Rundler (Rust Bundler) is an ERC-4337 bundler implementation written in Rust. Rundler is designed to achieve high-performance and high-reliability in cloud deployments via a modular architecture. Currently, both Alchemy and Coinbase's Base team use Rundler. It powers >70% of UOs in the Ethereum ecosystem and a vast majority of UOs in the Superchain. Rundler is OSS licensed with GPL.\n\nRundler powers the ERC-4337 ecosystem with an implementation that users can rely on to scale reliably. Rundler open source code repo has 300+ stars, more than 50 forks. \n\nOur goals with Rundler:\n\nERC-4337 Specification Compliance: Rundler strives to implement the full ERC-4337 specification and to maintain support as the specification changes and new onchain components are released. This includes new Entry Point contract support, support for the upcoming P2P mempool specification, support for alternative mempools, and more.\nBest-in-class Performance and Reliability: Rundler strives to power the most demanding workloads in cloud environments. Rust was chosen for its high performance and memory safety. Rundler's modular architecture lets providers choose to run the stateless components (RPC, builder) in a fully horizontally scalable manner connecting to the stateful components (mempool, p2p, event cache) via the network. Rundler's bundle builder is designed to be able to support the full gas throughput of the network it's building for.\nExtensibility/Chain Support: ERC-4337 is designed to support any EVM chain. However, different EVM supporting networks have different rules around how to support things like gas usage, gas fees, precompiles, etc. Rundler is designed to be extensible and easily adapted to support any EVM chain.\nModularity: Rundler is written in a modular manner, allowing its components to be run as a single integrated binary, or as a distributed system. Rundler also strives for its individual crates to be used to support future ERC-4337 tooling.",
+    "description": "Rundler is Alchemy's modular Rust ERC-4337 bundler aimed at horizontally scaled deployments; many Ethereum user-operation workloads run on it today.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/7e5161c3-ab8c-44e9-97b9-a957fa9cb7a2.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/2985ee59-7f46-4626-93f4-fd91de426cd2.png",
     "twitter": "twitter.com/alchemy",
     "repos": ["https://github.com/alchemyplatform/rundler"],
     "tags": ["docker", "bundler", "account-abstraction", "multi-chain"],
-    "website": "www.alchemy.com",
+    "website": "https://alchemy.com",
     "llmstext": "",
     "subcategory_id": "aa-tx-orchestration"
   },
@@ -1670,18 +1624,6 @@
     "subcategory_id": "core-sdks-libraries"
   },
   {
-    "name": "ABIExplorer",
-    "description": "ABI Explorer is like Postman for smart contracts; it allows developers and integrators to test and interact with smart contract functions directly using their ABIs. No need to write custom scripts or spin up a front end, just drop in your ABI, connect your wallet, and start calling functions.\n\nIt's designed to make life easier for anyone working with smart contracts and also to:\n\nQuickly test read/write functions\n\nSimulate interactions before integrating into your dApp\n\nDebug contract behaviors on any chain, including Optimism\n\n\nWe built this to help streamline contract integration and testing workflows, especially for devs building with on-chain components.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/afd98fa3-7bf7-45a5-9d07-0f1dbea2ba61.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/aa144789-e6d6-4af4-9634-7956915bfc8a.png",
-    "twitter": null,
-    "repos": ["https://github.com/CollinsMunene/abiexplorer"],
-    "tags": ["contract-interaction"],
-    "website": "https://abiexplorer.devligence.com/",
-    "llmstext": "",
-    "subcategory_id": "frontend-integration-tooling"
-  },
-  {
     "name": "Privacy Builder Pack",
     "description": "Hacker Manuals & Privacy Guidelines to help the builders deliver practical privacy-enhancing projects, turn them into products, & scale being sustainable.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/b2e8b33c-2f72-4854-b549-ea8ea9468eca.png",
@@ -1707,7 +1649,7 @@
   },
   {
     "name": "Explorer",
-    "description": "Explorer is a flagship project by Web3Privacy Now that curates and maintains an extensive open-source database of privacy-enhancing tools, use cases, and research. Designed as a public good, it empowers individuals, developers, and organizations to navigate the privacy landscape with greater knowledge and autonomy. Explorer bridges the gap between users and privacy solutions by providing accessible, actionable, and up-to-date resources to foster a culture of privacy within the Web3 ecosystem.",
+    "description": "Explorer is a curated, open database of privacy-preserving tools and guides so builders can compare approaches before picking libraries or workflows.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/4b165837-402c-4f39-bc4f-fa5a0b931b8c.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/161c3a2f-880d-4617-afda-746e97e7586c.png",
     "twitter": "https://x.com/web3privacy",
@@ -1751,7 +1693,7 @@
   },
   {
     "name": "Ponder",
-    "description": "Ponder is an open-source indexing framework for crypto apps focused on performance, reliability and developer experience. Dozens of apps across the Superchain use Ponder to power their websites and mobile applications. Our goal is to enable world-class user experiences that don't compromise on censorship-resistance and decentralization.",
+    "description": "Ponder is an indexing framework for crypto apps with an emphasis on fast refresh and developer ergonomics when you are serving fresh chain data to a product backend or frontend.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/8da31052-61ab-40c2-a9b6-18b0dd37824e.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e46839dc-55fb-45c5-8c47-d3282749cedb.png",
     "twitter": "https://x.com/ponder_sh",
@@ -1783,7 +1725,7 @@
   },
   {
     "name": "Web3GPT",
-    "description": "Web3GPT is an AI-powered platform I've developed with the help of some contributors. Web3GPT transforms smart contract development by enabling developers of all skill levels to write, deploy, and verify smart contracts across multiple EVM networks using natural language prompts-no complex configurations or IDEs required. With over 250 AI-generated smart contracts already deployed and verified across different EVM networks, it's proving its capability in the Web3 ecosystem. The platform also supports specialized AI Agents designed for specific functionalities, enhancing your development experience by making it more efficient and tailored to your needs.",
+    "description": "Web3GPT is a prompt-driven assistant for drafting, deploying, and verifying simple EVM contracts across networks when you want a fast starting point before moving work into your usual IDE flow.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/b540988e-6db1-47de-84a4-bebe987ef595.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/283678d8-970a-44ee-ba90-419f5359aac5.png",
     "twitter": "https://x.com/w3gptai",
@@ -1795,7 +1737,7 @@
       "natural-language-processing",
       "solidity"
     ],
-    "llmstext": "",
+    "llmstext": "https://w3gpt.ai/",
     "subcategory_id": "other-ai-resources"
   },
   {
@@ -1828,8 +1770,8 @@
     "subcategory_id": "analytics-monitoring"
   },
   {
-    "name": "growthepie Ethereum and Superchain Analytics",
-    "description": "growthepie.xyz is a public goods data platform for Ethereum and its scaling solutions, providing essential metrics, onchain data, and educational resources to empower developers and users in making informed decisions.\n\nIt aims to enhance transparency and understanding within the Ethereum ecosystem. It is entirely free to use, with no subscription fees or access limitations, funded primarily through grants and user donations. Key features include fundamental metrics and blockspace exploration, offering insights into chains' and their projects' activity, value locked, economics, and Data Availability metrics. Our most recent addition are application-specific analytics. We have most of the Superchain covered, constantly adding more along the way.",
+    "name": "growthepie Ethereum Analytics",
+    "description": "growthepie.xyz is an analytics site for Ethereum rollups that surfaces fundamentals, blockspace usage, economics, data-availability metrics, and application-level dashboards.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/33fec99f-964b-4296-a409-77c4fc4674e8.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/1ac64d7c-4267-4be3-80d6-c90bebb7e40c.png",
     "twitter": "https://x.com/growthepie_eth",
@@ -1858,25 +1800,13 @@
     "twitter": "zinkonx",
     "repos": ["https://github.com/zink-lang/zink"],
     "tags": ["education"],
-    "website": null,
+    "website": "https://zink-lang.org",
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
   },
   {
-    "name": "DistriButler: Multi Token Sender for Optimism, Base & Arbitrum",
-    "description": "DistriButler is a powerful multi-token sender Dapp built to streamline airdrops, rewards, and bulk transfers across Optimism, Base, and Arbitrum networks. With a focus on simplicity, security, and efficiency, it allows users to effortlessly send multiple tokens to numerous addresses in a single transaction. DistriButler reduces the complexity of managing large distributions while saving on gas fees, making it an ideal tool for Web3 projects needing efficient token transfers.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/10cc25d9-eb1f-43f2-8126-7927acb952c2.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/d6450ca3-f77e-40cf-8799-c61244ab93e3.png",
-    "twitter": "https://x.com/DistriButler",
-    "repos": ["https://github.com/sifaw23/distributler"],
-    "tags": ["defi", "wallet", "nextjs"],
-    "website": "https://distributler.com/",
-    "llmstext": "",
-    "subcategory_id": "frontend-integration-tooling"
-  },
-  {
     "name": "Solidity Bytes Arrays Utils Library",
-    "description": "Bytes tightly packed arrays' utility library for ethereum contracts written in Solidity.\n\nThe library lets you concatenate, slice and type cast bytes arrays both in memory and storage.\n\n-----\n\nThe Solidity Bytes Arrays Utils library is a Solidity library I initially wrote 7+ years ago, when Solidity was in its initial days, to be able to handle dynamic bytes arrays through canonical functions like concatenation and slicing.\n\nI have maintained the functional part of its code single-handedly over the years with help around documentation and ideation from a few other contributors.\n\nThis library has been used extensively over the years by some of the biggest projects in the space. Names like Aragon, Maker, Uniswap, Nomad, LayerZero, and, probably more importantly, Optimism, in its initial version.\n\n(Not all projects forked the repo. You can find a big list of forks here: https://github.com/GNSPS/solidity-bytes-utils/forks, the rest can be found by either searching \"BytesLib.sol\" on Google or just searching for parts of the code itself on GitHub.)",
+    "description": "Solidity Bytes Utils is a classic library for concatenating, slicing, and casting dynamic bytes arrays in Solidity memory or storage-long maintained and widely forked across major protocols.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/aa1c84f1-cd10-420c-a730-576e9e1ca7fd.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e5f2c4cb-fb66-4473-973c-1d98a51065a0.png",
     "twitter": "https://x.com/gnsps",
@@ -1904,7 +1834,7 @@
   },
   {
     "name": "Ackee",
-    "description": "Ackee is trusted by top-tier organizations in web3. Our mission is to contribute to a stronger blockchain ecosystem by providing security services, tooling and education.",
+    "description": "Ackee is a blockchain security shop you hire for audits, tooling support, and training when you need hands-on review of Solidity systems and surrounding infrastructure.",
     "thumbnail_url": "https://cdn.charmverse.io/user-content/2d6a8f50-45c2-4658-a66a-74eca1149aa3/102ec612-ed55-4da8-b9fb-0bb3f5447e84/Ackee-Blockchain-Security-logo.jpg",
     "banner_url": "https://cdn.charmverse.io/user-content/2d6a8f50-45c2-4658-a66a-74eca1149aa3/f1984493-d1a1-424e-afc1-36e1fc33f573/Ackee-Blockchain-Twitter-Banner.jpeg",
     "twitter": "ackeeblockchain",
@@ -1921,20 +1851,8 @@
     "subcategory_id": "courses-tutorials"
   },
   {
-    "name": "Clear Wallet",
-    "description": "Clear EVM wallet is a fully open-source EVM browser wallet based on Ethers, Ionic, Manifest V3, and Vue. It implements Metamask API and will work as a replacement for Metamask, websites will detect it as Metamask, so select Metamask when interacting with Dapps. Websites that implement EIP-6963 will detect it as Clear EVM Wallet.\n\nIt has been public on Chrome Store since August 2022.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/4aa97110-63e2-4703-a3f5-e42bdebceaee.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/50e95639-885c-4657-8141-4a3357fd732e.png",
-    "twitter": "andrei0x309",
-    "repos": ["https://github.com/andrei0x309/clear-wallet"],
-    "tags": ["wallet", "frontend", "privacy-focused"],
-    "website": "https://clear-wallet.flashsoft.eu/",
-    "llmstext": "",
-    "subcategory_id": "wallet-integration-auth"
-  },
-  {
     "name": "Snapshot",
-    "description": "Snapshot started as a voting platform designed to allow onchain organizations to vote easily without gas fees. Its strength lies in its flexibility and high customization, catering to the diverse needs of its users. This includes options for calculating users' voting power, selecting different voting mechanisms, and managing proposal and vote validation rules.\n\nAs the gas cost dropped with the maturity of L2s and the need for more decentralized and trustless voting grew, we developed Snapshot X, an onchain voting protocol. Unlike the original Snapshot, Snapshot X operates fully onchain using a set of modular smart contracts. This shift makes Snapshot censorship resistant, with onchain and cross-chain voting power computation and trustless execution, while keeping gas costs to the minimal extent possible.",
+    "description": "Snapshot began as gasless off-chain governance for DAOs with flexible voting strategies and validation plugins, and the team later launched Snapshot X, a modular onchain voting stack that keeps execution trust-minimized while still minimizing gas through clever proving and cross-chain voting power accounting.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/098487bf-4f43-4e5a-8621-9c6368304124.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/d76ced7e-7d5e-4514-9706-ca097e3131c2.png",
     "twitter": "https://x.com/SnapshotLabs",
@@ -1949,13 +1867,13 @@
   },
   {
     "name": "Fe Language",
-    "description": "Fe is a high-level language for the EVM. It is heavily inspired by Rust and implemented in it too. You can use Fe to write smart contracts for Ethereum or any EVM-equivalent platform. Currently, we are developing Fe v2, which introduces an improved type system. While it does not yet compile to EVM, users can still analyze their code using the CLI or an editor plugin.",
+    "description": "Fe is a Rust-inspired language targeting the EVM; today you can explore Fe v2's type system via CLI or editor tooling even while bytecode generation is still evolving.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/05ac5706-2a13-4325-8333-183a730e7797.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/f733c3ee-3819-40f8-9ee8-b94416a770d9.png",
     "twitter": null,
     "repos": ["https://github.com/ethereum/fe"],
     "tags": ["cli", "education", "compiler", "code-analysis", "type-safe"],
-    "website": "fe-lang.org",
+    "website": "https://fe-lang.org",
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
   },
@@ -1973,7 +1891,7 @@
   },
   {
     "name": "AWS KMS and YubiHSM signer for OP Stack",
-    "description": "We have developed a signer proxy software that enables the OP Stack chain to use an external signer (currently supporting AWS KMS and YubiHSM) through the official signer client to signer the sequencer, batcher, proposer and challenger transactions. However, the official signer client does not integrate with external signers, so we have implemented this functionality in our signer proxy.\n\nCurrently, the process outlined in the Optimism documentation for setting up a sequencer, batcher, and proposer requires using plain private keys, creating an insecure environment for mainnet deployment. Although the documentation suggests using hardware security modules (HSMs) for key management, it lacks detailed guidance beyond referencing source code. Chain operators, particularly those using bare metal setups, often prefer YubiHSM2 over cloud-based solutions like AWS KMS due to its hardware-native security.\n\nTo enhance security, mainnet chain operators are encouraged to use industry-standard hardware signers like YubiHSM2 or AWS KMS. This approach allows operators to deploy Optimism stack chains securely by protecting private keys with hardware-based solutions. Existing resources, such as the integration of YubiHSM2 into the Keplr wallet and the TMKMS YubiHSM installer, provide relevant experiences that support this approach.\n\nOur AWS KMS Signer proxy has been used by the Lisk team for their op-challenger. We are working with them to make signer proxy perfect and production ready.",
+    "description": "This signer proxy lets OP Stack operators route sequencer, batcher, proposer, and challenger signing through AWS KMS or YubiHSM instead of raw private keys on disk.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/a73d46f5-87ba-4204-88eb-7ce51ab055de.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/ffb2a694-74be-48f3-897d-96034c088b3a.png",
     "twitter": null,
@@ -1999,28 +1917,8 @@
     "subcategory_id": "contract-frameworks"
   },
   {
-    "name": "Upnode Deploy",
-    "description": "Upnode Deploy allows chain operators and developers to quickly launch their OP Stack chain with the necessary infrastructure, including an explorer, bridge, faucet, and monitoring system, by modifying a few environment variables related to the RPC endpoint, private keys, and chain information.\n\nWith a single Docker Compose command, they can launch and manage every component of the OP Stack chain, including the ability to deploy a replica node by providing `rollup.json` and `genesis.json`. Upnode Deploy also offers a user interface similar to Conduit, which simplifies the OP Stack deployment process.\n\nUnlike Conduit, Upnode Deploy provides developers and chain operators with a tool to deploy OP Stack chains on their own servers instead of relying on third-party managed servers. Upnode Deploy is free, open-source, and fully transparent, whereas Conduit is a paid, closed-source solution.\n\nUpnode Deploy supports the latest OP Stack v1.9.0 and is prepared for the upcoming migration from `pnpm` to `just`.\n\nUpnode Deploy has won Fraxtal Hackathon: https://dorahacks.io/buidl/13971\n\nVideo of docker compose deploying an OP Stack L3 on Fraxtal: https://www.youtube.com/watch?v=8dytrXGjDG4",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/91ebe6cd-12a6-42fb-b3ef-d717e79ac9b8.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/84ec5980-5e06-4630-92b4-16ce9e9e3f83.png",
-    "twitter": "https://x.com/upnodeIntern",
-    "repos": [
-      "https://github.com/upnodedev/opstack-cli",
-      "https://github.com/upnodedev/opstack-bridge-ui-v2",
-      "https://github.com/upnodedev/evm-faucet",
-      "https://github.com/upnodedev/upnode-deploy-ui",
-      "https://github.com/upnodedev/opstack-compose",
-      "https://github.com/upnodedev/opstack-bridge-ui",
-      "https://github.com/upnodedev/opstack-bridge-indexer",
-      "https://github.com/upnodedev/opstack-bridge-indexer-v2"
-    ],
-    "tags": ["cli", "docker", "devops"],
-    "llmstext": "",
-    "subcategory_id": "rpc-node-infrastructure"
-  },
-  {
     "name": "Hermes - a GossipSub listener and tracer for libp2p-based networks.",
-    "description": "The ProbeLab team has recently built Hermes, a GossipSub listener and tracer for libp2p-based networks. Hermes-based experiments aim to measure the efficiency and performance of the GossipSub message broadcasting protocol in any libp2p-based network. Acting as a light node of sorts, Hermes can help developers collect valuable data and tune their network's protocols based on the message propagation latency, control message overhead and a variety of other metrics. Hermes currently supports the Ethereum consensus layer network.\n\nThe ProbeLab team specialises in network-layer measurements and monitoring. The team operates a variety of tools and uses the data it collects to propose network protocol optimisations.",
+    "description": "Hermes listens to libp2p gossipsub traffic so you can measure propagation latency and overhead when tuning Ethereum consensus or similar peer networks.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/90c0de0c-cc0e-4959-afb7-a78ae4c9d674.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e1d59a51-3f6f-4642-bc88-553026d2d067.png",
     "twitter": "@yiannisbot",
@@ -2031,7 +1929,7 @@
   },
   {
     "name": "Curvegrid MultiBaas",
-    "description": "Curvegrid offers cutting-edge solutions for blockchain application development. Curvegrid's flagship product, MultiBaas, streamlines the DApp development process with a user-friendly web UI and a robust REST API. Supporting multiple EVM chains, MultiBaas accelerates time-to-market for sectors including finance, DeFi, gaming, art, and logistics.",
+    "description": "Curvegrid MultiBaas is a hosted control plane with REST APIs for deploying and operating multi-chain EVM backends when you want managed keys, indexing hooks, and dashboards without building all ops in-house.",
     "thumbnail_url": "https://cdn.charmverse.io/user-content/cae02d37-eadb-4a01-a063-d72588a78203/a6dfa7b6-3b1c-4ff3-b5e5-f82624024c5e/Icon-(Color).svg",
     "banner_url": "https://cdn.charmverse.io/user-content/cae02d37-eadb-4a01-a063-d72588a78203/3151e0b3-b99e-4da6-9fdf-e98c3e985c22/Curvegrid-Banner-(1).png",
     "twitter": "https://x.com/curvegridinc",
@@ -2049,7 +1947,7 @@
   },
   {
     "name": "Redprint",
-    "description": "Redprint toolkit, is a toolchain and knowledge hub to improve OPStack accessibility, tailored for developer. It includes:\n\n1) Redprint wizard: It is a code generator/ interactive playground to debug/modify OPStack 's codebase.  It supports a space to experience, and build features which aren't yet available on the production at all, empowering developers to tinker, and push the boundaries of what's possible by composing their own different OPStack components together. \n\n2) redprint-forge: It is a developer-friendly framework/library in solidity to deploy OPStack 's contracts in a modular style. It supports type-safe smart contract deployment, re-usable testing pipeline, all-Solidity-based ( no context switching), and tx Management via Safe Smart Contract Deploy Script",
+    "description": "Redprint pairs a wizard-style playground with redprint-forge libraries so developers can experimentally compose OP Stack contract upgrades in Solidity with type-safe deployments, reusable tests, Safe-aware transaction scripting, and modular component wiring before changes graduate to production pipelines.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/3cc6bd19-1ade-4c0d-8fe3-ec6ea6f50183.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/d2d120fb-11fa-456c-b7e0-b0ed52b477e0.png",
     "twitter": "",
@@ -2103,7 +2001,7 @@
   },
   {
     "name": "Rust Libp2p",
-    "description": "The rust implementation of libp2p. Libp2p is a modular framework for a variety of p2p protocols. These protocols are used widely by a variety of projects to establish p2p communications in a decentralized manner.\n\nThe rust implementation is used by a variety of projects in the space including, Magi (OP Stack rollup client), Lighthouse (Ethereum consensus client) and Forest (Filecoin client). \n\nThe rust implementation specifically, is used by a variety of projects in the ",
+    "description": "rust-libp2p is the reference Rust implementation of libp2p's modular peer-to-peer stack used by Magi on the OP Stack, Lighthouse, Forest, and many other projects that need composable transports, security, pubsub, and discovery primitives for decentralized networking.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/352a5108-5f07-4765-a43d-7ba0b4b27054.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/01e43966-8955-4584-b45d-84645a97dc5d.png",
     "twitter": "@sigp_io",
@@ -2115,7 +2013,7 @@
   },
   {
     "name": "Blobscan",
-    "description": "**About Blobscan**\n\nBlobscan is the first open-source blockchain explorer designed to navigate and visualize shard blob transactions introduced in EIP-4844. It provides essential public infrastructure to help scale Ethereum, featuring:\n\n- Advanced blob search and filtering\n- Rich blob decoding (including Starknet and Optimism support)\n- Multiple persistent blob storage integrations\n- A detailed analytics dashboard\n- An API for querying blobs and metrics\n- Docker and Kubernetes-ready deployment options\n\nOur mission is to make blob data accessible, transparent, and usable for the entire Ethereum ecosystem.",
+    "description": "Blobscan is an explorer and API for EIP-4844 blobs-decoding, analytics, and deployment charts aimed at rollup teams operating blob-capable infrastructure.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/af580f21-8a05-40b2-b839-aaed37495186.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/6fee849e-314e-4285-92d9-b6b27d09f4a3.png",
     "twitter": "https://x.com/blobscan",
@@ -2132,7 +2030,7 @@
   },
   {
     "name": "Opstack Kit",
-    "description": "Bridging hooks for OP Stack Chains\nnpm i opstack-kit | is a toolkit for all upgrades. To easily connect and interact with the OP-Stack (Superchain)\n\n - Focus on Your Dapp\nEffortlessly create awesome OP-Stack (Superchain) sites with just npm i opstack-kit.\n\n - Enjoy the \"opstack-kit\"\nInstant server start, lightning fast hot updates, and leverage OP-Stack (Superchain) ecosystem.\n\n - Customize with OP-Stack\nUse syntax and components directly in \"opstack-kit\", or build custom themes.\n\n - Ship Fast Sites\nStart creating quickly \"opstack-kit\" after that deploy it to your network.\n\nFeatures\n- Simplifies cross L1 & L2 interactions\n- Supports \"CustomGasToken\" deposit & withdrawal functions\n- Supports multi-functionality & new fault-proof feature\n- CLI command development tools (prove, finalize)",
+    "description": "opstack-kit scaffolds Superchain-aware frontends and scripts with bridging helpers, CustomGasToken flows, and OP Stack CLI tasks baked into the starter.",
     "thumbnail_url": "https://cdn.charmverse.io/user-content/e3eb66db-408b-4e21-bc69-c2927fd15b32/552ea203-8cee-4111-9a61-82fd3da74367/ok.png",
     "banner_url": "https://cdn.charmverse.io/user-content/e3eb66db-408b-4e21-bc69-c2927fd15b32/874ceabb-8637-48ef-935d-747218d514fc/opstackkit-cover.jpg",
     "twitter": "opstackkit",
@@ -2143,7 +2041,7 @@
   },
   {
     "name": "js-libp2p",
-    "description": "The canonical JavaScript implementation of libp2p. Js-libp2pis a collection of protocols that support a wide range of functionalities, such as; connection establishment, remote node protocol identification and negotiation (through its identify protocol), data encryption, content/peer discovery (through its Kademlia DHT component), and data transfer through its pub-sub protocol (Gossipsub).\n\nThe stakeholders of js-libp2p include the Interplanetary Shipyard team who maintain this implementation as well as projects that depend on js-libp2p like major on-chain builder apps like Farcaster. Farcaster contracts are deployed on Optimism and they rely directly on js-libp2p in Farcaster Hubs (transports and protocols like GossipSub).\n\nAdditionally, ChainSafe's Lodestar (Ethereum consensus client written in Typescript), Ocean Protocol (in their Ocean Nodes implementation), OrbitDB (a serverless, distributed, peer-to-peer database), Warden Protocol, and many more: https://github.com/libp2p/js-libp2p/tree/main#used-by and https://github.com/libp2p/js-libp2p/network/dependents.",
+    "description": "js-libp2p is the JavaScript implementation of libp2p transports, security, pubsub, and discovery-used by Farcaster hubs, Lodestar-related tooling, and other off-chain coordination stacks.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/11d09c62-9356-40b2-9cd2-06b98f816bfb.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/826fafd9-28a8-49f8-9d07-0e5e57880f20.png",
     "twitter": "https://x.com/ipshipyard",
@@ -2154,7 +2052,7 @@
   },
   {
     "name": "go-libp2p",
-    "description": "The canonical Golang implementation of libp2p. Go-libp2pis a collection of protocols that support a wide range of functionalities, such as; connection establishment, remote node protocol identification and negotiation (through its identify protocol), data encryption, content/peer discovery (through its Kademlia DHT component), and data transfer through its pub-sub protocol (Gossipsub).\n\nThe stakeholders of go-libp2p include the Interplanetary Shipyard team who maintain this implementation as well as projects that depend on go-libp2p like Optimism's op-node (the reference implementation of the rollup-node spec), the Ethereum Beacon Chain (via Prysm, the Go consensus client), Filecoin (Lotus and Venus), Celestia node, and many more: https://github.com/libp2p/go-libp2p?tab=readme-ov-file#notable-users.",
+    "description": "go-libp2p is the canonical Go implementation of libp2p, packaging transports, identify, DHT, and GossipSub modules relied on by Prysm, Lotus, Celestia, and other large-scale clients that need production-grade peer discovery and messaging.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/277d8353-44c4-4e16-a2bd-2dfb3fb9e65f.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/4c70ca4a-8b38-47ee-97d0-2a64a63700f8.png",
     "twitter": "https://x.com/ipshipyard",
@@ -2173,7 +2071,7 @@
   },
   {
     "name": "Aderyn",
-    "description": "Aderyn is an open-source, public-good developer tool. It is a Rust-based solidity smart contract static analyzer designed to help protocol engineers and security researchers find vulnerabilities in Solidity code bases.\n\nAderyn integrates seamlessly into small and enterprise-level development workflows. It offers lightning-fast, command-line static analysis functionality and a framework for building custom detectors that adapt to any Solidity codebase.\n\nAderyn does three things really well:\nIdentify Solidity Smart contract vulnerabilities: Cyfrin Aderyn quickly identifies potential vulnerabilities in Solidity code and highlights parts of the codebase for further investigation.\n\nSupports building custom detectors to suit your needs: Protocols and security researchers can use the Cyfrin Aderyn framework to build custom vulnerability detectors for any Solidity codebase.\n\nIdentify known issues and protect OP value: Competitive auditing platforms can use Cyfrin Aderyn to detect and filter out known issues inside protocol codebases, protecting customers' and auditors' time and value.\n\nWho is it for?\n\n1. Developers\nAs a new generation of developers enters the space, we (the security community) are responsible for using our knowledge and experience to create tools that facilitate secure development practices. We need to make it easy to avoid repeating past mistakes.\n\nFrom a developer's perspective, the cost of finding bugs in Solidity code is exorbitantly high. Engaging top-tier security firms like Cyfrin Private Audits or competitive audit platforms like CodeHawks requires serious cash. That's because the security knowledge required to stamp out bugs is pooled among security firms and competitive auditors, who are in demand.\n\nWe must drive the cost of finding bugs, especially the common and known ones, towards zero by creating tools that make development secure by nature.\n\nAderyn is built for lightning-fast, open-source static analysis that hooks into the existing development workflow.\n\n2. Security Researchers\nSecurity Researchers are the knowledge guardians of the on-chain world. They are the people you engage with when you're undergoing an audit. Many auditors start every audit with a long checklist. They read through the codebase, ensuring the code doesn't violate any items on their list. If it does, it's an issue for the report. Once they've finished with this list, they get creative and try out other techniques.\n\nAderyn's detector framework enables Security Researchers to encode the patterns they look for in their checklist into Aderyn detectors. By doing this, the research community can focus on the deeper, more complex bugs, knowing that tooling has uncovered the repetitive checklist of issues so they don't have to.\n\nDevelopers write more secure code before they engage Security Researchers, and when they do, the Researchers can spend more time on complex bugs instead of manually checking for easy fixes.\n\nWhat makes Aderyn unique vs similar tools?\nSpeed: Real-time feedback as you're coding with the upcoming vscode extension.\n\nCutting-edge detectors: The detectors are built from the latest findings from external and in-house auditors. This means developers can harness the power of an audit team at their fingertips for free!\n\nAuditor Mode: Helps auditors find specific areas and concepts within a codebase to dig further. For example,Show me all of the instances in which this storage slot is altered.\n\nOpen-source: This tool is completely open-source and will be free for all developers in perpetuity. Cyfrin does not make money directly from it.\n\nAdoption of tool: Aderyn is now used by developers across the Superchain ecosystem and we are continuously building new custom detectors for developers. \n\nImportance of tool: Security is paramount for mass adoption. Without security, adding any TVL to the Superchain is risky. We want to support developers from day zero and provide real time security analysis whilst projects are being built.\n\nSuperchain interoperability: We want to ensure that when working cross chain, builders are doing so with secure frameworks. We also include building customer detectors for interoperability. \n\nWho are Cyfrin:\nCyfrin is the industry-leading smart contract education and security company. Home to 8,000 security researchers and a community of over 100,000 students and smart contract engineers, we provide audits, tools, and education to the world's biggest decentralized protocols, institutions, and products.",
+    "description": "Aderyn is Cyfrin's open-source, Rust-based solidity smart contract static analyzer designed to help protocol engineers and security researchers find vulnerabilities in Solidity code bases",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/0c66d95b-8f82-45a2-87a8-77205bf90a96.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/dcb9e7e2-4619-4382-af31-a5c9a75e703f.png",
     "twitter": "https://x.com/CyfrinAudits",
@@ -2187,13 +2085,13 @@
       "vscode-extension",
       "community-driven"
     ],
-    "website": null,
+    "website": "https://aderyn.cyfrin.io/",
     "llmstext": "",
     "subcategory_id": "fuzz-property-testing"
   },
   {
     "name": "Kontrol - formal verification tool based on Foundry and KEVM",
-    "description": "Runtime Verification has been at the forefront of open-source formal verification tools for more than a decade. Our generalistic approach allows us to use our technology on multiple blockchains. While KEVM offers our verification infrastructure to all EVM-based smart contracts, Kontrol greatly reduces the barrier to entry to formal verification for Solidity smart contracts.\nOur tooling is completely open source and freely accessible to all developers.\n\nKEVM is an EVM executable formal semantics written in the K framework. KEVM passes all Ethereum conformance tests and is the entry point for formally verifying smart contracts with the K framework. However, using plain KEVM requires ad-hoc training on the K framework to write specifications. Additionally, these specifications can be quite verbose, increasing the difficulty of writing them.\n\nKontrol solves this by allowing developers to write the formal specification of their smart contracts directly as Foundry property tests. These tests are automatically translated into KEVM specifications, keeping all the verification guarantees whilst allowing for a much more easy developer experience.",
+    "description": "Kontrol lifts Foundry property tests into KEVM-backed proofs so you can chase formal guarantees with less hand-written specification work than raw KEVM alone.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/1dce415e-060b-4f57-83ed-71ba91207614.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e0035388-4b23-4215-98e3-c96e712cc18c.png",
     "twitter": "https://x.com/rv_inc",
@@ -2219,25 +2117,8 @@
     "subcategory_id": "formal-verification"
   },
   {
-    "name": "EVM Explorer",
-    "description": "We are excited to introduce EVM Explorer, a powerful, open-source web interface designed to streamline the exploration and analysis of blockchain data across multiple EVM chains. EVM Explorer utilizes the BlockScout API and viem library to enable users to delve into transaction patterns, user behavior, and smart contract data, providing a versatile tool for efficient and insightful blockchain exploration.",
-    "thumbnail_url": "https://cdn.charmverse.io/user-content/9c114ea1-adb5-4858-b4f2-40050fa74370/99b90eeb-a7ea-4ca6-938e-410fff892510/Social.png",
-    "banner_url": "https://cdn.charmverse.io/user-content/9c114ea1-adb5-4858-b4f2-40050fa74370/b2606c27-a963-43aa-8e78-e38e89897808/pexels-mont-photographs-385313-2948636.jpg",
-    "twitter": "https://x.com/ExplorerEVM",
-    "repos": [
-      "https://github.com/Pfed-prog/NextJsExplorer",
-      "https://github.com/Pfed-prog/EVMExplorer-Blockscout",
-      "https://github.com/Pfed-prog/EVMExplorer-Uniswap",
-      "https://github.com/Pfed-prog/EVMExplorer-Utility"
-    ],
-    "tags": ["analytics", "governance", "chains", "visualization"],
-    "website": "https://evmexplorer.com/",
-    "llmstext": "",
-    "subcategory_id": "analytics-monitoring"
-  },
-  {
     "name": "hevm",
-    "description": "hevm is an open source, state-of-the art, fast symbolic and concrete EVM execution engine that can find issues in smart contracts. Through its symbolic execution and analysis system, hevm can symbolically, semi-concretely, or concretely execute contracts to find bugs, or compare two different contracts for discrepancies, performing equivalence checking. \n\nHevm is used in Echidna for concrete execution, mamory.xyz to detect potential (economic) MEV extraction, and by the Vyper team to help find potential bugs in compiler optimizations. Hevm can be used both as a console tool and as  a library interface, allowing it to be part of high level tooling, such is the case with Echidna, where both its concrete and symbolic execution semantics are exercised.",
+    "description": "hevm is an open source, state-of-the art, fast symbolic and concrete EVM execution engine that can find issues in smart contracts. Through its symbolic execution and analysis system, hevm can symbolically, semi-concretely, or concretely execute contracts to find bugs, or compare two different contracts for discrepancies, performing equivalence checking.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/d7cf4059-4f9c-48aa-a37a-df2f8c81933c.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/020d34f6-e8bb-43b5-8508-7935d2b00583.png",
     "twitter": null,
@@ -2248,7 +2129,7 @@
   },
   {
     "name": "Unruggable ",
-    "description": "Unruggable is focused on building the next generation of blockchain-based naming services. Our mission is to create secure and user-friendly solutions that enable projects and Layer 2 networks to establish their own naming systems using the Ethereum Name Service (ENS). As part of our commitment to open-source software development, we provide essential infrastructure that allows everyone to benefit from the scaling of ENS and L2 blockchains:\n\n'Unruggable Gateways' is an open source codebase that implements a complete solution for fetching proofs of data from rollup chains and verifying that data on Layer 1 Ethereum. We operate our own gateways using the codebase and are committed to supporting the trustless resolution of ENS names.",
+    "description": "Unruggable Labs builds open infrastructure for ENS-style naming on rollups, including Unruggable Gateways that fetch rollup state proofs and verify them on Ethereum L1 so clients can resolve names trustlessly as L2s scale.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/ff2964ec-4435-4cf8-b993-e16f49b47b96.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/58530a8a-1957-45c8-92dd-808196c1491f.png",
     "twitter": "https://x.com/unruggable_eth",
@@ -2270,7 +2151,7 @@
   },
   {
     "name": "Act",
-    "description": "Act is a smart contract specification language and toolkit for formal verification. Act specifications are a formal, high-level description of all possible behaviours of an EVM program. Act allows many existing general purpose verification tools to be leveraged to prove properties about the specification. Such tools include SMT solvers (cvc5, z3, bitwuzla), theorem provers (Coq) and economic analysis tooling (CheckMate, Open Games). Act specifications can be automatically proved equivalent to concrete implementations in EVM. For very simple contracts, Act specifications can be automatically generated from EVM bytecode.\n\nThis is an end-to-end pipeline that supports principled reasoning about high level properties of EVM bytecode. It supports reasoning about both correctness (e.g. accounting invariants) and economic properties (e.g. incentive compatibility). Act specifications serve as a high-level smart contract representation, allowing for easy integration of existing general purpose analysis and verification tooling into the EVM context.",
+    "description": "Act is Ethereum's declarative specification language and toolchain for describing all behaviors of an EVM program so SMT solvers, theorem provers, or economic analysis tools can reason about bytecode-level correctness and incentive compatibility, including automatic refinement proofs against concrete implementations.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/a08fa912-3bc7-4957-9a64-5b10bc13397e.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/16e8a1cb-69b1-4098-8c40-fd25a5a29b8f.png",
     "twitter": null,
@@ -2283,17 +2164,6 @@
     ],
     "llmstext": "",
     "subcategory_id": "formal-verification"
-  },
-  {
-    "name": "OP STACK DEPLOYER",
-    "description": "OP Stack Deployer is a comprehensive tool designed to streamline the setup and deployment of an OP Stack chain. By automating complex tasks, it offers a seamless experience for developers. Whether you're an experienced blockchain developer or a newcomer, OP Stack Deployer provides the necessary resources to quickly get your OP Stack-based EVM Rollup operational.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/90d877db-39f3-4b3c-bb8e-90f26e734254.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/6e5a0785-93ce-438a-af3d-d81460919f57.png",
-    "twitter": "",
-    "repos": ["https://github.com/Aymen-Tirchi/op-stack-deployer"],
-    "tags": ["cli", "foundry"],
-    "llmstext": "",
-    "subcategory_id": "rpc-node-infrastructure"
   },
   {
     "name": "Revm",
@@ -2309,7 +2179,7 @@
   },
   {
     "name": "Viem: TypeScript Interface for Ethereum",
-    "description": "Viem is the most used modern TypeScript Interface for Ethereum. Viem provides robust, performant, and type-safe modules to be the foundation for building Web Applications, TypeScript Libraries, Wallets, Backends, Indexers, Scripts, and more, on top of Ethereum. With over 3 million monthly downloads, Viem is used in production by most at-scale projects like Coinbase, Uniswap, Optimism, Polymarket, Zora, Opensea, WalletConnect, Farcaster, Rainbow, and so much more.",
+    "description": "Viem is the most used modern TypeScript Interface for Ethereum. Viem provides robust, performant, and type-safe modules to be the foundation for building Web Applications, TypeScript Libraries, Wallets, Backends, Indexers, Scripts, and more, on top of Ethereum.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/171f60c2-1e3e-4b0a-998e-4015a7f468f7.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/64c06023-a910-4646-ba3e-81baa2d935dc.png",
     "twitter": "https://x.com/wevm_dev",
@@ -2326,7 +2196,7 @@
   },
   {
     "name": "Solady",
-    "description": "Solady is an open-source repository containing highly-optimized Solidity snippets. It offers efficient implementations of commonly-used libraries, such as MerkleProofLib, alongside cutting-edge features like LibZip.\n\nBy thoughtfully encapsulating low-level inline assembly within flexible APIs, Solady simplifies the process of writing clean and efficient Solidity code. More than just a library, Solady also serves as a learning resource and experimental laboratory for pioneering gas-optimization techniques.",
+    "description": "Solady by Vectorized collects aggressively optimized Solidity snippets from Merkle proofs to compression helpers, wrapping careful inline assembly in approachable APIs so advanced developers can ship gas-efficient patterns while learning cutting-edge optimization techniques from a living reference library.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/0e726459-df1e-4cea-bddb-25399f88acea.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/0615ef25-edbb-4b19-934d-79614daf8040.png",
     "twitter": "https://twitter.com/optimizoor",
@@ -2362,13 +2232,11 @@
   },
   {
     "name": "CreateX",
-    "description": "CreateX is a Trustless, Universal Contract Deployer that provides everyone with an easier and safer way to use the EVM opcodes `CREATE` and `CREATE2` as well as `CREATE3`-based (i.e. without an initcode factor) contract creations. CreateX is a preinstall on the OP Stack: https://specs.optimism.io/protocol/preinstalls.html#createx.",
+    "description": "CreateX is pcaversaccio's trustless universal deployer that wraps CREATE, CREATE2, and CREATE3-style flows so teams can launch contracts from predictable addresses without bespoke factory code.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/4e18f37a-1991-48a1-9622-c43fa3e04f3e.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/a508253b-4224-4c48-8519-3fefcf39fc2f.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/pcaversaccio/createx"
-    ],
+    "repos": ["https://github.com/pcaversaccio/createx"],
     "tags": ["cli", "contract-deployment", "solidity"],
     "llmstext": "",
     "subcategory_id": "deployment-devops"
@@ -2387,7 +2255,7 @@
   },
   {
     "name": "Blockflow",
-    "description": "Blockflow equips devs with the data and API tools to build innovative products faster. Unlike traditional solutions like RPCs and other Data Providers, Blockflow enables you to build \"Serverless Backends\", streamlining your operations without the heavy infrastructure, and saving 70% time & resources in building & 100% in maintenance.",
+    "description": "Blockflow exposes chain data and HTTP-style APIs so backends can query events and account state with less bespoke indexer code than rolling everything from raw RPC.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/dbe12049-50ea-4cfb-b3f0-8def50ea7b07.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/191beaf8-e92f-42be-ab94-2305d12da9a4.png",
     "twitter": "https://x.com/BlockflowLabs",
@@ -2402,7 +2270,7 @@
   },
   {
     "name": "Bonadocs ",
-    "description": "Bonadocs allows web3 engineering teams to collaborate and build applications in a very intuitive way. To simplify integrations, we've categorized our tooling as follows:\n\nDocgen: Docgen allows developers to go from their codebase to beautiful and interactive documentation in seconds. Using our hardhat plugin, you can generate interactive documentation to query your contract methods.\n\nWidget: Through our playground environment, you can generate widgets for your contract methods. These widgets can then be easily embedded in your docs or any react application for devs to query. This is instrumental for devrel teams, to help onboard external devs.\n\nPlayground: Our playground is a collaborative environment primarily for solidity and front-end devs to build applications. This can be used by internal engineering teams or teams across different organizations. Devrel teams can also take advantage of the playground to create a single source of truth for their protocol - making onboarding super easy for their developer community.\n\nProtocol Registry: Our protocol registry is an open-source tool that allows you to find different popular protocols and their respective playgrounds.\n\nOn a high level, bonadocs are created to simplify the documentation, interaction, and integration of smart contracts - similar to Postman and web APIs.\n\nTry it out: https://docs.bonadocs.com/\nPlayground demo: https://x.com/thisdavidboy/status/1854809292836339939",
+    "description": "Bonadocs pairs doc generation, embeddable contract widgets, and multiplayer playgrounds so protocol teams can ship living API-style docs next to Solidity interfaces.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/d334c376-0ff1-4c76-94bf-2ee675cae1d3.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/a21ed458-efea-4d35-8aa9-b26d5e7bafad.png",
     "twitter": "x.com/bonadocs",
@@ -2427,7 +2295,7 @@
   },
   {
     "name": "Stargate Finance",
-    "description": "Stargate is a fully composable liquidity\ntransport protocol that lives at the\nheart of omnichain DeFi.\n\nWith Stargate, users & dApps can transfer native assets cross-chain while accessing\nthe protocol's unified liquidity pools with instant guaranteed finality. ",
+    "description": "Stargate Finance is a composable liquidity transport protocol that lets users and dapps move native assets across chains with unified pools and instant finality guarantees, positioning itself as core routing infrastructure for omnichain DeFi.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/3083ccee-79a8-4ff2-b017-9ecb52d13cbf.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/b29f1ab3-b4cf-4255-839e-e7a418e78b80.png",
     "twitter": "https://x.com/StargateFinance",
@@ -2439,7 +2307,7 @@
   },
   {
     "name": "Mint Club",
-    "description": "Mint Club provides a seamless platform for creating bonding curve-backed tokens or NFTs, using any ERC20 token as the base asset in the bonding curve pool. It facilitates easy tokenization with a completely no-code solution, offering highly customizable bonding curve designs, adjustable creator royalties, a variety of creator tools, and a user-friendly interface for trading bonding curve assets.",
+    "description": "Mint Club is a no-code UI for launching bonding-curve tokens or NFTs with any ERC-20 as reserve, aimed at creators who want adjustable curves and royalties without writing contracts first.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/8c7d3ba8-c0bd-4acd-9ec5-7f1c90631047.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/9efac275-51f7-48a8-9f13-22c13b05850e.png",
     "twitter": "https://x.com/MintClubPro",
@@ -2470,7 +2338,7 @@
   },
   {
     "name": "ZK Email",
-    "description": "We let anyone make trustless identity proofs on-chain through intuitive, private email verification. We do this via verifying partially redacted ZK proofs of any sent or received email on chain. We provide audited open source code and SDKs to construct new ZK circuits, infrastructure to use them within front ends, and infrastructure to make proofs on chain.",
+    "description": "ZK Email provides circuits and SDKs for proving facts about redacted email transcripts onchain. Useful when you want privacy-preserving identity or receipt checks without doxxing inboxes.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/27046acd-924a-4f01-ae53-dd51cb6d8238.png",
     "banner_url": "https://pse.dev/project-banners/zk-email.webp",
     "twitter": "@zkemail",
@@ -2480,12 +2348,7 @@
       "https://github.com/zkemail/email-recovery",
       "https://github.com/zkemail/zkemail.nr"
     ],
-    "tags": [
-      "identity",
-      "modular-accounts",
-      "sdk",
-      "privacy-focused"
-    ],
+    "tags": ["identity", "modular-accounts", "sdk", "privacy-focused"],
     "website": "https://zk.email",
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy",
@@ -2493,7 +2356,7 @@
   },
   {
     "name": "zkTLS/ TLSNotary",
-    "description": "Open-source protocol that verifies the authenticity of TLS data while preserving privacy. Uses secure Multi-Party Computation (MPC) so a Verifier can authenticate the TLS transcript without revealing the complete data. Enables privacy-preserving data portability and selective disclosure. Ethereum Foundation PSE project.",
+    "description": "zkTLS / TLSNotary is an open protocol for proving properties of TLS sessions with MPC so verifiers can trust transcripts without seeing full plaintext.",
     "website": "https://tlsnotary.org/",
     "thumbnail_url": "https://pse.dev/project-banners/tlsn.webp",
     "banner_url": "https://pse.dev/project-banners/tlsn.webp",
@@ -2511,19 +2374,14 @@
     "banner_url": null,
     "twitter": null,
     "repos": ["https://github.com/zkpassport/zkpassport-packages"],
-    "tags": [
-      "identity",
-      "privacy-focused",
-      "sdk",
-      "verification"
-    ],
+    "tags": ["identity", "privacy-focused", "sdk", "verification"],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy",
     "packages": ["https://www.npmjs.com/package/@zkpassport/sdk"]
   },
   {
     "name": "Self Protocol",
-    "description": "Privacy-first, open-source identity protocol using zero-knowledge proofs for secure verification. Enables Sybil resistance and selective disclosure via passport attestations. Use cases: airdrop protection, humanity checks, quadratic funding, wallet recovery. QRCode SDK, Mobile SDK, and contract integration.",
+    "description": "Self Protocol provides open identity and proof primitives builders can embed when they need privacy-preserving verification flows tied to wallets or credentials.",
     "website": "https://self.xyz/",
     "thumbnail_url": null,
     "banner_url": null,
@@ -2562,7 +2420,7 @@
   },
   {
     "name": "DefiLlama",
-    "description": "- Open and transparent DeFi analytics.\n- DEX meta-aggregator\n- LlamaZIp, a router optimized for optimistic rollups",
+    "description": "DefiLlama is an open analytics collective best known for transparent TVL dashboards, a DEX meta-aggregator, and LlamaZip, a swap router tuned for optimistic rollups that helps traders find efficient routes across fragmented liquidity.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/a9e1e4b4-45a2-411b-8f31-059269534381.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/7e0ec4d9-824e-46e3-ad4e-8ffaaa1f105b.png",
     "twitter": "https://x.com/defillama",
@@ -2584,7 +2442,7 @@
   },
   {
     "name": "Passport XYZ | Gitcoin Passport",
-    "description": "Passport is the premier web3 native offering that enables ecosystems to protect, understand and organically grow what matters most their communities. We see Passport at the confluence of a best in class identity solution, backed by the most relevant and comprehensive data analysis toolset that also offers communities the ability to ascribe reputation. ",
+    "description": "Gitcoin Passport scores wallet activity and stamps so communities can gate airdrops, grants, or governance participation with lightweight sybil resistance.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/0160cab5-f34b-4aa5-9442-8b6e82a02bde.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/55137132-f859-4640-8d98-4f7c3a8e4489.png",
     "twitter": "https://x.com/gitcoinpassport",
@@ -2690,7 +2548,7 @@
   },
   {
     "name": "OpenOcean",
-    "description": "OpenOcean is a leading DEX aggregator with best swap prices across 30+ chains.",
+    "description": "OpenOcean is a DEX aggregator API and UI for finding swap routes across a large set of EVM chains when you want price-aware routing without integrating each venue separately.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/46d3935b-5719-4c9f-ae9b-d7f255f4c120.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/5082f8c7-b61a-4ac7-b829-e51fa15fdfc4.png",
     "twitter": "https://x.com/OpenOceanGlobal",
@@ -2747,7 +2605,7 @@
   },
   {
     "name": "Party.app + Party Protocol",
-    "description": "The Party Protocol is an open-source protocol for group coordination. It provides flexible and powerful primitives for creating a shared smart contract account governed by a group of people, big or small.\n\nParty.app is the flagship UI / app built on top. It allows groups to form a small group wallet, and large on-chain DAO, or anything in-between. Party.app has built-in functionality for crowdfunding, governance, using apps via wallet connect, buying & selling NFTs, trading tokens, chatting, and much more.",
+    "description": "Party Protocol is an onchain framework for shared accounts with flexible governance, while Party.app is the flagship interface for spinning up group wallets, crowdfunding treasuries, onchain DAOs, WalletConnect-powered app experiences, NFT trading, token swaps, and chat-first coordination atop the same contracts.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/ff816d35-de0c-4768-af2c-d2c187dab1c1.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/87f46f2a-632b-441c-b762-fe104617d4b6.png",
     "twitter": "https://x.com/prtyDAO",
@@ -2808,7 +2666,7 @@
   },
   {
     "name": "Multicaller",
-    "description": "Multicaller is a suite of hyper-optimized contracts that allows for batched calls, while allowing \"forwarding\" the `msg.sender`.",
+    "description": "Multicaller from Vectorized is a collection of gas-optimized multicall-style contracts that batch arbitrary external calls while preserving the original msg.sender context for each callee, making complex router or aggregator flows cheaper and safer on EVM chains.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/8362181e-8e95-40d4-bf8d-234f3edaca4c.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/2a702168-545c-42ec-a85f-3149a9227597.png",
     "twitter": null,
@@ -2853,37 +2711,6 @@
     ]
   },
   {
-    "name": "OP ENS Gateway by Opti.Domains",
-    "description": "Opti.Domains has developed an ENS Gateway implementation for OP Stack chains that supports various proofs, including those from L2OutputOracle, Dispute Game, and Anchor State. The appropriate proof is automatically selected based on the configuration of the OP Stack chain.\n\nThe Opti.Domains ENS Gateway automatically upgrades in response to the OP Stack's transition from L2OutputOracle to Dispute Game, requiring no manual intervention or updates to the verifier contract or gateway server.\n\nThe ENS Gateway, specifically the EVMGateway, enables trustless cross-chain data retrieval for ENS names deployed on Layer 2 networks like Optimism with a CCIP Gateway. When an ENS name lookup occurs, the resolver reverts with OffchainLookup containing the gateway URL. The client then contacts the gateway, which returns the requested data. This data is passed to a callback function on the resolver for verification before being returned to the client as the final result of the name lookup.\n\nOur ENS Gateway has a mechanism to ensure liveliness even in the event that the respected dispute game type has suddenly changed, as seen in the recent proposal, 'Upgrade Proposal #10: Granite Network Upgrade,' by storing a backup dispute game type and only trusting its anchor state.\n\nOpti.Domains has also developed social verification and attestation to EAS in collaboration with Bored Town. We are on our way to scaling ENS to OP. We have contributed to the ENS OP Gateway development, which is currently under review by ENS core developers.\n\nThe Namespace team has expressed interest and reached out to us with questions about using our OP ENS Gateway. Additionally, several teams have participated in discussions regarding the development of our OP ENS Gateway.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/8f6ad6e0-029a-4f59-b1d2-c7885248b99a.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/135853fe-2393-4a0a-a959-044ff973fcf0.png",
-    "twitter": "https://x.com/optidomains",
-    "repos": [
-      "https://github.com/Opti-domains/evmgateway",
-      "https://github.com/Opti-domains/ens-diamond-resolver-v1",
-      "https://github.com/Opti-domains/dispute-game-lookup",
-      "https://github.com/Opti-domains/optidomains-ens-contracts",
-      "https://github.com/Opti-domains/modular-ens-contracts"
-    ],
-    "tags": [
-      "cross-chain",
-      "governance",
-      "identity",
-      "layer-2",
-      "verification",
-      "scalability"
-    ],
-    "website": "https://opti.domains",
-    "llmstext": "",
-    "subcategory_id": "cross-chain-infrastructure",
-    "packages": [
-      "https://www.npmjs.com/package/@optidomains/passport-discord",
-      "https://www.npmjs.com/package/@optidomains/wagmi-core",
-      "https://www.npmjs.com/package/@optidomains/wagmi",
-      "https://www.npmjs.com/package/@optidomains/rainbowkit"
-    ]
-  },
-  {
     "name": "Chain Abstraction with 4337",
     "description": "With this setup, ecosystems can deploy tailor-made 4337 chain abstraction infrastructure. They become Liquidity Providers (LPs) for their users, sharing with them the value that would otherwise have been captured by solvers/fillers. ",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/1d22d6dc-b629-48bc-9c25-2ecc6b9aa1a5.png",
@@ -2908,7 +2735,7 @@
   },
   {
     "name": "Aragon OSx",
-    "description": "Aragon was founded in 2016 with the belief that the fate of humanity will be decided at the frontier of technological innovation and human collaboration. Aragon launched the first DAO Framework in 2017 which secures over $40 billion in TVL. Aragon's tech stack allows anyone to launch a DAO, enabling organizations to securely govern their protocols and assets onchain.",
+    "description": "Aragon OSx is onchain DAO framework infrastructure for launching modular organizations that govern treasuries and protocol parameters with audited contract primitives.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/fe98ffd7-a327-4500-9391-5926dc7a8256.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/b9fed2cb-1767-436f-a605-65af61934cf1.png",
     "twitter": "https://x.com/AragonProject",
@@ -2921,7 +2748,7 @@
   },
   {
     "name": "Etherspot",
-    "description": "Etherspot is a multi-chain Account & Chain Abstraction development infrastructure that provides solutions for dApps, wallets, games, operating EVM-compatible rollups, or L1/L2 chains to deliver seamless cross-chain Web3 user experience by removing usability pain points.\n\nIn addition to providing Account and Chain Abstraction features, Etherspot helps developers make their projects compatible with the latest Ethereum standards, including ERC-4337, ERC-7579, and EIP-7702, by offering a wide range of cutting-edge services such as Bundler and Paymaster services, APIs, and more.\n\nEtherspot is pioneering the ERC-4337 shared mempool innovation, which is already live on Optimism.",
+    "description": "Etherspot provides bundlers, paymasters, and SDK helpers for ERC-4337 and related account-abstraction UX, including shared mempool deployments.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/b05e1c53-bace-499c-b346-ed9fa0003730.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/b33b4fe0-6010-470c-a2db-57636d96536d.png",
     "twitter": "https://x.com/etherspot",
@@ -2947,7 +2774,7 @@
   },
   {
     "name": "Frames.js",
-    "description": "frames.js is the leading open source javascript library and debugging environment to help developers make Frames for Farcaster, XMTP and Lens faster & easier. \n\nWe also have been building and maintaining a library for apps to adopt frames in their apps that has been integrated by the Base team in their Base names product.",
+    "description": "Frames.js is a JavaScript toolkit and debugger for Farcaster, XMTP, and Lens mini-apps; embed its components when you need consistent frame rendering in clients such as Base Names or other social apps.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/230e8ac2-cea9-4cab-8b4f-8fd58ec6553e.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/a2dce749-56d7-44d7-a9cc-ffc08255e0f2.png",
     "twitter": null,
@@ -3002,7 +2829,7 @@
   },
   {
     "name": "Governance Onchain Paymaster",
-    "description": "Paymasters for on-chain Governance",
+    "description": "Paymasters for onchain Governance",
     "website": null,
     "thumbnail_url": null,
     "banner_url": null,
@@ -3038,7 +2865,7 @@
   },
   {
     "name": "Wallet Test Framework",
-    "description": "Wallet Testing Framework is an automated test suite for Ethereum wallets that validates the core, shared user flows-such as transfers, balance display, and basic interactions-that every wallet must support. By standardizing testing around these fundamentals, it helps wallet teams improve UX quality, reduce duplicated effort, and focus their energy on building differentiated, value-add features without compromising on reliability.",
+    "description": "Wallet Test Framework is an automated suite that walks core wallet flows-transfers, balance reads, basic dapp interactions-so teams can regression-test shared UX expectations in CI.",
     "website": "https://wallet-test-framework.github.io/framework/",
     "thumbnail_url": null,
     "banner_url": null,
@@ -3056,7 +2883,7 @@
   },
   {
     "name": "EDB: The Ethereum Project Debugger",
-    "description": "EDB is a source-level Ethereum debugger that bridges high-level Solidity code and low-level EVM execution. It enables step-by-step execution, local variable inspection, custom expression evaluation, and precise breakpoints and watchpoints, giving developers fine-grained control and visibility when debugging smart contracts.",
+    "description": "EDB is a source-level debugger for Solidity execution with stepping, locals, watches, and breakpoints when you need IDE-grade visibility into contract behavior onchain or in tests.",
     "website": null,
     "thumbnail_url": null,
     "banner_url": null,
@@ -3256,7 +3083,12 @@
     "banner_url": null,
     "twitter": null,
     "repos": ["https://github.com/OpenZeppelin/openzeppelin-skills"],
-    "tags": ["agent-skills", "security", "solidity-development", "upgradeable-contracts"],
+    "tags": [
+      "agent-skills",
+      "security",
+      "solidity-development",
+      "upgradeable-contracts"
+    ],
     "llmstext": "",
     "subcategory_id": "agent-skills"
   },
@@ -3648,7 +3480,7 @@
   },
   {
     "name": "Gas Network",
-    "description": "A distributed oracle platform providing real-time gas price data across blockchain. By bringing data from leading gas price data providers onchain, Gas Network is helping to drive interoperability. Gas Network supports data for over 35 chains, including Ethereum Mainnet and many leading L2s.",
+    "description": "Gas Network publishes onchain gas price reference feeds aggregated from multiple data sources so wallets, paymasters, and automation scripts can read consistent fee hints across dozens of EVM chains including major L2s.",
     "website": "https://gas.network/",
     "repos": ["https://github.com/blocknative/gas-agent"],
     "tags": ["oracle", "real-time-data", "multi-chain", "gas-optimization"],
@@ -3837,7 +3669,7 @@
   },
   {
     "name": "Herd Explorer",
-    "description": "AI-powered blockchain explorer for Ethereum. Search smart contracts, tokens, and protocols. Sage, an LLM-based assistant on every page, provides contextual answers about contract functions, events, and behaviors. Memory feature for quick reference. Focused on understanding onchain logic and relationships.",
+    "description": "Herd Explorer is an AI-assisted Ethereum explorer: search contracts and tokens, then ask the built-in assistant for quick explanations of functions, events, and how pieces connect.",
     "website": "https://herd.eco/explorer",
     "thumbnail_url": null,
     "banner_url": null,
@@ -3944,12 +3776,7 @@
     "banner_url": "https://pse.dev/project-banners/zk-kit.webp",
     "twitter": null,
     "repos": ["https://github.com/privacy-scaling-explorations/zk-kit"],
-    "tags": [
-      "privacy-focused",
-      "sdk",
-      "merkle-trees",
-      "encryption"
-    ],
+    "tags": ["privacy-focused", "sdk", "merkle-trees", "encryption"],
     "llmstext": "",
     "subcategory_id": "zk-circuits-privacy"
   },
@@ -4003,7 +3830,7 @@
   },
   {
     "name": "Excubiae",
-    "description": "An on-chain flexible and composable framework for creating, reusing, and customizing gatekeepers. Uses Policies and Checkers as core primitives for attribute-based access control with gas-efficient minimal proxy patterns and multi-stage validation.",
+    "description": "An onchain flexible and composable framework for creating, reusing, and customizing gatekeepers. Uses Policies and Checkers as core primitives for attribute-based access control with gas-efficient minimal proxy patterns and multi-stage validation.",
     "website": null,
     "thumbnail_url": null,
     "banner_url": null,
@@ -4027,7 +3854,7 @@
   },
   {
     "name": "ZKP2P",
-    "description": "An instant fiat-to-crypto onramp connecting peer-to-peer payment services (Venmo, PayPal) with zero-knowledge proofs. Generates privacy-protecting payment verification to trustlessly release locked digital assets on-chain.",
+    "description": "An instant fiat-to-crypto onramp connecting peer-to-peer payment services (Venmo, PayPal) with zero-knowledge proofs. Generates privacy-protecting payment verification to trustlessly release locked digital assets onchain.",
     "website": "https://zkp2p.xyz/",
     "thumbnail_url": "https://pse.dev/project-banners/zkp2p.webp",
     "banner_url": "https://pse.dev/project-banners/zkp2p.webp",
@@ -4106,7 +3933,9 @@
     "thumbnail_url": "https://pse.dev/project-banners/tor-js.avif",
     "banner_url": "https://pse.dev/project-banners/tor-js.avif",
     "twitter": null,
-    "repos": ["https://github.com/voltrevo/arti/tree/wasm-arti-client/crates/tor-js"],
+    "repos": [
+      "https://github.com/voltrevo/arti/tree/wasm-arti-client/crates/tor-js"
+    ],
     "tags": ["privacy-focused", "networking"],
     "llmstext": "",
     "subcategory_id": "core-sdks-libraries"

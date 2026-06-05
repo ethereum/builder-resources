@@ -1,6 +1,8 @@
 import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
+import { collectDescriptionAuditHits } from "./description-signals.mjs";
+
 function fail(message) {
   // eslint-disable-next-line no-console
   console.error(`❌ ${message}`);
@@ -148,6 +150,14 @@ for (let i = 0; i < results.length; i++) {
   // description
   if (!isNonEmptyString(entry.description)) {
     fail(`${where}.description must be a non-empty string`);
+  } else {
+    const descHits = collectDescriptionAuditHits(entry.description);
+    if (descHits.length > 0) {
+      const detail = descHits.map((h) => `${h.id} (${h.label})`).join("; ");
+      fail(
+        `${where}.description must be plain text in a single paragraph (no Markdown or list/paragraph patterns). Issues: ${detail}. Resource name: "${entry.name}". Fix with guidance in scripts/find-description-markdown.mjs.`,
+      );
+    }
   }
 
   // llmstext

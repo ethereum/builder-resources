@@ -37,6 +37,7 @@ npm run validate:results
 
 - **What the validator enforces**
   - **JSON is valid**: `catalog/resources.json` must parse and be an array; `catalog/taxonomy.json` must parse.
+  - **Description plain text**: each `description` must be plain text in **one paragraph** (no blank-line paragraph breaks, no Markdown-style links/emphasis/code fences, no newline-started `- ` list lines, etc.). Rules live in `scripts/description-signals.mjs`. **Tone**: write for builders deciding whether to try the tool. State what it is for, who uses it, and the main capability in plain language; rely on `website` / `repos` for depth, marketing, and roadmaps.
   - **Unique IDs**: every `results[i].id` must be a non-empty string and **unique** across the file.
   - **Repos required**: every entry must have `repos` with at least one valid `http(s)` URL.
   - **Tags must exist**: every `tags[]` value must be present in `catalog/taxonomy.json` `tags`.

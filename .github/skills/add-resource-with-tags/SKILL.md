@@ -7,7 +7,7 @@ description: Guides contributors through adding or updating a tool/resource in c
 
 ## Inputs to collect (ask for anything missing)
 - Resource name
-- 1-3 sentence description
+- Single paragraph description
 - Website URL (optional - do not add a repository url as a website url)
 - Twitter/X URL (optional)
 - Square thumbnail icon URL (optional)
@@ -18,6 +18,10 @@ description: Guides contributors through adding or updating a tool/resource in c
 - Suggested subcategory (must match a `subcategory_id` in `catalog/taxonomy.json`)
 
 At least one of `website`, `repos`, or `packages` is required
+
+## Description style
+- Write for **builders skimming the catalog**: what the tool is, what problem it solves, and when you would reach for it. Use plain language; `website` and `repos` carry roadmaps, company story, and deep docs.
+- **Single paragraph** of plain text only: no Markdown, no blank-line paragraph breaks, no newline-started `- ` list lines (enforced by `npm run validate:results`; rules in `scripts/description-signals.mjs`). Run `npm run find:description-markdown` if unsure.
 
 ## Tagging workflow (use `catalog/taxonomy.json`)
 1. Read `catalog/taxonomy.json` and load the top-level `tags` list.
