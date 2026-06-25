@@ -4004,5 +4004,17 @@
     "tags": ["compiler", "solidity", "gas-optimization", "foundry", "hardhat"],
     "llmstext": "",
     "subcategory_id": "smart-contract-libraries-utilities"
+  },
+  {
+    "name": "request-wallet-sign",
+    "description": "request-wallet-sign is a standalone npm CLI utility that lets AI agents request wallet signatures from a human through a browser interface without ever holding private keys. The agent passes transaction details as command-line arguments and the tool spins up a local server that displays a decoded, plain-English summary of the request, where the user connects a wallet, reviews the details, and approves the signing. It runs local-only by default for instant use, supports standard transactions, typed data, and personal signatures, and can use Cloudflare tunnels for cross-device signing, with a built-in timeout that auto-closes tabs once a request is handled.",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": ["https://github.com/escottalexander/request-wallet-sign"],
+    "packages": ["https://www.npmjs.com/package/request-wallet-sign"],
+    "tags": ["cli", "wallet", "transaction-signing", "transaction-decoding", "agent-skills"],
+    "llmstext": "",
+    "subcategory_id": "other-ai-resources"
   }
 ]
