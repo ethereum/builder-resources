@@ -2222,7 +2222,7 @@
   {
     "name": "Vyper",
     "description": "Pythonic Smart Contract Language for the EVM",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://vyperlang.org/assets/images/vyper-logo.svg",
     "banner_url": null,
     "twitter": "https://x.com/vyperlang?lang=en",
     "repos": ["https://github.com/vyperlang/vyper"],
@@ -2798,7 +2798,7 @@
   {
     "name": "SpeedrunEthereum",
     "description": "Speedrun Ethereum is a hands-on series of challenges designed to help you learn by building. Each challenge delivers one key \"aha\" moment, a mental unlock about how  Ethereum really works. At the same time, you'll be building your Ethereum portfolio.",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://speedrunethereum.com/favicon.ico",
     "banner_url": null,
     "twitter": "https://x.com/buidlguidl",
     "repos": [
