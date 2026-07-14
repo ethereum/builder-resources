@@ -155,7 +155,7 @@ for (let i = 0; i < results.length; i++) {
     if (descHits.length > 0) {
       const detail = descHits.map((h) => `${h.id} (${h.label})`).join("; ");
       fail(
-        `${where}.description must be plain text in a single paragraph (no Markdown or list/paragraph patterns). Issues: ${detail}. Resource name: "${entry.name}". Fix with guidance in scripts/find-description-markdown.mjs.`,
+        `${where}.description must be plain text in a single paragraph (no Markdown or list/paragraph patterns). Issues: ${detail}. Resource name: "${entry.name}". Rules are defined in scripts/description-signals.mjs.`,
       );
     }
   }

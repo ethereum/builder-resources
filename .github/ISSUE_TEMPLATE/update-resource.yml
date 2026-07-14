@@ -1,6 +1,6 @@
-name: Update a project
-description: Request updates to an existing project entry
-title: "Update project: <name>"
+name: Update a resource
+description: Request updates to an existing resource entry
+title: "Update resource: <name>"
 labels: ["project"]
 body:
   - type: markdown
@@ -11,7 +11,7 @@ body:
   - type: input
     id: project_name
     attributes:
-      label: Project name
+      label: Resource name
 
   - type: input
     id: repo_url
@@ -50,7 +50,7 @@ body:
         - label: Packages
         - label: Website / social links
         - label: Tags
-        - label: Category
+        - label: Subcategory
         - label: Images (thumbnail/banner)
     validations:
       required: true
@@ -61,9 +61,9 @@ body:
       label: Requested changes
       description: Include the new values you want, and (if helpful) the current values you're replacing. Entries must keep at least one of website, repos, or packages.
       placeholder: |
-        - Description: update to "..."\n
-        - Tags: add `security`, remove `cli`\n
-        - Category: change to "Security, Testing & Formal Verification"
+        - Description: update to "..."
+        - Tags: add `security`, remove `cli`
+        - Subcategory: change to `formal-verification`
     validations:
       required: true
 
@@ -72,5 +72,5 @@ body:
     attributes:
       label: Confirmations
       options:
-        - label: I checked `catalog/taxonomy.json` for valid tags and categories (if changing them)
+        - label: I checked `catalog/taxonomy.json` for valid tags and subcategories (if changing them)
           required: true

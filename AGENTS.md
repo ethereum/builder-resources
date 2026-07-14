@@ -1,23 +1,21 @@
-# Agent instructions: add/update projects with tags
+# Agent instructions
 
-Use this repo guidance when working in this repository.
+Use this guidance when working in this repository.
 
 ## Repository purpose
-This repo is a curated collection of **developer tooling options for building on Ethereum**. Resources live in `catalog/resources.json`, and the categories, subcategories and tag taxonomy is defined in `catalog/taxonomy.json`.
+This repo is a curated collection of **developer tooling options for building on Ethereum**, and the data source for the [builder resources page on ethereum.org](https://ethereum.org/developers/tools/). Resources live in `catalog/resources.json`, and the categories, subcategories and tag taxonomy are defined in `catalog/taxonomy.json`.
+
+## Contributor rules
+`CONTRIBUTING.md` is the authoritative spec for what belongs in the catalog, the entry schema, image guidelines, and tag rules. Follow it when adding or changing entries.
 
 ## Skills
-There is a skill for adding new resources located in `.cursor/skills/add-resource-with-tags/SKILL.md` that you should always use when adding projects.
+Always use the `add-resource-with-tags` skill when adding or updating resources. It lives at `.github/skills/add-resource-with-tags/SKILL.md`, mirrored in `.claude/skills/` and `.cursor/skills/`.
 
-## Validity Checking
-Commits are expected to keep the data files valid and consistent with the taxonomy.
-
-- **Pre-commit hook (recommended)**: this repo installs a `pre-commit` hook that runs the validator on every commit.
-  - The hook runs: `node scripts/validate-results.mjs`
-  - If you installed dependencies via `npm install`, the hook is installed automatically via the `prepare` script.
-  - If you need to reinstall it manually, run: `npm run prepare`
-
-- **Local validation (required before opening a PR)**: run the validator and fix any errors it reports:
+## Validity checking
+Commits are expected to keep the data files valid and consistent with the taxonomy. Run the validator and fix any errors it reports before committing or opening a PR:
 
 ```bash
 npm run validate:results
 ```
+
+The script runs on plain Node with no dependencies. If you ran `npm install`, a pre-commit hook runs it automatically (reinstall it with `npm run prepare` if needed).

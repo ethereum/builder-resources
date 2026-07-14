@@ -1,6 +1,6 @@
 /**
  * Shared rules for catalog resource `description` plain-text policy.
- * Used by `validate-results.mjs` (enforce) and `find-description-markdown.mjs` (report).
+ * Used by `validate-results.mjs` (enforce).
  */
 
 /** @typedef {{ id: string, label: string, test: (s: string) => boolean }} DescriptionAuditSignal */
