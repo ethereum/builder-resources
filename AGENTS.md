@@ -12,10 +12,8 @@ This repo is a curated collection of **developer tooling options for building on
 Always use the `add-resource-with-tags` skill when adding or updating resources. It lives at `.github/skills/add-resource-with-tags/SKILL.md`, mirrored in `.claude/skills/` and `.cursor/skills/`.
 
 ## Validity checking
-Commits are expected to keep the data files valid and consistent with the taxonomy. Run the validator and fix any errors it reports before committing or opening a PR:
+Run the validator and fix any errors it reports before committing or opening a PR (plain Node, no dependencies needed):
 
 ```bash
 npm run validate:results
 ```
-
-The script runs on plain Node with no dependencies. If you ran `npm install`, a pre-commit hook runs it automatically (reinstall it with `npm run prepare` if needed).

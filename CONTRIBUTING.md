@@ -34,8 +34,8 @@ Edit `catalog/resources.json` directly and add or modify an entry. The file is a
 | `repos` | at least one of these three | array of URLs | Source code repositories (for example GitHub). A public repo helps, since the page ranking reads GitHub signals |
 | `packages` | at least one of these three | array of URLs | Package registry URLs (for example npm). Store npm links here, not in `repos` |
 | `twitter` | no | string (URL) | Twitter/X profile |
-| `thumbnail_url` | no | string (URL) | Square-ish icon shown on cards |
-| `banner_url` | no | string (URL) | Wide header image. Do not use OpenGraph images |
+| `thumbnail_url` | no | string (URL) | Square card icon (see Images below) |
+| `banner_url` | no | string (URL) | Wide detail-page header (see Images below) |
 | `llmstext` | no | string (URL) | The tool's agent-readable docs, if it publishes any (an `llms.txt`, `llms-full.txt`, or `SKILL.md`) |
 
 Entries have no `id` field. The `name` is the stable identifier in practice, so keep it unchanged in update PRs unless the project actually renamed.
@@ -69,13 +69,13 @@ Leave out optional fields you have no value for. Don't add them as `null` or emp
 
 ### Tags
 
-- Use existing tags from `catalog/taxonomy.json`. They are kebab-case. Add every tag that genuinely fits, most entries end up with 2-5, and a single tag is fine for a narrow tool. Don't pad with loosely related tags.
+- Add every tag that genuinely fits, most entries end up with 2-5, and a single tag is fine for a narrow tool. Don't pad with loosely related tags.
 - Prefer specific tags (`static-analysis`, `account-abstraction`) over generic ones.
 - Need a tag that doesn't exist yet? Propose it in your issue or PR and add it to `catalog/taxonomy.json`. Maintainers will help apply it to existing entries it fits, so the catalog doesn't accumulate one-off tags.
 
 ### Using an AI agent
 
-The repo ships a skill that walks an agent through collecting the inputs, picking tags, and emitting a paste-ready JSON object. It lives at `.github/skills/add-resource-with-tags/SKILL.md` (mirrored in `.claude/skills/` and `.cursor/skills/`). Ask your agent to "use the add-resource-with-tags skill to add a new resource".
+The repo ships an agent skill (`add-resource-with-tags`, in `.github/`, `.claude/`, and `.cursor/skills/`) that collects the inputs, picks tags, and emits a paste-ready entry. If you run Claude Code, Cursor, or Copilot inside a local copy of this repo, the skill is picked up automatically. You can also invoke it directly, ask your agent to "use the add-resource-with-tags skill".
 
 ### Validate before you push
 
