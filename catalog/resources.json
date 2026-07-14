@@ -112,10 +112,9 @@
     "description": "ERCx is a comprehensive open-source testing library for ERC token standards, featuring over 500 individual tests across ERC-20, ERC-721, ERC-1155, and ERC-4626 implementations.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/e6a6dd9b-4ace-4187-8408-0e5729bb0265.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/eee0738d-3735-42c8-8802-93b22a041803.png",
-    "twitter": "x.com/rv_inc",
+    "twitter": "https://x.com/rv_inc",
     "repos": ["https://github.com/runtimeverification/ercx-tests"],
     "tags": ["foundry", "security", "erc721", "runtime-verification"],
-    "website": "ercx.runtimeverification.com",
     "subcategory_id": "fuzz-property-testing"
   },
   {
@@ -131,7 +130,7 @@
       "https://github.com/EnsoBuild/shortcuts-widget"
     ],
     "tags": ["cross-chain", "transaction-optimization"],
-    "website": "enso.build",
+    "website": "https://enso.build",
     "subcategory_id": "frontend-integration-tooling"
   },
   {
@@ -474,7 +473,7 @@
     "subcategory_id": "fuzz-property-testing"
   },
   {
-    "name": "VSCode Solidity Inspector ",
+    "name": "VSCode Solidity Inspector",
     "description": "VSCode Solidity Inspector bundles practical Solidity utilities in VS Code: storage layout views, import hygiene hints, Foundry deployment summaries, Bulloak test stubs, remappings-aware imports, and code-size hints.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/1e11eb35-ddb5-4385-bf18-2231ce727db9.png",
     "repos": ["https://github.com/PraneshASP/vscode-solidity-inspector"],
@@ -499,7 +498,7 @@
     "subcategory_id": "wallet-integration-auth"
   },
   {
-    "name": "Black Scholes library/compiler - go and rust ",
+    "name": "Black Scholes library/compiler - go and rust",
     "description": "These libraries package Derive-tuned Black-Scholes pricing and risk math in Go and Rust so onchain risk modules can reuse heavily optimized implementations tied to Derive's margin stack.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/69edd7f3-606d-4191-b7c8-28e41246b2d0.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/b753d4c0-96c7-4b36-b70e-e2785f9006bd.png",
@@ -697,7 +696,7 @@
     "twitter": "https://x.com/DiffuseFi",
     "repos": ["https://github.com/Diffuse-fi/datafeed-cli"],
     "tags": ["defi", "real-time-data", "cli", "verification"],
-    "website": "diffuse.fi",
+    "website": "https://diffuse.fi",
     "subcategory_id": "oracles-external-data"
   },
   {
@@ -715,7 +714,7 @@
     "description": "ProbeLab's Nebula crawler snapshots Ethereum's execution-layer peer graph each week; use the published metrics when you are tuning discovery, connectivity, or client defaults.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/b48a5502-4473-4614-966a-c8581279a95b.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/b6aa707f-e3bd-43ea-965f-aef868ce0c6d.png",
-    "twitter": "@yiannisbot",
+    "twitter": "https://x.com/yiannisbot",
     "repos": [
       "https://github.com/probe-lab/website",
       "https://github.com/dennis-tra/nebula"
@@ -829,13 +828,13 @@
     "description": "DexAppBuilder provides a comprehensive kit of no-code/low-code tools and solutions, enabling anyone to easily create customized DApps for Web3.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/07bee0c5-72ce-4e1b-b474-bd9d84856718.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/7881f699-90d7-4178-965c-8805145a348a.png",
-    "twitter": "dexkit",
+    "twitter": "https://x.com/dexkit",
     "repos": [
       "https://github.com/DexKit/open-nft-marketplace",
       "https://github.com/DexKit/dexkit-monorepo"
     ],
     "tags": ["frontend", "react", "nextjs"],
-    "website": "http://dexkit.com",
+    "website": "https://dexkit.com",
     "llmstext": "https://dexkit.com/llms.txt",
     "subcategory_id": "frontend-integration-tooling"
   },
@@ -884,7 +883,6 @@
     "banner_url": "https://storage.googleapis.com/op-atlas/fca44e15-1ce7-422d-b22f-2f1df4f4923c.png",
     "repos": ["https://github.com/Nerd3Lab/superUI"],
     "tags": ["frontend", "contract-management"],
-    "website": "Superui.app",
     "subcategory_id": "deployment-devops"
   },
   {
@@ -946,7 +944,7 @@
     "subcategory_id": "frontend-integration-tooling"
   },
   {
-    "name": "Wagmi: Reactive primitives for Ethereum apps ",
+    "name": "Wagmi: Reactive primitives for Ethereum apps",
     "description": "Wagmi is a React hook layer on top of Viem for reading, writing, and caching Ethereum state in frontends without rebuilding wallet plumbing each project.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/4043de65-2657-4c0f-91e6-3d5aea14dc33.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/faafa9b3-2151-4cd7-a9f3-e9c1853e8874.png",
@@ -1076,7 +1074,7 @@
     "description": "Ethers.js is a compact TypeScript library for scripts, wallets, and services that need predictable JSON-RPC, ABI encoding, and signing helpers in Node or the browser.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/f8d776ab-ca70-42ee-9e41-d4f709cd6fd4.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/459bdd5e-60a5-49ca-88b8-d4537ebfec16.png",
-    "twitter": "@ricmoo",
+    "twitter": "https://x.com/ricmoo",
     "repos": ["https://github.com/ethers-io/ethers.js"],
     "tags": ["frontend", "json-rpc", "contract-interaction"],
     "website": "https://ethers.org",
@@ -1143,7 +1141,7 @@
     "twitter": "https://x.com/blockscoutcom",
     "repos": ["https://github.com/blockscout/blockscout"],
     "tags": ["block-explorer", "chains"],
-    "website": "http://www.blockscout.com",
+    "website": "https://www.blockscout.com",
     "subcategory_id": "analytics-monitoring"
   },
   {
@@ -1370,7 +1368,7 @@
     "description": "Rundler is Alchemy's modular Rust ERC-4337 bundler aimed at horizontally scaled deployments; many Ethereum user-operation workloads run on it today.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/7e5161c3-ab8c-44e9-97b9-a957fa9cb7a2.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/2985ee59-7f46-4626-93f4-fd91de426cd2.png",
-    "twitter": "twitter.com/alchemy",
+    "twitter": "https://x.com/alchemy",
     "repos": ["https://github.com/alchemyplatform/rundler"],
     "tags": ["docker", "bundler", "account-abstraction", "multi-chain"],
     "website": "https://alchemy.com",
@@ -1408,7 +1406,6 @@
       "cli",
       "abi-encoding"
     ],
-    "website": "zabi.sh",
     "subcategory_id": "core-sdks-libraries"
   },
   {
@@ -1511,7 +1508,7 @@
       "natural-language-processing",
       "solidity"
     ],
-    "llmstext": "https://w3gpt.ai/",
+    "llmstext": "https://w3gpt.ai/skill.md",
     "subcategory_id": "other-ai-resources"
   },
   {
@@ -1568,7 +1565,7 @@
     "description": "Rustic programming language that targets EVM",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9b6b9753-121c-4c3f-9a39-c2c48b5cf149.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/0d1302f3-d1e0-4fe1-a10e-592b36cb139b.png",
-    "twitter": "zinkonx",
+    "twitter": "https://x.com/zinkonx",
     "repos": ["https://github.com/zink-lang/zink"],
     "tags": ["education"],
     "website": "https://zink-lang.org",
@@ -1589,7 +1586,7 @@
     "description": "thirdweb is a full stack, open-source web3 development platform with frontend, backend, and onchain tools to build complete web3 apps - on every EVM chain.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/278ce531-3de6-4f4c-8955-877541c7020b.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/c78355fc-3512-4554-a6df-70392a31cae2.png",
-    "twitter": "@thirdweb",
+    "twitter": "https://x.com/thirdweb",
     "repos": [
       "https://github.com/thirdweb-dev/insight",
       "https://github.com/thirdweb-dev/js",
@@ -1602,7 +1599,7 @@
   {
     "name": "Ackee",
     "description": "Ackee is a blockchain security shop you hire for audits, tooling support, and training when you need hands-on review of Solidity systems and surrounding infrastructure.",
-    "twitter": "ackeeblockchain",
+    "twitter": "https://x.com/ackeeblockchain",
     "repos": ["https://github.com/Ackee-Blockchain/solidity-for-vscode"],
     "tags": [
       "education",
@@ -1663,7 +1660,7 @@
     "description": "The smart contract development tool for Pythonistas, Data Scientists, and Security Professionals",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/ab983e5d-4c75-4fc9-9b02-187a4f479c8a.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/238f7d0e-c18b-48ad-8e9a-24407ef90eaf.png",
-    "twitter": "https://twitter.com/ApeFramework ",
+    "twitter": "https://twitter.com/ApeFramework",
     "repos": [
       "https://github.com/ApeWorX/silverback",
       "https://github.com/ApeWorX/ape",
@@ -1678,7 +1675,7 @@
     "description": "Hermes listens to libp2p gossipsub traffic so you can measure propagation latency and overhead when tuning Ethereum consensus or similar peer networks.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/90c0de0c-cc0e-4959-afb7-a78ae4c9d674.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e1d59a51-3f6f-4642-bc88-553026d2d067.png",
-    "twitter": "@yiannisbot",
+    "twitter": "https://x.com/yiannisbot",
     "repos": ["https://github.com/probe-lab/hermes"],
     "tags": ["governance", "gossipsub", "libp2p", "cli"],
     "subcategory_id": "rpc-node-infrastructure"
@@ -1692,8 +1689,7 @@
       "https://github.com/curvegrid/multibaas-sdk-typescript",
       "https://github.com/curvegrid/multibaas-for-google-sheets",
       "https://github.com/curvegrid/multibaas-sample-app",
-      "https://github.com/curvegrid/hardhat-multibaas-plugin",
-      "https://github.com/curvegrid/"
+      "https://github.com/curvegrid/hardhat-multibaas-plugin"
     ],
     "tags": ["defi"],
     "subcategory_id": "frontend-integration-tooling"
@@ -1752,7 +1748,7 @@
     "description": "rust-libp2p is the reference Rust implementation of libp2p's modular peer-to-peer stack used by Magi on the OP Stack, Lighthouse, Forest, and many other projects that need composable transports, security, pubsub, and discovery primitives for decentralized networking.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/352a5108-5f07-4765-a43d-7ba0b4b27054.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/01e43966-8955-4584-b45d-84645a97dc5d.png",
-    "twitter": "@sigp_io",
+    "twitter": "https://x.com/sigp_io",
     "repos": ["https://github.com/libp2p/rust-libp2p"],
     "tags": ["peer-to-peer", "libp2p"],
     "website": "https://sigmaprime.io",
@@ -1777,7 +1773,7 @@
   {
     "name": "Opstack Kit",
     "description": "opstack-kit scaffolds Superchain-aware frontends and scripts with bridging helpers, CustomGasToken flows, and OP Stack CLI tasks baked into the starter.",
-    "twitter": "opstackkit",
+    "twitter": "https://x.com/opstackkit",
     "repos": ["https://github.com/opstack-kit/opstack-kit"],
     "tags": ["cli", "cross-chain"],
     "subcategory_id": "contract-frameworks"
@@ -1865,7 +1861,7 @@
     "subcategory_id": "fuzz-property-testing"
   },
   {
-    "name": "Unruggable ",
+    "name": "Unruggable",
     "description": "Unruggable Labs builds open infrastructure for ENS-style naming on rollups, including Unruggable Gateways that fetch rollup state proofs and verify them on Ethereum L1 so clients can resolve names trustlessly as L2s scale.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/ff2964ec-4435-4cf8-b993-e16f49b47b96.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/58530a8a-1957-45c8-92dd-808196c1491f.png",
@@ -1966,7 +1962,7 @@
     "subcategory_id": "deployment-devops"
   },
   {
-    "name": " snekmate",
+    "name": "snekmate",
     "description": "State-of-the-art, highly opinionated, hyper-optimised, and secureVyper smart contract building blocks.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/baed8e76-d872-4218-9648-9bb5700dabc9.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e205286d-1799-4d72-992a-a8ebe394c59b.png",
@@ -1990,11 +1986,11 @@
     ]
   },
   {
-    "name": "Bonadocs ",
+    "name": "Bonadocs",
     "description": "Bonadocs pairs doc generation, embeddable contract widgets, and multiplayer playgrounds so protocol teams can ship living API-style docs next to Solidity interfaces.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/d334c376-0ff1-4c76-94bf-2ee675cae1d3.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/a21ed458-efea-4d35-8aa9-b26d5e7bafad.png",
-    "twitter": "x.com/bonadocs",
+    "twitter": "https://x.com/bonadocs",
     "repos": [
       "https://github.com/bonadocs/protocol-registry",
       "https://github.com/bonadocs/docgen",
@@ -2003,7 +1999,7 @@
       "https://github.com/bonadocs/protocol-registry-web"
     ],
     "tags": ["cli", "frontend", "education", "solidity-development"],
-    "website": "bonadocs.com",
+    "website": "https://bonadocs.com",
     "subcategory_id": "frontend-integration-tooling",
     "packages": [
       "https://www.npmjs.com/package/@bonadocs/zimulatoor",
@@ -2058,7 +2054,7 @@
     "description": "ZK Email provides circuits and SDKs for proving facts about redacted email transcripts onchain. Useful when you want privacy-preserving identity or receipt checks without doxxing inboxes.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/27046acd-924a-4f01-ae53-dd51cb6d8238.png",
     "banner_url": "https://pse.dev/project-banners/zk-email.webp",
-    "twitter": "@zkemail",
+    "twitter": "https://x.com/zkemail",
     "repos": [
       "https://github.com/zkemail/zk-email-verify",
       "https://github.com/zkemail/zk-email-sdk-js",
@@ -2442,8 +2438,7 @@
     "twitter": "https://x.com/etherspot",
     "repos": [
       "https://github.com/etherspot/etherspot-prime-contracts",
-      "https://github.com/etherspot/etherspot-modular-sdk",
-      "https://github.com/etherspot/skandha"
+      "https://github.com/etherspot/etherspot-modular-sdk"
     ],
     "tags": [
       "wallet",
@@ -2474,7 +2469,7 @@
     "description": "Aave is DeFi's largest lending protocol.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/dcd0600f-d9bf-439e-9915-5922ea8e9655.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/031491b9-252c-4b9d-b450-16f3443184d9.png",
-    "repos": ["https://github.com/Aave"],
+    "repos": ["https://github.com/aave-dao/aave-v3-origin"],
     "tags": ["defi", "governance", "foundry", "cli", "contract-deployment"],
     "subcategory_id": "payments-defi-integration"
   },
@@ -3225,7 +3220,7 @@
     "thumbnail_url": "https://pse.dev/project-banners/zkp2p.webp",
     "banner_url": "https://pse.dev/project-banners/zkp2p.webp",
     "twitter": "https://twitter.com/zkp2p",
-    "repos": ["https://github.com/zkp2p"],
+    "repos": ["https://github.com/zkp2p/zkp2p-contracts"],
     "tags": ["privacy-focused", "defi", "peer-to-peer"],
     "subcategory_id": "payments-defi-integration"
   },
@@ -3279,7 +3274,7 @@
     "thumbnail_url": "https://pse.dev/project-banners/tor-js.avif",
     "banner_url": "https://pse.dev/project-banners/tor-js.avif",
     "repos": [
-      "https://github.com/voltrevo/arti/tree/wasm-arti-client/crates/tor-js"
+      "https://github.com/voltrevo/arti"
     ],
     "tags": ["privacy-focused", "networking"],
     "subcategory_id": "core-sdks-libraries"
@@ -3289,7 +3284,7 @@
     "description": "Generates recursive zkVM proofs verifying that Unified Binary Trie (UBT) and Merkle Patricia Trie state updates match per Ethereum block. Enables trustless state verification for light clients and private information retrieval.",
     "thumbnail_url": "https://pse.dev/project-banners/verifiable-ubt.svg",
     "banner_url": "https://pse.dev/project-banners/verifiable-ubt.svg",
-    "repos": ["https://github.com/tkmct/go-ethereum/tree/test-ubt-prompt"],
+    "repos": ["https://github.com/tkmct/go-ethereum"],
     "tags": ["privacy-focused", "verification"],
     "subcategory_id": "zk-circuits-privacy"
   },
