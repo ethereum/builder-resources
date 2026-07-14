@@ -1,44 +1,22 @@
 # Builder Resources
 
-This repo is a curated collection of **developer tooling options for building on Ethereum**. It stores resource entries in `catalog/resources.json` and a shared tag/category taxonomy in `catalog/taxonomy.json`.
+This repo is the data source for the [Builder resources page on ethereum.org](https://ethereum.org/developers/tools/). Resource entries live in `catalog/resources.json`, and the shared category/tag taxonomy in `catalog/taxonomy.json`.
 
 ## Contributing
 
-Please **open an issue first**:
-- Use **“Suggest a resource”** to propose a new entry
-- Use **“Update a resource”** to request changes to an existing entry
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide, including the entry schema, image guidelines, and tag rules. The short version:
 
-If you want to submit a PR, you can:
-- **Edit `catalog/resources.json` directly**, and consult `catalog/taxonomy.json` for valid tags + categories.
+- **Open an issue** using **"Suggest a resource"** or **"Update a resource"**, and a maintainer makes the change for you, or
+- **Open a PR** editing `catalog/resources.json` directly, consulting `catalog/taxonomy.json` for valid tags and subcategories.
 
-## Tagging help: use the included skill with your agent of choice
+The repo also ships an agent skill, `add-resource-with-tags`, that collects the inputs, picks tags, and emits a paste-ready entry. Agents working in a clone discover it automatically.
 
-This repo includes an agent skill to help you pick good tags and format the JSON entry:
+## Validation
 
-- Skill: `.github/skills/add-resource-with-tags/SKILL.md`
-
-While using an agent, ask something like:
-- “Use the `add-resource-with-tags` skill to add a new resource to `catalog/resources.json`.”
-
-## Validity Checking
-
-Commits are expected to keep the data files valid and consistent with the taxonomy.
-
-- **Pre-commit hook**: this repo installs a `pre-commit` hook that runs the validator on every commit.
-  - The hook runs: `node scripts/validate-results.mjs`
-  - If you installed dependencies via `npm install`, the hook is installed automatically via the `prepare` script.
-  - If you need to reinstall it manually, run: `npm run prepare`
-
-- **Local validation (required before opening a PR)**: run the validator and fix any errors it reports:
+Before pushing catalog changes, run the validator and fix anything it reports:
 
 ```bash
 npm run validate:results
 ```
 
-- **What the validator enforces**
-  - **JSON is valid**: `catalog/resources.json` must parse and be an array; `catalog/taxonomy.json` must parse.
-  - **Description plain text**: each `description` must be plain text in **one paragraph** (no blank-line paragraph breaks, no Markdown-style links/emphasis/code fences, no newline-started `- ` list lines, etc.). Rules live in `scripts/description-signals.mjs`. **Tone**: write for builders deciding whether to try the tool. State what it is for, who uses it, and the main capability in plain language; rely on `website` / `repos` for depth, marketing, and roadmaps.
-  - **Unique IDs**: every `results[i].id` must be a non-empty string and **unique** across the file.
-  - **Repos required**: every entry must have `repos` with at least one valid `http(s)` URL.
-  - **Tags must exist**: every `tags[]` value must be present in `catalog/taxonomy.json` `tags`.
-  - **Categories must match**: if `category` is set, it must match a category name in `catalog/taxonomy.json`.
+It runs on plain Node with no dependencies to install. Running `npm install` once is optional and sets up a pre-commit hook that validates automatically. CI runs the same script on every PR that touches the catalog. What it checks is documented in CONTRIBUTING.md.

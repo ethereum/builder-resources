@@ -1,6 +1,6 @@
 /**
  * Shared rules for catalog resource `description` plain-text policy.
- * Used by `validate-results.mjs` (enforce) and `find-description-markdown.mjs` (report).
+ * Used by `validate-results.mjs` (enforce).
  */
 
 /** @typedef {{ id: string, label: string, test: (s: string) => boolean }} DescriptionAuditSignal */
@@ -70,9 +70,14 @@ export const DESCRIPTION_AUDIT_SIGNALS = [
     test: (s) => /`[^`\n]+`/.test(s),
   },
   {
-    id: "dash-list-line",
-    label: 'newline + "- " list-style line (Markdown unordered list syntax)',
-    test: (s) => /(?:\r?\n)[ \t]*-[ \t]+\S/.test(s),
+    id: "bullet-list-line",
+    label: 'line starting with "- ", "* ", or "+ " (Markdown unordered list syntax)',
+    test: (s) => /(?:^|\r?\n)[ \t]*[-*+][ \t]+\S/.test(s),
+  },
+  {
+    id: "ordered-list-line",
+    label: 'line starting with "1. " or "1) " (Markdown ordered list syntax)',
+    test: (s) => /(?:^|\r?\n)[ \t]*\d{1,3}[.)][ \t]+\S/.test(s),
   },
   {
     id: "multi-paragraph",

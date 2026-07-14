@@ -1,7 +1,6 @@
-name: Suggest a project
-description: Suggest a project to add to the Developer Tooling list
-title: "Add project: <name>"
-labels: ["project"]
+name: Suggest a resource
+description: Suggest a resource to add to the builder resources catalog
+title: "Add resource: <name>"
 body:
   - type: markdown
     attributes:
@@ -13,12 +12,12 @@ body:
 
   - type: markdown
     attributes:
-      value: "## Project info"
+      value: "## Resource info"
 
   - type: input
     id: name
     attributes:
-      label: Project name
+      label: Resource name
     validations:
       required: true
 
@@ -82,29 +81,25 @@ body:
   - type: textarea
     id: tags
     attributes:
-      label: Tags
-      description: List tag slugs (kebab-case). Use tags from `catalog/taxonomy.json`. If you think a new tag is needed, propose it here.
+      label: Tags (optional)
+      description: List tag slugs (kebab-case) from `catalog/taxonomy.json`. If you think a new tag is needed, propose it here. Leave empty if unsure, maintainers will pick.
       placeholder: |
         foundry
         security
         static-analysis
-    validations:
-      required: true
 
   - type: input
-    id: category
+    id: subcategory
     attributes:
-      label: Category
-      description: Must match a category name from `catalog/taxonomy.json`.
-    validations:
-      required: true
+      label: Subcategory (optional)
+      description: A subcategory `id` from `catalog/taxonomy.json` (for example `contract-frameworks`, `mcp-servers`). Leave empty if unsure, maintainers will pick.
 
   - type: checkboxes
     id: confirmations
     attributes:
       label: Confirmations
       options:
-        - label: I checked `catalog/taxonomy.json` for existing tags and categories
+        - label: Any tags or subcategory I suggested come from `catalog/taxonomy.json`
           required: true
         - label: I included at least one of website, repository URL(s), or package URL(s)
           required: true
