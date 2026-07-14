@@ -1,9 +1,10 @@
-Please read [CONTRIBUTING.md](../CONTRIBUTING.md) before submitting, it has the entry schema, image guidelines, and tag rules.
+Please read [CONTRIBUTING.md](https://github.com/ethereum/builder-resources/blob/main/CONTRIBUTING.md) before submitting, it has the entry schema, image guidelines, and tag rules.
 
 ## What changed?
 - [ ] Add a resource
 - [ ] Update a resource
 - [ ] Update taxonomy (tags/categories/subcategories)
+- [ ] Docs, scripts, or other repo housekeeping
 
 ## Before you submit
 

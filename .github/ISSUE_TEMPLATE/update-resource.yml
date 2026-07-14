@@ -1,7 +1,6 @@
 name: Update a resource
 description: Request updates to an existing resource entry
 title: "Update resource: <name>"
-labels: ["project"]
 body:
   - type: markdown
     attributes:
@@ -12,6 +11,9 @@ body:
     id: project_name
     attributes:
       label: Resource name
+      description: The `name` of the entry in `catalog/resources.json` you want changed.
+    validations:
+      required: true
 
   - type: input
     id: repo_url

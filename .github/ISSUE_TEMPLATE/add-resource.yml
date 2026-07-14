@@ -1,7 +1,6 @@
 name: Suggest a resource
 description: Suggest a resource to add to the builder resources catalog
 title: "Add resource: <name>"
-labels: ["project"]
 body:
   - type: markdown
     attributes:

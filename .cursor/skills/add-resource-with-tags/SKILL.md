@@ -28,7 +28,7 @@ At least one of `website`, `repos`, or `packages` is required
 ## Image guidelines
 - `thumbnail_url` renders as a 40-96 px square card icon. Use a square logo mark, 256×256 or larger, that stays legible at 40 px (not a wordmark or screenshot).
 - `banner_url` renders as a roughly 4:1 header strip, cropped to fill the width. Aim for about 1200×300 with no text or logos near the edges. Never use OpenGraph images, their squarer shape gets cropped badly.
-- Both must be stable, publicly fetchable URLs (PNG, JPG, or SVG, under 1 MB).
+- Both must be stable, publicly fetchable URLs (PNG, JPG, SVG, or WebP, under 1 MB).
 
 ## Tagging workflow (use `catalog/taxonomy.json`)
 1. Read `catalog/taxonomy.json` and load the top-level `tags` list.

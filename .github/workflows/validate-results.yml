@@ -7,6 +7,7 @@ on:
       - "catalog/taxonomy.json"
       - "scripts/validate-results.mjs"
       - "scripts/description-signals.mjs"
+      - ".github/workflows/validate-results.yml"
   push:
     branches:
       - main
@@ -15,6 +16,7 @@ on:
       - "catalog/taxonomy.json"
       - "scripts/validate-results.mjs"
       - "scripts/description-signals.mjs"
+      - ".github/workflows/validate-results.yml"
 
 jobs:
   validate:
@@ -24,7 +26,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - run: node scripts/validate-results.mjs
 
