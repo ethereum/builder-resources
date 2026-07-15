@@ -2750,15 +2750,6 @@
     "subcategory_id": "mcp-servers"
   },
   {
-    "name": "Ethereum Wingman",
-    "description": "A comprehensive Ethereum development tutor and guide built as an Agent Skill. Teaches smart contract development through Speedrun Ethereum challenges, Scaffold-ETH tooling, and security best practices.",
-    "website": "https://ethwingman.com/",
-    "banner_url": "https://ethwingman.com/ethwingman.png",
-    "repos": ["https://github.com/austintgriffith/ethereum-wingman"],
-    "tags": ["education", "interactive-tools", "agent-skills"],
-    "subcategory_id": "agent-skills"
-  },
-  {
     "name": "ETHSkills",
     "description": "Structured Ethereum knowledge for AI agents - end-to-end guides from dApp idea to production. Skills cover wallets, L2s, standards, tools, DeFi, security, testing, indexing, and frontend UX. Fetch via URL, curl, or Claude plugin. No install required.",
     "website": "https://ethskills.com/",
