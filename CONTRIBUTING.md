@@ -86,7 +86,7 @@ npm run validate:results
 
 There are no dependencies to install, the script runs on plain Node. Running `npm install` once is optional and sets up a pre-commit hook that validates automatically.
 
-The validator checks that the JSON parses, required fields are present, descriptions are plain text (rules in `scripts/description-signals.mjs`), all tags exist in the taxonomy, `subcategory_id` matches the taxonomy, and `repos`/`packages` URLs are valid http(s). Other URL fields are not machine-checked, so double-check them yourself. CI runs the same script on every PR that touches the catalog.
+The validator checks that the JSON parses, required fields are present, descriptions are plain text (rules in `scripts/description-signals.mjs`), all tags exist in the taxonomy, `subcategory_id` matches the taxonomy, and every URL field (`website`, `twitter`, `llmstext`, `thumbnail_url`, `banner_url`, `repos`, `packages`) is valid http(s). It also rejects duplicate or untrimmed names and any `null`, empty-string, or empty-array placeholder, and warns when an entry reuses one image as both thumbnail and banner. URLs are format-checked only, whether they actually resolve is still on you. CI runs the same script on every PR that touches the catalog.
 
 ## Review and curation
 
