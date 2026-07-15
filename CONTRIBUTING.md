@@ -65,6 +65,7 @@ Leave out optional fields you have no value for. Don't add them as `null` or emp
 - `thumbnail_url` becomes the card icon, displayed as a 40-96 px square. Use a square logo mark, 256×256 or larger, that stays legible at 40 px. Wordmarks and screenshots turn to mush at that size.
 - `banner_url` becomes the header strip of the tool detail view, displayed at roughly 4:1 and cropped to fill the width. Aim for about 1200×300 and keep text or logos away from the edges. Don't reuse an OpenGraph image, its squarer shape gets cropped badly.
 - Host both at a stable, publicly fetchable URL. The ethereum.org build copies them to its own storage, so a URL behind auth or a hotlink blocker means no image on the page.
+- If the project has no stable hosted asset, commit the file under `images/thumbnails/` or `images/banners/` in this repo and reference it via its `raw.githubusercontent.com/ethereum/builder-resources/main/...` URL. A GitHub org avatar (`https://github.com/<org>.png`) also works as a thumbnail when it is the project's logo.
 - PNG, JPG, SVG, or WebP, under 1 MB.
 
 ### Tags
