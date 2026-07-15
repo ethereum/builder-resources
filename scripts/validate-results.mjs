@@ -18,10 +18,6 @@ function isNonEmptyString(x) {
   return typeof x === "string" && x.trim().length > 0;
 }
 
-function isOptionalString(x) {
-  return x === undefined || x === null || typeof x === "string";
-}
-
 function isValidHttpUrl(x) {
   if (!isNonEmptyString(x)) return false;
   try {
@@ -133,6 +129,9 @@ if (!Array.isArray(results)) {
   process.exit(process.exitCode || 1);
 }
 
+const SINGLE_URL_FIELDS = ["website", "twitter", "llmstext", "thumbnail_url", "banner_url"];
+const seenResourceNames = new Map();
+
 for (let i = 0; i < results.length; i++) {
   const entry = results[i];
   const where = `results[${i}]`;
@@ -142,9 +141,33 @@ for (let i = 0; i < results.length; i++) {
     continue;
   }
 
+  // No placeholder values: optional fields are omitted, never null/""/[].
+  for (const [key, value] of Object.entries(entry)) {
+    if (value === null) {
+      fail(`${where}.${key} is null; leave the field out instead`);
+    } else if (typeof value === "string" && value.trim().length === 0) {
+      fail(`${where}.${key} is an empty string; leave the field out instead`);
+    } else if (Array.isArray(value) && value.length === 0) {
+      fail(`${where}.${key} is an empty array; leave the field out instead`);
+    }
+  }
+
   // name
   if (!isNonEmptyString(entry.name)) {
     fail(`${where}.name must be a non-empty string`);
+  } else {
+    if (entry.name !== entry.name.trim()) {
+      fail(`${where}.name has leading/trailing whitespace: ${JSON.stringify(entry.name)}`);
+    }
+    // Names are the catalog's de-facto key (ethereum.org joins on them).
+    const nameKey = entry.name.trim().toLowerCase();
+    if (seenResourceNames.has(nameKey)) {
+      fail(
+        `${where}.name duplicates results[${seenResourceNames.get(nameKey)}].name: "${entry.name}"`
+      );
+    } else {
+      seenResourceNames.set(nameKey, i);
+    }
   }
 
   // description
@@ -160,9 +183,22 @@ for (let i = 0; i < results.length; i++) {
     }
   }
 
-  // llmstext
-  if (!isOptionalString(entry.llmstext)) {
-    fail(`${where}.llmstext must be a string if present`);
+  // single-value URL fields
+  for (const field of SINGLE_URL_FIELDS) {
+    const value = entry[field];
+    if (value === undefined || value === null) continue; // null already failed above
+    if (!isValidHttpUrl(value)) {
+      fail(`${where}.${field} must be a valid http(s) URL, got ${JSON.stringify(value)}`);
+    }
+  }
+
+  // A square logo and a wide banner should differ; reusing one image
+  // means the wrong shape in one of the two slots.
+  if (
+    isNonEmptyString(entry.thumbnail_url) &&
+    entry.thumbnail_url === entry.banner_url
+  ) {
+    warn(`${where} ("${entry.name}") uses the same image for thumbnail_url and banner_url`);
   }
 
   // repos

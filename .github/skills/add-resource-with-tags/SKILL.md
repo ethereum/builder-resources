@@ -52,6 +52,9 @@ At least one of `website`, `repos`, or `packages` is required
 - `subcategory_id` matches a taxonomy subcategory id.
 - `repos` is optional; if present, it is an array of valid http(s) URLs.
 - `packages` is optional; if present, it is an array of valid http(s) URLs.
+- All other URL fields (`website`, `twitter`, `llmstext`, `thumbnail_url`, `banner_url`) are valid http(s) URLs when present.
+- The name is trimmed and does not duplicate an existing entry's name (case-insensitive).
+- No field is `null`, an empty string, or an empty array; optional fields are omitted instead.
 - Entry includes at least one of `website`, `repos`, or `packages`.
 - JSON remains valid.
 - When working in a clone, finish by running `npm run validate:results` and fix anything it reports.
