@@ -3560,5 +3560,18 @@
     "repos": ["https://github.com/NaniDAO/agentek"],
     "tags": ["natural-language-processing", "wallet"],
     "subcategory_id": "other-ai-resources"
+  },
+  {
+    "name": "Envio",
+    "description": "Envio is a multichain indexing framework with TypeScript, JavaScript, or ReScript handlers that syncs over HyperSync rather than RPC when you need one Postgres-backed GraphQL API across several EVM chains.",
+    "thumbnail_url": "https://github.com/enviodev.png",
+    "banner_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/banners/envio.png",
+    "twitter": "https://x.com/envio_indexer",
+    "repos": ["https://github.com/enviodev/hyperindex"],
+    "tags": ["indexing", "multi-chain", "real-time-data", "cli"],
+    "website": "https://envio.dev",
+    "llmstext": "https://docs.envio.dev/llms.txt",
+    "subcategory_id": "indexing-data-apis",
+    "packages": ["https://www.npmjs.com/package/envio"]
   }
 ]
