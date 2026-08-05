@@ -3573,5 +3573,25 @@
     "llmstext": "https://docs.envio.dev/llms.txt",
     "subcategory_id": "indexing-data-apis",
     "packages": ["https://www.npmjs.com/package/envio"]
+  },
+  {
+    "name": "dRPC",
+    "description": "dRPC is a hosted RPC service that spreads JSON-RPC, WebSocket, and REST traffic across independent node providers on Ethereum, its L2s, and 200+ other networks. It covers archive data, MEV-protected transaction endpoints, per-key rate limits, and usage dashboards, so reach for it when you want managed endpoints with provider redundancy instead of running nodes yourself.",
+    "thumbnail_url": "https://github.com/drpcorg.png",
+    "twitter": "https://x.com/drpcorg",
+    "tags": ["api", "json-rpc", "multi-chain", "developer-experience"],
+    "website": "https://drpc.org",
+    "llmstext": "https://drpc.org/llms.txt",
+    "subcategory_id": "rpc-node-infrastructure"
+  },
+  {
+    "name": "NodeCore",
+    "description": "NodeCore is a self-hosted RPC load balancer in Go that sits in front of several blockchain API providers and scores upstreams on latency, error rate, and availability to pick one per request. It layers caching, request hedging, retries, per-method rate limiting, and quorum verification over JSON-RPC, WebSocket, and REST interfaces, so reach for it when you run your own RPC cluster and want failover across providers rather than a single endpoint.",
+    "thumbnail_url": "https://github.com/drpcorg.png",
+    "twitter": "https://x.com/drpcorg",
+    "repos": ["https://github.com/drpcorg/nodecore"],
+    "tags": ["json-rpc", "multi-chain", "devops", "performance-optimization"],
+    "website": "https://drpc.org/nodecore-open-source-rpc-infrastructure",
+    "subcategory_id": "rpc-node-infrastructure"
   }
 ]
