@@ -1436,22 +1436,22 @@
     "subcategory_id": "analytics-monitoring"
   },
   {
-    "name": "Passport XYZ | Gitcoin Passport",
-    "description": "Gitcoin Passport scores wallet activity and stamps so communities can gate airdrops, grants, or governance participation with lightweight sybil resistance.",
+    "name": "Human Passport",
+    "description": "Human Passport aggregates identity credentials, called Stamps, into one score per wallet. The score estimates how likely the wallet belongs to a unique person, which is the input for Sybil resistance. Developers read it through a REST API or an embeddable widget, then gate airdrops, grants, governance or signups on it.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/0160cab5-f34b-4aa5-9442-8b6e82a02bde.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/55137132-f859-4640-8d98-4f7c3a8e4489.png",
-    "twitter": "https://x.com/gitcoinpassport",
+    "website": "https://passport.human.tech/",
+    "twitter": "https://x.com/HumnPassport",
     "repos": [
-      "https://github.com/gitcoinco/passport",
-      "https://github.com/gitcoinco/eas-proxy",
-      "https://github.com/passportxyz/passport-scorer",
       "https://github.com/passportxyz/passport",
-      "https://github.com/gitcoinco/id-staking-v2",
-      "https://github.com/gitcoinco/id-staking-v2-app",
-      "https://github.com/gitcoinco/passport-scorer"
+      "https://github.com/passportxyz/eas-proxy",
+      "https://github.com/passportxyz/passport-scorer",
+      "https://github.com/passportxyz/id-staking-v2",
+      "https://github.com/passportxyz/id-staking-v2-app"
     ],
-    "tags": ["analytics", "gas-efficient", "identity"],
-    "subcategory_id": "wallet-integration-auth"
+    "tags": ["identity", "authentication", "api", "verification"],
+    "subcategory_id": "wallet-integration-auth",
+    "llmstext": "https://docs.passport.human.tech/llms.txt"
   },
   {
     "name": "Ethereum Attestation Service (EAS)",
