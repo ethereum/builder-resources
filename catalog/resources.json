@@ -3601,5 +3601,16 @@
     "subcategory_id": "rpc-node-infrastructure",
     "repos": ["https://github.com/radeksvarz/evm-rpc-picker"],
     "packages": ["https://pypi.org/project/evm-rpc-picker/"]
+  },
+  {
+    "name": "TAP",
+    "description": "TAP, the Tool Authorization Protocol, is a credential proxy that sits between an AI agent and the APIs it calls. The agent holds a TAP key, not your secrets, and TAP injects the real credential after a policy check. Sensitive calls can wait for a human approval over Telegram or Matrix, and agents connect through a remote MCP server or a CLI.",
+    "tags": ["mcp-server", "security", "api", "cli"],
+    "subcategory_id": "other-ai-resources",
+    "website": "https://tap.human.tech/",
+    "repos": ["https://github.com/holonym-foundation/tap-oss"],
+    "twitter": "https://x.com/humntech",
+    "thumbnail_url": "https://github.com/holonym-foundation.png",
+    "llmstext": "https://docs.tap.human.tech/llms.txt"
   }
 ]
