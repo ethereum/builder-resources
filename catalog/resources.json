@@ -3601,5 +3601,42 @@
     "subcategory_id": "rpc-node-infrastructure",
     "repos": ["https://github.com/radeksvarz/evm-rpc-picker"],
     "packages": ["https://pypi.org/project/evm-rpc-picker/"]
+  },
+  {
+    "name": "Passport Embed",
+    "description": "Passport Embed is a React component that runs Human Passport verification inside a project's own site or app. Users collect identity credentials, called Stamps, and reach a score without leaving the page. It removes the redirect to a separate verification site, which is a common place to lose signups.",
+    "tags": ["react", "frontend", "identity", "authentication"],
+    "subcategory_id": "frontend-integration-tooling",
+    "website": "https://passport.human.tech/",
+    "repos": ["https://github.com/passportxyz/passport-embed"],
+    "packages": ["https://www.npmjs.com/package/@human.tech/passport-embed"],
+    "twitter": "https://x.com/HumnPassport",
+    "thumbnail_url": "https://github.com/passportxyz.png",
+    "llmstext": "https://docs.passport.human.tech/llms.txt"
+  },
+  {
+    "name": "human.tech Wallet Protocol",
+    "description": "The human.tech Wallet Protocol gives an app embedded wallets with no seed phrase, opened by email, phone or social login. Two-party computation splits the signing key across two parties, so no single party can sign alone. One account signs across EVM chains, Sui and Solana, through the WaaP SDK for apps or the WaaP CLI for agents.",
+    "tags": ["wallet", "authentication", "sdk", "cli", "transaction-signing"],
+    "subcategory_id": "wallet-integration-auth",
+    "website": "https://wallet.human.tech/",
+    "packages": [
+      "https://www.npmjs.com/package/@human.tech/waap-sdk",
+      "https://www.npmjs.com/package/@human.tech/waap-cli"
+    ],
+    "twitter": "https://x.com/humntech",
+    "thumbnail_url": "https://github.com/holonym-foundation.png",
+    "llmstext": "https://docs.waap.human.tech/llms.txt"
+  },
+  {
+    "name": "Clean SDK",
+    "description": "Clean SDK is a TypeScript client for private token transfers between Ethereum and Aztec, and the toolkit behind the Shield bridge. Each transfer screens the sending address against sanctions lists at entry and exit, and requires either a Human Passport score or a zero-knowledge government ID proof. The package calls deployed contracts and a hosted attestation service, so integrators write no Noir.",
+    "tags": ["cross-chain", "privacy-focused", "sdk", "identity"],
+    "subcategory_id": "cross-chain-infrastructure",
+    "website": "https://shield.human.tech/",
+    "repos": ["https://github.com/holonym-foundation/shield.human.tech"],
+    "packages": ["https://www.npmjs.com/package/@human.tech/clean.sdk"],
+    "twitter": "https://x.com/humntech",
+    "thumbnail_url": "https://github.com/holonym-foundation.png"
   }
 ]
