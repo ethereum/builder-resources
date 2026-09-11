@@ -1,15 +1,5 @@
 [
   {
-    "name": "evm-mcp-server by mcpdotdirect",
-    "description": "we built an evm mcp server that allows agents to interact with a multitude of chains",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/9d83fea6-88b8-4985-b0e9-4a675be218df.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/763ce438-66da-4384-a634-9108e26a63a4.png",
-    "repos": ["https://github.com/mcpdotdirect/evm-mcp-server"],
-    "tags": ["mcp-server", "cli", "transaction-management"],
-    "website": "https://mcp.direct",
-    "subcategory_id": "mcp-servers"
-  },
-  {
     "name": "libethc",
     "description": "libethc is an open-source ethereum library for C/C++",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/c0c216e0-29b0-4330-9b4f-9addc53c56d3.png",
@@ -17,23 +7,6 @@
     "tags": ["transaction-signing", "abi-encoding"],
     "website": "https://mhw0.github.io/libethc/",
     "subcategory_id": "core-sdks-libraries"
-  },
-  {
-    "name": "evmstate",
-    "description": "A TypeScript library for tracing, and visualizing EVM state changes with detailed human-readable labeling.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/8eb6f205-cdaf-4ca2-8f9c-228183d42ede.png",
-    "repos": ["https://github.com/polareth/evmstate"],
-    "tags": ["analytics", "storage-layout"],
-    "subcategory_id": "core-sdks-libraries"
-  },
-  {
-    "name": "etherml",
-    "description": "A command-line Ethereum wallet manager written in Go 1.24.3+ that generates secure private keys, derives addresses, and stores them in quantum-resistant encrypted files with a Terminal User Interface (TUI) for browsing and management.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/9bcf0bba-0978-47ab-b553-c58778a00775.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/8605a173-9360-4914-a1ac-41ac54c076c7.png",
-    "repos": ["https://github.com/ngmisl/etherml"],
-    "tags": ["cli", "wallet", "security", "encryption"],
-    "subcategory_id": "wallet-integration-auth"
   },
   {
     "name": "Tevm",
@@ -46,17 +19,6 @@
     "website": "https://node.tevm.sh",
     "llmstext": "https://node.tevm.sh/llms.txt",
     "subcategory_id": "rpc-node-infrastructure"
-  },
-  {
-    "name": "Superbeam",
-    "description": "Use Superbeam when you are building on the Superchain and want one TypeScript client for cross-chain balances, sweeps, and contract calls instead of wiring each OP Stack deployment by hand.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/17f44321-04a1-49d8-8702-1c154fa6c560.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/a4f2569e-59a0-4265-8976-6e61beacde96.png",
-    "repos": ["https://github.com/KENILSHAHH/superSDK"],
-    "tags": ["cross-chain", "sdk"],
-    "website": "https://superbeam.gitbook.io/superbeam",
-    "llmstext": "https://superbeam.gitbook.io/superbeam/llms.txt",
-    "subcategory_id": "cross-chain-infrastructure"
   },
   {
     "name": "OpenRPC",
@@ -78,23 +40,6 @@
     "subcategory_id": "standards-specifications"
   },
   {
-    "name": "Bloctopus",
-    "description": "https://x.com/0xbloctopusBloctopus is building open-source dev tooling using Kurtosis that can spin up any web3 infrastructure on-demand. Through various kurtosis packages, we already support many blockchains, cross-chain protocols, oracles, wallet infra, and indexers. ",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/15cb5d1e-c868-43ac-8d7e-db4ef3fbc0f9.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/99fa13be-c8ef-4df9-980e-58736e3ddc29.png",
-    "twitter": "https://x.com/0xbloctopus",
-    "repos": [
-      "https://github.com/0xBloctopus/lzero-reth",
-      "https://github.com/0xBloctopus/ethereum-package",
-      "https://github.com/0xBloctopus/blockscout-package",
-      "https://github.com/0xBloctopus/chainlink-node-package",
-      "https://github.com/0xBloctopus/layerzero-package"
-    ],
-    "tags": ["cross-chain", "docker"],
-    "website": "https://www.bloctopus.io",
-    "subcategory_id": "rpc-node-infrastructure"
-  },
-  {
     "name": "alloy",
     "description": "Alloy is a set of libraries that provides types and RPC client implementations for Ethereum.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/60d98a8f-6f96-4a29-a65c-50dfc3a7828b.png",
@@ -108,52 +53,11 @@
     "subcategory_id": "rpc-node-infrastructure"
   },
   {
-    "name": "ERCx: Token Test Library",
-    "description": "ERCx is a comprehensive open-source testing library for ERC token standards, featuring over 500 individual tests across ERC-20, ERC-721, ERC-1155, and ERC-4626 implementations.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/e6a6dd9b-4ace-4187-8408-0e5729bb0265.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/eee0738d-3735-42c8-8802-93b22a041803.png",
-    "twitter": "https://x.com/rv_inc",
-    "repos": ["https://github.com/runtimeverification/ercx-tests"],
-    "tags": ["foundry", "security", "erc721", "runtime-verification"],
-    "subcategory_id": "fuzz-property-testing"
-  },
-  {
-    "name": "Enso Build",
-    "description": "Enso is blockchain shortcuts. Your fastest way to build and launch onchain.\nBy mapping all onchain interactions to a shared engine, Enso lets you focus on your product.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/ba508a79-4a21-45fc-b3e3-5ede1a80fb6b.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/96e7fcd9-75e3-4e40-98c5-0c5ae56c6578.png",
-    "twitter": "https://x.com/ensobuild",
-    "repos": [
-      "https://github.com/EnsoBuild/Uniswap-migrator",
-      "https://github.com/EnsoBuild/shortcuts-client-contracts",
-      "https://github.com/EnsoBuild/sdk-ts",
-      "https://github.com/EnsoBuild/shortcuts-widget"
-    ],
-    "tags": ["cross-chain", "transaction-optimization"],
-    "website": "https://enso.build",
-    "subcategory_id": "frontend-integration-tooling"
-  },
-  {
     "name": "React Native Passkeys",
     "description": "React Native Passkeys exposes one WebAuthn-shaped passkey API across iOS, Android, and Web targets so you can reuse existing auth backends while shipping native mobile wallet or consumer apps.",
     "repos": ["https://github.com/peterferguson/react-native-passkeys"],
     "tags": ["authentication"],
     "subcategory_id": "wallet-integration-auth"
-  },
-  {
-    "name": "Ethernaut CLI",
-    "description": "Ethernaut CLI is a Hardhat-based command toolbox from EthernautDAO with optional AI helpers for common Ethereum tasks when you prefer terminals over GUIs.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/1fdf287a-8ec4-4e15-a81d-1e63b902662b.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/5b622e91-2107-4d63-87b7-9aeb42d55d86.png",
-    "repos": ["https://github.com/ethernautdao/ethernaut-cli"],
-    "tags": [
-      "cli",
-      "hardhat",
-      "natural-language-processing",
-      "developer-experience"
-    ],
-    "website": "https://ethernaut-app.vercel.app/",
-    "subcategory_id": "contract-frameworks"
   },
   {
     "name": "Brownie",
@@ -162,18 +66,6 @@
     "repos": ["https://github.com/eth-brownie/brownie"],
     "tags": ["cli", "debugging-tools"],
     "subcategory_id": "contract-frameworks"
-  },
-  {
-    "name": "Daimo Pay",
-    "description": "Daimo Pay lets users interact with your app using any token on any chain - no bridging, no swapping, no friction.\nIntegrate our SDK in 15 minutes to accept deposits or execute transactions in your app with any token, from any chain, using any wallet or exchange.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/b2bd0510-b0d6-436e-a126-de05026e9418.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/dde6090a-600a-418b-be38-5ea73111c407.png",
-    "twitter": "https://x.com/daimopay",
-    "repos": ["https://github.com/daimo-eth/pay"],
-    "tags": ["cross-chain"],
-    "website": "https://pay.daimo.com/",
-    "llmstext": "https://pay.daimo.com/llms.txt",
-    "subcategory_id": "cross-chain-infrastructure"
   },
   {
     "name": "NFTScan",
@@ -262,44 +154,12 @@
     "subcategory_id": "rpc-node-infrastructure"
   },
   {
-    "name": "go-ethereum-hdwallet",
-    "description": "Ethereum HD Wallet derivations library in Go",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/09a4acff-98eb-4c73-925e-7403d7678163.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/9b428229-b1e5-4f3a-b7f9-d312566a5fcd.png",
-    "repos": ["https://github.com/miguelmota/go-ethereum-hdwallet"],
-    "tags": ["wallet", "transaction-signing", "cli"],
-    "subcategory_id": "wallet-integration-auth"
-  },
-  {
     "name": "Foundry MCP Server",
     "description": "A simple, lightweight and fast MCP (Model Context Protocol) server that provides Solidity development capabilities using the Foundry toolchain (Forge, Cast, and Anvil).",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/92c30ad3-b419-4f74-a24c-08bdff63059b.png",
     "repos": ["https://github.com/PraneshASP/foundry-mcp-server"],
     "tags": ["cli", "foundry", "mcp-server", "solidity-development"],
     "subcategory_id": "mcp-servers"
-  },
-  {
-    "name": "miniapp starters",
-    "description": "miniapp starters are Builders Garden templates for Farcaster mini apps (with optional Worldcoin hooks) so you can fork a working layout instead of rebuilding auth and frames plumbing.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/d5818777-1f8b-40bd-885e-22a892d7f7f7.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/e0127983-0358-42cb-95f7-396d8a86346a.png",
-    "twitter": "https://x.com/builders_garden",
-    "repos": [
-      "https://github.com/builders-garden/base-minikit-starter",
-      "https://github.com/builders-garden/farcaster-miniapp-starter",
-      "https://github.com/builders-garden/frames-v2-starter",
-      "https://github.com/builders-garden/miniapp-next-template"
-    ],
-    "tags": [
-      "education",
-      "farcaster",
-      "nextjs",
-      "tailwind-css",
-      "type-safe",
-      "analytics"
-    ],
-    "website": "https://www.builders.garden/",
-    "subcategory_id": "frontend-integration-tooling"
   },
   {
     "name": "Prettier Solidity",
@@ -354,25 +214,6 @@
     "subcategory_id": "fuzz-property-testing"
   },
   {
-    "name": "SolidityGuard",
-    "description": "Solidity/EVM smart contract security auditor with 104 vulnerability patterns and 8 analysis tools. Achieves 100% on CTF and EVMBench benchmarks (120/120). Static analysis for detecting vulnerabilities in smart contracts.",
-    "thumbnail_url": "https://github.com/alt-research.png",
-    "repos": ["https://github.com/alt-research/SolidityGuard"],
-    "tags": ["security", "solidity", "static-analysis"],
-    "subcategory_id": "fuzz-property-testing"
-  },
-  {
-    "name": "ethdebug",
-    "description": "ethdebug proposes a compiler-emitted debug metadata format so debuggers can map EVM execution back to source without reverse-engineering compiler internals; solc and several debuggers are prototyping support.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/3ac79cce-16e1-4a59-9557-ee1f85793674.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/616a8719-4bc1-4e7d-b50e-d56e45019f0b.png",
-    "twitter": "https://twitter.com/ethdebug",
-    "repos": ["https://github.com/ethdebug/format"],
-    "tags": ["education", "debugging-tools", "type-safe"],
-    "website": "https://ethdebug.github.io/format/",
-    "subcategory_id": "standards-specifications"
-  },
-  {
     "name": "Stereum",
     "description": "Stereum is a GUI-driven installer for syncing Ethereum and Optimism nodes locally and exposing your own JSON-RPC and websocket endpoints once blocks are current.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/47b18b46-5440-406c-8e07-bfcf27f8aa6e.png",
@@ -398,39 +239,6 @@
     "subcategory_id": "aa-tx-orchestration"
   },
   {
-    "name": "Surl",
-    "description": "HTTP Library for Solidity based on curl ",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/9379802f-3bc8-4e72-a0ad-f4a267ef4d42.png",
-    "repos": ["https://github.com/memester-xyz/surl"],
-    "tags": ["solidity", "foundry"],
-    "subcategory_id": "smart-contract-libraries-utilities"
-  },
-  {
-    "name": "evmc",
-    "description": "a simple cli tool to load a contract code up in your IDE instantly.",
-    "repos": ["https://github.com/joshstevens19/evmc"],
-    "tags": ["cli", "contract-verification"],
-    "subcategory_id": "debugging-inspection"
-  },
-  {
-    "name": "simple-uniswap-sdk",
-    "description": "Uniswap SDK which handles the routes automatically for you, changes in trade quotes reactive subscriptions, exposure to formatted easy to understand information, bringing back the best trade quotes automatically, generating transactions for you and much more.",
-    "repos": ["https://github.com/joshstevens19/simple-uniswap-sdk"],
-    "tags": ["defi", "sdk", "multicall", "user-experience"],
-    "subcategory_id": "payments-defi-integration"
-  },
-  {
-    "name": "Loop Decoder",
-    "description": "Loop Decoder is a TypeScript library with minimal external dependencies that transforms blockchain data into a human-readable format.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/b852c74f-a247-40dd-8299-90b8c7499c8c.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/bb135bd2-a2b6-46b1-b327-e3c8033f2f4b.png",
-    "twitter": "https://x.com/3loop_io",
-    "repos": ["https://github.com/3loop/loop-decoder"],
-    "tags": ["transaction-decoding", "user-experience"],
-    "website": "https://loop-decoder-web.vercel.app/",
-    "subcategory_id": "wallet-integration-auth"
-  },
-  {
     "name": "Solarity",
     "description": "Solidity-Oriented Development Tooling",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9e453fca-55dd-45d9-9046-c8ee58290761.png",
@@ -442,88 +250,6 @@
     "tags": ["hardhat", "education", "solidity"],
     "website": "https://solarity.dev/",
     "subcategory_id": "smart-contract-libraries-utilities"
-  },
-  {
-    "name": "foundry-gas-diff",
-    "description": "Easily compare gas reports generated by Foundry automatically on each of your Pull Requests!",
-    "repos": ["https://github.com/Rubilmax/foundry-gas-diff"],
-    "tags": [
-      "foundry",
-      "cli",
-      "analytics",
-      "github-actions",
-      "code-quality",
-      "test-automation",
-      "continuous-integration"
-    ],
-    "subcategory_id": "deployment-devops"
-  },
-  {
-    "name": "foundry-storage-check",
-    "description": "foundry-storage-check is a GitHub Action for Foundry projects that runs on every pull request to ensure upgradeable proxy storage layouts stay collision-safe and that newly appended storage slots are zero-initialized onchain before merges ship.",
-    "repos": ["https://github.com/Rubilmax/foundry-storage-check"],
-    "tags": [
-      "foundry",
-      "cli",
-      "devops",
-      "github-actions",
-      "solidity",
-      "storage-layout",
-      "code-quality",
-      "security"
-    ],
-    "subcategory_id": "fuzz-property-testing"
-  },
-  {
-    "name": "VSCode Solidity Inspector",
-    "description": "VSCode Solidity Inspector bundles practical Solidity utilities in VS Code: storage layout views, import hygiene hints, Foundry deployment summaries, Bulloak test stubs, remappings-aware imports, and code-size hints.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/1e11eb35-ddb5-4385-bf18-2231ce727db9.png",
-    "repos": ["https://github.com/PraneshASP/vscode-solidity-inspector"],
-    "tags": [
-      "foundry",
-      "vscode-extension",
-      "solidity-development",
-      "storage-layout",
-      "code-analysis"
-    ],
-    "subcategory_id": "smart-contract-libraries-utilities"
-  },
-  {
-    "name": "Derive Exchange SDK and Vault Executors",
-    "description": "This SDK gives you typed clients, vault helpers, and automation primitives for building market-making or execution bots on Derive's hybrid order books.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/50bfdcb2-8355-4480-b530-df8cdc97e3da.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/e2df36a1-d787-4875-a156-ffba6dcd0b5f.png",
-    "twitter": "https://x.com/derivexyz",
-    "repos": ["https://github.com/derivexyz/cockpit"],
-    "tags": ["defi", "docker", "cli"],
-    "website": "https://www.derive.xyz/",
-    "subcategory_id": "wallet-integration-auth"
-  },
-  {
-    "name": "Black Scholes library/compiler - go and rust",
-    "description": "These libraries package Derive-tuned Black-Scholes pricing and risk math in Go and Rust so onchain risk modules can reuse heavily optimized implementations tied to Derive's margin stack.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/69edd7f3-606d-4191-b7c8-28e41246b2d0.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/b753d4c0-96c7-4b36-b70e-e2785f9006bd.png",
-    "twitter": "https://x.com/derivexyz",
-    "repos": ["https://github.com/derivexyz/op-geth"],
-    "tags": ["defi", "gas-optimization"],
-    "website": "https://www.derive.xyz/",
-    "subcategory_id": "smart-contract-libraries-utilities"
-  },
-  {
-    "name": "Brahma",
-    "description": "Brahma provides the infrastructure for automated operations from any source with programmable accounts, specialized agents, and developer tools that keep users in control at all times.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/b62d6708-d690-41e7-b574-4c8d6c728610.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/fd66f5d9-996c-4b69-8c0d-d7b4d9a2dc91.png",
-    "twitter": "https://x.com/BrahmaFi",
-    "repos": ["https://github.com/Brahma-fi/console-kit"],
-    "tags": [
-      "transaction-management",
-      "developer-experience",
-      "account-abstraction"
-    ],
-    "website": "https://www.brahma.fi/",
-    "subcategory_id": "aa-tx-orchestration"
   },
   {
     "name": "Updraft",
@@ -549,24 +275,6 @@
     "tags": ["wallet", "security", "encryption"],
     "website": "https://paulmillr.com/noble/",
     "subcategory_id": "cryptography-key-management"
-  },
-  {
-    "name": "UTP Java Library",
-    "description": "A non-blocking UTP library in Java that avoids defining the transportation layer. Ready to be used using UDP or discv5. ",
-    "twitter": "https://x.com/meldsun0",
-    "repos": ["https://github.com/meldsun0/utp"],
-    "tags": ["networking", "peer-to-peer", "real-time-data"],
-    "subcategory_id": "rpc-node-infrastructure"
-  },
-  {
-    "name": "Mobile Wallet Protocol in Unity",
-    "description": "MWP is a protocol to allow unity games to interact with wallet apps and access users' web3 accounts. It creates a direct channel between client and wallet apps, removing the need for an intermediary bridge or relay server.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/8ad9f3a8-ac4a-4b5d-8652-4be22cf47ea0.png",
-    "repos": [
-      "https://github.com/openfort-xyz/mobile-wallet-protocol-unity-client"
-    ],
-    "tags": ["wallet", "game-development", "user-experience"],
-    "subcategory_id": "wallet-integration-auth"
   },
   {
     "name": "Modular Account",
@@ -599,20 +307,6 @@
     "repos": ["https://github.com/alchemyplatform/light-account"],
     "tags": ["wallet", "account-abstraction", "solidity"],
     "website": "https://www.alchemy.com/",
-    "subcategory_id": "aa-tx-orchestration"
-  },
-  {
-    "name": "Tachyon",
-    "description": "Rath's Tachyon is a high-speed, low-latency relayer and bundler supporting EOA and AA transactions.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/6d42b8ec-216a-4904-ab39-ce60a80ee867.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/87fd037d-1b02-4325-b910-882245e95e7b.png",
-    "twitter": "https://x.com/rathfinance",
-    "repos": [
-      "https://github.com/RathFinance/tachyon-account",
-      "https://github.com/RathFinance/tachyon-forwarder"
-    ],
-    "tags": ["performance-optimization"],
-    "website": "https://rath.fi/",
     "subcategory_id": "aa-tx-orchestration"
   },
   {
@@ -652,16 +346,6 @@
     "subcategory_id": "standards-specifications"
   },
   {
-    "name": "forge-stack-tracer",
-    "description": "forge-stack-tracer pipes verbose Foundry test output through Swiss-Knife decoding so failing tests return interactive stack traces instead of opaque hex.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/ed6e47cb-2456-42fb-ad28-8e23cef7f18c.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/ca1ea496-ccaa-4393-86b6-d14fc1e9c8f7.png",
-    "repos": ["https://github.com/swiss-knife-xyz/forge-stack-tracer"],
-    "tags": ["cli", "foundry", "testing"],
-    "packages": ["https://www.npmjs.com/package/forge-stack-tracer"],
-    "subcategory_id": "debugging-inspection"
-  },
-  {
     "name": "Swiss-Knife.xyz",
     "description": "Swiss-Knife aggregates all the useful EVM tools in one place to ease developer experience while they are debugging or building new stuff.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/1eba0c98-3ab5-4bce-b365-607e76aa8778.png",
@@ -693,17 +377,6 @@
     "subcategory_id": "frontend-integration-tooling"
   },
   {
-    "name": "Diffuse Data Feeds",
-    "description": "Diffuse Data Feeds deliver verifiable, low-latency price streams to any EVM L1 or L2 by combining Diffuse's zkServerless proving layer with oracle infrastructure tuned for DeFi workloads that need trustworthy updates without trusted third-party operators.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/0835fe6c-4d7d-4d2b-9f76-00fe91acd72b.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/3acbc145-3b84-44d7-b62b-7a39b5f0ac7e.png",
-    "twitter": "https://x.com/DiffuseFi",
-    "repos": ["https://github.com/Diffuse-fi/datafeed-cli"],
-    "tags": ["defi", "real-time-data", "cli", "verification"],
-    "website": "https://diffuse.fi",
-    "subcategory_id": "oracles-external-data"
-  },
-  {
     "name": "Abi Ninja",
     "description": "Abi Ninja is a browser UI for calling contracts with known ABIs, pasted ABIs, or decompiled bytecode, with proxy-aware reads across many networks including your locally running Hardhat or Anvil node.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/83588cc2-f155-4b2c-8ff1-1347f2113c4d.png",
@@ -712,19 +385,6 @@
     "tags": ["frontend", "contract-interaction", "proxy-contracts"],
     "website": "https://abi.ninja/",
     "subcategory_id": "debugging-inspection"
-  },
-  {
-    "name": "Crawling the Ethereum P2P network with Nebula",
-    "description": "ProbeLab's Nebula crawler snapshots Ethereum's execution-layer peer graph each week; use the published metrics when you are tuning discovery, connectivity, or client defaults.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/b48a5502-4473-4614-966a-c8581279a95b.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/b6aa707f-e3bd-43ea-965f-aef868ce0c6d.png",
-    "twitter": "https://x.com/yiannisbot",
-    "repos": [
-      "https://github.com/probe-lab/website",
-      "https://github.com/dennis-tra/nebula"
-    ],
-    "tags": ["analytics"],
-    "subcategory_id": "analytics-monitoring"
   },
   {
     "name": "IPFS",
@@ -829,29 +489,6 @@
     "subcategory_id": "courses-tutorials"
   },
   {
-    "name": "DexKit",
-    "description": "DexAppBuilder provides a comprehensive kit of no-code/low-code tools and solutions, enabling anyone to easily create customized DApps for Web3.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/07bee0c5-72ce-4e1b-b474-bd9d84856718.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/7881f699-90d7-4178-965c-8805145a348a.png",
-    "twitter": "https://x.com/dexkit",
-    "repos": [
-      "https://github.com/DexKit/open-nft-marketplace",
-      "https://github.com/DexKit/dexkit-monorepo"
-    ],
-    "tags": ["frontend", "react", "nextjs"],
-    "website": "https://dexkit.com",
-    "llmstext": "https://dexkit.com/llms.txt",
-    "subcategory_id": "frontend-integration-tooling"
-  },
-  {
-    "name": "foundry-devops",
-    "description": "A tool to get the most recent deployment from a given environment in foundry. This way, you can do scripting off previous deployments in solidity.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/578db712-b499-4084-a729-99d90ee55c7f.png",
-    "repos": ["https://github.com/Cyfrin/foundry-devops"],
-    "tags": ["foundry", "cli", "devops", "solidity", "contract-deployment"],
-    "subcategory_id": "deployment-devops"
-  },
-  {
     "name": "PRBMath",
     "description": "PRBMath is a smart contract library that adds support for fixed-point types and advanced math functions like logarithms and exponentials in Solidity. Operating with 18-decimal numbers, PRBMath is at the same time gas efficient and user-friendly.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/527c8bbb-c361-4521-afbf-4396cecd1e3b.png",
@@ -882,25 +519,6 @@
     "subcategory_id": "analytics-monitoring"
   },
   {
-    "name": "SuperUI",
-    "description": "Fire up a personal Superchain environment to run tests, fork networks, and inspect state with complete control over how your rollup operates. The Ultimate Ethereum & Superchain Development Playground",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/2a0e6716-cdf5-4a27-9912-5e520ccd68e1.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/fca44e15-1ce7-422d-b22f-2f1df4f4923c.png",
-    "repos": ["https://github.com/Nerd3Lab/superUI"],
-    "tags": ["frontend", "contract-management"],
-    "subcategory_id": "deployment-devops"
-  },
-  {
-    "name": "Solodit",
-    "description": "Solodit is an open-source, community-driven platform dedicated to improving web3 security. It aggregates over 8,000 smart contract vulnerability reports, bug bounty opportunities, and security audits from top firms like Cyfrin, OpenZeppelin and Trail of Bits, alongside contributions from individual researchers. Solodit not only aggregates this information but also makes it actionable, equipping developers and auditors with tools to prevent exploits and enhance the safety of dapps.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/9cf8d92d-5549-4321-b675-c25256860183.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/20eb90df-0dd5-41fb-a3ce-f90cf3822492.png",
-    "repos": ["https://github.com/solodit/solodit_content"],
-    "tags": ["security", "education", "analytics", "community-driven"],
-    "website": "https://solodit.cyfrin.io/",
-    "subcategory_id": "courses-tutorials"
-  },
-  {
     "name": "Verifereum",
     "description": "Verifereum connects Ethereum smart contracts to HOL4-backed theorem proving so you can aim at very strong correctness claims when automated SMT approaches are not enough.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/392d496a-b4b8-464c-bf6e-fcee8146a75f.png",
@@ -910,17 +528,6 @@
     "tags": ["security", "education", "formal-verification"],
     "website": "https://www.verifereum.org/",
     "subcategory_id": "formal-verification"
-  },
-  {
-    "name": "Titan Layer",
-    "description": "Titan Layer is a cross-chain operations console with Hyperlane-based bridging helpers and deployment shortcuts across major L2s when you are moving assets or contracts between networks.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/35374f7e-a430-4726-b5f0-ef52e2b5115a.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/ba692e10-9ffd-4406-b6e7-5010ad20b2d2.png",
-    "twitter": "https://x.com/TitanLayer",
-    "repos": ["https://github.com/TitanLayer/contracts"],
-    "tags": ["cross-chain", "security"],
-    "website": "https://titanlayer.xyz/",
-    "subcategory_id": "cross-chain-infrastructure"
   },
   {
     "name": "Scaffold-ETH 2",
@@ -937,16 +544,6 @@
     "llmstext": "https://docs.scaffoldeth.io/llms-full.txt",
     "subcategory_id": "contract-frameworks",
     "packages": ["https://www.npmjs.com/package/create-eth"]
-  },
-  {
-    "name": "RainbowKit Theme Generator",
-    "description": "Easily create custom RainbowKit theme from a single color that you can copy and paste into your web3 apps.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/532d50f9-524d-4934-b77a-8c85d0145bcf.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/a1272743-7b81-4aef-a8fd-f2fe70122b01.png",
-    "repos": ["https://github.com/zwergdev/rainbowkit-theme-generator"],
-    "tags": ["frontend"],
-    "website": "https://rainbowkit-theme.com/",
-    "subcategory_id": "frontend-integration-tooling"
   },
   {
     "name": "Wagmi: Reactive primitives for Ethereum apps",
@@ -1101,16 +698,6 @@
     "subcategory_id": "fuzz-property-testing"
   },
   {
-    "name": "blocksmith.js",
-    "description": "blocksmith.js is a thin JavaScript harness around forge and anvil for scripting multi-chain or multi-instance Foundry tests when a single local EVM is not enough.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/8b8c4fda-3240-41c6-ab52-43a137e665a8.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/0b8f272e-b319-4744-959e-dbc36996ba31.png",
-    "twitter": "https://x.com/adraffy",
-    "repos": ["https://github.com/adraffy/blocksmith.js"],
-    "tags": ["cli", "foundry", "cross-chain", "contract-deployment"],
-    "subcategory_id": "fuzz-property-testing"
-  },
-  {
     "name": "OpenZeppelin Contracts",
     "description": "OpenZeppelin Contracts are the go-to library for smart contract development.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/83bab036-91bd-4b9d-a524-dbea2024aa3f.png",
@@ -1191,37 +778,6 @@
     "subcategory_id": "fuzz-property-testing"
   },
   {
-    "name": "Callthis",
-    "description": "Callthis builds shareable transaction links with inferred interfaces so you can stage calldata on any EVM chain, resolve ENS fields, and execute through WalletConnect, Safe, or injected wallets without a hosted backend.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/abe6dc50-0732-419b-a64c-463814247f78.png",
-    "repos": ["https://github.com/shazow/callthis"],
-    "tags": [
-      "frontend",
-      "wallet",
-      "cross-chain",
-      "privacy-focused",
-      "censorship-resistant"
-    ],
-    "subcategory_id": "wallet-integration-auth"
-  },
-  {
-    "name": "Candide's Smart Account Contracts",
-    "description": "Candide publishes audited open contracts for social recovery, paymasters, and BLS-style accounts that you can study or integrate when pushing advanced account-abstraction UX.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/104d6957-65bc-4d15-a5f9-2afd75482347.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/c120c166-68a8-4e9b-a159-b1f9e74ff105.png",
-    "twitter": "https://twitter.com/candidelabs",
-    "repos": ["https://github.com/candidelabs/candide-contracts"],
-    "tags": [
-      "wallet",
-      "governance",
-      "education",
-      "account-abstraction",
-      "user-experience"
-    ],
-    "website": "https://www.candide.dev/",
-    "subcategory_id": "aa-tx-orchestration"
-  },
-  {
     "name": "AbstractionKit | Account Abstraction Library",
     "description": "AbstractionKit is a TypeScript helper library for wiring ERC-4337 flows-user operations, paymasters, and bundler calls-without implementing the wire protocol from scratch.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/69b08a09-8fd5-498a-beef-67ad29cf01b5.png",
@@ -1240,22 +796,6 @@
     "repos": ["https://github.com/usecannon/cannon"],
     "tags": ["cli", "chains"],
     "website": "https://usecannon.com",
-    "subcategory_id": "deployment-devops"
-  },
-  {
-    "name": "solid-grinder",
-    "description": "A 100% opensource CLI that goes along with building blocks of smart contract. This toolbox can reduce L2 gas cost by encoding calldata for dApps development to use as little bytes of calldata as possible.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/2161762e-cdb8-41be-978b-3581df50d5a4.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/ca2f1444-6a4f-41f2-91d4-f8059f652ccc.png",
-    "twitter": "https://twitter.com/RATi_MOn",
-    "repos": ["https://github.com/Ratimon/solid-grinder"],
-    "tags": [
-      "cli",
-      "layer-2",
-      "solidity",
-      "developer-experience",
-      "transaction-optimization"
-    ],
     "subcategory_id": "deployment-devops"
   },
   {
@@ -1292,24 +832,6 @@
     "tags": ["wallet", "account-abstraction", "bundler", "user-experience"],
     "website": "https://www.candide.dev/bundler",
     "subcategory_id": "aa-tx-orchestration"
-  },
-  {
-    "name": "EvmTools",
-    "description": "EvmTools bundles browser and extension utilities-decoders, merkle helpers, converters, and similar small tools-for day-to-day smart contract debugging in one place.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/c82ddf3d-3586-4552-85ce-8e9f5da907d5.png",
-    "twitter": "https://x.com/evmtools_xyz",
-    "repos": [
-      "https://github.com/Elefria-Labs/zk-block",
-      "https://github.com/Elefria-Labs/evm-tools"
-    ],
-    "tags": [
-      "cli",
-      "analytics",
-      "debugging-tools",
-      "transaction-decoding",
-      "merkle-trees"
-    ],
-    "subcategory_id": "smart-contract-libraries-utilities"
   },
   {
     "name": "Remix Project",
@@ -1414,17 +936,6 @@
     "subcategory_id": "core-sdks-libraries"
   },
   {
-    "name": "Privacy Builder Pack",
-    "description": "Hacker Manuals & Privacy Guidelines to help the builders deliver practical privacy-enhancing projects, turn them into products, & scale being sustainable.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/b2e8b33c-2f72-4854-b549-ea8ea9468eca.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/b473d908-de6b-45f1-9b19-a3027ef207fc.png",
-    "twitter": "https://x.com/web3privacy",
-    "repos": ["https://github.com/web3privacy/privacy-builder-pack"],
-    "tags": ["education", "encryption"],
-    "website": "https://build.web3privacy.info",
-    "subcategory_id": "courses-tutorials"
-  },
-  {
     "name": "Academy",
     "description": "Training, incubation, and acceleration programs for non-tech people and devs to start in the web3 privacy ecosystem.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/153bea66-bef0-481d-bb29-2882eb0e6edb.png",
@@ -1434,28 +945,6 @@
     "tags": ["education"],
     "website": "https://academy.web3privacy.info/",
     "subcategory_id": "courses-tutorials"
-  },
-  {
-    "name": "Explorer",
-    "description": "Explorer is a curated, open database of privacy-preserving tools and guides so builders can compare approaches before picking libraries or workflows.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/4b165837-402c-4f39-bc4f-fa5a0b931b8c.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/161c3a2f-880d-4617-afda-746e97e7586c.png",
-    "twitter": "https://x.com/web3privacy",
-    "repos": [
-      "https://github.com/web3privacy/explorer-app",
-      "https://github.com/web3privacy/explorer-data"
-    ],
-    "tags": ["education", "analytics", "community-driven"],
-    "website": "https://explorer.web3privacy.info/",
-    "subcategory_id": "courses-tutorials"
-  },
-  {
-    "name": "GDWeb3",
-    "description": "GDWeb3 is a GDScript library for interacting with blockchain networks. It provides Web3 game developers with a powerful game development engine. For game developers in the Godot ecosystem, it will offer an SDK for developing blockchain games.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/fae7d370-79b6-48b2-9d69-785cd2edb573.png",
-    "repos": ["https://github.com/qingfengzxr/gdscript-web3"],
-    "tags": ["sdk", "contract-interaction", "game-development"],
-    "subcategory_id": "core-sdks-libraries"
   },
   {
     "name": "Nethereum",
@@ -1489,33 +978,6 @@
     ],
     "website": "https://ponder.sh",
     "subcategory_id": "indexing-data-apis"
-  },
-  {
-    "name": "solizard",
-    "description": "Super easy interactive shell for interacting with smart contracts",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/401a6212-fc2a-4b46-8a96-52f597c82467.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/18896241-e29b-4497-9d12-e27ea0045830.png",
-    "twitter": "https://x.com/zsystmd",
-    "repos": ["https://github.com/zsystm/solizard"],
-    "tags": ["cli", "contract-interaction"],
-    "subcategory_id": "debugging-inspection"
-  },
-  {
-    "name": "Web3GPT",
-    "description": "Web3GPT is a prompt-driven assistant for drafting, deploying, and verifying simple EVM contracts across networks when you want a fast starting point before moving work into your usual IDE flow.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/b540988e-6db1-47de-84a4-bebe987ef595.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/283678d8-970a-44ee-ba90-419f5359aac5.png",
-    "twitter": "https://x.com/w3gptai",
-    "repos": ["https://github.com/markeljan/web3gpt"],
-    "tags": [
-      "education",
-      "cli",
-      "contract-verification",
-      "natural-language-processing",
-      "solidity"
-    ],
-    "llmstext": "https://w3gpt.ai/skill.md",
-    "subcategory_id": "other-ai-resources"
   },
   {
     "name": "web3.py",
@@ -1567,17 +1029,6 @@
     "subcategory_id": "analytics-monitoring"
   },
   {
-    "name": "Zink Language",
-    "description": "Rustic programming language that targets EVM",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/9b6b9753-121c-4c3f-9a39-c2c48b5cf149.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/0d1302f3-d1e0-4fe1-a10e-592b36cb139b.png",
-    "twitter": "https://x.com/zinkonx",
-    "repos": ["https://github.com/zink-lang/zink"],
-    "tags": ["education"],
-    "website": "https://zink-lang.org",
-    "subcategory_id": "smart-contract-libraries-utilities"
-  },
-  {
     "name": "Solidity Bytes Arrays Utils Library",
     "description": "Solidity Bytes Utils is a classic library for concatenating, slicing, and casting dynamic bytes arrays in Solidity memory or storage-long maintained and widely forked across major protocols.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/aa1c84f1-cd10-420c-a730-576e9e1ca7fd.png",
@@ -1601,22 +1052,6 @@
     "tags": ["frontend", "cross-chain", "api", "chains", "real-time-data"],
     "website": "https://www.linkedin.com/company/third-web/",
     "subcategory_id": "wallet-integration-auth"
-  },
-  {
-    "name": "Ackee",
-    "description": "Ackee is a blockchain security shop you hire for audits, tooling support, and training when you need hands-on review of Solidity systems and surrounding infrastructure.",
-    "thumbnail_url": "https://github.com/Ackee-Blockchain.png",
-    "twitter": "https://x.com/ackeeblockchain",
-    "repos": ["https://github.com/Ackee-Blockchain/solidity-for-vscode"],
-    "tags": [
-      "education",
-      "security",
-      "solidity",
-      "static-analysis",
-      "contract-deployment",
-      "proxy-contracts"
-    ],
-    "subcategory_id": "courses-tutorials"
   },
   {
     "name": "Snapshot",
@@ -1654,15 +1089,6 @@
     "subcategory_id": "analytics-monitoring"
   },
   {
-    "name": "AWS KMS and YubiHSM signer for OP Stack",
-    "description": "This signer proxy lets OP Stack operators route sequencer, batcher, proposer, and challenger signing through AWS KMS or YubiHSM instead of raw private keys on disk.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/a73d46f5-87ba-4204-88eb-7ce51ab055de.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/ffb2a694-74be-48f3-897d-96034c088b3a.png",
-    "repos": ["https://github.com/upnodedev/signer-proxy"],
-    "tags": ["security", "docker", "transaction-signing"],
-    "subcategory_id": "deployment-devops"
-  },
-  {
     "name": "Ape Framework",
     "description": "The smart contract development tool for Pythonistas, Data Scientists, and Security Professionals",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/ab983e5d-4c75-4fc9-9b02-187a4f479c8a.png",
@@ -1676,16 +1102,6 @@
     ],
     "tags": ["cli"],
     "subcategory_id": "contract-frameworks"
-  },
-  {
-    "name": "Hermes - a GossipSub listener and tracer for libp2p-based networks.",
-    "description": "Hermes listens to libp2p gossipsub traffic so you can measure propagation latency and overhead when tuning Ethereum consensus or similar peer networks.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/90c0de0c-cc0e-4959-afb7-a78ae4c9d674.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/e1d59a51-3f6f-4642-bc88-553026d2d067.png",
-    "twitter": "https://x.com/yiannisbot",
-    "repos": ["https://github.com/probe-lab/hermes"],
-    "tags": ["governance", "gossipsub", "libp2p", "cli"],
-    "subcategory_id": "rpc-node-infrastructure"
   },
   {
     "name": "Curvegrid MultiBaas",
@@ -1703,30 +1119,6 @@
     "subcategory_id": "frontend-integration-tooling"
   },
   {
-    "name": "Redprint",
-    "description": "Redprint pairs a wizard-style playground with redprint-forge libraries so developers can experimentally compose OP Stack contract upgrades in Solidity with type-safe deployments, reusable tests, Safe-aware transaction scripting, and modular component wiring before changes graduate to production pipelines.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/3cc6bd19-1ade-4c0d-8fe3-ec6ea6f50183.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/d2d120fb-11fa-456c-b7e0-b0ed52b477e0.png",
-    "repos": [
-      "https://github.com/Ratimon/redprint-forge",
-      "https://github.com/Ratimon/redprint-wizard"
-    ],
-    "tags": ["education", "frontend", "solidity", "type-safe"],
-    "website": "https://redprint.ninja/",
-    "subcategory_id": "deployment-devops"
-  },
-  {
-    "name": "Node Guardians",
-    "description": "Node Guardians is a gamified educational platform for intermediate to advanced developers. We create lore-rich programming challenges for accomplished Solidity developers. Think of it as a skill-based RPG for developers and a platform to showcase their abilities. ",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/6878f254-b99f-47ad-8cf8-7f6cd1601300.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/8f285391-e69f-40f3-aa14-1456fbb92440.png",
-    "twitter": "https://x.com/nodeguardians",
-    "repos": ["https://github.com/Nodeguardians/optimism"],
-    "tags": ["education", "solidity"],
-    "website": "https://nodeguardians.io/",
-    "subcategory_id": "courses-tutorials"
-  },
-  {
     "name": "Solidity",
     "description": "Solidity is an object-oriented, high-level language for implementing smart contracts.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/b6f312d0-1025-4a19-baa9-3aa218fe0833.png",
@@ -1739,17 +1131,6 @@
     "tags": ["education", "solidity", "compiler", "cli"],
     "website": "https://soliditylang.org/",
     "subcategory_id": "smart-contract-libraries-utilities"
-  },
-  {
-    "name": "Blockhead",
-    "description": "Open-source portfolio tracker and explorer interface for the decentralized web. https://blockhead.info",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/3a1343aa-8bb3-4f30-abc0-6ba02dd3787a.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/7c1ee7ff-ad46-4b74-a941-48cc7ddc2dbe.png",
-    "twitter": "https://x.com/0xBlockhead",
-    "repos": ["https://github.com/darrylyeo/blockhead"],
-    "tags": ["block-explorer"],
-    "website": "https://blockhead.info",
-    "subcategory_id": "analytics-monitoring"
   },
   {
     "name": "Rust Libp2p",
@@ -1777,15 +1158,6 @@
     "tags": ["analytics", "docker", "frontend", "visualization"],
     "website": "https://blobscan.com/",
     "subcategory_id": "analytics-monitoring"
-  },
-  {
-    "name": "Opstack Kit",
-    "description": "opstack-kit scaffolds Superchain-aware frontends and scripts with bridging helpers, CustomGasToken flows, and OP Stack CLI tasks baked into the starter.",
-    "thumbnail_url": "https://github.com/opstack-kit.png",
-    "twitter": "https://x.com/opstackkit",
-    "repos": ["https://github.com/opstack-kit/opstack-kit"],
-    "tags": ["cli", "cross-chain"],
-    "subcategory_id": "contract-frameworks"
   },
   {
     "name": "js-libp2p",
@@ -1943,16 +1315,6 @@
     "subcategory_id": "smart-contract-libraries-utilities"
   },
   {
-    "name": "hardhat-gas-reporter",
-    "description": "A hardhat plugin that provides gas usage analytics for smart contract test suites. It has dedicated support for OPStack chains, is a dependency in > 150k Github repos and is downloaded from NPM > 100k per week.  ",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/08754b7b-75c3-436b-ad66-bdf4b4261895.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/a3c56a18-2e9d-4a19-ba54-892bfa062884.png",
-    "repos": ["https://github.com/cgewecke/hardhat-gas-reporter"],
-    "tags": ["analytics", "hardhat", "test-automation"],
-    "subcategory_id": "deployment-devops",
-    "packages": ["https://www.npmjs.com/package/hardhat-gas-reporter"]
-  },
-  {
     "name": "Vyper",
     "description": "Pythonic Smart Contract Language for the EVM",
     "thumbnail_url": "https://vyperlang.org/assets/images/vyper-logo.svg",
@@ -1979,84 +1341,6 @@
     "tags": ["defi", "vyper", "erc721", "foundry"],
     "subcategory_id": "smart-contract-libraries-utilities",
     "packages": ["https://www.npmjs.com/package/snekmate"]
-  },
-  {
-    "name": "Blockflow",
-    "description": "Blockflow exposes chain data and HTTP-style APIs so backends can query events and account state with less bespoke indexer code than rolling everything from raw RPC.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/dbe12049-50ea-4cfb-b3f0-8def50ea7b07.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/191beaf8-e92f-42be-ab94-2305d12da9a4.png",
-    "twitter": "https://x.com/BlockflowLabs",
-    "repos": ["https://github.com/blockflowlabs/cli-examples"],
-    "tags": ["cli"],
-    "website": "https://www.blockflow.network/",
-    "subcategory_id": "indexing-data-apis",
-    "packages": [
-      "https://www.npmjs.com/package/@blockflow-labs/cli/v/1.0.7-beta.1"
-    ]
-  },
-  {
-    "name": "Bonadocs",
-    "description": "Bonadocs pairs doc generation, embeddable contract widgets, and multiplayer playgrounds so protocol teams can ship living API-style docs next to Solidity interfaces.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/d334c376-0ff1-4c76-94bf-2ee675cae1d3.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/a21ed458-efea-4d35-8aa9-b26d5e7bafad.png",
-    "twitter": "https://x.com/bonadocs",
-    "repos": [
-      "https://github.com/bonadocs/protocol-registry",
-      "https://github.com/bonadocs/docgen",
-      "https://github.com/bonadocs/docs",
-      "https://github.com/bonadocs/cli",
-      "https://github.com/bonadocs/protocol-registry-web"
-    ],
-    "tags": ["cli", "frontend", "education", "solidity-development"],
-    "website": "https://bonadocs.com",
-    "subcategory_id": "frontend-integration-tooling",
-    "packages": [
-      "https://www.npmjs.com/package/@bonadocs/zimulatoor",
-      "https://www.npmjs.com/package/@bonadocs/widget",
-      "https://www.npmjs.com/package/@bonadocs/docgen",
-      "https://www.npmjs.com/package/@bonadocs/core",
-      "https://www.npmjs.com/package/@bonadocs/cli"
-    ]
-  },
-  {
-    "name": "Stargate Finance",
-    "description": "Stargate Finance is a composable liquidity transport protocol that lets users and dapps move native assets across chains with unified pools and instant finality guarantees, positioning itself as core routing infrastructure for omnichain DeFi.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/3083ccee-79a8-4ff2-b017-9ecb52d13cbf.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/b29f1ab3-b4cf-4255-839e-e7a418e78b80.png",
-    "twitter": "https://x.com/StargateFinance",
-    "repos": ["https://github.com/stargate-protocol/stargate"],
-    "tags": ["cross-chain", "defi"],
-    "website": "https://stargate.finance/",
-    "subcategory_id": "cross-chain-infrastructure"
-  },
-  {
-    "name": "Mint Club",
-    "description": "Mint Club is a no-code UI for launching bonding-curve tokens or NFTs with any ERC-20 as reserve, aimed at creators who want adjustable curves and royalties without writing contracts first.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/8c7d3ba8-c0bd-4acd-9ec5-7f1c90631047.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/9efac275-51f7-48a8-9f13-22c13b05850e.png",
-    "twitter": "https://x.com/MintClubPro",
-    "repos": [
-      "https://github.com/Steemhunt/mint.club-v2-contract",
-      "https://github.com/Steemhunt/mint.club-v2-sdk"
-    ],
-    "tags": ["erc721"],
-    "website": "https://mint.club",
-    "subcategory_id": "frontend-integration-tooling",
-    "packages": ["https://www.npmjs.com/package/mint.club-v2-sdk"]
-  },
-  {
-    "name": "LlamaPay",
-    "description": "Automate & stream salaries by the second",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/30c6400b-b572-4d16-8138-4dc1cba0ef06.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/2c2733fd-a572-4f4f-809d-def2e14b8776.png",
-    "twitter": "https://x.com/llamapay_io",
-    "repos": [
-      "https://github.com/llamasubs/contracts",
-      "https://github.com/LlamaPay/llamapay"
-    ],
-    "tags": ["defi", "gas-efficient"],
-    "website": "https://llamapay.io/",
-    "subcategory_id": "payments-defi-integration"
   },
   {
     "name": "ZK Email",
@@ -2170,28 +1454,6 @@
     "subcategory_id": "wallet-integration-auth"
   },
   {
-    "name": "Seamless Protocol",
-    "description": "Seamless Protocol is the largest native lending and borrowing DeFi platform on Base.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/3ab14d32-3c0e-4262-a17c-9a328dded4bc.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/c87cd7ac-5627-4db9-9483-a61e4743d2f0.png",
-    "twitter": "https://x.com/SeamlessFi",
-    "repos": ["https://github.com/seamless-protocol/governance"],
-    "tags": ["defi", "governance", "foundry", "contract-management", "cli"],
-    "website": "https://seamlessprotocol.com",
-    "subcategory_id": "payments-defi-integration"
-  },
-  {
-    "name": "L2Pass",
-    "description": "Cross-Chain Super-App for effortless Multi-Chain Token Movement, Swaps and Art Performance. Powered by Layer.Zero.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/3f5f2b44-9650-483a-b5cf-1e66163bddae.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/41a3c848-54ca-4b30-8fa1-e82a70b18935.png",
-    "twitter": "https://x.com/L2_Pass",
-    "repos": ["https://github.com/L2PASS/contracts"],
-    "tags": ["cross-chain", "wallet", "multi-chain"],
-    "website": "https://l2pass.com/",
-    "subcategory_id": "cross-chain-infrastructure"
-  },
-  {
     "name": "Ethereum Attestation Service (EAS)",
     "description": "EAS is an infrastructure public good for making attestations onchain or offchain about anything. Attestations are digital signatures on structured pieces of data used to build more trust online and onchain.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/e74ff6ef-578b-4dcb-b155-e663822b2f94.png",
@@ -2205,66 +1467,6 @@
     "subcategory_id": "wallet-integration-auth",
     "packages": [
       "https://www.npmjs.com/package/@ethereum-attestation-service/eas-contracts"
-    ]
-  },
-  {
-    "name": "Hats Protocol",
-    "description": "The organizational graph protocol: encode your organization's roles, agents, and permissions into a programmable graph with Hats Protocol",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/cade2fb6-a79c-4974-8b2b-fc4afcd1ec09.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/3a110bc1-0ea0-49d5-a38b-5a66b3484852.png",
-    "twitter": "https://twitter.com/hatsprotocol",
-    "repos": [
-      "https://github.com/Hats-Protocol/hats-account",
-      "https://github.com/Hats-Protocol/subgraph",
-      "https://github.com/Hats-Protocol/hat-wearing-eligibility",
-      "https://github.com/Hats-Protocol/farcaster-delegator",
-      "https://github.com/Hats-Protocol/hats-account-sdk",
-      "https://github.com/Hats-Protocol/hats-auth",
-      "https://github.com/Hats-Protocol/create-hats-app",
-      "https://github.com/Hats-Protocol/hsg-sdk",
-      "https://github.com/Hats-Protocol/colinks-eligibility",
-      "https://github.com/Hats-Protocol/chain-modules",
-      "https://github.com/Hats-Protocol/allowlist-eligibility",
-      "https://github.com/Hats-Protocol/agreement-eligibility",
-      "https://github.com/Hats-Protocol/hats-elections-eligibility",
-      "https://github.com/Hats-Protocol/season-toggle",
-      "https://github.com/Hats-Protocol/staking-eligibility",
-      "https://github.com/hats-protocol/hats-module",
-      "https://github.com/hats-protocol/hats-protocol",
-      "https://github.com/Hats-Protocol/subgraph-ancillary",
-      "https://github.com/Hats-Protocol/hats-governor-votes",
-      "https://github.com/Hats-Protocol/hats-module-template",
-      "https://github.com/Hats-Protocol/modules-sdk",
-      "https://github.com/Hats-Protocol/hats-zodiac",
-      "https://github.com/Hats-Protocol/jokerace-eligibility",
-      "https://github.com/Hats-Protocol/multi-claims-hatter",
-      "https://github.com/Hats-Protocol/passthrough-modules",
-      "https://github.com/Hats-Protocol/sdk-v1-core"
-    ],
-    "tags": ["governance", "solidity", "foundry", "proxy-contracts"],
-    "website": "https://hatsprotocol.xyz",
-    "subcategory_id": "smart-contract-libraries-utilities",
-    "packages": [
-      "https://www.npmjs.com/package/@hatsprotocol/sdk-v1-subgraph",
-      "https://www.npmjs.com/package/@hatsprotocol/sdk-v1-core",
-      "https://www.npmjs.com/package/@hatsprotocol/modules-sdk",
-      "https://www.npmjs.com/package/@hatsprotocol/hsg-sdk",
-      "https://www.npmjs.com/package/@hatsprotocol/hats-account-sdk"
-    ]
-  },
-  {
-    "name": "OpenOcean",
-    "description": "OpenOcean is a DEX aggregator API and UI for finding swap routes across a large set of EVM chains when you want price-aware routing without integrating each venue separately.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/46d3935b-5719-4c9f-ae9b-d7f255f4c120.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/5082f8c7-b61a-4ac7-b829-e51fa15fdfc4.png",
-    "twitter": "https://x.com/OpenOceanGlobal",
-    "repos": ["https://github.com/openocean-finance/OpenOceanExchangeV2"],
-    "tags": ["defi", "cross-chain", "dex-aggregator", "multi-chain"],
-    "website": "https://openocean.finance/",
-    "subcategory_id": "cross-chain-infrastructure",
-    "packages": [
-      "https://www.npmjs.com/package/@openocean.finance/wallet",
-      "https://www.npmjs.com/package/@openocean.finance/openocean-sdk"
     ]
   },
   {
@@ -2292,79 +1494,6 @@
     ]
   },
   {
-    "name": "Router Protocol",
-    "description": "Router is an cross chain infraproject \nRouter Nitro is a trustless, ultra-low latency bridge built using Router chain's middleware construct. It transfers user funds across chains in less than 30 seconds, and is more than 20% cheaper than the next cheapest bridge in the market. It currently supports 19 chains:\n",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/582dd2ed-214a-4289-9423-35b64c318cb2.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/407396e3-b660-4615-a35d-eae333379d44.png",
-    "twitter": "https://x.com/routerprotocol",
-    "repos": ["https://github.com/router-protocol/router-contracts"],
-    "tags": ["cross-chain", "scalability"],
-    "subcategory_id": "cross-chain-infrastructure",
-    "packages": [
-      "https://www.npmjs.com/package/@routerprotocol/asset-bridge",
-      "https://www.npmjs.com/package/@routerprotocol/asset-forwarder",
-      "https://www.npmjs.com/package/@routerprotocol/evm-gateway-contracts"
-    ]
-  },
-  {
-    "name": "Party.app + Party Protocol",
-    "description": "Party Protocol is an onchain framework for shared accounts with flexible governance, while Party.app is the flagship interface for spinning up group wallets, crowdfunding treasuries, onchain DAOs, WalletConnect-powered app experiences, NFT trading, token swaps, and chat-first coordination atop the same contracts.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/ff816d35-de0c-4768-af2c-d2c187dab1c1.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/87f46f2a-632b-441c-b762-fe104617d4b6.png",
-    "twitter": "https://x.com/prtyDAO",
-    "repos": ["https://github.com/PartyDAO/party-protocol"],
-    "tags": ["wallet", "governance"],
-    "subcategory_id": "governance-dao-tooling"
-  },
-  {
-    "name": "Velodrome Finance",
-    "description": "The central trading & liquidity marketplace on Superchain",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/438ea57d-059c-4327-82e4-abfc94544bad.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/2d33616b-bceb-449d-aa0a-b8270b1b3e3b.png",
-    "twitter": "https://twitter.com/VelodromeFi",
-    "repos": [
-      "https://github.com/velodrome-finance/relay",
-      "https://github.com/velodrome-finance/universal-router",
-      "https://github.com/velodrome-finance/sugar-sdk",
-      "https://github.com/velodrome-finance/sugar",
-      "https://github.com/velodrome-finance/slipstream",
-      "https://github.com/velodrome-finance/oracle",
-      "https://github.com/velodrome-finance/contracts",
-      "https://github.com/velodrome-finance/superchain-contracts",
-      "https://github.com/velodrome-finance/superchain-slipstream"
-    ],
-    "tags": ["defi", "docker", "foundry", "contract-verification"],
-    "website": "https://velodrome.finance",
-    "subcategory_id": "payments-defi-integration"
-  },
-  {
-    "name": "Splits",
-    "description": "Splits builds software for sharing money. We provide secure contracts, intuitive interfaces, and reliable developer tools that make it easy to collaboratively receive and manage money on the internet.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/507b8200-92e0-4914-a43e-97010a0b0583.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/bd351554-5050-4584-9f2f-f23ea935508b.png",
-    "twitter": "https://x.com/0xsplits",
-    "repos": [
-      "https://github.com/0xSplits/splits-contracts-monorepo",
-      "https://github.com/0xSplits/splits-liquid",
-      "https://github.com/0xSplits/splits-waterfall",
-      "https://github.com/0xSplits/splits-vesting",
-      "https://github.com/0xSplits/splits-utils",
-      "https://github.com/0xSplits/splits-oracle",
-      "https://github.com/0xSplits/splits-diversifier",
-      "https://github.com/0xSplits/splits-contracts",
-      "https://github.com/0xSplits/splits-swapper",
-      "https://github.com/0xSplits/splits-sdk"
-    ],
-    "tags": ["transaction-management", "wallet", "developer-experience"],
-    "website": "https://splits.org/",
-    "subcategory_id": "payments-defi-integration",
-    "packages": [
-      "https://www.npmjs.com/package/@0xsplits/splits-kit",
-      "https://www.npmjs.com/package/@0xsplits/splits-sdk-react",
-      "https://www.npmjs.com/package/@0xsplits/splits-sdk"
-    ]
-  },
-  {
     "name": "Multicaller",
     "description": "Multicaller from Vectorized is a collection of gas-optimized multicall-style contracts that batch arbitrary external calls while preserving the original msg.sender context for each callee, making complex router or aggregator flows cheaper and safer on EVM chains.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/8362181e-8e95-40d4-bf8d-234f3edaca4c.png",
@@ -2381,30 +1510,6 @@
     ],
     "subcategory_id": "core-sdks-libraries",
     "packages": ["https://www.npmjs.com/package/multicaller"]
-  },
-  {
-    "name": "deBridge",
-    "description": "deBridge is DeFi's internet of liquidity, enabling real-time movement of assets and information across the DeFi landscape. Without the bottlenecks and risks of liquidity pools, deBridge can power all type of cross-chain interactions with deep liquidity, tight spreads, and guaranteed rates.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/701c36d9-3069-48b6-9aa1-b248378b35b8.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/929fbc88-69c7-4a75-be6d-27bf3f2dc8d1.png",
-    "twitter": "https://x.com/deBridgeFinance",
-    "repos": [
-      "https://github.com/debridge-finance/hardhat-debridge",
-      "https://github.com/debridge-finance/dln-taker",
-      "https://github.com/debridge-finance/debridge-node",
-      "https://github.com/debridge-finance/dln-contracts",
-      "https://github.com/debridge-finance/debridge-contracts-v1"
-    ],
-    "tags": ["cross-chain", "defi", "transaction-optimization"],
-    "website": "https://debridge.finance/",
-    "subcategory_id": "cross-chain-infrastructure",
-    "packages": [
-      "https://www.npmjs.com/package/@debridge-finance/debridge-protocol-evm-interfaces",
-      "https://www.npmjs.com/package/@debridge-finance/legacy-dln-profitability",
-      "https://www.npmjs.com/package/@debridge-finance/desdk",
-      "https://www.npmjs.com/package/@debridge-finance/dln-client",
-      "https://www.npmjs.com/package/@debridge-finance/dln-taker"
-    ]
   },
   {
     "name": "Chain Abstraction with 4337",
@@ -2441,49 +1546,6 @@
     "packages": ["https://www.npmjs.com/package/@aragon/ods"]
   },
   {
-    "name": "Etherspot",
-    "description": "Etherspot provides bundlers, paymasters, and SDK helpers for ERC-4337 and related account-abstraction UX, including shared mempool deployments.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/b05e1c53-bace-499c-b346-ed9fa0003730.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/b33b4fe0-6010-470c-a2db-57636d96536d.png",
-    "twitter": "https://x.com/etherspot",
-    "repos": [
-      "https://github.com/etherspot/etherspot-prime-contracts",
-      "https://github.com/etherspot/etherspot-modular-sdk"
-    ],
-    "tags": [
-      "wallet",
-      "multi-chain",
-      "account-abstraction",
-      "sdk",
-      "user-experience"
-    ],
-    "website": "https://etherspot.io/",
-    "subcategory_id": "aa-tx-orchestration",
-    "packages": [
-      "https://www.npmjs.com/package/skandha",
-      "https://www.npmjs.com/package/@etherspot/prime-sdk"
-    ]
-  },
-  {
-    "name": "Frames.js",
-    "description": "Frames.js is a JavaScript toolkit and debugger for Farcaster, XMTP, and Lens mini-apps; embed its components when you need consistent frame rendering in clients such as Base Names or other social apps.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/230e8ac2-cea9-4cab-8b4f-8fd58ec6553e.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/a2dce749-56d7-44d7-a9cc-ffc08255e0f2.png",
-    "repos": ["https://github.com/framesjs/frames.js"],
-    "tags": ["frontend", "farcaster", "react", "nextjs"],
-    "website": "https://www.framesjs.org",
-    "subcategory_id": "frontend-integration-tooling"
-  },
-  {
-    "name": "Aave",
-    "description": "Aave is DeFi's largest lending protocol.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/dcd0600f-d9bf-439e-9915-5922ea8e9655.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/031491b9-252c-4b9d-b450-16f3443184d9.png",
-    "repos": ["https://github.com/aave-dao/aave-v3-origin"],
-    "tags": ["defi", "governance", "foundry", "cli", "contract-deployment"],
-    "subcategory_id": "payments-defi-integration"
-  },
-  {
     "name": "SpeedrunEthereum",
     "description": "Speedrun Ethereum is a hands-on series of challenges designed to help you learn by building. Each challenge delivers one key \"aha\" moment, a mental unlock about how  Ethereum really works. At the same time, you'll be building your Ethereum portfolio.",
     "thumbnail_url": "https://speedrunethereum.com/favicon.ico",
@@ -2495,60 +1557,6 @@
     "tags": ["education", "solidity", "contract-deployment", "frontend"],
     "website": "https://speedrunethereum.com/",
     "subcategory_id": "courses-tutorials"
-  },
-  {
-    "name": "ethPM",
-    "description": "ethPM is the immutable package manager to consume, distribute, or manage any EVM smart contract system.",
-    "thumbnail_url": "https://www.ethpm.com/img/package.png",
-    "website": "https://www.ethpm.com/",
-    "repos": [
-      "https://github.com/ethpm/ethpm-cli",
-      "https://github.com/ethpm/ethpm-spec",
-      "https://github.com/ethpm/ethpm.js",
-      "https://github.com/ethpm/py-ethpm"
-    ],
-    "tags": ["cli", "solidity", "contract-management"],
-    "subcategory_id": "contract-frameworks"
-  },
-  {
-    "name": "Governance Onchain Paymaster",
-    "description": "Paymasters for onchain Governance",
-    "thumbnail_url": "https://github.com/meliopolis.png",
-    "repos": ["https://github.com/meliopolis/governance-paymaster"],
-    "tags": ["account-abstraction", "developer-experience", "governance"],
-    "subcategory_id": "aa-tx-orchestration"
-  },
-  {
-    "name": "FeAlloc",
-    "description": "Implementing TinyAlloc in Fe-lang for the EVM",
-    "repos": ["https://github.com/saifalkatout/FeAlloc"],
-    "tags": ["compiler", "performance-optimization"],
-    "subcategory_id": "smart-contract-libraries-utilities"
-  },
-  {
-    "name": "solide",
-    "description": "Lightweight web based Smart Contract IDE",
-    "thumbnail_url": "https://raw.githubusercontent.com/solide-project/solide/master/public/_assets/solide-light.svg",
-    "website": "https://evm.polearn.xyz/",
-    "twitter": "https://x.com/0xProofOfLearn",
-    "repos": ["https://github.com/solide-project/solide"],
-    "tags": ["solidity", "developer-experience"],
-    "subcategory_id": "contract-frameworks"
-  },
-  {
-    "name": "Wallet Test Framework",
-    "description": "Wallet Test Framework is an automated suite that walks core wallet flows-transfers, balance reads, basic dapp interactions-so teams can regression-test shared UX expectations in CI.",
-    "thumbnail_url": "https://github.com/wallet-test-framework.png",
-    "website": "https://wallet-test-framework.github.io/framework/",
-    "repos": ["https://github.com/wallet-test-framework/framework"],
-    "tags": [
-      "testing",
-      "wallet",
-      "user-experience",
-      "developer-experience",
-      "security"
-    ],
-    "subcategory_id": "fuzz-property-testing"
   },
   {
     "name": "EDB: The Ethereum Project Debugger",
@@ -2597,21 +1605,6 @@
     "subcategory_id": "rpc-node-infrastructure"
   },
   {
-    "name": "Ethereum EIPs Ontology",
-    "description": "An ontology of Ethereum terms extracted from the Ethereum glossaries and Ethereum Improvement Proposals (EIPs). Available in plain text and SKOS formats.",
-    "repos": ["https://github.com/prototypo/ethereum-eips-ontology"],
-    "tags": ["education", "standards-and-specifications"],
-    "subcategory_id": "standards-specifications"
-  },
-  {
-    "name": "ethereum.rb",
-    "description": "Ethereum library for the Ruby language",
-    "thumbnail_url": "https://github.com/EthWorks.png",
-    "repos": ["https://github.com/EthWorks/ethereum.rb"],
-    "tags": ["sdk"],
-    "subcategory_id": "core-sdks-libraries"
-  },
-  {
     "name": "hax",
     "description": "hax is a tool for high assurance translations of a large subset of Rust into formal languages such as F* or Rocq.",
     "thumbnail_url": "https://github.com/cryspen.png",
@@ -2619,19 +1612,6 @@
     "repos": ["https://github.com/cryspen/hax"],
     "tags": ["formal-verification"],
     "subcategory_id": "formal-verification"
-  },
-  {
-    "name": "ERC-4337 Documentation",
-    "description": "Complete guide to ERC-4337 Account Abstraction - smart accounts, bundlers, paymasters, and more",
-    "thumbnail_url": "https://github.com/eth-infinitism.png",
-    "website": "https://docs.erc4337.io/",
-    "repos": ["https://github.com/eth-infinitism/aa-mkdocs"],
-    "tags": [
-      "account-abstraction",
-      "education",
-      "standards-and-specifications"
-    ],
-    "subcategory_id": "standards-specifications"
   },
   {
     "name": "IntelliJ Solidity",
@@ -2659,20 +1639,6 @@
     "repos": ["https://github.com/trailofbits/testing-handbook"],
     "tags": ["testing", "education"],
     "subcategory_id": "courses-tutorials"
-  },
-  {
-    "name": "Ethereum RPC MCP Server",
-    "description": "A Model Context Protocol (MCP) server for interacting with Ethereum blockchain.",
-    "repos": ["https://github.com/0xKoda/eth-mcp"],
-    "tags": ["mcp-server", "contract-verification"],
-    "subcategory_id": "mcp-servers"
-  },
-  {
-    "name": "MCP Etherscan Server",
-    "description": "An MCP (Model Context Protocol) server that provides Ethereum blockchain data tools via Etherscan's API. Features include checking ETH balances, viewing transaction history, tracking ERC20 transfers, fetching contract ABIs, monitoring gas prices, and resolving ENS names.",
-    "repos": ["https://github.com/crazyrabbitLTC/mcp-etherscan-server"],
-    "tags": ["mcp-server", "analytics", "block-explorer"],
-    "subcategory_id": "mcp-servers"
   },
   {
     "name": "Pashov Audit Group Skills",
@@ -2734,14 +1700,6 @@
     "subcategory_id": "agent-skills"
   },
   {
-    "name": "HackenProof Triage Skill",
-    "description": "Reusable triage skill for HackenProof bug bounty report handling. Verifies commit/version scope, submission scope, checks duplicates, and validates submissions to decide state, severity, and comments. For Codex and Claude.",
-    "thumbnail_url": "https://github.com/hackenproof-public.png",
-    "repos": ["https://github.com/hackenproof-public/skills"],
-    "tags": ["security", "testing"],
-    "subcategory_id": "agent-skills"
-  },
-  {
     "name": "Slither MCP Server",
     "description": "MCP server that wraps Slither static analysis for Solidity smart contracts. Query contract metadata, functions, inheritance, call graphs, and run security detectors. Works with Foundry and Hardhat projects. Includes typed Python client for programmatic use.",
     "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/slither-mcp-server.png",
@@ -2760,13 +1718,6 @@
     "subcategory_id": "agent-skills"
   },
   {
-    "name": "eth-protocol-expert",
-    "description": "Agentic RAG system grounded in Ethereum specs, discussions, papers, and codebases. Enables AI agents to reason about the Ethereum protocol with retrieval-augmented context from authoritative sources.",
-    "repos": ["https://github.com/raulk/eth-protocol-expert"],
-    "tags": ["developer-experience", "standards-and-specifications"],
-    "subcategory_id": "other-ai-resources"
-  },
-  {
     "name": "uniswap-ai",
     "description": "AI tools for building on Uniswap, including reusable skills, plugins, and agents for coding assistants integrating Uniswap workflows.",
     "thumbnail_url": "https://github.com/uniswap.png",
@@ -2774,14 +1725,6 @@
     "repos": ["https://github.com/uniswap/uniswap-ai"],
     "tags": ["defi"],
     "subcategory_id": "agent-skills"
-  },
-  {
-    "name": "eth-mcp",
-    "description": "MCP server that enables AI agents to build and deploy applications in the Ethereum ecosystem.",
-    "website": "https://eth-mcp.com/",
-    "repos": ["https://github.com/austintgriffith/eth-mcp"],
-    "tags": ["mcp-server", "solidity", "contract-deployment", "foundry"],
-    "subcategory_id": "mcp-servers"
   },
   {
     "name": "Voltaire",
@@ -2800,15 +1743,6 @@
     "subcategory_id": "core-sdks-libraries"
   },
   {
-    "name": "Zerion API MCP Server",
-    "description": "MCP server giving AI tools direct access to Zerion's real-time crypto data. Portfolio, transactions, PnL, DeFi positions, token prices, NFTs, and gas prices. Works with Claude.ai, Claude Code, and Cursor. Connect via URL: https://developers.zerion.io/mcp.",
-    "thumbnail_url": "https://cdn.prod.website-files.com/625440d0613eaa2ace513f45/68e7e809aa6bd76e62f7b730_Zerion%20icon.png",
-    "website": "https://developers.zerion.io/reference/building-with-ai",
-    "tags": ["mcp-server", "analytics", "api", "defi", "real-time-data"],
-    "llmstext": "https://developers.zerion.io/llms.txt",
-    "subcategory_id": "mcp-servers"
-  },
-  {
     "name": "QuickNode MCP Server",
     "description": "QuickNode MCP Server brings the power of QuickNode's blockchain infrastructure directly to your AI assistant.",
     "thumbnail_url": "https://github.com/quiknode-labs.png",
@@ -2820,13 +1754,6 @@
     "packages": ["https://www.npmjs.com/package/@quicknode/mcp"]
   },
   {
-    "name": "Ethereum MCP",
-    "description": "RAG-powered MCP server for Ethereum consensus specs, EIPs, and client source code. Provides indexing and search via CLI and MCP tools.",
-    "repos": ["https://github.com/b17z/ethereum-mcp"],
-    "tags": ["mcp-server", "standards-and-specifications"],
-    "subcategory_id": "mcp-servers"
-  },
-  {
     "name": "Blockscout MCP Server",
     "description": "Wraps Blockscout APIs and exposes blockchain data (balances, tokens, NFTs, contract metadata) via MCP for use in AI agents and IDEs.",
     "thumbnail_url": "https://github.com/blockscout.png",
@@ -2834,24 +1761,6 @@
     "repos": ["https://github.com/blockscout/mcp-server"],
     "tags": ["mcp-server", "block-explorer", "analytics"],
     "subcategory_id": "mcp-servers"
-  },
-  {
-    "name": "ENS",
-    "description": "Ethereum Name Service (ENS) is a decentralized naming protocol for Ethereum. Map human-readable names to addresses, avatars, and other records. Developer docs cover CCIP Read, contracts, and integration. Includes ENSJS SDK for resolution and management.",
-    "thumbnail_url": "https://github.com/ensdomains.png",
-    "website": "https://ens.domains/",
-    "repos": ["https://github.com/ensdomains/docs"],
-    "tags": ["cross-chain", "identity", "sdk", "standards-and-specifications"],
-    "subcategory_id": "wallet-integration-auth",
-    "packages": ["https://www.npmjs.com/package/@ensdomains/ensjs"]
-  },
-  {
-    "name": "ENS MCP Server",
-    "description": "MCP server for Ethereum Name Service (ENS), enabling agents to resolve names, reverse-lookup addresses, check availability, and retrieve ENS records.",
-    "repos": ["https://github.com/justaname-id/ens-mcp-server"],
-    "tags": ["mcp-server", "developer-experience", "identity"],
-    "subcategory_id": "mcp-servers",
-    "packages": ["https://www.npmjs.com/package/mcp-server-ens"]
   },
   {
     "name": "@slicekit/erc8128",
@@ -2875,36 +1784,6 @@
     "llmstext": "https://siwa.id/skill.md",
     "subcategory_id": "agent-skills",
     "packages": ["https://www.npmjs.com/package/@buildersgarden/siwa"]
-  },
-  {
-    "name": "AgentHub by Allium",
-    "description": "Gives AI agents onchain data in one prompt - 150+ chains, token prices, wallet balances, and transaction history. Streamlined sign-up and skill installation for Claude, ChatGPT, and agent frameworks.",
-    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/agenthub-by-allium.svg",
-    "website": "https://agents.allium.so/",
-    "tags": [
-      "mcp-server",
-      "analytics",
-      "multi-chain",
-      "real-time-data",
-      "agent-skills"
-    ],
-    "llmstext": "https://agents.allium.so/skills/skill.md",
-    "subcategory_id": "mcp-servers",
-    "packages": ["https://www.npmjs.com/package/@allium-labs/mcp"]
-  },
-  {
-    "name": "Ethereum MCP (ETHCF)",
-    "description": "Query Ethereum in plain English. MCP server with 153 tools across Etherscan, DefiLlama, CoinGecko, growthepie, Blobscan, and Dune - balances, TVL, yields, prices, 60+ chains. Built for researchers.",
-    "thumbnail_url": "https://github.com/ETHCF.png",
-    "repos": ["https://github.com/ETHCF/ethereum-mcp"],
-    "tags": [
-      "mcp-server",
-      "analytics",
-      "multi-chain",
-      "block-explorer",
-      "real-time-data"
-    ],
-    "subcategory_id": "mcp-servers"
   },
   {
     "name": "Chainlink",
@@ -2954,15 +1833,6 @@
     "subcategory_id": "oracles-external-data"
   },
   {
-    "name": "Tellor",
-    "description": "Tellor is a transparent and permissionless oracle protocol for your smart contract to easily get any data whenever it needs it.",
-    "thumbnail_url": "https://github.com/tellor-io.png",
-    "website": "https://tellor.io/",
-    "repos": ["https://github.com/tellor-io/UsingTellorLayer"],
-    "tags": ["oracle", "real-time-data"],
-    "subcategory_id": "oracles-external-data"
-  },
-  {
     "name": "Band Protocol",
     "description": "Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.",
     "thumbnail_url": "https://github.com/bandprotocol.png",
@@ -2981,24 +1851,6 @@
     "subcategory_id": "oracles-external-data"
   },
   {
-    "name": "API3 DAO",
-    "description": "API3 DAO is delivering first-party oracle solutions that deliver greater source transparency, security and scalability in a decentralized solution for smart contracts.",
-    "thumbnail_url": "https://github.com/api3dao.png",
-    "website": "https://api3.org/",
-    "repos": ["https://github.com/api3dao/airnode"],
-    "tags": ["oracle", "api", "real-time-data", "scalability"],
-    "subcategory_id": "oracles-external-data"
-  },
-  {
-    "name": "Gas Network",
-    "description": "Gas Network publishes onchain gas price reference feeds aggregated from multiple data sources so wallets, paymasters, and automation scripts can read consistent fee hints across dozens of EVM chains including major L2s.",
-    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/gas-network.svg",
-    "website": "https://gas.network/",
-    "repos": ["https://github.com/blocknative/gas-agent"],
-    "tags": ["oracle", "real-time-data", "multi-chain", "gas-optimization"],
-    "subcategory_id": "oracles-external-data"
-  },
-  {
     "name": "Circom",
     "description": "Circom is a domain-specific language and compiler for writing and compiling arithmetic circuits used in zero-knowledge proof systems.",
     "thumbnail_url": "https://github.com/iden3.png",
@@ -3013,25 +1865,6 @@
     "thumbnail_url": "https://github.com/iden3.png",
     "repos": ["https://github.com/iden3/snarkjs"],
     "tags": ["cli", "developer-experience", "privacy-focused"],
-    "subcategory_id": "zk-circuits-privacy"
-  },
-  {
-    "name": "Noir",
-    "description": "Noir is a Rust-inspired language for writing zero-knowledge circuits with a developer-friendly syntax and tooling maintained by Aztec.",
-    "thumbnail_url": "https://github.com/noir-lang.png",
-    "banner_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/banners/noir.png",
-    "website": "https://noir-lang.org/",
-    "repos": ["https://github.com/noir-lang/noir"],
-    "tags": ["compiler", "privacy-focused"],
-    "subcategory_id": "zk-circuits-privacy"
-  },
-  {
-    "name": "ZoKrates",
-    "description": "ZoKrates is a toolbox for zkSNARKs on Ethereum, offering a DSL, compiler, and utilities for trusted setup, proof generation, and verifier integration.",
-    "thumbnail_url": "https://raw.githubusercontent.com/Zokrates/ZoKrates/master/zokrates_logo.svg",
-    "website": "https://zokrates.github.io/",
-    "repos": ["https://github.com/Zokrates/ZoKrates"],
-    "tags": ["compiler", "cli", "privacy-focused"],
     "subcategory_id": "zk-circuits-privacy"
   },
   {
@@ -3054,61 +1887,6 @@
     "repos": ["https://github.com/privacy-scaling-explorations/maci"],
     "tags": ["privacy-focused", "governance", "scalability"],
     "subcategory_id": "zk-circuits-privacy"
-  },
-  {
-    "name": "Aztec",
-    "description": "Aztec is a privacy-first Ethereum rollup and developer platform for building applications with programmable privacy and zero-knowledge proofs.",
-    "thumbnail_url": "https://github.com/AztecProtocol.png",
-    "website": "https://aztec.network/",
-    "repos": ["https://github.com/AztecProtocol/aztec-packages"],
-    "tags": ["layer-2", "privacy-focused", "scalability"],
-    "subcategory_id": "zk-circuits-privacy"
-  },
-  {
-    "name": "Railgun",
-    "description": "Railgun is a privacy protocol for Ethereum and EVM networks that provides shielded transactions and private DeFi interactions with zero-knowledge proofs.",
-    "thumbnail_url": "https://github.com/Railgun-Community.png",
-    "website": "https://railgun.org/",
-    "repos": [
-      "https://github.com/Railgun-Community/engine",
-      "https://github.com/Railgun-Community/cookbook",
-      "https://github.com/Railgun-Community/wallet"
-    ],
-    "tags": ["privacy-focused", "encryption", "defi"],
-    "subcategory_id": "zk-circuits-privacy"
-  },
-  {
-    "name": "Coordinape",
-    "description": "Coordinape is an open-source coordination and reward distribution platform used by DAOs and teams to allocate value based on peer contributions.",
-    "thumbnail_url": "https://raw.githubusercontent.com/coordinape/coordinape/master/public/imgs/logo/logo512.png",
-    "website": "https://coordinape.com",
-    "repos": ["https://github.com/coordinape/coordinape"],
-    "tags": ["governance", "community-driven"],
-    "subcategory_id": "governance-dao-tooling"
-  },
-  {
-    "name": "Tally",
-    "description": "Tally provides governance infrastructure for DAOs, including proposal and voting interfaces plus developer APIs built around Governor-style onchain governance.",
-    "thumbnail_url": "https://github.com/withtally.png",
-    "website": "https://www.tally.xyz/",
-    "repos": [
-      "https://github.com/withtally/tally-api-quickstart",
-      "https://github.com/withtally/Tutorial-Deploy-Governance"
-    ],
-    "tags": ["governance", "api"],
-    "subcategory_id": "governance-dao-tooling"
-  },
-  {
-    "name": "Juicebox",
-    "description": "Juicebox is an open-source protocol for onchain funding, treasury management, and community-governed projects.",
-    "thumbnail_url": "https://github.com/jbx-protocol.png",
-    "website": "https://juicebox.money/",
-    "repos": [
-      "https://github.com/jbx-protocol/juice-contracts-v3",
-      "https://github.com/jbx-protocol/juice-interface"
-    ],
-    "tags": ["governance", "defi"],
-    "subcategory_id": "governance-dao-tooling"
   },
   {
     "name": "DAOhaus",
@@ -3152,14 +1930,6 @@
     "website": "https://etherscan.io/",
     "tags": ["block-explorer", "api", "contract-verification"],
     "subcategory_id": "analytics-monitoring"
-  },
-  {
-    "name": "Cookbook AI",
-    "description": "Cookbook AI provides Web3-focused AI agents for developer onboarding and user support across websites, Discord, and Telegram.",
-    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/cookbook-ai.svg",
-    "website": "https://ai.cookbook.dev/",
-    "tags": ["natural-language-processing", "developer-experience", "api"],
-    "subcategory_id": "other-ai-resources"
   },
   {
     "name": "Alchemy University",
@@ -3262,35 +2032,6 @@
     "subcategory_id": "zk-circuits-privacy"
   },
   {
-    "name": "Excubiae",
-    "description": "An onchain flexible and composable framework for creating, reusing, and customizing gatekeepers. Uses Policies and Checkers as core primitives for attribute-based access control with gas-efficient minimal proxy patterns and multi-stage validation.",
-    "thumbnail_url": "https://github.com/privacy-scaling-explorations.png",
-    "repos": ["https://github.com/privacy-scaling-explorations/excubiae"],
-    "tags": ["security", "solidity", "sdk"],
-    "subcategory_id": "smart-contract-libraries-utilities"
-  },
-  {
-    "name": "POD2",
-    "description": "The second generation of cryptographic Provable Object Datatypes (PODs). Enables flexible computation across data through custom predicates and recursive operations. Developed by 0xPARC in collaboration with PSE.",
-    "website": "https://pod.org",
-    "thumbnail_url": "https://github.com/0xPARC.png",
-    "banner_url": "https://pse.dev/project-banners/pod2.webp",
-    "repos": ["https://github.com/0xPARC/pod2"],
-    "tags": ["privacy-focused", "sdk", "identity"],
-    "subcategory_id": "zk-circuits-privacy"
-  },
-  {
-    "name": "ZKP2P",
-    "description": "An instant fiat-to-crypto onramp connecting peer-to-peer payment services (Venmo, PayPal) with zero-knowledge proofs. Generates privacy-protecting payment verification to trustlessly release locked digital assets onchain.",
-    "website": "https://zkp2p.xyz/",
-    "thumbnail_url": "https://github.com/zkp2p.png",
-    "banner_url": "https://pse.dev/project-banners/zkp2p.webp",
-    "twitter": "https://twitter.com/zkp2p",
-    "repos": ["https://github.com/zkp2p/zkp2p-contracts"],
-    "tags": ["privacy-focused", "defi", "peer-to-peer"],
-    "subcategory_id": "payments-defi-integration"
-  },
-  {
     "name": "Perpetual Powers of Tau",
     "description": "An ongoing (since 2019) zk-SNARK trusted setup ceremony for circuits up to 2^28 constraints, generating 530M+ powers of tau. A multi-party ceremony where security holds as long as one participant is honest.",
     "website": "https://perpetualpowersoftau.com/",
@@ -3300,59 +2041,6 @@
       "https://github.com/privacy-scaling-explorations/perpetualpowersoftau"
     ],
     "tags": ["privacy-focused", "security", "community-driven"],
-    "subcategory_id": "zk-circuits-privacy"
-  },
-  {
-    "name": "zkID",
-    "description": "A PSE initiative advancing privacy-preserving digital identity by drafting technical standards, building open-source ZK infrastructure, and collaborating with governments. Working on EU EUDI Wallet integration and ZKP Wallet Unit.",
-    "thumbnail_url": "https://github.com/privacy-scaling-explorations.png",
-    "banner_url": "https://pse.dev/project-banners/zk-id.webp",
-    "repos": ["https://github.com/privacy-scaling-explorations/zkID"],
-    "tags": ["privacy-focused", "identity", "standards-and-specifications"],
-    "subcategory_id": "zk-circuits-privacy"
-  },
-  {
-    "name": "Web2-ID Nullifiers (vOPRF)",
-    "description": "Enabling pseudonymous systems for Web2 identities using verifiable Oblivious PseudoRandom Functions. Allows email and social accounts to generate private nullifiers for anonymous voting, private forums, and confidential airdrops.",
-    "thumbnail_url": "https://github.com/privacy-scaling-explorations.png",
-    "repos": ["https://github.com/privacy-scaling-explorations/vOPRF-ID"],
-    "tags": ["privacy-focused", "identity", "encryption"],
-    "subcategory_id": "zk-circuits-privacy"
-  },
-  {
-    "name": "mpz",
-    "description": "A safe, performant, modular, and portable Multi-Party Computation (MPC) library in Rust. Supports native and WebAssembly execution. Powers TLSNotary's cryptographic infrastructure and is used across privacy-focused projects.",
-    "thumbnail_url": "https://github.com/privacy-scaling-explorations.png",
-    "banner_url": "https://pse.dev/project-banners/mpz-cover.webp",
-    "repos": ["https://github.com/privacy-scaling-explorations/mpz"],
-    "tags": ["privacy-focused", "encryption", "sdk"],
-    "subcategory_id": "zk-circuits-privacy"
-  },
-  {
-    "name": "Circom-MPC",
-    "description": "A PSE research project enabling the use of the Circom language to develop MPC applications. Compiled arithmetic and boolean MPC circuits using Circom with MP-SPDZ backend integration for machine learning applications.",
-    "repos": ["https://github.com/namnc/circom-2-arithc"],
-    "tags": ["privacy-focused", "encryption"],
-    "subcategory_id": "zk-circuits-privacy"
-  },
-  {
-    "name": "tor-js",
-    "description": "Tor protocol embedded in JavaScript powered by Arti (official Tor in Rust) for anonymous networking in web environments. An npm module enabling fetch operations through the Tor network with Snowflake bridge support.",
-    "thumbnail_url": "https://github.com/privacy-scaling-explorations.png",
-    "banner_url": "https://pse.dev/project-banners/tor-js.avif",
-    "repos": [
-      "https://github.com/voltrevo/arti"
-    ],
-    "tags": ["privacy-focused", "networking"],
-    "subcategory_id": "core-sdks-libraries"
-  },
-  {
-    "name": "Verifiable UBT",
-    "description": "Generates recursive zkVM proofs verifying that Unified Binary Trie (UBT) and Merkle Patricia Trie state updates match per Ethereum block. Enables trustless state verification for light clients and private information retrieval.",
-    "thumbnail_url": "https://github.com/privacy-scaling-explorations.png",
-    "banner_url": "https://pse.dev/project-banners/verifiable-ubt.svg",
-    "repos": ["https://github.com/tkmct/go-ethereum"],
-    "tags": ["privacy-focused", "verification"],
     "subcategory_id": "zk-circuits-privacy"
   },
   {
@@ -3367,17 +2055,6 @@
       "verification"
     ],
     "subcategory_id": "zk-circuits-privacy"
-  },
-  {
-    "name": "EthUX Design",
-    "description": "A community-sourced map of Ethereum UX pain points with solution checklists, adoption tracking, and real user evidence from 32,000+ reports.",
-    "banner_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/banners/ethux-design.png",
-    "thumbnail_url": "https://ethux.design/favicon.svg",
-    "repos": ["https://github.com/konopkja/ethux-design"],
-    "tags": ["user-experience", "education", "agent-skills"],
-    "website": "https://ethux.design",
-    "llmstext": "https://ethux.design/SKILL.md",
-    "subcategory_id": "courses-tutorials"
   },
   {
     "name": "Solar",
@@ -3404,15 +2081,6 @@
     "repos": ["https://github.com/escottalexander/request-wallet-sign"],
     "packages": ["https://www.npmjs.com/package/request-wallet-sign"],
     "tags": ["cli", "wallet", "transaction-signing", "transaction-decoding", "agent-skills"],
-    "subcategory_id": "other-ai-resources"
-  },
-  {
-    "name": "Steer CLI",
-    "description": "Steer CLI is a read-only command-line tool for Steer Protocol that exposes live protocol status, chain and protocol discovery, market inspection, liquidity analysis, and vault data through a typed command interface. It is built for both terminal users and AI agents, with skill and MCP integration in mind.",
-    "thumbnail_url": "https://docs.steer.finance/img/SteerLogo.142016fd.png",
-    "website": "https://docs.steer.finance/",
-    "packages": ["https://www.npmjs.com/package/@steerprotocol/cli"],
-    "tags": ["cli", "defi", "analytics"],
     "subcategory_id": "other-ai-resources"
   },
   {
@@ -3446,16 +2114,6 @@
     "subcategory_id": "mcp-servers"
   },
   {
-    "name": "Fluid Skill",
-    "description": "Fluid Skill is an agent skill providing integration documentation and code examples for Fluid Protocol, a DeFi lending and vault platform by Instadapp. It covers ERC-4626 fToken lending, leveraged vault borrowing and collateral management, and on-chain resolver contracts that let agents read positions, APY, and TVL directly from chain state without API keys, across Ethereum, Arbitrum, Base, Polygon, and Plasma.",
-    "thumbnail_url": "https://raw.githubusercontent.com/Instadapp/fluid-brand/main/Logo%20Variations/logo%2024px%20to%20280px/280px.png",
-    "banner_url": "https://raw.githubusercontent.com/Instadapp/fluid-brand/main/heroImg.png",
-    "website": "https://fluid.io",
-    "tags": ["agent-skills", "defi"],
-    "llmstext": "https://fluid.io/skill.md",
-    "subcategory_id": "agent-skills"
-  },
-  {
     "name": "Pendle AI",
     "description": "Pendle AI is a set of AI plugins for Pendle Finance, packaged as MCP servers, that let agents trade yield tokens, manage LP positions, place limit orders, and query DeFi market data across seven EVM chains. It includes a Pendle V2 plugin for the core yield-trading protocol and a Boros plugin for interest-rate derivatives on Arbitrum, and is compatible with Claude Code and other MCP-based tools.",
     "thumbnail_url": "https://avatars.githubusercontent.com/u/74481927?v=4",
@@ -3463,25 +2121,6 @@
     "repos": ["https://github.com/pendle-finance/pendle-ai"],
     "tags": ["mcp-server", "defi"],
     "subcategory_id": "mcp-servers"
-  },
-  {
-    "name": "Sablier Agent Skills",
-    "description": "Sablier Agent Skills are open source, MIT-licensed instructions that let coding agents create onchain token vesting streams, payment streams, and Merkle airdrops on Sablier. Instead of walking through the app manually, a user describes what they need in natural language and the agent handles building the vesting schedule, stream, or airdrop distribution across the 27-plus EVM chains and Solana that Sablier supports.",
-    "thumbnail_url": "https://github.com/sablier-labs.png",
-    "website": "https://sablier.com/",
-    "repos": ["https://github.com/sablier-labs/sablier-skills"],
-    "tags": ["agent-skills", "defi"],
-    "llmstext": "https://sablier.com/llms.txt",
-    "subcategory_id": "agent-skills"
-  },
-  {
-    "name": "DeFi Skills",
-    "description": "DeFi Skills, built by Nethermind, is a deterministic engine that converts natural-language DeFi intents like supplying USDC to Aave into raw, unsigned, ABI-encoded transaction payloads instead of relying on an LLM to guess calldata. It covers 13 supported protocols including Aave V3 and Uniswap V3, is available as an open-source CLI and a hosted REST API, and uses JSON playbooks and resolvers to encode protocol knowledge and handle parameter conversion.",
-    "thumbnail_url": "https://github.com/NethermindEth.png",
-    "website": "https://defi-skills.nethermind.io/",
-    "repos": ["https://github.com/NethermindEth/defi-skills"],
-    "tags": ["cli", "defi", "api"],
-    "subcategory_id": "other-ai-resources"
   },
   {
     "name": "Across Skills",
@@ -3544,22 +2183,6 @@
     "repos": ["https://github.com/DefiLlama/defillama-skills"],
     "tags": ["agent-skills", "analytics", "defi"],
     "subcategory_id": "agent-skills"
-  },
-  {
-    "name": "Cryo MCP",
-    "description": "Cryo MCP is a Model Context Protocol server for the Cryo blockchain data extraction tool, letting agents run SQL-style queries over Ethereum data with flexible block range specification, contract filtering, and output in JSON, CSV, or Parquet. It exposes Cryo's data-extraction capabilities through an MCP-compatible API for use in DuckDB-style analysis workflows.",
-    "repos": ["https://github.com/z80dev/cryo-mcp"],
-    "tags": ["mcp-server", "analytics", "sdk"],
-    "subcategory_id": "mcp-servers"
-  },
-  {
-    "name": "Nani Qwen 3.5 2B",
-    "description": "Nani Qwen 3.5 2B is a fine-tuned Qwen3.5-2B language model for crypto wallet tool calling, trained with LoRA on roughly 2,000 examples covering 103 blockchain tools. It is designed to resolve ENS names, check balances, execute swaps, and perform other wallet operations as structured tool calls, and is distributed as open GGUF weights for local inference.",
-    "thumbnail_url": "https://github.com/NaniDAO.png",
-    "website": "https://huggingface.co/NaniDAO/nani-qwen-3.5-2B-gguf-q4km",
-    "repos": ["https://github.com/NaniDAO/agentek"],
-    "tags": ["natural-language-processing", "wallet"],
-    "subcategory_id": "other-ai-resources"
   },
   {
     "name": "Envio",
