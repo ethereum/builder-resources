@@ -4336,5 +4336,14 @@
     "tags": ["cli", "testing", "devops", "networking"],
     "subcategory_id": "deployment-devops",
     "repos": ["https://github.com/flashbots/decker"]
+  },
+  {
+    "name": "Blockchain.info",
+    "description": "Ethereum blockchain explorer by Blockchain.com",
+    "thumbnail_url": "https://www.blockchain.com/explorer/images/home/explorer-logo-small-light.svg",
+    "twitter": "https://x.com/TheExplorerHQ",
+    "tags": ["block-explorer", "chains", "analytics"],
+    "website": "https://www.blockchain.com/explorer",
+    "subcategory_id": "analytics-monitoring"
   }
 ]
