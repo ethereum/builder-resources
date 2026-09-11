@@ -71,6 +71,11 @@
             "description": "Wallet connectors and authentication tooling."
           },
           {
+            "id": "cryptography-key-management",
+            "name": "Cryptography & Key Management",
+            "description": "Signing, key derivation, and cryptographic primitives for wallets and clients."
+          },
+          {
             "id": "aa-tx-orchestration",
             "name": "Account Abstraction & Tx Orchestration",
             "description": "Account abstraction, bundling, and transaction orchestration tooling."
@@ -96,6 +101,16 @@
             "id": "rpc-node-infrastructure",
             "name": "RPC/Node Infrastructure",
             "description": "RPC services, full nodes, and supporting infrastructure."
+          },
+          {
+            "id": "execution-consensus-clients",
+            "name": "Execution & Consensus Clients",
+            "description": "Execution and consensus layer clients and node operator tooling."
+          },
+          {
+            "id": "mev-block-building",
+            "name": "MEV & Block Building",
+            "description": "Block building, relays, and proposer-builder separation tooling."
           },
           {
             "id": "indexing-data-apis",
