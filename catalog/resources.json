@@ -381,7 +381,7 @@
     "repos": ["https://github.com/stereum-dev/ethereum-node"],
     "tags": ["cli", "docker", "api", "privacy-focused"],
     "website": "https://stereum.com",
-    "subcategory_id": "rpc-node-infrastructure"
+    "subcategory_id": "execution-consensus-clients"
   },
   {
     "name": "viem-tracer",
@@ -548,7 +548,7 @@
     ],
     "tags": ["wallet", "security", "encryption"],
     "website": "https://paulmillr.com/noble/",
-    "subcategory_id": "core-sdks-libraries"
+    "subcategory_id": "cryptography-key-management"
   },
   {
     "name": "UTP Java Library",
