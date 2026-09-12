@@ -2331,7 +2331,7 @@
     "description": "The Biconomy SDK, published as AbstractJS for the Nexus account, builds ERC-4337 smart accounts with paymaster and bundler services. Builders use it when an application needs sponsored or gasless transactions.",
     "tags": ["sdk", "account-abstraction", "bundler"],
     "subcategory_id": "aa-tx-orchestration",
-    "repos": ["https://github.com/bcnmy/sdk", "https://github.com/bcnmy/abstractjs"],
+    "repos": ["https://github.com/bcnmy/abstractjs"],
     "packages": ["https://www.npmjs.com/package/@biconomy/abstractjs"]
   },
   {
@@ -2891,12 +2891,12 @@
     "repos": ["https://github.com/LIT-Protocol/chipotle"]
   },
   {
-    "name": "MetaMask SDK",
-    "description": "The MetaMask SDK, now shipped under the MetaMask Connect name, connects web, mobile, and game applications to the MetaMask wallet. Builders use it to reach MetaMask users across platforms from one integration.",
+    "name": "MetaMask Connect",
+    "description": "MetaMask Connect is the SDK that connects web, mobile and game applications to the MetaMask wallet, replacing the deprecated MetaMask SDK with direct wallet communication and multichain support. Builders install the connect-evm package to reach MetaMask users from any frontend.",
     "tags": ["sdk", "wallet", "frontend"],
     "subcategory_id": "wallet-integration-auth",
-    "repos": ["https://github.com/MetaMask/metamask-sdk"],
-    "packages": ["https://www.npmjs.com/package/@metamask/sdk"]
+    "repos": ["https://github.com/MetaMask/connect-monorepo"],
+    "packages": ["https://www.npmjs.com/package/@metamask/connect-evm"]
   },
   {
     "name": "Coinbase Wallet SDK",
@@ -2941,7 +2941,7 @@
     "name": "Kurtosis ethereum-package",
     "description": "The Kurtosis ethereum-package spins up reproducible multi-client Ethereum devnets, including mev-boost and supporting tooling. Builders run it when they need a local network that mirrors a real client mix.",
     "tags": ["devops", "testing"],
-    "subcategory_id": "contract-frameworks",
+    "subcategory_id": "deployment-devops",
     "repos": ["https://github.com/ethpandaops/ethereum-package"]
   },
   {
@@ -2977,7 +2977,7 @@
   {
     "name": "eth-keys",
     "description": "eth-keys is a Python library for secp256k1 keys and signatures, and it sits under eth-account and web3.py. Python builders import it when they need key and signature operations directly.",
-    "tags": ["transaction-signing", "encryption"],
+    "tags": ["transaction-signing"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/ApeWorX/eth-keys"],
     "packages": ["https://pypi.org/project/eth-keys/"]
@@ -3138,7 +3138,7 @@
   },
   {
     "name": "micro-eth-signer",
-    "description": "micro-eth-signer is a minimal audited JavaScript library for building and signing Ethereum transactions, from the author of noble-curves. Builders install it when a small, audited signing dependency matters more than a full client library.",
+    "description": "micro-eth-signer is a minimal JavaScript library for building and signing Ethereum transactions, built on the audited noble cryptography libraries by the same author. Builders install it when a small signing dependency matters more than a full client library.",
     "tags": ["transaction-signing", "security", "wallet"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/paulmillr/micro-eth-signer"],
@@ -3280,7 +3280,7 @@
   {
     "name": "py_ecc",
     "description": "py_ecc is a Python library for elliptic curve pairing operations over bn128 and BLS12-381, used by py-evm and other Python tooling. Builders import it for precompile or BLS work in Python.",
-    "tags": ["encryption", "security"],
+    "tags": ["security"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/ethereum/py_ecc"],
     "packages": ["https://pypi.org/project/py_ecc/"]
@@ -3390,7 +3390,7 @@
   {
     "name": "c-kzg-4844",
     "description": "c-kzg-4844 is the reference C implementation, with Rust bindings, of the KZG polynomial commitment scheme used for EIP-4844 and EIP-7594 blobs, and it is embedded in most execution and consensus clients. Rollup and blob tooling imports the bindings to produce KZG commitments and proofs.",
-    "tags": ["encryption", "layer-2", "verification"],
+    "tags": ["layer-2", "verification"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/ethereum/c-kzg-4844"],
     "packages": ["https://pypi.org/project/ckzg/"]
@@ -3421,21 +3421,21 @@
     "name": "builder-playground",
     "description": "builder-playground is a self-contained local environment for testing the full block building loop of proposer, relay, and builder on layer 1 and layer 2. It serves the small group working on block building infrastructure.",
     "tags": ["testing", "devops", "networking"],
-    "subcategory_id": "contract-frameworks",
+    "subcategory_id": "mev-block-building",
     "repos": ["https://github.com/flashbots/builder-playground"]
   },
   {
     "name": "ethereum-genesis-generator",
     "description": "ethereum-genesis-generator creates execution and consensus layer genesis state for a testnet and serves it over a web server. Devnet and rollup teams run it to produce the genesis files for a custom network.",
     "tags": ["devops", "testing"],
-    "subcategory_id": "contract-frameworks",
+    "subcategory_id": "deployment-devops",
     "repos": ["https://github.com/ethpandaops/ethereum-genesis-generator"]
   },
   {
     "name": "PoWFaucet",
     "description": "PoWFaucet is a modular testnet faucet for EVM chains with anti-abuse methods including a mining puzzle, captcha, IP limits, and Gitcoin Passport, and it backs the Sepolia proof-of-work faucet. Teams running a testnet self-host it to hand out test ETH without giving it all to one address.",
     "tags": ["testing", "devops"],
-    "subcategory_id": "contract-frameworks",
+    "subcategory_id": "deployment-devops",
     "repos": ["https://github.com/pk910/PoWFaucet"]
   },
   {
@@ -3450,7 +3450,7 @@
     "name": "spamoor",
     "description": "spamoor is a configurable Ethereum transaction generator for load-testing testnets and devnets with realistic traffic. Teams point it at a network to see how it behaves under sustained transaction volume.",
     "tags": ["testing", "performance-optimization"],
-    "subcategory_id": "contract-frameworks",
+    "subcategory_id": "fuzz-property-testing",
     "repos": ["https://github.com/ethpandaops/spamoor"]
   },
   {
@@ -3530,8 +3530,8 @@
   },
   {
     "name": "@noble/secp256k1",
-    "description": "noble secp256k1 is a standalone audited pure JavaScript library for secp256k1 signing and ECDH, used by many wallets and libraries. Builders install it on its own when they need signing without the wider noble curves package.",
-    "tags": ["encryption", "transaction-signing", "security"],
+    "description": "noble secp256k1 is a standalone pure JavaScript library for secp256k1 signing and ECDH, used by many wallets and libraries. Builders install it on its own when they need signing without the wider noble curves package.",
+    "tags": ["transaction-signing", "security"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/paulmillr/noble-secp256k1"],
     "packages": ["https://www.npmjs.com/package/@noble/secp256k1"]
@@ -3539,7 +3539,7 @@
   {
     "name": "blst",
     "description": "blst is a multilingual BLS12-381 signature library and the BLS implementation behind most Ethereum consensus clients. Builders link against it in Rust, C, or Go when writing validator or consensus tooling.",
-    "tags": ["encryption", "security"],
+    "tags": ["security"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/supranational/blst"],
     "packages": ["https://crates.io/crates/blst"]
@@ -3547,7 +3547,7 @@
   {
     "name": "coins-bip32",
     "description": "coins-bip32 is a Rust library for BIP-32 hierarchical deterministic key derivation, used by ethers-rs and other Rust wallets and signers. Rust builders add it when an application derives keys from a seed.",
-    "tags": ["wallet", "encryption"],
+    "tags": ["wallet"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/summa-tx/coins"],
     "packages": ["https://crates.io/crates/coins-bip32"]
@@ -3571,7 +3571,7 @@
   {
     "name": "k256 (RustCrypto)",
     "description": "k256 from RustCrypto is a pure Rust secp256k1 implementation covering ECDSA signing, verification, public key recovery, Schnorr, and ECDH, and it sits under reth, Alloy, and most Rust tooling. Rust builders depend on it directly when they handle signatures themselves.",
-    "tags": ["encryption", "transaction-signing", "security"],
+    "tags": ["transaction-signing", "security"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/RustCrypto/elliptic-curves"],
     "packages": ["https://crates.io/crates/k256"]
@@ -3614,11 +3614,11 @@
   },
   {
     "name": "Alchemy MCP Server",
-    "description": "The Alchemy MCP Server is Alchemy's official Model Context Protocol server for its blockchain data and RPC APIs across more than 100 chains. Builders wire it into an AI client so an agent can query chain data directly.",
+    "description": "The Alchemy MCP Server gives AI clients access to Alchemy's blockchain data and RPC APIs across more than 100 chains. The hosted server at mcp.alchemy.com is the maintained route, while the open source repository holds the legacy local version.",
     "tags": ["mcp-server", "api", "multi-chain"],
     "subcategory_id": "mcp-servers",
-    "repos": ["https://github.com/alchemyplatform/alchemy-mcp-server"],
-    "packages": ["https://www.npmjs.com/package/@alchemy/mcp-server"]
+    "website": "https://www.alchemy.com/docs/alchemy-mcp-server",
+    "repos": ["https://github.com/alchemyplatform/alchemy-mcp-server"]
   },
   {
     "name": "Coinbase Payments MCP",
@@ -3782,13 +3782,6 @@
     "repos": ["https://github.com/crytic/building-secure-contracts"]
   },
   {
-    "name": "Code4rena",
-    "description": "Code4rena is a competitive audit platform where independent security researchers compete to find vulnerabilities in a project's contracts before launch. Teams run a contest there ahead of a mainnet deployment.",
-    "tags": ["security", "community-driven"],
-    "subcategory_id": "deployment-devops",
-    "website": "https://code4rena.com"
-  },
-  {
     "name": "Immunefi",
     "description": "Immunefi is a bug bounty platform where projects post rewards for whitehats who find and responsibly disclose contract vulnerabilities. Teams list a program there to give researchers a paid route to report issues.",
     "tags": ["security", "community-driven"],
@@ -3882,7 +3875,7 @@
   {
     "name": "arkworks algebra",
     "description": "arkworks algebra is a set of Rust libraries for finite field, elliptic curve, and polynomial arithmetic, and it is the math layer under many SNARK and STARK toolchains. Rust builders add the ark crates when writing proving code from the ground up.",
-    "tags": ["encryption", "verification"],
+    "tags": ["verification"],
     "subcategory_id": "zk-circuits-privacy",
     "repos": ["https://github.com/arkworks-rs/algebra"],
     "packages": ["https://crates.io/crates/ark-serialize"]
@@ -3890,14 +3883,14 @@
   {
     "name": "gnark-crypto",
     "description": "gnark-crypto provides elliptic curve and pairing cryptography for BN, BLS12, BLS24, and BW6 curves, and it is the backend of the gnark SNARK library. Go builders import it directly for curve and pairing math.",
-    "tags": ["encryption", "verification"],
+    "tags": ["verification"],
     "subcategory_id": "zk-circuits-privacy",
     "repos": ["https://github.com/Consensys-Incorporated/gnark-crypto"]
   },
   {
     "name": "Lambdaworks",
     "description": "Lambdaworks is a Rust library of SNARK and STARK prover components that can be used piecemeal or assembled into a custom proving system. Teams pull its crates when building their own prover rather than adopting a finished one.",
-    "tags": ["encryption", "verification"],
+    "tags": ["verification"],
     "subcategory_id": "zk-circuits-privacy",
     "repos": ["https://github.com/lambdaclass/lambdaworks"],
     "packages": ["https://crates.io/crates/lambdaworks-math"]
@@ -3912,7 +3905,7 @@
   {
     "name": "Plonky3",
     "description": "Plonky3 is a toolkit of polynomial IOP building blocks for constructing custom SNARK and STARK proving systems, and several zkVM projects build on it. Rust builders add the p3 crates when writing their own proving system.",
-    "tags": ["encryption", "verification"],
+    "tags": ["verification"],
     "subcategory_id": "zk-circuits-privacy",
     "repos": ["https://github.com/Plonky3/Plonky3"],
     "packages": ["https://crates.io/crates/p3-util"]
@@ -4081,7 +4074,7 @@
     "name": "Chainlink Faucets",
     "description": "Chainlink Faucets dispense testnet ETH and LINK across the supported test networks. Builders use them to fund an account before deploying and testing contracts on a testnet.",
     "tags": ["testing", "contract-deployment"],
-    "subcategory_id": "contract-frameworks",
+    "subcategory_id": "deployment-devops",
     "website": "https://faucets.chain.link"
   },
   {
