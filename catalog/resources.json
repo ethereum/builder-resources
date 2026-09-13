@@ -2666,6 +2666,7 @@
   {
     "name": "Allium",
     "description": "Allium is a managed data warehouse and API service for onchain data aimed at institutional use. Builders use it when they want onchain datasets delivered into their analytics stack rather than indexed in house.",
+    "thumbnail_url": "https://cdn.prod.website-files.com/6a1967263e86bd5aff36e280/6a28a7aa21e9b6f18bcf5a44_694394e6b362de82eb5247d2_allium.png",
     "tags": ["api", "indexing", "analytics"],
     "subcategory_id": "indexing-data-apis",
     "website": "https://docs.allium.so"
@@ -3146,6 +3147,7 @@
   {
     "name": "relay",
     "description": "Relay is a hosted service for cross-chain routing and transaction execution.",
+    "thumbnail_url": "https://relay.link/apple-touch-icon.png",
     "tags": ["cross-chain", "transaction-management"],
     "subcategory_id": "cross-chain-infrastructure",
     "website": "https://relay.link"
@@ -3927,6 +3929,7 @@
   {
     "name": "Validation Cloud",
     "description": "Validation Cloud is an enterprise RPC node API for Ethereum and more than 50 protocols, alongside staking and analytics services. Builders pick it when they need support commitments and analytics with the endpoint.",
+    "thumbnail_url": "https://cdn.prod.website-files.com/653acce1d72443c35298481d/67040bdf0ebb3269c2de3dd7_ICON%202.png",
     "tags": ["api", "json-rpc", "analytics"],
     "subcategory_id": "rpc-node-infrastructure",
     "website": "https://validationcloud.io"
@@ -4210,6 +4213,7 @@
   {
     "name": "EVMConnector",
     "description": "EVMConnector is a browser workspace for calling contract functions on any EVM chain, with saved contracts and shareable call links. Builders use it to drive a contract without writing a script.",
+    "thumbnail_url": "https://evmconnector.dev/binary-code.png",
     "tags": ["contract-interaction", "interactive-tools", "multi-chain"],
     "subcategory_id": "debugging-inspection",
     "website": "https://evmconnector.dev"
@@ -4278,6 +4282,7 @@
   {
     "name": "Watchdata",
     "description": "Watchdata provides hosted blockchain APIs and RPC endpoints across several networks, including Ethereum mainnet and testnets. Builders use it as a hosted endpoint when they do not run their own node.",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/watchdata.png",
     "tags": ["api", "json-rpc", "multi-chain"],
     "subcategory_id": "rpc-node-infrastructure",
     "website": "https://www.watchdata.io"
@@ -4285,6 +4290,7 @@
   {
     "name": "InfStones",
     "description": "InfStones offers managed node infrastructure with RPC APIs, non-custodial staking, and node monitoring across many chains. Builders use it instead of operating their own nodes.",
+    "thumbnail_url": "https://infstones.com/favicon1.svg",
     "tags": ["api", "json-rpc", "devops"],
     "subcategory_id": "rpc-node-infrastructure",
     "website": "https://infstones.com"
