@@ -3147,7 +3147,7 @@
   {
     "name": "relay",
     "description": "Relay is a hosted service for cross-chain routing and transaction execution.",
-    "thumbnail_url": "https://relay.link/apple-touch-icon.png",
+    "thumbnail_url": "https://relay.link/android-chrome-512x512.png",
     "tags": ["cross-chain", "transaction-management"],
     "subcategory_id": "cross-chain-infrastructure",
     "website": "https://relay.link"
@@ -4213,7 +4213,7 @@
   {
     "name": "EVMConnector",
     "description": "EVMConnector is a browser workspace for calling contract functions on any EVM chain, with saved contracts and shareable call links. Builders use it to drive a contract without writing a script.",
-    "thumbnail_url": "https://evmconnector.dev/binary-code.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/evmconnector.svg",
     "tags": ["contract-interaction", "interactive-tools", "multi-chain"],
     "subcategory_id": "debugging-inspection",
     "website": "https://evmconnector.dev"
