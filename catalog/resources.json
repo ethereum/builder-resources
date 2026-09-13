@@ -2153,7 +2153,7 @@
   },
   {
     "name": "Human Passport",
-    "description": "Human Passport is a proof of personhood aggregator that turns identity credentials, called Stamps, into one Unique Humanity Score per wallet. A high score means an address is likely one distinct person, not one operator running many wallets. Projects check it for Sybil resistance before an airdrop, a grant round, a vote or a signup. Read scores from the REST API, or add the Passport Embed React component so users verify without leaving the site.",
+    "description": "Human Passport aggregates identity credentials, called Stamps, into one Unique Humanity Score per wallet, so projects can check that an address is a distinct person before an airdrop, grant round, vote or signup. Read scores from the REST API or drop in the Passport Embed React component.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/0160cab5-f34b-4aa5-9442-8b6e82a02bde.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/55137132-f859-4640-8d98-4f7c3a8e4489.png",
     "website": "https://passport.human.tech/",
