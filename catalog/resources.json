@@ -2407,7 +2407,7 @@
   {
     "name": "Lighthouse",
     "description": "Lighthouse is an Ethereum consensus client written in Rust by Sigma Prime and one of the most used clients on the network. Validator and node operators run it to follow and attest to the beacon chain.",
-    "thumbnail_url": "https://github.com/sigp.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/sigma-prime.svg",
     "tags": ["networking", "devops"],
     "subcategory_id": "execution-consensus-clients",
     "repos": ["https://github.com/sigp/lighthouse"]
@@ -2448,14 +2448,14 @@
   {
     "name": "Grandine",
     "description": "Grandine is a multithreaded Ethereum consensus client written in Rust for high throughput. Node operators run it when they want to drive many validators from one process.",
-    "thumbnail_url": "https://github.com/grandinetech.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/grandine.svg",
     "tags": ["networking", "devops", "performance-optimization"],
     "subcategory_id": "execution-consensus-clients",
     "repos": ["https://github.com/grandinetech/grandine"]
   },
   {
     "name": "Ream",
-    "description": "Ream is a Rust consensus client for the Beam chain, the planned next design of Ethereum consensus. It is under active development and not yet a production option for node operators.",
+    "description": "Ream is a Rust implementation of Ethereum's proposed Lean Consensus design. Client developers use it to experiment with the next consensus architecture, and it is not a production node client.",
     "thumbnail_url": "https://github.com/ReamLabs.png",
     "tags": ["networking", "devops"],
     "subcategory_id": "execution-consensus-clients",
@@ -2552,7 +2552,6 @@
   {
     "name": "Covalent (GoldRush)",
     "description": "Covalent, delivered as GoldRush, is a unified REST API for historical onchain data across many chains. Builders call it when an application needs normalized balances, transfers, and history without writing a chain-specific indexer.",
-    "thumbnail_url": "https://github.com/covalenthq.png",
     "tags": ["api", "indexing", "multi-chain"],
     "subcategory_id": "indexing-data-apis",
     "website": "https://www.covalenthq.com"
@@ -2633,7 +2632,6 @@
   {
     "name": "ethereum-etl",
     "description": "ethereum-etl is a Python tool that exports Ethereum data into files and data warehouses. Data builders run it to move blocks, transactions, and logs into their own analytics storage.",
-    "thumbnail_url": "https://github.com/blockchain-etl.png",
     "tags": ["indexing", "analytics", "cli"],
     "subcategory_id": "indexing-data-apis",
     "repos": ["https://github.com/blockchain-etl/ethereum-etl"],
@@ -2799,7 +2797,7 @@
   {
     "name": "Alchemy aa-sdk / Account Kit",
     "description": "Alchemy aa-sdk, shipped as Account Kit, is a full-stack smart wallet SDK with embedded wallets and a gas manager. Application builders use it to give users an account and sponsored transactions without a separate wallet app.",
-    "thumbnail_url": "https://github.com/alchemyplatform.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/alchemy.svg",
     "tags": ["account-abstraction", "sdk", "wallet"],
     "subcategory_id": "aa-tx-orchestration",
     "repos": ["https://github.com/alchemyplatform/aa-sdk"],
@@ -2849,7 +2847,7 @@
   {
     "name": "Forta",
     "description": "Forta is a decentralized network for runtime threat detection and anomaly monitoring. Builders write detection bots and run them on the network to get alerts about suspicious activity against their contracts.",
-    "thumbnail_url": "https://github.com/forta-network.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/forta.svg",
     "tags": ["security", "runtime-verification", "real-time-data"],
     "subcategory_id": "analytics-monitoring",
     "repos": ["https://github.com/forta-network/forta-node"]
@@ -2857,7 +2855,7 @@
   {
     "name": "Hypernative",
     "description": "Hypernative is a hosted platform for real-time onchain threat detection and risk monitoring. Builders choose it when a protocol needs monitored alerts and automated responses to attacks.",
-    "thumbnail_url": "https://github.com/Hypernative-Labs.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/hypernative.svg",
     "tags": ["security", "real-time-data", "analytics"],
     "subcategory_id": "analytics-monitoring",
     "website": "https://www.hypernative.io"
@@ -2905,7 +2903,7 @@
   },
   {
     "name": "Fireblocks SDK",
-    "description": "The Fireblocks SDK drives the Fireblocks MPC custody platform for programmatic signing, transfers, and treasury operations. Builders integrate it when funds are held in Fireblocks custody and movements must be automated.",
+    "description": "The Fireblocks SDK connects applications to Fireblocks' MPC wallet infrastructure for signing, transfers, and treasury operations. Builders use it to automate transactions and approval policies for wallets managed through Fireblocks.",
     "thumbnail_url": "https://github.com/fireblocks.png",
     "tags": ["sdk", "wallet", "transaction-signing", "security"],
     "subcategory_id": "cryptography-key-management",
@@ -2915,7 +2913,7 @@
   {
     "name": "Turnkey",
     "description": "Turnkey offers an API and SDK for secure key generation and transaction signing backed by trusted execution environments. Builders use it to create and operate wallet infrastructure without holding raw private keys in their own code.",
-    "thumbnail_url": "https://github.com/tkhq.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/turnkey.svg",
     "tags": ["sdk", "api", "transaction-signing", "wallet"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/tkhq/sdk"],
@@ -2923,7 +2921,7 @@
   },
   {
     "name": "Privy",
-    "description": "Privy is an embedded self-custodial wallet SDK with progressive authentication and delegated key management. Builders add it so users get a wallet on sign-up and can upgrade to their own custody later.",
+    "description": "Privy provides embedded wallet and authentication SDKs with configurable custody and signing permissions. Builders use it to create wallets during sign-up and support email, social, or passkey login.",
     "thumbnail_url": "https://github.com/privy-io.png",
     "tags": ["sdk", "wallet", "authentication"],
     "subcategory_id": "wallet-integration-auth",
@@ -2932,7 +2930,7 @@
   {
     "name": "Web3Auth",
     "description": "Web3Auth is an MPC and threshold key-management SDK that backs seedless wallets created from a social login. Builders use it when users should sign in with an existing account instead of a seed phrase.",
-    "thumbnail_url": "https://github.com/Web3Auth.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/web3auth.svg",
     "tags": ["sdk", "wallet", "authentication"],
     "subcategory_id": "wallet-integration-auth",
     "repos": ["https://github.com/Web3Auth/web3auth-web"],
@@ -2949,7 +2947,7 @@
   {
     "name": "Magic (Magic.link)",
     "description": "Magic is an embedded non-custodial wallet SDK with email and social login and delegated key management. Builders integrate it to give users a wallet behind a familiar login flow.",
-    "thumbnail_url": "https://github.com/magiclabs.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/magic.svg",
     "tags": ["sdk", "wallet", "authentication"],
     "subcategory_id": "wallet-integration-auth",
     "repos": ["https://github.com/magiclabs/magic-js"],
@@ -2967,7 +2965,6 @@
   {
     "name": "Lit Protocol",
     "description": "Lit Protocol is a decentralized network for threshold key management with programmable signing through its programmable key pairs. Builders use its SDK when signing or decryption should follow rules enforced by a network rather than a single key holder.",
-    "thumbnail_url": "https://github.com/LIT-Protocol.png",
     "tags": ["sdk", "transaction-signing", "encryption"],
     "subcategory_id": "cryptography-key-management",
     "website": "https://developer.litprotocol.com",
@@ -2999,14 +2996,6 @@
     "subcategory_id": "wallet-integration-auth",
     "repos": ["https://github.com/thirdweb-dev/web3-onboard"],
     "packages": ["https://www.npmjs.com/package/@web3-onboard/core"]
-  },
-  {
-    "name": "eth-gas-reporter",
-    "description": "eth-gas-reporter is a Mocha reporter that prints gas and fiat cost per function call and deployment. Truffle and plain Mocha test suites use it, while Hardhat projects usually pick hardhat-gas-reporter.",
-    "tags": ["testing", "gas-optimization"],
-    "subcategory_id": "debugging-inspection",
-    "repos": ["https://github.com/cgewecke/eth-gas-reporter"],
-    "packages": ["https://www.npmjs.com/package/eth-gas-reporter"]
   },
   {
     "name": "eth-tester",
@@ -3077,7 +3066,7 @@
   {
     "name": "staking-deposit-cli",
     "description": "staking-deposit-cli generates validator keys and deposit data for Ethereum staking, and is now maintained as the EthStaker fork that the original owners point to. Validators run it once when setting up new keys.",
-    "thumbnail_url": "https://github.com/ethstaker.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/ethstaker.svg",
     "tags": ["cli", "devops"],
     "subcategory_id": "execution-consensus-clients",
     "repos": ["https://github.com/ethstaker/ethstaker-deposit-cli", "https://github.com/ethereum/staking-deposit-cli"]
@@ -3092,7 +3081,7 @@
   {
     "name": "eth-docker",
     "description": "eth-docker is a Dockerized stack for deploying and managing execution, consensus, and validator clients on mainnet. Node operators use it to run a full node setup from configuration files instead of hand-installed binaries.",
-    "thumbnail_url": "https://github.com/ethstaker.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/ethstaker.svg",
     "tags": ["docker", "devops"],
     "subcategory_id": "deployment-devops",
     "repos": ["https://github.com/ethstaker/eth-docker"]
@@ -3180,7 +3169,7 @@
   },
   {
     "name": "4byte",
-    "description": "4byte.directory is a public registry of function and event signatures keyed by their four-byte selectors. Builders query it to resolve selectors while decoding calldata and unverified contracts.",
+    "description": "4byte.directory maps four-byte function selectors and 32-byte event-signature hashes to their human-readable signatures. Builders query it when decoding calldata or logs from contracts without a published ABI.",
     "thumbnail_url": "https://github.com/gobitfly.png",
     "tags": ["transaction-decoding", "abi-encoding"],
     "subcategory_id": "debugging-inspection",
@@ -3507,7 +3496,7 @@
   {
     "name": "Rocket Pool Smart Node",
     "description": "Rocket Pool Smart Node is the command line package node operators run to set up and manage a Rocket Pool minipool, wrapping execution and consensus clients plus validator duties.",
-    "thumbnail_url": "https://github.com/rocket-pool.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/rocket-pool.svg",
     "tags": ["cli", "devops"],
     "subcategory_id": "deployment-devops",
     "repos": ["https://github.com/rocket-pool/smartnode"]
@@ -3553,14 +3542,6 @@
     "tags": ["testing", "multi-chain", "developer-experience"],
     "subcategory_id": "contract-frameworks",
     "website": "https://www.buildbear.io"
-  },
-  {
-    "name": "builder-playground",
-    "description": "builder-playground is a self-contained local environment for testing the full block building loop of proposer, relay, and builder on layer 1 and layer 2. It serves the small group working on block building infrastructure.",
-    "thumbnail_url": "https://github.com/flashbots.png",
-    "tags": ["testing", "devops", "networking"],
-    "subcategory_id": "mev-block-building",
-    "repos": ["https://github.com/flashbots/builder-playground"]
   },
   {
     "name": "ethereum-genesis-generator",
@@ -3672,7 +3653,7 @@
   {
     "name": "@ledgerhq/hw-app-eth",
     "description": "The Ledger hw-app-eth package is the JavaScript API for signing Ethereum transactions and messages with a Ledger device, and it sits behind the Ledger connectors in wagmi and viem. Wallet and application builders import it to add hardware wallet signing.",
-    "thumbnail_url": "https://github.com/LedgerHQ.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/ledger.svg",
     "tags": ["wallet", "transaction-signing", "sdk"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/LedgerHQ/ledger-live"],
@@ -3707,7 +3688,7 @@
   {
     "name": "eciesjs",
     "description": "eciesjs implements the Elliptic Curve Integrated Encryption Scheme for secp256k1 in JavaScript. Builders import it to encrypt and decrypt data against an Ethereum-style keypair.",
-    "thumbnail_url": "https://github.com/ecies.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/ecies.svg",
     "tags": ["encryption", "security"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/ecies/js"],
@@ -3724,7 +3705,7 @@
   {
     "name": "k256 (RustCrypto)",
     "description": "k256 from RustCrypto is a pure Rust secp256k1 implementation covering ECDSA signing, verification, public key recovery, Schnorr, and ECDH, and it sits under reth, Alloy, and most Rust tooling. Rust builders depend on it directly when they handle signatures themselves.",
-    "thumbnail_url": "https://github.com/RustCrypto.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/rustcrypto.svg",
     "tags": ["transaction-signing", "security"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/RustCrypto/elliptic-curves"],
@@ -3757,7 +3738,7 @@
   {
     "name": "Trezor Connect",
     "description": "Trezor Connect is a JavaScript SDK for integrating Trezor hardware wallet signing, including Ethereum, into applications and wallets. Builders use it when users should sign with a Trezor device.",
-    "thumbnail_url": "https://github.com/trezor.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/trezor.png",
     "tags": ["sdk", "wallet", "transaction-signing"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/trezor/trezor-suite"]
@@ -3773,7 +3754,7 @@
   {
     "name": "Alchemy MCP Server",
     "description": "The Alchemy MCP Server gives AI clients access to Alchemy's blockchain data and RPC APIs across more than 100 chains. The hosted server at mcp.alchemy.com is the maintained route, while the open source repository holds the legacy local version.",
-    "thumbnail_url": "https://github.com/alchemyplatform.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/alchemy.svg",
     "tags": ["mcp-server", "api", "multi-chain"],
     "subcategory_id": "mcp-servers",
     "website": "https://www.alchemy.com/docs/alchemy-mcp-server",
@@ -3876,7 +3857,7 @@
   {
     "name": "ethereum-lists/chains",
     "description": "ethereum-lists/chains is the canonical metadata list for EVM chains, covering chain ID, name, native currency, and RPC URLs. Builders pull chains.json from it to populate wallet and network configuration instead of hardcoding chain data.",
-    "thumbnail_url": "https://github.com/ethereum-lists.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/ethereum-lists.svg",
     "tags": ["chains", "json-rpc", "community-driven"],
     "subcategory_id": "rpc-node-infrastructure",
     "repos": ["https://github.com/ethereum-lists/chains"]
@@ -3914,7 +3895,7 @@
   {
     "name": "enr (Ethereum Node Record)",
     "description": "enr is the Rust implementation of EIP-778 Ethereum Node Records, used by discv5 and the consensus and execution peer-to-peer stack. Rust builders add the crate to read and write node records.",
-    "thumbnail_url": "https://github.com/sigp.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/sigma-prime.svg",
     "tags": ["networking", "peer-to-peer", "standards-and-specifications"],
     "subcategory_id": "rpc-node-infrastructure",
     "repos": ["https://github.com/sigp/enr"],
@@ -3961,7 +3942,7 @@
   {
     "name": "Immunefi",
     "description": "Immunefi is a bug bounty platform where projects post rewards for whitehats who find and responsibly disclose contract vulnerabilities. Teams list a program there to give researchers a paid route to report issues.",
-    "thumbnail_url": "https://github.com/immunefi-team.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/immunefi.png",
     "tags": ["security", "community-driven"],
     "subcategory_id": "deployment-devops",
     "website": "https://immunefi.com"
@@ -4022,7 +4003,6 @@
   {
     "name": "weiroll",
     "description": "weiroll is an operation-chaining scripting language and set of contracts for composing many EVM calls into one transaction. Teams building call-routing or batching systems use it to express the call sequence as a script.",
-    "thumbnail_url": "https://github.com/weiroll.png",
     "tags": ["solidity", "multicall", "transaction-optimization"],
     "subcategory_id": "smart-contract-libraries-utilities",
     "repos": ["https://github.com/weiroll/weiroll"]
@@ -4033,7 +4013,7 @@
     "thumbnail_url": "https://github.com/eth-limo.png",
     "tags": ["frontend", "identity"],
     "subcategory_id": "storage-ipfs",
-    "repos": ["https://github.com/eth-limo/eth.limo"]
+    "website": "https://eth.limo/"
   },
   {
     "name": "Pinata",
@@ -4046,7 +4026,6 @@
   {
     "name": "ethr-did-resolver",
     "description": "ethr-did-resolver resolves decentralized identifiers anchored to Ethereum addresses. Applications that handle ethr identifiers install it to look up and manage those records.",
-    "thumbnail_url": "https://github.com/decentralized-identity.png",
     "tags": ["identity", "authentication", "standards-and-specifications"],
     "subcategory_id": "wallet-integration-auth",
     "repos": ["https://github.com/decentralized-identity/ethr-did-resolver"],
@@ -4267,7 +4246,7 @@
   {
     "name": "HashEx ABI Encoder",
     "description": "The HashEx ABI Encoder is a web form that ABI-encodes constructor and function arguments from a pasted signature and values. Builders use it when they need encoded arguments and are not at a terminal.",
-    "thumbnail_url": "https://github.com/HashEx.png",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/hashex.png",
     "tags": ["abi-encoding", "interactive-tools"],
     "subcategory_id": "debugging-inspection",
     "repos": ["https://github.com/HashEx/abiencoder"]
@@ -4343,5 +4322,13 @@
     "subcategory_id": "payments-defi-integration",
     "repos": ["https://github.com/v3xlabs/eth-prices"],
     "packages": ["https://crates.io/crates/eth-prices"]
+  },
+  {
+    "name": "Decker",
+    "description": "Decker is a TypeScript CLI for creating configurable local Ethereum devnets with execution and consensus clients, relays, and block builders. Teams use its recipes for integration tests and infrastructure development.",
+    "thumbnail_url": "https://github.com/flashbots.png",
+    "tags": ["cli", "testing", "devops", "networking"],
+    "subcategory_id": "deployment-devops",
+    "repos": ["https://github.com/flashbots/decker"]
   }
 ]
