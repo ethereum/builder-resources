@@ -37,6 +37,7 @@ Edit `catalog/resources.json` directly and add or modify an entry. The file is a
 | `thumbnail_url` | no | string (URL) | Square card icon (see Images below) |
 | `banner_url` | no | string (URL) | Wide detail-page header (see Images below) |
 | `llmstext` | no | string (URL) | The tool's agent-readable docs, if it publishes any (an `llms.txt`, `llms-full.txt`, or `SKILL.md`) |
+| `crops_native` | no | boolean | Marks a tool that carries the CROPS-Native badge. Maintainers set this field, leave it out of your PR (see [Review and curation](#review-and-curation)) |
 
 Entries have no `id` field. The `name` is the stable identifier in practice, so keep it unchanged in update PRs unless the project actually renamed.
 
@@ -95,6 +96,7 @@ The validator checks that the JSON parses, required fields are present, descript
 - A schema-valid entry is not a guarantee of inclusion. This is a curated catalog and maintainers make the final call on fit.
 - Broken image links get cleared while the entry stays. Entries get removed when a project is abandoned or its links die. If your project was removed and is active again, open an update issue.
 - A merged change shows up on ethereum.org after its next site build, usually within a few days.
+- The CROPS-Native badge (`crops_native`) is awarded by the Ethereum Foundation after a CROPS evaluation of the tool. If you would like your tool evaluated for the badge, open an [Update a resource](https://github.com/ethereum/builder-resources/issues/new?template=update-resource.yml) issue and say so, and we will look at how your tool stands.
 
 ## Taxonomy changes
 

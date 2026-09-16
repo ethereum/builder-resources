@@ -18,7 +18,8 @@
     "tags": ["frontend", "user-experience"],
     "website": "https://node.tevm.sh",
     "llmstext": "https://node.tevm.sh/llms.txt",
-    "subcategory_id": "rpc-node-infrastructure"
+    "subcategory_id": "rpc-node-infrastructure",
+    "crops_native": true
   },
   {
     "name": "OpenRPC",
@@ -37,7 +38,8 @@
     ],
     "tags": ["json-rpc", "cli", "standards-and-specifications"],
     "website": "https://open-rpc.org",
-    "subcategory_id": "standards-specifications"
+    "subcategory_id": "standards-specifications",
+    "crops_native": true
   },
   {
     "name": "alloy",
@@ -50,7 +52,8 @@
     ],
     "tags": ["json-rpc"],
     "website": "https://alloy.rs/",
-    "subcategory_id": "rpc-node-infrastructure"
+    "subcategory_id": "rpc-node-infrastructure",
+    "crops_native": true
   },
   {
     "name": "React Native Passkeys",
@@ -114,7 +117,8 @@
     ],
     "website": "https://getfoundry.sh",
     "llmstext": "https://getfoundry.sh/llms.txt",
-    "subcategory_id": "deployment-devops"
+    "subcategory_id": "deployment-devops",
+    "crops_native": true
   },
   {
     "name": "Kurtosis",
@@ -168,7 +172,8 @@
     "twitter": "https://x.com/prettiersol",
     "repos": ["https://github.com/prettier-solidity/prettier-plugin-solidity"],
     "tags": ["solidity", "code-quality"],
-    "subcategory_id": "smart-contract-libraries-utilities"
+    "subcategory_id": "smart-contract-libraries-utilities",
+    "crops_native": true
   },
   {
     "name": "Crytic-Properties",
@@ -186,7 +191,8 @@
     "twitter": "https://x.com/trailofbits",
     "repos": ["https://github.com/crytic/solc-select"],
     "tags": ["cli", "solidity"],
-    "subcategory_id": "smart-contract-libraries-utilities"
+    "subcategory_id": "smart-contract-libraries-utilities",
+    "crops_native": true
   },
   {
     "name": "Medusa",
@@ -211,7 +217,8 @@
       "vyper",
       "continuous-integration"
     ],
-    "subcategory_id": "fuzz-property-testing"
+    "subcategory_id": "fuzz-property-testing",
+    "crops_native": true
   },
   {
     "name": "Stereum",
@@ -327,7 +334,8 @@
     "repos": ["https://github.com/apoorvlathey/evm-rpcs-list"],
     "tags": ["chains"],
     "packages": ["https://www.npmjs.com/package/evm-rpcs-list"],
-    "subcategory_id": "rpc-node-infrastructure"
+    "subcategory_id": "rpc-node-infrastructure",
+    "crops_native": true
   },
   {
     "name": "EIP.Tools",
@@ -444,7 +452,8 @@
       "community-driven"
     ],
     "website": "https://hardhat.org/",
-    "subcategory_id": "deployment-devops"
+    "subcategory_id": "deployment-devops",
+    "crops_native": true
   },
   {
     "name": "Variance_dart",
@@ -469,7 +478,8 @@
     "banner_url": "https://storage.googleapis.com/op-atlas/997e2275-906b-4535-b414-59f4bd648196.png",
     "repos": ["https://github.com/merkletreejs/merkletreejs"],
     "tags": ["merkle-trees"],
-    "subcategory_id": "core-sdks-libraries"
+    "subcategory_id": "core-sdks-libraries",
+    "crops_native": true
   },
   {
     "name": "The Ethernaut",
@@ -543,7 +553,8 @@
     "tags": ["frontend", "nextjs", "hardhat", "foundry", "cli"],
     "llmstext": "https://docs.scaffoldeth.io/llms-full.txt",
     "subcategory_id": "contract-frameworks",
-    "packages": ["https://www.npmjs.com/package/create-eth"]
+    "packages": ["https://www.npmjs.com/package/create-eth"],
+    "crops_native": true
   },
   {
     "name": "Wagmi: Reactive primitives for Ethereum apps",
@@ -555,7 +566,8 @@
     "tags": ["react", "wallet", "transaction-signing", "community-driven"],
     "website": "https://wagmi.sh",
     "llmstext": "https://wagmi.sh/llms.txt",
-    "subcategory_id": "frontend-integration-tooling"
+    "subcategory_id": "frontend-integration-tooling",
+    "crops_native": true
   },
   {
     "name": "Solhint",
@@ -571,7 +583,8 @@
       "community-driven",
       "cli"
     ],
-    "subcategory_id": "smart-contract-libraries-utilities"
+    "subcategory_id": "smart-contract-libraries-utilities",
+    "crops_native": true
   },
   {
     "name": "Titanoboa",
@@ -600,7 +613,8 @@
       "visualization"
     ],
     "website": "https://otterscan.io/",
-    "subcategory_id": "analytics-monitoring"
+    "subcategory_id": "analytics-monitoring",
+    "crops_native": true
   },
   {
     "name": "Moccasin",
@@ -633,7 +647,8 @@
       "contract-deployment",
       "cli"
     ],
-    "subcategory_id": "deployment-devops"
+    "subcategory_id": "deployment-devops",
+    "crops_native": true
   },
   {
     "name": "Web3j",
@@ -661,7 +676,8 @@
       "wallet",
       "cli"
     ],
-    "subcategory_id": "core-sdks-libraries"
+    "subcategory_id": "core-sdks-libraries",
+    "crops_native": true
   },
   {
     "name": "Vscode Solidity Extension",
@@ -680,7 +696,8 @@
     "repos": ["https://github.com/ethers-io/ethers.js"],
     "tags": ["frontend", "json-rpc", "contract-interaction"],
     "website": "https://ethers.org",
-    "subcategory_id": "core-sdks-libraries"
+    "subcategory_id": "core-sdks-libraries",
+    "crops_native": true
   },
   {
     "name": "solidity-coverage",
@@ -695,7 +712,8 @@
       "solidity",
       "test-automation"
     ],
-    "subcategory_id": "fuzz-property-testing"
+    "subcategory_id": "fuzz-property-testing",
+    "crops_native": true
   },
   {
     "name": "OpenZeppelin Contracts",
@@ -723,7 +741,8 @@
       "merkle-trees"
     ],
     "website": "https://www.openzeppelin.com/",
-    "subcategory_id": "smart-contract-libraries-utilities"
+    "subcategory_id": "smart-contract-libraries-utilities",
+    "crops_native": true
   },
   {
     "name": "Blockscout open-source block explorer",
@@ -811,7 +830,8 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/d21bd2f0-91b0-4e80-9e33-b1c21501a4e8.png",
     "repos": ["https://github.com/joshstevens19/ethereum-bloom-filters"],
     "tags": ["performance-optimization", "event-logging"],
-    "subcategory_id": "core-sdks-libraries"
+    "subcategory_id": "core-sdks-libraries",
+    "crops_native": true
   },
   {
     "name": "rindexer",
@@ -831,7 +851,8 @@
     "repos": ["https://github.com/candidelabs/voltaire"],
     "tags": ["wallet", "account-abstraction", "bundler", "user-experience"],
     "website": "https://www.candide.dev/bundler",
-    "subcategory_id": "aa-tx-orchestration"
+    "subcategory_id": "aa-tx-orchestration",
+    "crops_native": true
   },
   {
     "name": "Remix Project",
@@ -888,7 +909,8 @@
     "twitter": "https://x.com/shazow",
     "repos": ["https://github.com/shazow/whatsabi"],
     "tags": ["abi-encoding"],
-    "subcategory_id": "smart-contract-libraries-utilities"
+    "subcategory_id": "smart-contract-libraries-utilities",
+    "crops_native": true
   },
   {
     "name": "Rundler",
@@ -899,7 +921,8 @@
     "repos": ["https://github.com/alchemyplatform/rundler"],
     "tags": ["docker", "bundler", "account-abstraction", "multi-chain"],
     "website": "https://alchemy.com",
-    "subcategory_id": "aa-tx-orchestration"
+    "subcategory_id": "aa-tx-orchestration",
+    "crops_native": true
   },
   {
     "name": "bulloak",
@@ -917,7 +940,8 @@
       "code-coverage"
     ],
     "website": "https://www.bulloak.dev/",
-    "subcategory_id": "fuzz-property-testing"
+    "subcategory_id": "fuzz-property-testing",
+    "crops_native": true
   },
   {
     "name": "Zabi",
@@ -977,7 +1001,8 @@
       "cli"
     ],
     "website": "https://ponder.sh",
-    "subcategory_id": "indexing-data-apis"
+    "subcategory_id": "indexing-data-apis",
+    "crops_native": true
   },
   {
     "name": "web3.py",
@@ -993,7 +1018,8 @@
       "https://github.com/ethereum/eth-account"
     ],
     "tags": ["transaction-signing", "community-driven"],
-    "subcategory_id": "core-sdks-libraries"
+    "subcategory_id": "core-sdks-libraries",
+    "crops_native": true
   },
   {
     "name": "JiffyScan",
@@ -1101,7 +1127,8 @@
       "https://github.com/ApeWorX/ape-base"
     ],
     "tags": ["cli"],
-    "subcategory_id": "contract-frameworks"
+    "subcategory_id": "contract-frameworks",
+    "crops_native": true
   },
   {
     "name": "Curvegrid MultiBaas",
@@ -1141,7 +1168,8 @@
     "repos": ["https://github.com/libp2p/rust-libp2p"],
     "tags": ["peer-to-peer", "libp2p"],
     "website": "https://sigmaprime.io",
-    "subcategory_id": "core-sdks-libraries"
+    "subcategory_id": "core-sdks-libraries",
+    "crops_native": true
   },
   {
     "name": "Blobscan",
@@ -1167,7 +1195,8 @@
     "twitter": "https://x.com/ipshipyard",
     "repos": ["https://github.com/libp2p/js-libp2p"],
     "tags": ["libp2p", "encryption", "gossipsub"],
-    "subcategory_id": "rpc-node-infrastructure"
+    "subcategory_id": "rpc-node-infrastructure",
+    "crops_native": true
   },
   {
     "name": "go-libp2p",
@@ -1185,7 +1214,8 @@
       "gossipsub",
       "community-driven"
     ],
-    "subcategory_id": "rpc-node-infrastructure"
+    "subcategory_id": "rpc-node-infrastructure",
+    "crops_native": true
   },
   {
     "name": "Aderyn",
@@ -1301,7 +1331,8 @@
     ],
     "website": "https://viem.sh",
     "llmstext": "https://viem.sh/llms.txt",
-    "subcategory_id": "core-sdks-libraries"
+    "subcategory_id": "core-sdks-libraries",
+    "crops_native": true
   },
   {
     "name": "Solady",
@@ -1620,7 +1651,8 @@
     "website": "https://intellij-solidity.dev/",
     "repos": ["https://github.com/intellij-solidity/intellij-solidity"],
     "tags": ["solidity", "developer-experience", "code-quality"],
-    "subcategory_id": "smart-contract-libraries-utilities"
+    "subcategory_id": "smart-contract-libraries-utilities",
+    "crops_native": true
   },
   {
     "name": "w3pk",
@@ -1654,7 +1686,8 @@
     "thumbnail_url": "https://github.com/trailofbits.png",
     "repos": ["https://github.com/trailofbits/skills"],
     "tags": ["security", "testing", "agent-skills"],
-    "subcategory_id": "agent-skills"
+    "subcategory_id": "agent-skills",
+    "crops_native": true
   },
   {
     "name": "OpenZeppelin Skills",
@@ -1886,7 +1919,8 @@
     "twitter": "https://twitter.com/zkmaci",
     "repos": ["https://github.com/privacy-scaling-explorations/maci"],
     "tags": ["privacy-focused", "governance", "scalability"],
-    "subcategory_id": "zk-circuits-privacy"
+    "subcategory_id": "zk-circuits-privacy",
+    "crops_native": true
   },
   {
     "name": "DAOhaus",
@@ -2274,14 +2308,16 @@
     "tags": ["solidity", "wallet", "modular-accounts"],
     "subcategory_id": "smart-contract-libraries-utilities",
     "repos": ["https://github.com/safe-fndn/safe-smart-account"],
-    "packages": ["https://www.npmjs.com/package/@safe-global/safe-smart-account"]
+    "packages": ["https://www.npmjs.com/package/@safe-global/safe-smart-account"],
+    "crops_native": true
   },
   {
     "name": "Multicall3",
     "description": "Multicall3 is the canonical contract for batching many reads or writes into a single transaction. Builders call it from contracts and scripts to fetch or update state across several contracts in one round trip.",
     "tags": ["solidity", "multicall", "contract-interaction"],
     "subcategory_id": "smart-contract-libraries-utilities",
-    "repos": ["https://github.com/mds1/multicall3"]
+    "repos": ["https://github.com/mds1/multicall3"],
+    "crops_native": true
   },
   {
     "name": "RainbowKit",
@@ -2290,7 +2326,8 @@
     "tags": ["react", "wallet", "frontend"],
     "subcategory_id": "wallet-integration-auth",
     "repos": ["https://github.com/rainbow-me/rainbowkit"],
-    "packages": ["https://www.npmjs.com/package/@rainbow-me/rainbowkit"]
+    "packages": ["https://www.npmjs.com/package/@rainbow-me/rainbowkit"],
+    "crops_native": true
   },
   {
     "name": "Reown AppKit (ex-Web3Modal/WalletConnect SDK)",
@@ -2317,7 +2354,8 @@
     "tags": ["sdk", "transaction-signing", "merkle-trees"],
     "subcategory_id": "core-sdks-libraries",
     "repos": ["https://github.com/ethereumjs/ethereumjs-monorepo"],
-    "packages": ["https://www.npmjs.com/package/@ethereumjs/rlp"]
+    "packages": ["https://www.npmjs.com/package/@ethereumjs/rlp"],
+    "crops_native": true
   },
   {
     "name": "go-ethereum (ethclient/accounts/abigen)",
@@ -2547,7 +2585,8 @@
     "thumbnail_url": "https://github.com/graphprotocol.png",
     "tags": ["indexing", "api", "event-logging"],
     "subcategory_id": "indexing-data-apis",
-    "repos": ["https://github.com/graphprotocol/graph-node"]
+    "repos": ["https://github.com/graphprotocol/graph-node"],
+    "crops_native": true
   },
   {
     "name": "Covalent (GoldRush)",
@@ -2594,7 +2633,8 @@
     "tags": ["sdk", "indexing"],
     "subcategory_id": "indexing-data-apis",
     "repos": ["https://github.com/subsquid/squid-sdk"],
-    "packages": ["https://www.npmjs.com/package/@subsquid/evm-processor"]
+    "packages": ["https://www.npmjs.com/package/@subsquid/evm-processor"],
+    "crops_native": true
   },
   {
     "name": "SubQuery",
@@ -2603,7 +2643,8 @@
     "tags": ["sdk", "indexing", "api"],
     "subcategory_id": "indexing-data-apis",
     "repos": ["https://github.com/subquery/subql"],
-    "packages": ["https://www.npmjs.com/package/@subql/common"]
+    "packages": ["https://www.npmjs.com/package/@subql/common"],
+    "crops_native": true
   },
   {
     "name": "Goldsky",
@@ -2661,7 +2702,8 @@
     "thumbnail_url": "https://github.com/TrueBlocks.png",
     "tags": ["indexing", "cli"],
     "subcategory_id": "indexing-data-apis",
-    "repos": ["https://github.com/TrueBlocks/trueblocks-core"]
+    "repos": ["https://github.com/TrueBlocks/trueblocks-core"],
+    "crops_native": true
   },
   {
     "name": "Allium",
@@ -2709,7 +2751,8 @@
     "thumbnail_url": "https://github.com/crytic.png",
     "tags": ["fuzz-testing", "testing", "security"],
     "subcategory_id": "fuzz-property-testing",
-    "repos": ["https://github.com/crytic/echidna"]
+    "repos": ["https://github.com/crytic/echidna"],
+    "crops_native": true
   },
   {
     "name": "ItyFuzz",
@@ -2751,7 +2794,8 @@
     "tags": ["bundler", "account-abstraction", "devops"],
     "subcategory_id": "aa-tx-orchestration",
     "repos": ["https://github.com/pimlicolabs/alto"],
-    "packages": ["https://www.npmjs.com/package/@pimlico/alto"]
+    "packages": ["https://www.npmjs.com/package/@pimlico/alto"],
+    "crops_native": true
   },
   {
     "name": "permissionless.js (Pimlico)",
@@ -2760,7 +2804,8 @@
     "tags": ["account-abstraction", "sdk", "transaction-management"],
     "subcategory_id": "aa-tx-orchestration",
     "repos": ["https://github.com/pimlicolabs/permissionless.js"],
-    "packages": ["https://www.npmjs.com/package/permissionless"]
+    "packages": ["https://www.npmjs.com/package/permissionless"],
+    "crops_native": true
   },
   {
     "name": "Kernel (ZeroDev)",
@@ -2785,7 +2830,8 @@
     "tags": ["account-abstraction", "modular-accounts", "solidity", "wallet"],
     "subcategory_id": "aa-tx-orchestration",
     "repos": ["https://github.com/safe-fndn/safe-modules"],
-    "packages": ["https://www.npmjs.com/package/@safe-global/safe-passkey"]
+    "packages": ["https://www.npmjs.com/package/@safe-global/safe-passkey"],
+    "crops_native": true
   },
   {
     "name": "safe7579 (Rhinestone)",
@@ -2810,7 +2856,8 @@
     "thumbnail_url": "https://github.com/coinbase.png",
     "tags": ["account-abstraction", "wallet", "authentication"],
     "subcategory_id": "aa-tx-orchestration",
-    "repos": ["https://github.com/coinbase/smart-wallet"]
+    "repos": ["https://github.com/coinbase/smart-wallet"],
+    "crops_native": true
   },
   {
     "name": "Arka (Etherspot paymaster)",
@@ -2843,7 +2890,8 @@
     "tags": ["hardhat", "contract-deployment", "proxy-contracts", "upgradeable-contracts"],
     "subcategory_id": "deployment-devops",
     "repos": ["https://github.com/wighawag/hardhat-deploy"],
-    "packages": ["https://www.npmjs.com/package/hardhat-deploy"]
+    "packages": ["https://www.npmjs.com/package/hardhat-deploy"],
+    "crops_native": true
   },
   {
     "name": "Forta",
@@ -2892,7 +2940,8 @@
     "tags": ["type-safe", "abi-encoding", "developer-experience"],
     "subcategory_id": "core-sdks-libraries",
     "repos": ["https://github.com/wevm/abitype"],
-    "packages": ["https://www.npmjs.com/package/abitype"]
+    "packages": ["https://www.npmjs.com/package/abitype"],
+    "crops_native": true
   },
   {
     "name": "web3.swift (Argent)",
@@ -2900,7 +2949,8 @@
     "thumbnail_url": "https://github.com/argentlabs.png",
     "tags": ["sdk", "json-rpc", "abi-encoding", "transaction-signing"],
     "subcategory_id": "core-sdks-libraries",
-    "repos": ["https://github.com/argentlabs/web3.swift"]
+    "repos": ["https://github.com/argentlabs/web3.swift"],
+    "crops_native": true
   },
   {
     "name": "Fireblocks SDK",
@@ -2961,7 +3011,8 @@
     "tags": ["sdk", "wallet", "indexing", "transaction-management"],
     "subcategory_id": "aa-tx-orchestration",
     "repos": ["https://github.com/0xsequence/sequence.js"],
-    "packages": ["https://www.npmjs.com/package/@0xsequence/abi"]
+    "packages": ["https://www.npmjs.com/package/@0xsequence/abi"],
+    "crops_native": true
   },
   {
     "name": "Lit Protocol",
@@ -2996,7 +3047,8 @@
     "tags": ["wallet", "frontend", "standards-and-specifications"],
     "subcategory_id": "wallet-integration-auth",
     "repos": ["https://github.com/thirdweb-dev/web3-onboard"],
-    "packages": ["https://www.npmjs.com/package/@web3-onboard/core"]
+    "packages": ["https://www.npmjs.com/package/@web3-onboard/core"],
+    "crops_native": true
   },
   {
     "name": "eth-tester",
@@ -3005,7 +3057,8 @@
     "tags": ["testing", "test-automation"],
     "subcategory_id": "fuzz-property-testing",
     "repos": ["https://github.com/ApeWorX/eth-tester"],
-    "packages": ["https://pypi.org/project/eth-tester/"]
+    "packages": ["https://pypi.org/project/eth-tester/"],
+    "crops_native": true
   },
   {
     "name": "Hive",
@@ -3029,14 +3082,16 @@
     "tags": ["visualization", "solidity", "storage-layout", "cli"],
     "subcategory_id": "debugging-inspection",
     "repos": ["https://github.com/naddison36/sol2uml"],
-    "packages": ["https://www.npmjs.com/package/sol2uml"]
+    "packages": ["https://www.npmjs.com/package/sol2uml"],
+    "crops_native": true
   },
   {
     "name": "heimdall-rs",
     "description": "heimdall-rs is a Rust EVM toolkit that disassembles bytecode, decompiles contracts, generates control flow graphs, and decodes calldata and traces. Builders reach for it when they need to understand a contract that has no published source.",
     "tags": ["debugging-tools", "transaction-decoding", "cli", "code-analysis"],
     "subcategory_id": "debugging-inspection",
-    "repos": ["https://github.com/Jon-Becker/heimdall-rs"]
+    "repos": ["https://github.com/Jon-Becker/heimdall-rs"],
+    "crops_native": true
   },
   {
     "name": "MEV-Boost",
@@ -3110,7 +3165,8 @@
     "tags": ["education", "interactive-tools", "standards-and-specifications"],
     "subcategory_id": "standards-specifications",
     "website": "https://www.evm.codes",
-    "repos": ["https://github.com/duneanalytics/evm.codes"]
+    "repos": ["https://github.com/duneanalytics/evm.codes"],
+    "crops_native": true
   },
   {
     "name": "L2BEAT",
@@ -3192,7 +3248,8 @@
     "tags": ["multicall", "contract-interaction", "performance-optimization"],
     "subcategory_id": "core-sdks-libraries",
     "repos": ["https://github.com/banteg/multicall.py"],
-    "packages": ["https://pypi.org/project/multicall/"]
+    "packages": ["https://pypi.org/project/multicall/"],
+    "crops_native": true
   },
   {
     "name": "w3 (Golang JSON-RPC client)",
@@ -3231,7 +3288,8 @@
     "thumbnail_url": "https://github.com/ethpandaops.png",
     "tags": ["devops", "docker"],
     "subcategory_id": "deployment-devops",
-    "repos": ["https://github.com/ethpandaops/ethereum-helm-charts"]
+    "repos": ["https://github.com/ethpandaops/ethereum-helm-charts"],
+    "crops_native": true
   },
   {
     "name": "micro-eth-signer",
@@ -3263,7 +3321,8 @@
     "thumbnail_url": "https://github.com/flashbots.png",
     "tags": ["devops", "networking"],
     "subcategory_id": "mev-block-building",
-    "repos": ["https://github.com/flashbots/mev-boost-relay"]
+    "repos": ["https://github.com/flashbots/mev-boost-relay"],
+    "crops_native": true
   },
   {
     "name": "rbuilder",
@@ -3279,7 +3338,8 @@
     "thumbnail_url": "https://github.com/ethpandaops.png",
     "tags": ["devops", "networking"],
     "subcategory_id": "rpc-node-infrastructure",
-    "repos": ["https://github.com/ethpandaops/checkpointz"]
+    "repos": ["https://github.com/ethpandaops/checkpointz"],
+    "crops_native": true
   },
   {
     "name": "Irys",
@@ -3339,7 +3399,8 @@
     "thumbnail_url": "https://github.com/flashbots.png",
     "tags": ["analytics", "api", "cli"],
     "subcategory_id": "analytics-monitoring",
-    "repos": ["https://github.com/flashbots/relayscan"]
+    "repos": ["https://github.com/flashbots/relayscan"],
+    "crops_native": true
   },
   {
     "name": "Elixir Ethers",
@@ -3371,7 +3432,8 @@
     "thumbnail_url": "https://github.com/0xsequence.png",
     "tags": ["sdk", "abi-encoding", "wallet", "json-rpc"],
     "subcategory_id": "core-sdks-libraries",
-    "repos": ["https://github.com/0xsequence/ethkit"]
+    "repos": ["https://github.com/0xsequence/ethkit"],
+    "crops_native": true
   },
   {
     "name": "js-ethereum-cryptography",
@@ -3380,7 +3442,8 @@
     "tags": ["encryption", "security", "wallet"],
     "subcategory_id": "cryptography-key-management",
     "repos": ["https://github.com/ethereum/js-ethereum-cryptography"],
-    "packages": ["https://www.npmjs.com/package/ethereum-cryptography"]
+    "packages": ["https://www.npmjs.com/package/ethereum-cryptography"],
+    "crops_native": true
   },
   {
     "name": "ox",
@@ -3389,7 +3452,8 @@
     "tags": ["sdk", "abi-encoding", "transaction-signing", "type-safe"],
     "subcategory_id": "core-sdks-libraries",
     "repos": ["https://github.com/wevm/ox"],
-    "packages": ["https://www.npmjs.com/package/ox"]
+    "packages": ["https://www.npmjs.com/package/ox"],
+    "crops_native": true
   },
   {
     "name": "py_ecc",
@@ -3407,7 +3471,8 @@
     "tags": ["sdk", "wallet", "transaction-signing"],
     "subcategory_id": "core-sdks-libraries",
     "repos": ["https://github.com/safe-global/safe-eth-py"],
-    "packages": ["https://pypi.org/project/safe-eth-py/"]
+    "packages": ["https://pypi.org/project/safe-eth-py/"],
+    "crops_native": true
   },
   {
     "name": "WTF Solidity",
@@ -3429,7 +3494,8 @@
     "thumbnail_url": "https://github.com/ethpandaops.png",
     "tags": ["debugging-tools", "visualization", "networking"],
     "subcategory_id": "debugging-inspection",
-    "repos": ["https://github.com/ethpandaops/forky"]
+    "repos": ["https://github.com/ethpandaops/forky"],
+    "crops_native": true
   },
   {
     "name": "geas (Good Ethereum Assembler)",
@@ -3445,7 +3511,8 @@
     "tags": ["debugging-tools", "code-analysis", "cli"],
     "subcategory_id": "debugging-inspection",
     "repos": ["https://github.com/crytic/pyevmasm"],
-    "packages": ["https://pypi.org/project/pyevmasm/"]
+    "packages": ["https://pypi.org/project/pyevmasm/"],
+    "crops_native": true
   },
   {
     "name": "revm-inspectors",
@@ -3454,7 +3521,8 @@
     "tags": ["debugging-tools", "code-analysis"],
     "subcategory_id": "debugging-inspection",
     "repos": ["https://github.com/paradigmxyz/revm-inspectors"],
-    "packages": ["https://crates.io/crates/revm-inspectors"]
+    "packages": ["https://crates.io/crates/revm-inspectors"],
+    "crops_native": true
   },
   {
     "name": "tracoor",
@@ -3493,7 +3561,8 @@
     "thumbnail_url": "https://github.com/foundry-rs.png",
     "tags": ["foundry", "github-actions", "continuous-integration", "testing"],
     "subcategory_id": "deployment-devops",
-    "repos": ["https://github.com/foundry-rs/foundry-toolchain"]
+    "repos": ["https://github.com/foundry-rs/foundry-toolchain"],
+    "crops_native": true
   },
   {
     "name": "Rocket Pool Smart Node",
@@ -3567,7 +3636,8 @@
     "tags": ["compiler", "solidity"],
     "subcategory_id": "contract-frameworks",
     "repos": ["https://github.com/ApeWorX/py-solc-x"],
-    "packages": ["https://pypi.org/project/py-solc-x/"]
+    "packages": ["https://pypi.org/project/py-solc-x/"],
+    "crops_native": true
   },
   {
     "name": "spamoor",
@@ -3584,7 +3654,8 @@
     "tags": ["sdk", "layer-2"],
     "subcategory_id": "contract-frameworks",
     "repos": ["https://github.com/OffchainLabs/stylus-sdk-rs"],
-    "packages": ["https://crates.io/crates/stylus-sdk"]
+    "packages": ["https://crates.io/crates/stylus-sdk"],
+    "crops_native": true
   },
   {
     "name": "ant-design-web3",
@@ -3803,7 +3874,8 @@
     "tags": ["sdk", "defi"],
     "subcategory_id": "payments-defi-integration",
     "repos": ["https://github.com/lidofinance/lido-ethereum-sdk"],
-    "packages": ["https://www.npmjs.com/package/@lidofinance/lido-ethereum-sdk"]
+    "packages": ["https://www.npmjs.com/package/@lidofinance/lido-ethereum-sdk"],
+    "crops_native": true
   },
   {
     "name": "Machine Payments Protocol SDK (wevm)",
@@ -3854,7 +3926,8 @@
     "thumbnail_url": "https://github.com/ethpandaops.png",
     "tags": ["block-explorer", "visualization"],
     "subcategory_id": "analytics-monitoring",
-    "repos": ["https://github.com/ethpandaops/dora"]
+    "repos": ["https://github.com/ethpandaops/dora"],
+    "crops_native": true
   },
   {
     "name": "ethereum-lists/chains",
@@ -3862,7 +3935,8 @@
     "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/ethereum-lists.svg",
     "tags": ["chains", "json-rpc", "community-driven"],
     "subcategory_id": "rpc-node-infrastructure",
-    "repos": ["https://github.com/ethereum-lists/chains"]
+    "repos": ["https://github.com/ethereum-lists/chains"],
+    "crops_native": true
   },
   {
     "name": "1RPC",
@@ -3901,7 +3975,8 @@
     "tags": ["networking", "peer-to-peer", "standards-and-specifications"],
     "subcategory_id": "rpc-node-infrastructure",
     "repos": ["https://github.com/sigp/enr"],
-    "packages": ["https://crates.io/crates/enr"]
+    "packages": ["https://crates.io/crates/enr"],
+    "crops_native": true
   },
   {
     "name": "Lava Network",
@@ -3974,7 +4049,8 @@
     "tags": ["type-safe", "developer-experience"],
     "subcategory_id": "core-sdks-libraries",
     "repos": ["https://github.com/paritytech/parity-common"],
-    "packages": ["https://crates.io/crates/primitive-types"]
+    "packages": ["https://crates.io/crates/primitive-types"],
+    "crops_native": true
   },
   {
     "name": "ruint",
@@ -3983,7 +4059,8 @@
     "tags": ["type-safe", "developer-experience"],
     "subcategory_id": "core-sdks-libraries",
     "repos": ["https://github.com/alloy-rs/ruint"],
-    "packages": ["https://crates.io/crates/ruint"]
+    "packages": ["https://crates.io/crates/ruint"],
+    "crops_native": true
   },
   {
     "name": "solidity-docgen",
@@ -3992,7 +4069,8 @@
     "tags": ["solidity", "developer-experience"],
     "subcategory_id": "smart-contract-libraries-utilities",
     "repos": ["https://github.com/OpenZeppelin/solidity-docgen"],
-    "packages": ["https://www.npmjs.com/package/solidity-docgen"]
+    "packages": ["https://www.npmjs.com/package/solidity-docgen"],
+    "crops_native": true
   },
   {
     "name": "SolidState Solidity",
@@ -4001,7 +4079,8 @@
     "tags": ["solidity", "upgradeable-contracts", "proxy-contracts", "standards-and-specifications"],
     "subcategory_id": "smart-contract-libraries-utilities",
     "repos": ["https://github.com/solidstate-network/solidstate-solidity"],
-    "packages": ["https://www.npmjs.com/package/@solidstate/contracts"]
+    "packages": ["https://www.npmjs.com/package/@solidstate/contracts"],
+    "crops_native": true
   },
   {
     "name": "weiroll",
@@ -4032,7 +4111,8 @@
     "tags": ["identity", "authentication", "standards-and-specifications"],
     "subcategory_id": "wallet-integration-auth",
     "repos": ["https://github.com/decentralized-identity/ethr-did-resolver"],
-    "packages": ["https://www.npmjs.com/package/ethr-did-resolver"]
+    "packages": ["https://www.npmjs.com/package/ethr-did-resolver"],
+    "crops_native": true
   },
   {
     "name": "mipd",
@@ -4041,7 +4121,8 @@
     "tags": ["wallet", "standards-and-specifications", "frontend"],
     "subcategory_id": "wallet-integration-auth",
     "repos": ["https://github.com/wevm/mipd"],
-    "packages": ["https://www.npmjs.com/package/mipd"]
+    "packages": ["https://www.npmjs.com/package/mipd"],
+    "crops_native": true
   },
   {
     "name": "arkworks algebra",
@@ -4083,7 +4164,8 @@
     "tags": ["verification"],
     "subcategory_id": "zk-circuits-privacy",
     "repos": ["https://github.com/Plonky3/Plonky3"],
-    "packages": ["https://crates.io/crates/p3-util"]
+    "packages": ["https://crates.io/crates/p3-util"],
+    "crops_native": true
   },
   {
     "name": "powdr",
@@ -4118,7 +4200,8 @@
     "tags": ["defi", "sdk", "contract-interaction"],
     "subcategory_id": "payments-defi-integration",
     "repos": ["https://github.com/tradingstrategy-ai/web3-ethereum-defi"],
-    "packages": ["https://pypi.org/project/web3-ethereum-defi/"]
+    "packages": ["https://pypi.org/project/web3-ethereum-defi/"],
+    "crops_native": true
   },
   {
     "name": "Nexth",
@@ -4141,7 +4224,8 @@
     "tags": ["contract-deployment", "testing"],
     "subcategory_id": "deployment-devops",
     "repos": ["https://github.com/wighawag/rocketh"],
-    "packages": ["https://www.npmjs.com/package/rocketh"]
+    "packages": ["https://www.npmjs.com/package/rocketh"],
+    "crops_native": true
   },
   {
     "name": "headlong",
@@ -4178,7 +4262,8 @@
     "thumbnail_url": "https://github.com/mana-ethereum.png",
     "tags": ["sdk", "json-rpc"],
     "subcategory_id": "core-sdks-libraries",
-    "repos": ["https://github.com/mana-ethereum/ethereumex"]
+    "repos": ["https://github.com/mana-ethereum/ethereumex"],
+    "crops_native": true
   },
   {
     "name": "hs-web3",
