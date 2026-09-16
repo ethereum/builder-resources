@@ -229,6 +229,11 @@ for (let i = 0; i < results.length; i++) {
     }
   }
 
+  // crops_native
+  if (entry.crops_native !== undefined && entry.crops_native !== true) {
+    fail(`${where}.crops_native must be exactly true if present (leave it out otherwise)`);
+  }
+
   // At least one discoverability/source link is required.
   const hasWebsite = isNonEmptyString(entry.website);
   const hasRepos = Array.isArray(entry.repos) && entry.repos.length > 0;
