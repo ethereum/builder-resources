@@ -4336,5 +4336,13 @@
     "tags": ["cli", "testing", "devops", "networking"],
     "subcategory_id": "deployment-devops",
     "repos": ["https://github.com/flashbots/decker"]
+  },
+  {
+    "name": "hardhat-gas-reporter",
+    "description": "hardhat-gas-reporter is a Hardhat plugin that reports gas used by each function call and deployment while the test suite runs, with optional fiat cost estimates. Hardhat users add it when they need to see the gas impact of a change in the test output.",
+    "tags": ["hardhat", "gas-optimization", "testing"],
+    "subcategory_id": "debugging-inspection",
+    "repos": ["https://github.com/cgewecke/hardhat-gas-reporter"],
+    "packages": ["https://www.npmjs.com/package/hardhat-gas-reporter"]
   }
 ]
