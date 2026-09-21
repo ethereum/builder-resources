@@ -1521,7 +1521,8 @@
   {
     "name": "SpeedrunEthereum",
     "description": "Speedrun Ethereum is a hands-on series of challenges designed to help you learn by building. Each challenge delivers one key \"aha\" moment, a mental unlock about how  Ethereum really works. At the same time, you'll be building your Ethereum portfolio.",
-    "thumbnail_url": "https://speedrunethereum.com/favicon.ico",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/speedrunethereum.png",
+    "banner_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/banners/speedrunethereum.webp",
     "twitter": "https://x.com/buidlguidl",
     "repos": [
       "https://github.com/BuidlGuidl/SpeedRunEthereum-v2",
