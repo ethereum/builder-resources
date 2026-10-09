@@ -113,7 +113,10 @@
       "vyper",
       "continuous-integration",
       "fuzz-testing",
-      "performance-optimization"
+      "performance-optimization",
+      "testing",
+      "contract-deployment",
+      "code-coverage"
     ],
     "website": "https://getfoundry.sh",
     "llmstext": "https://getfoundry.sh/llms.txt",
