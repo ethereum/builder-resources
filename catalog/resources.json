@@ -415,15 +415,6 @@
     "subcategory_id": "storage-ipfs"
   },
   {
-    "name": "Gelato Relay SDK",
-    "description": "Gelato Relay SDK wraps Gelato's relayers so frontends can submit meta-transactions, sponsored gas flows, or scheduled calls without operating your own bundler fleet.",
-    "thumbnail_url": "https://github.com/gelatodigital.png",
-    "repos": ["https://github.com/gelatodigital/relay-sdk"],
-    "tags": ["security", "sdk", "transaction-management"],
-    "website": "https://www.gelato.network/relay",
-    "subcategory_id": "aa-tx-orchestration"
-  },
-  {
     "name": "Gelato Automate SDK",
     "description": "Automate your smart contracts using Automate SDK",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/3d382dad-0b66-475d-a13c-43fddf27d5cc.png",
@@ -1912,15 +1903,6 @@
     "crops_native": true
   },
   {
-    "name": "DAOhaus",
-    "description": "DAOhaus offers open-source tooling for launching and operating DAOs with modular contracts, apps, and community governance workflows.",
-    "thumbnail_url": "https://github.com/HausDAO.png",
-    "website": "https://daohaus.club/",
-    "repos": ["https://github.com/HausDAO/monorepo"],
-    "tags": ["governance", "community-driven"],
-    "subcategory_id": "governance-dao-tooling"
-  },
-  {
     "name": "Alchemy",
     "description": "Alchemy is a developer platform for building Ethereum and EVM applications with node infrastructure, APIs, and SDKs.",
     "thumbnail_url": "https://github.com/alchemyplatform.png",
@@ -2368,15 +2350,6 @@
     "subcategory_id": "core-sdks-libraries",
     "repos": ["https://github.com/safe-global/safe-core-sdk"],
     "packages": ["https://www.npmjs.com/package/@safe-global/protocol-kit"]
-  },
-  {
-    "name": "OnchainKit",
-    "description": "OnchainKit is a set of React components from Coinbase for wallets, transactions, identity, and other onchain interfaces. React builders use it to assemble an onchain frontend from prebuilt pieces.",
-    "thumbnail_url": "https://github.com/coinbase.png",
-    "tags": ["react", "frontend", "wallet", "identity"],
-    "subcategory_id": "frontend-integration-tooling",
-    "repos": ["https://github.com/coinbase/onchainkit"],
-    "packages": ["https://www.npmjs.com/package/@coinbase/onchainkit"]
   },
   {
     "name": "Nethermind",
@@ -2843,15 +2816,6 @@
     "tags": ["account-abstraction", "devops", "transaction-management"],
     "subcategory_id": "aa-tx-orchestration",
     "repos": ["https://github.com/etherspot/arka"]
-  },
-  {
-    "name": "Rhinestone ModuleKit",
-    "description": "Rhinestone ModuleKit is a Solidity framework for building and testing ERC-7579 modules. Builders use it when writing validators, executors, or hooks for modular smart accounts.",
-    "thumbnail_url": "https://github.com/rhinestonewtf.png",
-    "tags": ["solidity", "testing", "modular-accounts", "account-abstraction"],
-    "subcategory_id": "aa-tx-orchestration",
-    "repos": ["https://github.com/rhinestonewtf/modulekit"],
-    "packages": ["https://www.npmjs.com/package/@rhinestone/modulekit"]
   },
   {
     "name": "Particle Network",
