@@ -1973,18 +1973,6 @@
     "subcategory_id": "courses-tutorials"
   },
   {
-    "name": "Solmate",
-    "description": "Solmate is a modern, opinionated collection of gas-optimized Solidity building blocks and utilities for smart contract development.",
-    "repos": ["https://github.com/transmissions11/solmate"],
-    "tags": [
-      "solidity",
-      "gas-efficient",
-      "gas-optimization",
-      "solidity-development"
-    ],
-    "subcategory_id": "smart-contract-libraries-utilities"
-  },
-  {
     "name": "RareSkills",
     "description": "RareSkills is an Ethereum and smart contract education platform with structured courses, bootcamps, and in-depth developer learning content.",
     "thumbnail_url": "https://github.com/RareSkills.png",
@@ -2881,14 +2869,6 @@
     "repos": ["https://github.com/wighawag/hardhat-deploy"],
     "packages": ["https://www.npmjs.com/package/hardhat-deploy"],
     "crops_native": true
-  },
-  {
-    "name": "Forta",
-    "description": "Forta is a decentralized network for runtime threat detection and anomaly monitoring. Builders write detection bots and run them on the network to get alerts about suspicious activity against their contracts.",
-    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/forta.svg",
-    "tags": ["security", "runtime-verification", "real-time-data"],
-    "subcategory_id": "analytics-monitoring",
-    "repos": ["https://github.com/forta-network/forta-node"]
   },
   {
     "name": "Hypernative",
@@ -4293,14 +4273,6 @@
     "website": "https://evmconnector.dev"
   },
   {
-    "name": "One Click Dapp",
-    "description": "One Click Dapp generates a hosted web interface for a deployed contract from its ABI and address. Builders use it to give a contract a usable interface without writing frontend code.",
-    "thumbnail_url": "https://github.com/oneclickdapp.png",
-    "tags": ["frontend", "contract-interaction", "interactive-tools"],
-    "subcategory_id": "frontend-integration-tooling",
-    "website": "https://oneclickdapp.com"
-  },
-  {
     "name": "Web3Client",
     "description": "Web3Client is a browser tool for creating, testing, and sharing contract ABIs and the calls made against them. Builders use it to work out a call and hand the result to someone else.",
     "tags": ["abi-encoding", "contract-interaction", "interactive-tools"],
@@ -4336,14 +4308,6 @@
     "tags": ["testing", "contract-deployment"],
     "subcategory_id": "deployment-devops",
     "website": "https://faucets.chain.link"
-  },
-  {
-    "name": "Pessimistic Spotter",
-    "description": "Pessimistic Spotter monitors deployed contracts for exploit patterns and raises alerts. Teams point it at their own contracts to catch an attack while it is still running.",
-    "thumbnail_url": "https://github.com/pessimistic-io.png",
-    "tags": ["security", "runtime-verification", "real-time-data"],
-    "subcategory_id": "analytics-monitoring",
-    "website": "https://spotter.pessimistic.io"
   },
   {
     "name": "Kaleido",
