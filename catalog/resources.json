@@ -415,16 +415,6 @@
     "subcategory_id": "storage-ipfs"
   },
   {
-    "name": "Gelato Automate SDK",
-    "description": "Automate your smart contracts using Automate SDK",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/3d382dad-0b66-475d-a13c-43fddf27d5cc.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/635c79ee-de4c-431e-8ce8-cb47fedb91ce.png",
-    "repos": ["https://github.com/gelatodigital/automate-sdk"],
-    "tags": ["sdk", "contract-interaction"],
-    "website": "https://www.gelato.network/web3-functions",
-    "subcategory_id": "core-sdks-libraries"
-  },
-  {
     "name": "Hardhat",
     "description": "Hardhat is a development environment to build and deploy your Ethereum software",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/4659da93-959f-4622-bce7-0bf1b3ac0f5c.png",
@@ -1400,32 +1390,6 @@
     "subcategory_id": "zk-circuits-privacy"
   },
   {
-    "name": "Decent.xyz",
-    "description": "Decent enables cross-chain swaps and 1-click transactions with any token across chains. ",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/1ede3a09-1878-4852-a564-f86f4f49b9fc.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/862dacb3-f496-4afe-ae66-70f9f9949937.png",
-    "twitter": "https://twitter.com/decentxyz",
-    "repos": [
-      "https://github.com/decentxyz/launch-nfts",
-      "https://github.com/decentxyz/decentV2-contracts",
-      "https://github.com/decentxyz/decent-contracts-v3"
-    ],
-    "tags": [
-      "cross-chain",
-      "nextjs",
-      "tailwind-css",
-      "foundry",
-      "user-experience"
-    ],
-    "subcategory_id": "cross-chain-infrastructure",
-    "packages": [
-      "https://www.npmjs.com/package/@decent.xyz/box-common",
-      "https://www.npmjs.com/package/@decent.xyz/box-hooks",
-      "https://www.npmjs.com/package/@decent.xyz/box-ui",
-      "https://www.npmjs.com/package/@decent.xyz/the-box"
-    ]
-  },
-  {
     "name": "DefiLlama",
     "description": "DefiLlama is an open analytics collective best known for transparent TVL dashboards, a DEX meta-aggregator, and LlamaZip, a swap router tuned for optimistic rollups that helps traders find efficient routes across fragmented liquidity.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/a9e1e4b4-45a2-411b-8f31-059269534381.png",
@@ -1521,28 +1485,6 @@
     ],
     "subcategory_id": "core-sdks-libraries",
     "packages": ["https://www.npmjs.com/package/multicaller"]
-  },
-  {
-    "name": "Chain Abstraction with 4337",
-    "description": "With this setup, ecosystems can deploy tailor-made 4337 chain abstraction infrastructure. They become Liquidity Providers (LPs) for their users, sharing with them the value that would otherwise have been captured by solvers/fillers. ",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/1d22d6dc-b629-48bc-9c25-2ecc6b9aa1a5.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/1d511ff7-cfcf-49f8-876c-b11a324148a3.png",
-    "twitter": "https://x.com/openfortxyz",
-    "repos": [
-      "https://github.com/openfort-xyz/openfort-contracts",
-      "https://github.com/openfort-xyz/openfort-chain-abstraction",
-      "https://github.com/openfort-xyz/openfort-js"
-    ],
-    "tags": [
-      "defi",
-      "wallet",
-      "account-abstraction",
-      "multi-chain",
-      "user-experience"
-    ],
-    "website": "https://openfort.xyz",
-    "subcategory_id": "aa-tx-orchestration",
-    "packages": ["https://www.npmjs.com/package/@openfort/openfort-js"]
   },
   {
     "name": "Aragon OSx",
@@ -4249,21 +4191,6 @@
     "tags": ["abi-encoding", "contract-interaction", "interactive-tools"],
     "subcategory_id": "debugging-inspection",
     "website": "https://www.smartcontractgui.xyz"
-  },
-  {
-    "name": "ABI Calldata Layout Visualizer",
-    "description": "The ABI Calldata Layout Visualizer decodes ABI calldata and draws its byte layout, showing where heads, tails, and offsets sit in the encoded payload. Builders open it when a plain decoder does not explain why an encoding is wrong.",
-    "tags": ["abi-encoding", "transaction-decoding", "visualization"],
-    "subcategory_id": "debugging-inspection",
-    "repos": ["https://github.com/PurrProof/calldata-visualizer"]
-  },
-  {
-    "name": "HashEx ABI Encoder",
-    "description": "The HashEx ABI Encoder is a web form that ABI-encodes constructor and function arguments from a pasted signature and values. Builders use it when they need encoded arguments and are not at a terminal.",
-    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/hashex.png",
-    "tags": ["abi-encoding", "interactive-tools"],
-    "subcategory_id": "debugging-inspection",
-    "repos": ["https://github.com/HashEx/abiencoder"]
   },
   {
     "name": "Chainlink Faucets",
