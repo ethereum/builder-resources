@@ -960,17 +960,6 @@
     "subcategory_id": "core-sdks-libraries"
   },
   {
-    "name": "Academy",
-    "description": "Training, incubation, and acceleration programs for non-tech people and devs to start in the web3 privacy ecosystem.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/153bea66-bef0-481d-bb29-2882eb0e6edb.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/1809a100-d320-47f2-8144-94343ef5ea40.png",
-    "twitter": "https://x.com/web3privacy",
-    "repos": ["https://github.com/web3privacy/cypherpunkacademy"],
-    "tags": ["education"],
-    "website": "https://academy.web3privacy.info/",
-    "subcategory_id": "courses-tutorials"
-  },
-  {
     "name": "Nethereum",
     "description": "Nethereum is the .Net integration library for Ethereum, simplifying the access and smart contract interaction with Ethereum nodes both public like Geth (or your preferred client) L2 chains like Optimism, Arbitrum (or your preferred L2), any compatible EVM chain (Gnosis, etc) and permissioned chains like Quorum.",
     "thumbnail_url": "https://nethereum.com/apple-touch-icon.png",
