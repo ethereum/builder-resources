@@ -1390,6 +1390,15 @@
     "subcategory_id": "zk-circuits-privacy"
   },
   {
+    "name": "MoonPay Trade (formerly Decent.xyz)",
+    "description": "MoonPay Trade, built on the Decent.xyz routing MoonPay acquired, is a cross-chain execution API for swaps, bridges and cross-chain contract calls. Builders call it when users should transact with any token on any chain through one integration.",
+    "thumbnail_url": "https://github.com/moonpay.png",
+    "tags": ["cross-chain", "user-experience"],
+    "website": "https://www.moonpay.com/business/trade",
+    "llmstext": "https://docs.swaps.xyz/llms.txt",
+    "subcategory_id": "cross-chain-infrastructure"
+  },
+  {
     "name": "DefiLlama",
     "description": "DefiLlama is an open analytics collective best known for transparent TVL dashboards, a DEX meta-aggregator, and LlamaZip, a swap router tuned for optimistic rollups that helps traders find efficient routes across fragmented liquidity.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/a9e1e4b4-45a2-411b-8f31-059269534381.png",
@@ -1843,6 +1852,15 @@
     "tags": ["privacy-focused", "governance", "scalability"],
     "subcategory_id": "zk-circuits-privacy",
     "crops_native": true
+  },
+  {
+    "name": "DAOhaus",
+    "description": "DAOhaus offers open-source tooling for launching and operating DAOs with modular contracts, apps, and community governance workflows.",
+    "thumbnail_url": "https://github.com/HausDAO.png",
+    "website": "https://daohaus.club/",
+    "repos": ["https://github.com/HausDAO/daohaus-admin", "https://github.com/HausDAO/dev-docs"],
+    "tags": ["governance", "community-driven"],
+    "subcategory_id": "governance-dao-tooling"
   },
   {
     "name": "Alchemy",
