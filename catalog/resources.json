@@ -1496,6 +1496,17 @@
     "packages": ["https://www.npmjs.com/package/multicaller"]
   },
   {
+    "name": "Openfort",
+    "description": "Openfort is an embedded wallet SDK with authentication, ERC-4337 smart accounts, and self-hostable key management. Builders use it to give users a wallet inside the application without a separate wallet install.",
+    "thumbnail_url": "https://storage.googleapis.com/op-atlas/1d22d6dc-b629-48bc-9c25-2ecc6b9aa1a5.png",
+    "twitter": "https://x.com/openfort_hq",
+    "repos": ["https://github.com/openfort-xyz/openfort-js", "https://github.com/openfort-xyz/openfort-contracts"],
+    "tags": ["sdk", "wallet", "account-abstraction", "authentication"],
+    "website": "https://www.openfort.io",
+    "subcategory_id": "aa-tx-orchestration",
+    "packages": ["https://www.npmjs.com/package/@openfort/openfort-js"]
+  },
+  {
     "name": "Aragon OSx",
     "description": "Aragon OSx is onchain DAO framework infrastructure for launching modular organizations that govern treasuries and protocol parameters with audited contract primitives.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/fe98ffd7-a327-4500-9391-5926dc7a8256.png",
@@ -2776,6 +2787,16 @@
     "tags": ["account-abstraction", "devops", "transaction-management"],
     "subcategory_id": "aa-tx-orchestration",
     "repos": ["https://github.com/etherspot/arka"]
+  },
+  {
+    "name": "Rhinestone SDK",
+    "description": "Rhinestone SDK, the successor Rhinestone names for its retired ModuleKit, adds smart wallets with passkeys, session keys and multichain transactions to an application. Builders use it when users should pay, swap or call contracts on one chain with funds from another.",
+    "thumbnail_url": "https://github.com/rhinestonewtf.png",
+    "tags": ["sdk", "wallet", "account-abstraction", "cross-chain"],
+    "subcategory_id": "aa-tx-orchestration",
+    "repos": ["https://github.com/rhinestonewtf/sdk"],
+    "website": "https://docs.rhinestone.dev",
+    "packages": ["https://www.npmjs.com/package/@rhinestone/sdk"]
   },
   {
     "name": "Particle Network",
