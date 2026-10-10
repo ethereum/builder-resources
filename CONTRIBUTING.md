@@ -4,10 +4,69 @@ This repo is the data source for the [Builder resources page on ethereum.org](ht
 
 ## What belongs in the catalog
 
-- Tools and resources for people building on Ethereum or its L2s. Anything from contract frameworks to MCP servers to courses, see the categories in `catalog/taxonomy.json`.
+Every entry is one of the five types below. The types decide whether something belongs in the catalog. Where it shows on the page is decided separately, by the categories in `catalog/taxonomy.json`.
+
+These rules apply to every type:
+
+- Built for Ethereum or its EVM L2s. Tooling for an L2 is in when the L2 runs the EVM, since the same builder and the same Solidity code move there (op-succinct). Tooling for other contract languages on such an L2 is in too (Stylus SDK lets you write Rust contracts on Arbitrum). Tooling for an L2 that only runs its own VM and language is out, and so is tooling for other chains. Multi-chain services that serve Ethereum stay (QuickNode).
 - Shipped and usable today. Working install or quickstart, real docs. No concepts, waitlists, or landing pages.
-- Maintained. Projects that look abandoned (dead repos, broken links) get removed from the catalog.
+- A project its owner has retired is out, whatever its downloads. Being archived or renamed is not retirement (MetaMask SDK became MetaMask Connect and stays).
+- A hosted service has to still work. If it shuts down for good, the entry is removed, unless you can run it on your own server.
+- A small user base is fine. A project with no dependent repos, no downloads and no references anywhere is out, even when its repo is active.
 - Submitting your own tool is welcome and normal, most entries come from their authors. The description still has to read like neutral catalog text. Marketing language and superlatives get edited down or declined.
+
+### Tools
+
+You install it and run it, on its own or inside your project (a library like viem), or it is a hosted service (like Infura).
+
+- Clients are tools, every node software counts.
+- If the tool has a public repo, no commit in the last 12 months means out. This is about idleness, so a new tool passes. A hosted service without a public repo only has to still work.
+- If something comes with another tool and you never add it yourself, it gets no entry of its own (web3.py brings eth-abi and eth-account with it, and Hardhat has EDR built in).
+
+### Tool extensions
+
+A plugin you install separately into a tool you already use (hardhat-deploy into Hardhat).
+
+- Counts only if you install it yourself. If it ships with the main tool, it is bundled and gets no entry.
+- Editor plugins and CI actions count (VS Code Solidity, foundry-toolchain).
+- Everything else follows the Tools rules.
+
+### Building blocks
+
+Contract code that becomes part of what you deploy (OpenZeppelin Contracts), or a general onchain utility you call (Multicall3, CreateX).
+
+- In if you copy, import, inherit from or deploy the code yourself.
+- There is no 12-month rule here. A building block stays as long as people use it (ABDKMath64x64 stays although its repo is quiet). Use means dependent repos, downloads on npm, PyPI, crates.io or Soldeer, or imports in other projects.
+- Onchain contracts you only call are in when any app can use them (Multicall3, CreateX). Contracts tied to one token, market or protocol are out.
+- Products and protocols are out, even when they consist only of contracts. Their SDK can still be listed as a tool.
+- A reference implementation is judged by use like anything else (the eth-infinitism ERC-4337 contracts get deployed, so they are in).
+
+### Learning
+
+Something you read or work through instead of installing (Updraft, The Ethernaut, SpeedrunEthereum).
+
+- There has to be something to work through. Directories, archives and checklists are out.
+- An old course stays as long as its content still works (Damn Vulnerable DeFi). A course written for Solidity before 0.8, or one that runs on a retired testnet, is out.
+- Mostly Ethereum content. A general security course with a thin smart contract part is out.
+- A course has to teach building. Courses about values or awareness for non-coders are out.
+- The platform has to be open to the public.
+
+### Onboarding and documentation
+
+AI skills and docs that teach you a tool or how to do one task.
+
+- A tool's own docs belong to that tool's entry, not to a second one (the Hardhat docs sit with Hardhat).
+- Standalone docs and how-to guides get their own entry.
+- Teaches one named tool or task. Broader material goes under Learning.
+- Has to be usable outside one company's own product.
+- Ethereum-specific. General crypto collections are out.
+- If the tool it teaches is out, the skill or guide is out too.
+
+### Not listed
+
+- Specs live in their own repos. A tool entry can link to the spec it implements.
+- Bundled parts get no entry. That covers a default part of a tool already in the catalog, even when it can also be installed on its own (`forge init` adds forge-std to a new Foundry project). A full tool that a starter kit sets up keeps its own entry (Scaffold-ETH 2 sets up Hardhat or Foundry).
+- Deployed contracts have no type of their own. General utilities go under Building blocks.
 
 There are two ways to contribute.
 
@@ -94,7 +153,8 @@ The validator checks that the JSON parses, required fields are present, descript
 - This repo is maintained by a small team, so a review can take 1-2 weeks. If nothing happens after that, a friendly ping on the issue or PR is fine.
 - Maintainers may edit your description or tags for consistency with the rest of the catalog.
 - A schema-valid entry is not a guarantee of inclusion. This is a curated catalog and maintainers make the final call on fit.
-- Broken image links get cleared while the entry stays. Entries get removed when a project is abandoned or its links die. If your project was removed and is active again, open an update issue.
+- Maintainers check maintenance on GitHub (last commit, archived status) and judge use from stars, dependent repos, downloads on npm, PyPI and crates.io in the last 30 days, and all-time Soldeer downloads. Docker pulls are not counted. Some projects publish no package that can be counted, like many Go, C++ and Solidity projects and most hosted services, so an empty download number means it could not be measured.
+- Broken image links get cleared while the entry stays. Entries get removed when they stop meeting the rules in [What belongs in the catalog](#what-belongs-in-the-catalog), for example a tool with no commit in 12 months, a project retired by its owner, or a hosted service that shut down for good. If your project was removed and is active again, open an update issue.
 - A merged change shows up on ethereum.org after its next site build, usually within a few days.
 - The CROPS-Native badge (`crops_native`) is awarded by the Ethereum Foundation after a CROPS evaluation of the tool. If you would like your tool evaluated for the badge, open an [Update a resource](https://github.com/ethereum/builder-resources/issues/new?template=update-resource.yml) issue and say so, and we will look at how your tool stands.
 
