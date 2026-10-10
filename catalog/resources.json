@@ -4444,5 +4444,15 @@
     "twitter": "https://x.com/Uniblock",
     "thumbnail_url": "https://framerusercontent.com/images/yS7IbZhoVMpAcGeTOxqZ2y1rZ8.png",
     "llmstext": "https://docs.uniblock.dev/llms.txt"
+  },
+  {
+    "name": "SwiftNodes",
+    "description": "Hosted RPC endpoints for Ethereum, its L2s and other chains, with HTTP on every chain and WebSocket on most. The free tier needs no KYC, and paid plans are a flat monthly price instead of metered per request.",
+    "tags": ["api", "json-rpc", "multi-chain"],
+    "subcategory_id": "rpc-node-infrastructure",
+    "website": "https://swiftnodes.io/",
+    "twitter": "https://x.com/swiftnodesio",
+    "thumbnail_url": "https://swiftnodes.io/icon-512.png",
+    "llmstext": "https://swiftnodes.io/llms.txt"
   }
 ]
