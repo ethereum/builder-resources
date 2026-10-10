@@ -4434,5 +4434,15 @@
     "repos": ["https://github.com/adraffy/blocksmith.js"],
     "packages": ["https://www.npmjs.com/package/@adraffy/blocksmith"],
     "twitter": "https://x.com/adraffy"
+  },
+  {
+    "name": "Uniblock",
+    "description": "Uniblock is a unified API that routes each request across 55+ upstream providers behind one API key, covering JSON-RPC alongside token, NFT, market data, and transaction endpoints. Routing and failover pick providers on reliability, cost, and performance.",
+    "tags": ["api", "json-rpc", "multi-chain"],
+    "subcategory_id": "rpc-node-infrastructure",
+    "website": "https://uniblock.dev/",
+    "twitter": "https://x.com/Uniblock",
+    "thumbnail_url": "https://framerusercontent.com/images/yS7IbZhoVMpAcGeTOxqZ2y1rZ8.png",
+    "llmstext": "https://docs.uniblock.dev/llms.txt"
   }
 ]
