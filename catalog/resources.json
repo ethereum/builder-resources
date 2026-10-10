@@ -4316,5 +4316,123 @@
     "subcategory_id": "debugging-inspection",
     "repos": ["https://github.com/cgewecke/hardhat-gas-reporter"],
     "packages": ["https://www.npmjs.com/package/hardhat-gas-reporter"]
+  },
+  {
+    "name": "ENSjs",
+    "description": "ENSjs is the TypeScript library from ENS for resolving names and reading or writing ENS records, built on viem. Builders use it to show ENS names in place of addresses and to manage names from their own app. It works on Ethereum mainnet and Sepolia.",
+    "tags": ["sdk", "identity", "type-safe"],
+    "subcategory_id": "core-sdks-libraries",
+    "website": "https://docs.ens.domains/web/libraries",
+    "repos": ["https://github.com/ensdomains/ensjs"],
+    "packages": ["https://www.npmjs.com/package/@ensdomains/ensjs"],
+    "twitter": "https://x.com/ensdomains",
+    "thumbnail_url": "https://github.com/ensdomains.png",
+    "llmstext": "https://docs.ens.domains/llms.txt"
+  },
+  {
+    "name": "AaveKit",
+    "description": "AaveKit is Aave's SDK, a TypeScript client and React hooks over the Aave GraphQL API. Builders use it to read markets and user positions and to build supply, borrow, repay and swap transactions without calling the contracts by hand. Aave v3 and v4 are served by separate SDK versions of the same packages (0.x for v3, 4.0 and later for v4).",
+    "tags": ["sdk", "defi", "react", "api"],
+    "subcategory_id": "payments-defi-integration",
+    "website": "https://aave.com/docs",
+    "repos": [
+      "https://github.com/aave/aave-sdk",
+      "https://github.com/aave/aave-v4-sdk"
+    ],
+    "packages": [
+      "https://www.npmjs.com/package/@aave/client",
+      "https://www.npmjs.com/package/@aave/react"
+    ],
+    "twitter": "https://x.com/aave",
+    "thumbnail_url": "https://github.com/aave.png",
+    "llmstext": "https://aave.com/docs/llms.txt"
+  },
+  {
+    "name": "Splits SDK",
+    "description": "The Splits SDK is a viem-based TypeScript library for creating and managing 0xSplits contracts, which share incoming payments between several recipients. It also covers waterfalls, swappers and vesting, and a React wrapper ships as a separate package.",
+    "tags": ["sdk", "defi", "react"],
+    "subcategory_id": "payments-defi-integration",
+    "website": "https://splits.org/protocol/docs/sdk",
+    "repos": ["https://github.com/0xSplits/splits-sdk"],
+    "packages": [
+      "https://www.npmjs.com/package/@0xsplits/splits-sdk",
+      "https://www.npmjs.com/package/@0xsplits/splits-sdk-react"
+    ],
+    "twitter": "https://x.com/0xsplits",
+    "thumbnail_url": "https://github.com/0xSplits.png",
+    "llmstext": "https://splits.org/protocol/docs/llms.txt"
+  },
+  {
+    "name": "API3",
+    "description": "API3 runs price feeds that contracts read onchain, and @api3/contracts gives builders the interfaces, deployment addresses and proxy helpers to read them. Feeds are set up on API3 Market and run on Ethereum and many EVM L2s.",
+    "tags": ["oracle", "real-time-data", "multi-chain"],
+    "subcategory_id": "oracles-external-data",
+    "website": "https://api3.org",
+    "repos": ["https://github.com/api3dao/contracts"],
+    "packages": ["https://www.npmjs.com/package/@api3/contracts"],
+    "twitter": "https://x.com/api3dao",
+    "thumbnail_url": "https://github.com/api3dao.png",
+    "llmstext": "https://docs.api3.org/llms.txt"
+  },
+  {
+    "name": "Peer SDK (formerly ZKP2P)",
+    "description": "The Peer SDK (formerly ZKP2P) adds a fiat-to-crypto onramp to an app, where users pay through services like Venmo, Revolut or Wise and receive tokens onchain. It also manages seller deposits and liquidity. The protocol runs on Base.",
+    "tags": ["sdk", "defi", "verification"],
+    "subcategory_id": "payments-defi-integration",
+    "website": "https://peer.xyz",
+    "packages": ["https://www.npmjs.com/package/@zkp2p/sdk"],
+    "twitter": "https://x.com/peerxyz",
+    "thumbnail_url": "https://github.com/zkp2p.png",
+    "llmstext": "https://docs.peer.xyz/llms.txt"
+  },
+  {
+    "name": "RAILGUN Wallet SDK",
+    "description": "The RAILGUN Wallet SDK lets an app shield tokens and NFTs, hold private balances and send private transfers and contract calls using zero-knowledge proofs. It runs on Ethereum, Arbitrum, Polygon, BNB Chain and more, on top of the lower-level RAILGUN engine.",
+    "tags": ["sdk", "privacy-focused", "wallet"],
+    "subcategory_id": "zk-circuits-privacy",
+    "website": "https://railgun.org",
+    "repos": [
+      "https://github.com/Railgun-Community/wallet",
+      "https://github.com/Railgun-Community/engine"
+    ],
+    "packages": [
+      "https://www.npmjs.com/package/@railgun-community/wallet",
+      "https://www.npmjs.com/package/@railgun-community/engine"
+    ],
+    "twitter": "https://x.com/railgun_project",
+    "thumbnail_url": "https://github.com/Railgun-Community.png",
+    "banner_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/banners/railgun.png",
+    "llmstext": "https://docs.railgun.org/developer-guide/llms.txt"
+  },
+  {
+    "name": "EVM MCP Server (mcpdotdirect)",
+    "description": "EVM MCP Server lets AI agents read balances, blocks, transactions and contracts and send transactions on Ethereum and other EVM networks through the Model Context Protocol. It runs locally and signs with a key from its own environment.",
+    "tags": ["mcp-server", "multi-chain", "contract-interaction", "transaction-signing"],
+    "subcategory_id": "mcp-servers",
+    "website": "https://mcp.direct",
+    "repos": ["https://github.com/mcpdotdirect/evm-mcp-server"],
+    "packages": ["https://www.npmjs.com/package/@mcpdotdirect/evm-mcp-server"],
+    "twitter": "https://x.com/prometheatech",
+    "thumbnail_url": "https://github.com/mcpdotdirect.png"
+  },
+  {
+    "name": "Loop Decoder",
+    "description": "Loop Decoder is a TypeScript library that decodes EVM transactions, logs, traces and calldata into structured data, fetching ABIs from Etherscan, Sourcify and other sources. An optional, experimental interpreter turns the decoded data into readable actions.",
+    "tags": ["transaction-decoding", "abi-encoding", "sdk"],
+    "subcategory_id": "debugging-inspection",
+    "website": "https://loop-decoder.3loop.io",
+    "repos": ["https://github.com/3loop/loop-decoder"],
+    "packages": ["https://www.npmjs.com/package/@3loop/transaction-decoder"],
+    "twitter": "https://x.com/3loop_io",
+    "thumbnail_url": "https://github.com/3loop.png"
+  },
+  {
+    "name": "blocksmith.js",
+    "description": "blocksmith.js starts and manages local Foundry anvil instances from Node.js tests, so JavaScript tests can deploy and call Solidity contracts. It supports CCIP-Read (EIP-3668) offchain lookups.",
+    "tags": ["foundry", "testing", "test-automation"],
+    "subcategory_id": "deployment-devops",
+    "repos": ["https://github.com/adraffy/blocksmith.js"],
+    "packages": ["https://www.npmjs.com/package/@adraffy/blocksmith"],
+    "twitter": "https://x.com/adraffy"
   }
 ]
