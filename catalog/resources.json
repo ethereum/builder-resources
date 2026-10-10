@@ -4476,5 +4476,15 @@
     "packages": ["https://pypi.org/project/audithub-client/"],
     "twitter": "https://x.com/AuditHubDev",
     "thumbnail_url": "https://audithub.dev/wp-content/uploads/2025/12/512%D1%85512.png"
+  },
+  {
+    "name": "BlockRazor",
+    "description": "BlockRazor is a hosted service for sending transactions and receiving chain data on Ethereum, BSC, Solana, Base and Robinhood Chain. Its keyless Ethereum RPC routes transactions privately to protect against frontrunning, can return a share of eligible backrun revenue to the sender, and accepts bundles through eth_sendBundle. Paid streams deliver Ethereum mempool transactions and new blocks to trading bots and searchers.",
+    "tags": ["json-rpc", "privacy-focused", "transaction-management", "real-time-data", "multi-chain"],
+    "subcategory_id": "rpc-node-infrastructure",
+    "website": "https://blockrazor.io/",
+    "twitter": "https://x.com/BlockRazor_Inc",
+    "thumbnail_url": "https://blockrazor.io/tool_provider_images/blockrazor.jpg",
+    "llmstext": "https://blockrazor.io/llms.txt"
   }
 ]
