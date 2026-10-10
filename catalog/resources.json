@@ -4465,5 +4465,16 @@
     "twitter": "https://x.com/0xProject",
     "thumbnail_url": "https://github.com/0xProject.png",
     "llmstext": "https://docs.0x.org/llms.txt"
+  },
+  {
+    "name": "AuditHub",
+    "description": "AuditHub is Veridise's hosted security platform that connects to a GitHub repository and runs automated checks on every commit. It bundles Vanguard (static analysis for Solidity 0.8.4 and newer, in Hardhat and Foundry projects), OrCa (a specification-driven fuzzer for multi-contract DeFi protocols), Picus (determinism verification for ZK circuits) and ZK Vanguard (static analysis for ZK circuits). Smart contract and ZK teams use it to catch reentrancy, specification violations and underconstrained circuits during development, before an external audit.",
+    "tags": ["security", "static-analysis", "fuzz-testing", "formal-verification", "solidity", "continuous-integration"],
+    "subcategory_id": "fuzz-property-testing",
+    "website": "https://audithub.dev/",
+    "repos": ["https://github.com/Veridise/AuditHub-Client", "https://github.com/Veridise/audithub-mcp", "https://github.com/Veridise/audithub-skills"],
+    "packages": ["https://pypi.org/project/audithub-client/"],
+    "twitter": "https://x.com/AuditHubDev",
+    "thumbnail_url": "https://audithub.dev/wp-content/uploads/2025/12/512%D1%85512.png"
   }
 ]
