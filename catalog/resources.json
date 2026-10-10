@@ -4457,7 +4457,7 @@
   },
   {
     "name": "0x",
-    "description": "0x offers a single API for swaps, cross-chain, and gasless trades, making it easy to build trading into apps and wallets. 0x handles pricing, routing, and settlement under the hood.",
+    "description": "0x provides hosted APIs for trading tokens from apps and wallets. Swap API aggregates prices from 150+ liquidity providers and returns an unsigned transaction to sign and submit, Gasless API relays gasless approvals and swaps, and Cross-Chain API returns routes across bridge providers with ready-to-sign transactions.",
     "tags": ["dex-aggregator", "defi", "api", "cross-chain"],
     "subcategory_id": "payments-defi-integration",
     "website": "https://0x.org/",
