@@ -4454,5 +4454,16 @@
     "twitter": "https://x.com/swiftnodesio",
     "thumbnail_url": "https://swiftnodes.io/icon-512.png",
     "llmstext": "https://swiftnodes.io/llms.txt"
+  },
+  {
+    "name": "0x",
+    "description": "0x offers a single API for swaps, cross-chain, and gasless trades, making it easy to build trading into apps and wallets. 0x handles pricing, routing, and settlement under the hood.",
+    "tags": ["dex-aggregator", "defi", "api", "cross-chain"],
+    "subcategory_id": "payments-defi-integration",
+    "website": "https://0x.org/",
+    "repos": ["https://github.com/0xProject/0x-settler"],
+    "twitter": "https://x.com/0xProject",
+    "thumbnail_url": "https://github.com/0xProject.png",
+    "llmstext": "https://docs.0x.org/llms.txt"
   }
 ]
