@@ -45,6 +45,7 @@ At least one of `website`, `repos`, or `packages` is required
   - at least one of: `website`, `repos`, `packages`
   - optional: `twitter`, `thumbnail_url`, `banner_url`, `llmstext`
 - Leave out optional fields with no value; don't add them as `null` or empty strings.
+- Never add or change `crops_native`. Maintainers set it after a CROPS evaluation.
 - For an **update**, locate the existing object by stable fields (usually `name`, and if needed `website`/`repos`/`packages`) and change only necessary fields.
 - Store npm links in `packages`, not in `repos`.
 ## Quick validation checklist
