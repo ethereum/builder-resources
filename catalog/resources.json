@@ -4494,5 +4494,16 @@
     "subcategory_id": "mcp-servers",
     "repos": ["https://github.com/JossDuff/wikipethia"],
     "twitter": "https://x.com/joddoss"
+  },
+  {
+    "name": "Agent Commerce Gateway",
+    "description": "Agent Commerce Gateway is a self-hosted, non-custodial gateway that puts an existing HTTP API in front of AI agents, exposing its endpoints over HTTP or MCP and charging for them with x402 or experimental MPP payments. Paid calls settle in USDC on EVM networks such as Base through EIP-3009 transferWithAuthorization, straight to the merchant wallet, so builders can charge agents per request without adding payment code to their backend.",
+    "tags": ["api", "mcp-server", "cli", "transaction-management"],
+    "subcategory_id": "payments-defi-integration",
+    "website": "https://acg.devlab.group/",
+    "repos": ["https://github.com/devlab-group/agent-commerce"],
+    "packages": ["https://www.npmjs.com/package/@devlab.group/agent-commerce"],
+    "thumbnail_url": "https://acg.devlab.group/favicon.svg",
+    "llmstext": "https://acg.devlab.group/llms.txt"
   }
 ]
