@@ -4494,5 +4494,30 @@
     "subcategory_id": "mcp-servers",
     "repos": ["https://github.com/JossDuff/wikipethia"],
     "twitter": "https://x.com/joddoss"
+  },
+  {
+    "name": "human.tech Wallet Protocol (WaaP)",
+    "description": "The human.tech Wallet Protocol (WaaP) gives an app embedded wallets with no seed phrase, opened by email, phone or social login. Signing keys stay off the user's device, inside an attested enclave by default or split with the Ika network in the opt-in Squid Mode, and a policy engine checks every transaction before it is signed. One account signs on EVM chains, Sui and Solana, through the WaaP SDK for apps or the WaaP CLI for agents.",
+    "tags": ["wallet", "authentication", "sdk", "cli", "transaction-signing"],
+    "subcategory_id": "wallet-integration-auth",
+    "website": "https://wallet.human.tech/",
+    "packages": [
+      "https://www.npmjs.com/package/@human.tech/waap-sdk",
+      "https://www.npmjs.com/package/@human.tech/waap-cli"
+    ],
+    "twitter": "https://x.com/humntech",
+    "thumbnail_url": "https://wallet.human.tech/favicons/apple-touch-icon.png",
+    "llmstext": "https://docs.waap.human.tech/llms.txt"
+  },
+  {
+    "name": "Clean SDK",
+    "description": "Clean SDK is a TypeScript client for private token transfers between Ethereum and Aztec, and the toolkit behind the Shield bridge. Each transfer screens the sending address against sanctions lists at entry and exit, and requires either a Human Passport score or a zero-knowledge government ID proof. The package calls deployed contracts and a hosted attestation service, so integrators write no Noir.",
+    "tags": ["cross-chain", "privacy-focused", "sdk", "identity"],
+    "subcategory_id": "cross-chain-infrastructure",
+    "website": "https://shield.human.tech/",
+    "repos": ["https://github.com/holonym-foundation/shield.human.tech"],
+    "packages": ["https://www.npmjs.com/package/@human.tech/clean.sdk"],
+    "twitter": "https://x.com/humntech",
+    "thumbnail_url": "https://shield.human.tech/icon.svg"
   }
 ]
