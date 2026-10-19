@@ -4505,5 +4505,23 @@
     "packages": ["https://www.npmjs.com/package/@devlab.group/agent-commerce"],
     "thumbnail_url": "https://acg.devlab.group/favicon.svg",
     "llmstext": "https://acg.devlab.group/llms.txt"
+  },
+  {
+    "name": "Aeon sc-audit",
+    "description": "An autonomous smart-contract auditing skill for the open-source Aeon agent framework that audits Solidity repositories and live onchain contracts on Ethereum and EVM L2s, running unattended on GitHub Actions. It layers adversarial verification passes, invariant modeling, and differential testing against reference implementations on top of Slither static analysis, and reports severity-rated findings with written disclosures.",
+    "tags": [
+      "security",
+      "static-analysis",
+      "solidity",
+      "agent-skills",
+      "github-actions"
+    ],
+    "subcategory_id": "fuzz-property-testing",
+    "website": "https://www.aeon.fun/audits",
+    "repos": [
+      "https://github.com/aeonfun/aeon"
+    ],
+    "thumbnail_url": "https://github.com/aeonfun.png",
+    "llmstext": "https://aeon.fun/skills/aeon.md"
   }
 ]
