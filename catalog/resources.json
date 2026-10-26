@@ -4493,6 +4493,7 @@
     "tags": ["mcp-server", "standards-and-specifications"],
     "subcategory_id": "mcp-servers",
     "repos": ["https://github.com/JossDuff/wikipethia"],
+    "thumbnail_url": "https://raw.githubusercontent.com/JossDuff/wikipethia/main/wikipethia-logo.png",
     "twitter": "https://x.com/joddoss"
   },
   {
