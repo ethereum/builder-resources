@@ -4520,5 +4520,20 @@
     "twitter": "https://x.com/humntech",
     "thumbnail_url": "https://wallet.human.tech/favicons/apple-touch-icon.png",
     "llmstext": "https://docs.waap.human.tech/llms.txt"
+  },
+  {
+    "name": "Thyme Flow",
+    "description": "Thyme Flow is a hosted service that runs TypeScript tasks on a cron, interval or webhook and sends the contract calls each task returns. Its SDK and CLI let you run and simulate a task locally before uploading it, and a Roles profile sends the calls from a Safe you own through a Zodiac Roles allowlist.",
+    "tags": ["contract-interaction", "transaction-management", "devops", "sdk", "cli"],
+    "subcategory_id": "aa-tx-orchestration",
+    "website": "https://flow.thymelabs.io/",
+    "repos": ["https://github.com/thyme-labs/sdk"],
+    "packages": [
+      "https://www.npmjs.com/package/@thyme-labs/sdk",
+      "https://www.npmjs.com/package/@thyme-labs/cli"
+    ],
+    "twitter": "https://x.com/thymelabsio",
+    "thumbnail_url": "https://flow.thymelabs.io/icon-512.png",
+    "llmstext": "https://flow.thymelabs.io/docs/skills/thyme-flow/SKILL.md"
   }
 ]
