@@ -4543,5 +4543,17 @@
     "subcategory_id": "courses-tutorials",
     "website": "https://coddy.tech/landing/solidity",
     "thumbnail_url": "https://github.com/coddytech.png"
+  },
+  {
+    "name": "Spectra AI",
+    "description": "Spectra AI is the agent tooling for Spectra, a permissionless fixed-rate and yield-trading protocol whose Principal Tokens lock a fixed rate when held to maturity, deployed on 14 networks including Ethereum. Its hosted MCP server at https://mcp.spectra.finance/mcp needs no account or API key and serves ranked fixed-rate, pool and MetaVault yields, market detail and history, and wallet positions, while a second endpoint adds builders that return unsigned Principal Token trade and redeem transactions for the user to sign in their own wallet. A plugin for Claude Code, Codex and Cursor adds two skills for yield research and unsigned transactions, and the npm package runs the server locally with a spectra CLI.",
+    "tags": ["mcp-server", "agent-skills", "defi", "multi-chain"],
+    "subcategory_id": "mcp-servers",
+    "website": "https://mcp.spectra.finance/",
+    "repos": ["https://github.com/perspectivefi/spectra-ai"],
+    "packages": ["https://www.npmjs.com/package/@perspectivefi/spectra-mcp"],
+    "twitter": "https://x.com/spectra_finance",
+    "thumbnail_url": "https://mcp.spectra.finance/icon.png",
+    "llmstext": "https://mcp.spectra.finance/llms.txt"
   }
 ]
