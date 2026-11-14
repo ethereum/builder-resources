@@ -4543,5 +4543,15 @@
     "subcategory_id": "courses-tutorials",
     "website": "https://coddy.tech/landing/solidity",
     "thumbnail_url": "https://github.com/coddytech.png"
+  },
+  {
+    "name": "nuthatch",
+    "description": "nuthatch is a self-hosted indexer that turns an EVM contract's events into SQL tables on your own machine. It is a single binary that reads the contract's ABI, backfills from an RPC endpoint, follows the chain tip and serves SQL over HTTP and MCP, with no separate database to run. Builders reach for it when they want a contract's history queryable locally without writing handlers or depending on a hosted service.",
+    "tags": ["indexing", "event-logging", "cli", "mcp-server", "multi-chain"],
+    "subcategory_id": "indexing-data-apis",
+    "website": "https://nuthatch-indexer.com",
+    "repos": ["https://github.com/nuthatch-org/nuthatch"],
+    "thumbnail_url": "https://github.com/nuthatch-org.png",
+    "llmstext": "https://nuthatch-indexer.com/llms.txt"
   }
 ]
