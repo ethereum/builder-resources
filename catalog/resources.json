@@ -4543,5 +4543,14 @@
     "subcategory_id": "courses-tutorials",
     "website": "https://coddy.tech/landing/solidity",
     "thumbnail_url": "https://github.com/coddytech.png"
+  },
+  {
+    "name": "oksolc",
+    "description": "A Solidity compiler written in Zig, built for faster compilation while developing contracts. It targets byte-for-byte compatible output with solc 0.8.36 on the optimized via-IR Standard JSON path, and ships a command line tool, a libsolc-compatible C library and a Zig module. It works as the solc binary in a Foundry project through foundry.toml, and compiles incrementally with a persistent per-project cache to keep rebuilds short.",
+    "tags": ["compiler", "solidity", "cli", "foundry", "performance-optimization"],
+    "subcategory_id": "smart-contract-libraries-utilities",
+    "repos": ["https://github.com/okcontract/oksolc"],
+    "twitter": "https://x.com/okcontract",
+    "thumbnail_url": "https://github.com/okcontract.png"
   }
 ]
