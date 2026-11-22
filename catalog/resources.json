@@ -3178,7 +3178,8 @@
   },
   {
     "name": "EVMole",
-    "description": "EVMole extracts function selectors, arguments, and control flow from raw EVM bytecode, including contracts with no verified source. Builders point it at an unknown contract to work out what its functions take.",
+    "description": "EVMole extracts function selectors, arguments, state mutability, storage layouts, and control flow from EVM bytecode, and detects where proxies get their implementation address. Builders use it from Rust, JavaScript, Python, Go, or MCP to analyze contracts with no verified source.",
+    "thumbnail_url": "https://raw.githubusercontent.com/ethereum/builder-resources/main/images/thumbnails/evmole.svg",
     "tags": ["debugging-tools", "code-analysis", "abi-encoding"],
     "subcategory_id": "debugging-inspection",
     "repos": ["https://github.com/cdump/evmole"],
