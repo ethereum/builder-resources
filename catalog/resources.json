@@ -4543,5 +4543,22 @@
     "subcategory_id": "courses-tutorials",
     "website": "https://coddy.tech/landing/solidity",
     "thumbnail_url": "https://github.com/coddytech.png"
+  },
+  {
+    "name": "Foundry Anvil Testcontainers",
+    "description": "A TypeScript Testcontainers module for Node.js that runs an isolated Foundry Anvil node in Docker and manages its lifecycle, with validated CLI flags, a pre-configured Viem test client, fluent chain-manipulation cheats, and Vitest/Jest lifecycle hooks for integration and E2E testing.",
+    "tags": ["docker", "foundry", "testing", "test-automation", "continuous-integration", "type-safe", "developer-experience"],
+    "subcategory_id": "fuzz-property-testing",
+    "website": "https://hellalabs.dev/foundryanvil-testcontainers-nodejs/",
+    "repos": [
+      "https://github.com/hella-labs/foundryanvil-testcontainers-nodejs"
+    ],
+    "thumbnail_url": "https://hellalabs.dev/foundryanvil-testcontainers-nodejs/img/logo.svg",
+    "twitter": "https://x.com/Hella_Web3",
+    "packages": [
+      "https://www.npmjs.com/package/@hellaweb3/foundryanvil-testcontainers-nodejs",
+      "https://github.com/orgs/hella-labs/packages/npm/package/foundryanvil-testcontainers-nodejs"
+    ],
+    "llmstext": "https://hellalabs.dev/foundryanvil-testcontainers-nodejs/llms.txt"
   }
 ]
