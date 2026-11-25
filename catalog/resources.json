@@ -4543,5 +4543,23 @@
     "subcategory_id": "courses-tutorials",
     "website": "https://coddy.tech/landing/solidity",
     "thumbnail_url": "https://github.com/coddytech.png"
+  },
+  {
+    "name": "Aeon sc-audit",
+    "description": "An agent skill that audits Solidity repositories and live verified contracts on Ethereum and EVM L2s, runnable in Claude Code or on a schedule in the open-source Aeon framework. It models protocol invariants first, runs Slither plus an agentic source review that hunts for paths breaking each invariant, adversarially verifies every candidate, tries to prove breaks with Echidna or Medusa fuzzing, and writes a severity-rated audit report.",
+    "tags": [
+      "security",
+      "static-analysis",
+      "fuzz-testing",
+      "solidity",
+      "agent-skills"
+    ],
+    "subcategory_id": "agent-skills",
+    "website": "https://www.aeon.fun/audits",
+    "repos": [
+      "https://github.com/aeonfun/aeon"
+    ],
+    "thumbnail_url": "https://github.com/aeonfun.png",
+    "llmstext": "https://raw.githubusercontent.com/aeonfun/aeon/main/skills/sc-audit/SKILL.md"
   }
 ]
