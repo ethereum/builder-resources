@@ -4269,10 +4269,12 @@
   },
   {
     "name": "Tatum",
-    "description": "Tatum is a TypeScript SDK over its hosted RPC and blockchain APIs, covering wallets, transactions, tokens, and notifications. Builders install it when one package should cover both chain access and wallet operations.",
+    "description": "Tatum runs hosted JSON-RPC and Beacon API endpoints for Ethereum mainnet, Sepolia, and Hoodi that answer without an API key at 5 requests per minute, enough for development and testing, while an API key raises the limit. It also publishes tatum-js, a TypeScript SDK over its RPC and blockchain APIs for wallets, transactions, tokens, and notifications.",
     "thumbnail_url": "https://github.com/tatumio.png",
-    "tags": ["sdk", "api", "wallet", "multi-chain"],
+    "tags": ["sdk", "api", "json-rpc", "wallet", "multi-chain"],
     "subcategory_id": "rpc-node-infrastructure",
+    "website": "https://tatum.io/chain/ethereum",
+    "llmstext": "https://docs.tatum.io/llms.txt",
     "repos": ["https://github.com/tatumio/tatum-js"],
     "packages": ["https://www.npmjs.com/package/@tatumio/tatum"]
   },
