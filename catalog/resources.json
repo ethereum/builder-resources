@@ -4561,5 +4561,18 @@
     ],
     "thumbnail_url": "https://github.com/aeonfun.png",
     "llmstext": "https://raw.githubusercontent.com/aeonfun/aeon/main/skills/sc-audit/SKILL.md"
+  },
+  {
+    "name": "SolidRPC",
+    "description": "SolidRPC provides hosted JSON-RPC for Ethereum and EVM networks. Wallets can use a keyless Ethereum Mainnet endpoint. Applications can use an API key for historical state reads and transaction tracing on supported networks.",
+    "tags": [
+      "api",
+      "json-rpc",
+      "multi-chain"
+    ],
+    "subcategory_id": "rpc-node-infrastructure",
+    "website": "https://solidrpc.io",
+    "thumbnail_url": "https://solidrpc.io/favicon-512.png",
+    "llmstext": "https://solidrpc.io/llms.txt"
   }
 ]
